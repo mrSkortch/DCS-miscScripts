@@ -1,18 +1,17 @@
 Misc DCS Scripts
 =====================
 
-This is a repository for miscilanious scripts and missions created for Digital Combat Simulator
+This is a repository for miscellaneous scripts and missions created for Digital Combat Simulator
 
+Some scripts will require MIST, while others do not. Each script and related files will be grouped into separate folders. I am using github simply as means for distribution and accessibility. 
+ 
 Authors: Grimes (mrSkortch)
 
+Contents
+=== 
+Training Sams. A simple script that tracks missiles fired by AI at any player aircraft, when the missile gets close enough that it will likely hit the player the missile will be removed and a message displayed that the player would have been hit. This script is useful for training for evasion against enemy missile threats while not having to respawn. 
+On Station Classic. Mission and script. 
 
-
-Documentation
-====
-
-
-Description
-===
 
 
 Contribution Guide
