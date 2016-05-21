@@ -1,0 +1,134 @@
+Osa 9A33 ln = 
+{
+	["weapons"] = 
+	{
+		[1] = 
+		{
+			["count"] = 6,
+			["desc"] = 
+			{
+				["missileCategory"] = 2,
+				["rangeMaxAltMax"] = 10300,
+				["rangeMin"] = 1500,
+				["displayName"] = "9M33",
+				["rangeMaxAltMin"] = 8500,
+				["altMax"] = 5000,
+				["RCS"] = 0.040399998426437,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.23437385261059,
+						["x"] = -1.5615640878677,
+						["z"] = -0.23642687499523,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.23437386751175,
+						["x"] = 1.5629206895828,
+						["z"] = 0.23642687499523,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["altMin"] = 25,
+				["life"] = 2,
+				["fuseDist"] = 5,
+				["category"] = 1,
+				["guidance"] = 4,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 15,
+					["type"] = 1,
+					["caliber"] = 206,
+					["mass"] = 15,
+				}, -- end of ["warhead"]
+				["typeName"] = "9M33",
+				["Nmax"] = 14,
+			}, -- end of ["desc"]
+		}, -- end of [1]
+	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 80248.84375,
+						["headOn"] = 80248.84375,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 80248.84375,
+						["headOn"] = 80248.84375,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "1L13 EWR",
+			}, -- end of [1]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "human nightsight",
+				["opticType"] = 2,
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "human daysight",
+				["opticType"] = 0,
+			}, -- end of [2]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
+	["desc"] = 
+	{
+		["massEmpty"] = 17500,
+		["riverCrossing"] = true,
+		["maxSlopeAngle"] = 0.27000001072884,
+		["RCS"] = 5,
+		["box"] = 
+		{
+			["min"] = 
+			{
+				["y"] = 0.0024123918265104,
+				["x"] = -4.5392761230469,
+				["z"] = -1.4934242963791,
+			}, -- end of ["min"]
+			["max"] = 
+			{
+				["y"] = 4.190502166748,
+				["x"] = 5.0406589508057,
+				["z"] = 1.514413356781,
+			}, -- end of ["max"]
+		}, -- end of ["box"]
+		["speedMax"] = 22.222200393677,
+		["life"] = 3,
+		["attributes"] = 
+		{
+			["SAM TR"] = true,
+			["Vehicles"] = true,
+			["SAM elements"] = true,
+			["NonArmoredUnits"] = true,
+			["SAM SR"] = true,
+			["Air Defence"] = true,
+			["Ground vehicles"] = true,
+			["SR SAM"] = true,
+			["AA_missile"] = true,
+			["SAM related"] = true,
+			["RADAR_BAND2_FOR_ARM"] = true,
+			["All"] = true,
+			["Ground Units"] = true,
+			["NonAndLightArmoredUnits"] = true,
+		}, -- end of ["attributes"]
+		["category"] = 2,
+		["speedMaxOffRoad"] = 22.222200393677,
+		["Kmax"] = 0.050000000745058,
+		["typeName"] = "Osa 9A33 ln",
+		["displayName"] = "SAM SA-8 Osa 9A33",
+	}, -- end of ["desc"]
+} -- end of Osa 9A33 ln
