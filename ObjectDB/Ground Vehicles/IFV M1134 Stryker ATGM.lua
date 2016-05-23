@@ -88,9 +88,15 @@ IFV M1134 Stryker ATGM =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "AAV day",
+				["typeName"] = "TAS4 TOW day",
 				["opticType"] = 0,
 			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "TAS4 TOW night",
+				["opticType"] = 2,
+			}, -- end of [2]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 

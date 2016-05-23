@@ -109,9 +109,21 @@ MBT Challenger2 =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "AAV day",
+				["typeName"] = "Challenger2 sight day",
 				["opticType"] = 0,
 			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "TOGS2 night",
+				["opticType"] = 2,
+			}, -- end of [2]
+			[3] = 
+			{
+				["type"] = 0,
+				["typeName"] = "VS580-10 day",
+				["opticType"] = 0,
+			}, -- end of [3]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 

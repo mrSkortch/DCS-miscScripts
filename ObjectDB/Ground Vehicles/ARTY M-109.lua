@@ -36,6 +36,18 @@ ARTY M-109 =
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "MP7",
+				["opticType"] = 0,
+			}, -- end of [1]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 24948,

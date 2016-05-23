@@ -109,9 +109,15 @@ IFV LAV-25 =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "AAV day",
+				["typeName"] = "ITSS_HIRE_III day",
 				["opticType"] = 0,
 			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "ITSS_HIRE_III night",
+				["opticType"] = 1,
+			}, -- end of [2]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 

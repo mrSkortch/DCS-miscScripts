@@ -109,7 +109,7 @@ IFV Marder =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "AAV day",
+				["typeName"] = "PERI-Z11 day",
 				["opticType"] = 0,
 			}, -- end of [1]
 		}, -- end of [0]

@@ -43,9 +43,15 @@ IFV M1126 Stryker ICV =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "AAV day",
+				["typeName"] = "M151 Protector RWS day",
 				["opticType"] = 0,
 			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "M151 Protector RWS IR",
+				["opticType"] = 2,
+			}, -- end of [2]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 

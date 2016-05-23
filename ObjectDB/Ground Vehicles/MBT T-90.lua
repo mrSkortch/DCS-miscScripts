@@ -187,9 +187,15 @@ MBT T-90 =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "AAV day",
+				["typeName"] = "TKN-4S day",
 				["opticType"] = 0,
 			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "TKN-4S night",
+				["opticType"] = 2,
+			}, -- end of [2]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 

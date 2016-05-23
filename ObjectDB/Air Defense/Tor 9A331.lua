@@ -56,17 +56,17 @@ Tor 9A331 =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 80248.84375,
-						["headOn"] = 80248.84375,
+						["tailOn"] = 16718.5078125,
+						["headOn"] = 16718.5078125,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 80248.84375,
-						["headOn"] = 80248.84375,
+						["tailOn"] = 16718.5078125,
+						["headOn"] = 16718.5078125,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
-				["typeName"] = "1L13 EWR",
+				["typeName"] = "Tor 9A331",
 			}, -- end of [1]
 		}, -- end of [1]
 		[0] = 
@@ -74,15 +74,9 @@ Tor 9A331 =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "human nightsight",
-				["opticType"] = 2,
-			}, -- end of [1]
-			[2] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human daysight",
+				["typeName"] = "generic SAM search visir",
 				["opticType"] = 0,
-			}, -- end of [2]
+			}, -- end of [1]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 

@@ -43,9 +43,15 @@ IFV Boman =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "AAV day",
+				["typeName"] = "NNDV day",
 				["opticType"] = 0,
 			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "NNDV night",
+				["opticType"] = 2,
+			}, -- end of [2]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 

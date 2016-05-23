@@ -20,24 +20,9 @@ S-300PS 40B6MD sr =
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
-				["typeName"] = "1L13 EWR",
+				["typeName"] = "S-300PS 40B6MD sr",
 			}, -- end of [1]
 		}, -- end of [1]
-		[0] = 
-		{
-			[1] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human nightsight",
-				["opticType"] = 2,
-			}, -- end of [1]
-			[2] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human daysight",
-				["opticType"] = 0,
-			}, -- end of [2]
-		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{

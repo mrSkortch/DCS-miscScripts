@@ -43,7 +43,7 @@ IFV M1043 HMMWV Armament =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "AAV day",
+				["typeName"] = "human daysight",
 				["opticType"] = 0,
 			}, -- end of [1]
 		}, -- end of [0]

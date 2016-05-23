@@ -10,17 +10,17 @@ Roland Radar =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 80248.84375,
-						["headOn"] = 80248.84375,
+						["tailOn"] = 23405.912109375,
+						["headOn"] = 23405.912109375,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 80248.84375,
-						["headOn"] = 80248.84375,
+						["tailOn"] = 23405.912109375,
+						["headOn"] = 23405.912109375,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
-				["typeName"] = "1L13 EWR",
+				["typeName"] = "Roland Radar",
 			}, -- end of [1]
 		}, -- end of [1]
 		[0] = 
@@ -28,15 +28,21 @@ Roland Radar =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "human nightsight",
-				["opticType"] = 2,
+				["typeName"] = "generic tank daysight",
+				["opticType"] = 0,
 			}, -- end of [1]
 			[2] = 
 			{
 				["type"] = 0,
+				["typeName"] = "human nightsight",
+				["opticType"] = 2,
+			}, -- end of [2]
+			[3] = 
+			{
+				["type"] = 0,
 				["typeName"] = "human daysight",
 				["opticType"] = 0,
-			}, -- end of [2]
+			}, -- end of [3]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 

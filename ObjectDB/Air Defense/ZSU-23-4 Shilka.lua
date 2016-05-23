@@ -79,34 +79,19 @@ ZSU-23-4 Shilka =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 80248.84375,
-						["headOn"] = 80248.84375,
+						["tailOn"] = 3343.7016601563,
+						["headOn"] = 3343.7016601563,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 80248.84375,
-						["headOn"] = 80248.84375,
+						["tailOn"] = 3343.7016601563,
+						["headOn"] = 3343.7016601563,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
-				["typeName"] = "1L13 EWR",
+				["typeName"] = "ZSU-23-4 Shilka",
 			}, -- end of [1]
 		}, -- end of [1]
-		[0] = 
-		{
-			[1] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human nightsight",
-				["opticType"] = 2,
-			}, -- end of [1]
-			[2] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human daysight",
-				["opticType"] = 0,
-			}, -- end of [2]
-		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{

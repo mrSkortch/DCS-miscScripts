@@ -46,45 +46,6 @@ Strela-1 9P31 =
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
-	["sensors"] = 
-	{
-		[1] = 
-		{
-			[1] = 
-			{
-				["detectionDistanceAir"] = 
-				{
-					["upperHemisphere"] = 
-					{
-						["tailOn"] = 80248.84375,
-						["headOn"] = 80248.84375,
-					}, -- end of ["upperHemisphere"]
-					["lowerHemisphere"] = 
-					{
-						["tailOn"] = 80248.84375,
-						["headOn"] = 80248.84375,
-					}, -- end of ["lowerHemisphere"]
-				}, -- end of ["detectionDistanceAir"]
-				["type"] = 1,
-				["typeName"] = "1L13 EWR",
-			}, -- end of [1]
-		}, -- end of [1]
-		[0] = 
-		{
-			[1] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human nightsight",
-				["opticType"] = 2,
-			}, -- end of [1]
-			[2] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human daysight",
-				["opticType"] = 0,
-			}, -- end of [2]
-		}, -- end of [0]
-	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 7000,

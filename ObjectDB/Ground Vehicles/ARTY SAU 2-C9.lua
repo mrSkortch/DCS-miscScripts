@@ -36,6 +36,24 @@ ARTY SAU 2-C9 =
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "TKN-3B day",
+				["opticType"] = 0,
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "TKN-3B night",
+				["opticType"] = 2,
+			}, -- end of [2]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 8700,
