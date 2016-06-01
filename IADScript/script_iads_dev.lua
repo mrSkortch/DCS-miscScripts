@@ -16,17 +16,17 @@ do
 	}
 	
 	local log = mist.Logger:new('IADS')
-	local superLog = mist.Logger:new('superLog', 0)
+	local slog = mist.Logger:new('IADSL', 0)
 	if iads_settings.logger == 'debug' then
 		--log:setLevel('info')
-		superLog:setLevel('info')
+		slog:setLevel('info')
 	end
 
 	
 
 	
 	if iads_settings.level < 0 or iads_settings.level > 4 then
-		log:warn('IADS level not correctly set. Setting new default') -- Just in case
+		log:warn('IADS level not correctly set. Setting new default. Must be between 1, 2, 3, or 4. Got: $1', iads_settings.level) -- Just in case
 		iads_settings.level = 3
 	end
 	
@@ -755,6 +755,15 @@ do
 		},
 	},
 }
+	local function debugMessage(text)
+		if iads_settings.debug == true then
+			local msg = {}
+			msg.text = text
+			msg.msgFor = {coa = iads_settings.debugMsgFor}
+			msg.displayTime = 10
+			mist.message.add(msg)
+		end
+	end
 	
 	
 	local coroutines = {}
@@ -851,15 +860,11 @@ do
 		end,
 		
 		destroy = function (iadGroup)
-		--	superLog:info('destroy')
+		--	slog:info('destroy')
 			for iadId, iadData in pairs(iads_list) do
 				if iadData.groupName == iadGroup.groupName then
 					if iads_settings.debug == true then
-						local status = {}
-						status.text = tostring(timer.getTime() .. '  ' .. iadGroup.groupName ..' Removed from IADS') 
-						status.displayTime = 10
-						status.msgFor = {coa = iads_settings.debugMsgFor}
-						mist.message.add(status)
+						debugMessage(tostring(timer.getTime() .. '  ' .. iadGroup.groupName ..' Removed from IADS'))
 					end
 					table.remove(iads_list, iadId)
 					return true --removal successful
@@ -926,14 +931,10 @@ do
 					for single sams the TR would contain identical info as SR
 					
 					]]
-	
-					
-					
 					samImport.units = {}
 					local valid = false
 					for unitName, unitData in pairs(groupData.units) do -- search units
 						for samName, samData in pairs(samTypesDB) do -- Iterate Sam IDs
-					
 							if string.find(unitData.type, samName) or tostring(samName) == tostring(unitData.type) then -- Find sam id in units name
 								samImport.samTypeName = samName
 								samImport.names = samData.name
@@ -946,6 +947,7 @@ do
 									samImport.mobile = false
 								end
 								--print(samName, samData)
+
 								for typeName, typeData in pairs(samData) do -- cycle sam Data
 									local tempData = {}
 									local unitTable = {}
@@ -954,52 +956,18 @@ do
 									unitTable.unitName = unitData.unitName
 									if samData.searchRadar and typeName == 'searchRadar' or samData.trackingRadar and typeName == 'trackingRadar' or samData.launchers and typeName == 'launchers' or samData.misc and typeName == 'misc' then 
 										valid = true
+										--[[ Somewhere in here write code to grab the units "Live" data and update the samTypesDB as needed.
+										
+										
+										]]
+										
 										for variableName, variableData in pairs(typeData) do
 											tempData.adUnitType = typeName
 											unitTable.adUnitType = typeName
 											if tostring(variableName) == tostring(unitData.type) then
 
 												for attribName, attribData in pairs(variableData) do 
-													if attribName == 'max_range_finding_target' then
-														tempData.max_range_finding_target = attribData
-													elseif attribName == 'min_range_finding_target' then
-														tempData.min_range_finding_target = attribData
-													elseif attribName == 'max_alt_finding_target' then
-														tempData.max_alt_finding_target = attribData
-													elseif attribName == 'min_alt_finding_target' then
-														tempData.min_alt_finding_target = attribData
-													elseif attribName == 'height' then
-														tempData.height = attribData
-													elseif attribName == 'radar_rotation_period' then
-														tempData.radar_rotation_period = attribData
-													elseif attribName == 'missiles' then
-														tempData.missiles = attribData
-													elseif attribName == 'range' then
-														tempData.range = attribData
-													elseif attribName == 'required' then
-														tempData.required = attribData
-													elseif attribName == 'ir' then
-														tempData.ir = attribData
-													elseif attribName == 'aaa' then
-														tempData.aaa = attribData
-													elseif attribName == 'ewr' then
-														tempData.ewr = attribData
-													elseif attribName ==  'cantTurnOffBug' then
-														tempData.cantTurnOffBug = attribData
-													elseif attribName == 'sensor' then
-														tempData.sensor = attribData
-													elseif attribName == 'guns' then
-														tempData.guns = attribData
-													elseif attribName == 'laser' then
-														tempData.laser = attribData
-													elseif attribName == 'atkVisual' then
-														tempData.atkVisual = attribData
-													elseif attribName == 'trackingRadar' then
-														tempData.trackingRadar = attribData
-													elseif attribName == 'rearmTime' then
-														tempData.rearmTime = attribData
-													end
-													
+													tempData[attribName] = attribData
 												end
 												
 												if tempData.adUnitType == 'searchRadar' then
@@ -1076,7 +1044,7 @@ do
 					end
 					
 					if valid == true then
-						superLog:info('IADS Added ' .. samImport.group)
+						slog:info('IADS Added ' .. samImport.group)
 						
 						iads.create(samImport)
 						
@@ -1122,12 +1090,12 @@ do
 					end
 				end
 			end
-		--	superLog:info('end pop task')
+		--	slog:info('end pop task')
 			return
 		end,
 	
 		setTask = function(iadGroup, task)
-			--superLog:info('setTask' .. task.action)
+			--slog:info('setTask' .. task.action)
 			if not task.startTime then
 				task.startTime = timer.getTime()
 			end
@@ -1143,15 +1111,11 @@ do
 			end
 			
 			if iads_settings.debug == true then
-				local status = {}
 				if task.radarAction then
-					status.text = tostring(timer.getTime() .. '   ' .. iadGroup.groupName .. '  Type: ' .. iadGroup.names.NATO .. ' set radar to ' .. task.radarAction .. ' and action ' .. task.action .. ' until ' .. task.taskFor)
+					debugMessage(tostring(timer.getTime() .. '   ' .. iadGroup.groupName .. '  Type: ' .. iadGroup.names.NATO .. ' set radar to ' .. task.radarAction .. ' and action ' .. task.action .. ' until ' .. task.taskFor))
 				else
-					status.text = tostring(timer.getTime() .. '   ' .. iadGroup.groupName .. ' set action to ' .. task.action.. ' with current radar of  ' .. iadGroup:getTask().radarAction .. ' until ' .. task.taskFor)
+					debugMessage(tostring(timer.getTime() .. '   ' .. iadGroup.groupName .. ' set action to ' .. task.action.. ' with current radar of  ' .. iadGroup:getTask().radarAction .. ' until ' .. task.taskFor))
 				end
-				status.displayTime = 10
-				status.msgFor = {coa = iads_settings.debugMsgFor}
-				mist.message.add(status)
 			end
 			table.insert(iadGroup.tasks, 1, task)
 			table.insert(iadGroup.last5Tasks, 1, task)
@@ -1171,12 +1135,12 @@ do
 			end
 			
 
-			--superLog:info('end setTask')
+			--slog:info('end setTask')
 			return
 		end,
 		
 		addTimeToCurrentTask = function(iadGroup, addedTime)
-			--superLog:info('time added to task')
+			--slog:info('time added to task')
 			if #iadGroup.tasks > 0 then
 				iadGroup.tasks[1].taskFor = iadGroup.tasks[1].taskFor + addedTime
 			end
@@ -1184,17 +1148,17 @@ do
 		end,
 		
 		matchTasks = function(iadGroup, task)
-		--	superLog:info('match tasks')
+		--	slog:info('match tasks')
 			
 			for taskId, taskData in pairs(iadGroup.last5Tasks) do
 				for curTaskId, curTaskData in pairs(task) do
 					if taskData.action == curTaskData then 
-					--	superLog:info('tasks match')
+					--	slog:info('tasks match')
 						return taskData
 					end
 				end
 			end
-		--	superLog:info('end match')
+		--	slog:info('end match')
 			return false
 		end,
 		
@@ -1229,7 +1193,7 @@ do
 			
 			if iadGroup.level >= 3 and #iadGroup.tasks > 0  then
 				if #iadGroup.LR > 0 and math.random(100) < 5 and iadGroup:matchTasks({'blink', 'hold', 'displace', 'engage'}) == false and iadGroup:getTask().startTime < timer.getTime() - 15 then --iadGroup:getTask().startTime < timer.getTime() - 15 and 
-					--superLog:info('do random task')
+					--slog:info('do random task')
 					local chance 
 					if iadGroup.level > 3 then
 						chance = math.random(6)  -- math.random(8)
@@ -1238,18 +1202,18 @@ do
 					end
 					
 					local compared = iadGroup:compareIADS()
-					--superLog:info('do nearest')
+					--slog:info('do nearest')
 					local nearest
 					local tgtType = 'target'
 					if #iadGroup.tracks > 0 then
-					--	superLog:info('find track')
+					--	slog:info('find track')
 						tgtType = 'track'
 						nearest = iadGroup:findNearestTrack()
 					else
-					--	superLog:info('find target')
+					--	slog:info('find target')
 						nearest = iadGroup:findNearestTarget()
 					end
-					--	superLog:info('end nearest track')
+					--	slog:info('end nearest track')
 					
 					
 					
@@ -1263,12 +1227,12 @@ do
 									local oldTask = iadGroup:matchTasks({'blink'})
 									if oldTask then
 										if oldTask.taskFor + math.random(300, 900) > timer.getTime() then -- if the blink order was given somewhat recently
-											--superLog:info('break')
+											--slog:info('break')
 											blinkOk = false
 										end
 									end
 									if blinkOk == true and blinkOrder == true then
-										--superLog:info('blinkTaskMon')
+										--slog:info('blinkTaskMon')
 										iadGroup:blink(120)
 										return
 									end
@@ -1283,7 +1247,7 @@ do
 					If all of the sams are dark and nothing is done, then it will switch the strongest sam on
 							
 					]]
-					--	superLog:info('CHANGING ORDERS')
+					--	slog:info('CHANGING ORDERS')
 						local noParentsOn = true
 						local strongId
 						local strongPower = 0
@@ -1349,7 +1313,7 @@ do
 					end
 				end
 			end
-			--superLog:info('end monitor')
+			--slog:info('end monitor')
 			return
 		end,
 		
@@ -1500,12 +1464,12 @@ do
 		end,
 		
 		targetDetection = function(iadData, targetName)
-			local detected 
+			local detected = false
 			if #iadData.SR > 0 then -- must have search radar
 				for srId, srData in pairs(iadData.SR) do
 					if iadData.ROE ~= 'dark' then
 						detected = Controller.isTargetDetected(Unit.getController(Unit.getByName(srData.unitName)), Unit.getByName(targetName), Controller.Detection.VISUAL) --alarm state can turn off "eyes"
-						--superLog:info('check radar')
+						slog:info('check radar')
 						if detected == false then
 							detected = Controller.isTargetDetected(Unit.getController(Unit.getByName(srData.unitName)), Unit.getByName(targetName), Controller.Detection.RADAR)
 						end
@@ -1520,7 +1484,7 @@ do
 						end
 					end	
 					if detected == true then
-						--superLog:info(srData.unitName .. ' has detected ' .. targetName .. '   ' .. tostring(detected))
+						slog:info(srData.unitName .. ' has detected ' .. targetName .. '   ' .. tostring(detected))
 						return true
 					end
 				end			
@@ -1530,7 +1494,7 @@ do
 		end,
 		
 		getStatus = function(iadGroup) -- analyzes if sam is capable to engage target. IE. Ammo quantity or correct systems alive
-			--superLog:info('status start')
+			--slog:info('status start')
 			local weGotDeathStars = false  -- can shoot variable
 			local visualOnly = false
 			local caseToRemove = false
@@ -1611,7 +1575,7 @@ do
 			if weGotDeathStars == true then
 				return 'readyToShoot'
 			end
-		--	superLog:info('status end')
+		--	slog:info('status end')
 			return weGotDeathStars 
 		end,
 		
@@ -1646,7 +1610,7 @@ do
 		
 		]]
 		blink = function(iadGroup, length) -- if length is specified the task "blink" is ordered
-		--	superLog:info('blink function')
+		--	slog:info('blink function')
 			if not length then -- do blink logic
 				local task = iadGroup:getTask()
 				if timer.getTime() > (task.count * (task.int * math.random(5))) + (task.startTime - math.random(10)) then -- if its time to blink
@@ -1708,7 +1672,7 @@ do
 			end
 			local randTime = math.random(30, 300)
 			 -- 
-			--superLog:info('set move task')
+			--slog:info('set move task')
 			local task = {}
 			task.taskFor = timer.getTime() + math.random(600 + randTime ,1200)
 			task.radarAction = 'goDark'
@@ -1723,7 +1687,7 @@ do
 			for netId, netData in pairs(iads_network) do
 				for groupNetId, groupNetData in pairs(iadGroup.linked) do
 					if netData.link == groupNetData then
-						--superLog:info('match, get tracks')
+						--slog:info('match, get tracks')
 						for trackName, trackTime in pairs(netData.tracks) do
 							if Unit.getByName(trackName) then
 								if mist.utils.get3DDist(iadGroup.stats.avgPos, Unit.getByName(trackName):getPosition().p) < iadGroup:getMissileRange('max') * 1.6 then
@@ -1734,25 +1698,28 @@ do
 					end
 				end
 			end
-			--superLog:info('end netTracks')
+			--slog:info('end netTracks')
 			return allNetTracks
 		end,
 		
 		getTracks = function(iadGroup)
-			--superLog:info('getTracks')
+			--slog:info('getTracks')
 			iadGroup.tracks = {}
 			for targetId, tgtData in pairs(iad_targets) do
 				if iadGroup.coalition ~= tgtData.coalition and iadGroup:targetDetection(tgtData.unitName) then  -- Within visual range or radar on and within missile range
 					for netId, netData in pairs(iads_network) do
 						for groupNetId, groupNetData in pairs(iadGroup.linked) do
 							if netData.link == groupNetData then
+								if iads_settings.debug == true and not iads_network[netId].tracks[tgtData.unitName] then
+									debugMessage(tostring(timer.getTime() .. ' Network: ' .. netId .. ' is tracking ' .. tgtData.unitName))
+								end
 								iads_network[netId].tracks[tgtData.unitName] = timer.getTime()
 							end
 						end
 					end
 				end
 			end
-			--superLog:info('end Tracks')
+			--slog:info('end Tracks')
 			return 
 		end,
 		
@@ -1768,7 +1735,7 @@ do
 					end
 				end
 			end	
-		--	superLog:info('end track')
+		--	slog:info('end track')
 			return {['name'] = nearest, ['distance'] = nearDist}
 		end,
 		
@@ -1801,7 +1768,7 @@ do
 		end,
 		
 		findNearestLinkToTrack = function(iadGroup, track)
-			--superLog:info('findNearestLinkToTrack')
+			--slog:info('findNearestLinkToTrack')
 			local nearest = ''
 			local nearestDist = 10000000
 						
@@ -1813,7 +1780,7 @@ do
 					nearestDist = math.sqrt((pos.x - trackPos.x)^2 + (pos.z - trackPos.z)^2)
 				end
 			end
-			--superLog:info('end nearest link to track')
+			--slog:info('end nearest link to track')
 			if type(nearest) == 'number' then
 				return iads.getByIndex(nearest)
 			else
@@ -1822,7 +1789,7 @@ do
 		end,
 		
 		compareIADS = function(iadGroup)
-			--superLog:info('startcompare')
+			--slog:info('startcompare')
 			local maxSamSize = 0
 			local totalSize = 0
 			local count = 0 
@@ -1842,7 +1809,7 @@ do
 			vars.parentCount = 0
 			vars.childCount = 0
 			
-			--superLog:info('iterate iads')
+			--slog:info('iterate iads')
 			for countId, countData in pairs(iads_list) do
 				if iadGroup.parent[countId] or iadGroup.children[countId] then -- if the sam is linked and its within the control distance
 					count = count + 1
@@ -1854,7 +1821,7 @@ do
 						vars.childAvg = vars.childAvg + iadGroup.children[countId]
 						vars.childCount = vars.childCount + 1
 					end
-					--superLog:info('check iadsSR')
+					--slog:info('check iadsSR')
 					if countData.SR then
 						for SRId, srData in pairs(countData.SR) do
 							if Unit.getByName(srData.unitName) then
@@ -1864,7 +1831,7 @@ do
 								end
 								totalSize = srData.max_range_finding_target + totalSize
 							end
-							--superLog:info('checkIads ewr')
+							--slog:info('checkIads ewr')
 							if srData.ewr and srData.ewr == true then -- if sam is an EWR
 								if ewrDist > iadGroup.relatives[countId] then -- if its the closest EWR to the iadGroup
 									ewrDist = iadGroup.relatives[countId]
@@ -1873,7 +1840,7 @@ do
 							end
 						end
 					end
-					--superLog:info('check iadsLR')
+					--slog:info('check iadsLR')
 					if countData.LR then 
 						for lrId, lrData in pairs(countData.LR) do
 							if Unit.getByName(lrData.unitName) then
@@ -1888,7 +1855,7 @@ do
 					vars.relativesTasks[countId] = countData.ROE
 				end
 			end
-			--superLog:info('SR')
+			--slog:info('SR')
 			if iadGroup.SR then
 				for srId, srData in pairs(iadGroup.SR) do
 					ownTotal = srData.max_range_finding_target + ownTotal
@@ -1898,7 +1865,7 @@ do
 					end
 				end
 			end
-			--superLog:info('LR')
+			--slog:info('LR')
 			if iadGroup.LR then
 				for lrId, lrData in pairs(iadGroup.LR) do
 					if lrData.range > ownMaxLR then 
@@ -1906,7 +1873,7 @@ do
 					end
 				end
 			end
-			--superLog:info('do math')
+			--slog:info('do math')
 			vars.parentAvg = vars.parentAvg/vars.parentCount
 			vars.childAvg = vars.childAvg/vars.childCount
 			
@@ -1917,12 +1884,12 @@ do
 			vars.ownCount = ownCount
 			vars.ownMax = ownMax
 			vars.ownMaxLR = ownMaxLR
-			--superLog:info('end compare')
+			--slog:info('end compare')
 			return vars
 		end,
 		
 		getMissiles = function(iadGroup)
-		--	superLog:info('missile check')
+		--	slog:info('missile check')
 			local missiles = 0
 			local firstRearm = 100000000
 			if iadGroup.LR then
@@ -1936,7 +1903,7 @@ do
 								local ammo = Unit.getByName(lrData.unitName):getAmmo()
 								for ammoId, ammoData in pairs(ammo) do
 									if ammoData.desc.category == 2 then
-										lrData.missiles = ammoData.count/2
+										lrData.missiles = ammoData.count
 									end
 								end
 							else
@@ -1963,13 +1930,13 @@ do
 				task.radarAction = 'goDark'
 				iadGroup:setTask(task)
 			end
-			--superLog:info('end missile check')
+			--slog:info('end missile check')
 			return missiles
 		end,
 		
 		
 		getMissileRange = function(iadGroup, rangeType)
-		--	superLog:info('missile range')
+		--	slog:info('missile range')
 			if iadGroup.LR then
 				local distance = 0
 				for lrId, lrData in pairs(iadGroup.LR) do
@@ -1985,7 +1952,7 @@ do
 				if rangeType == 'avg' then
 					distance = distance/#iadGroup.LR
 				end
-			--	superLog:info(distance)
+			--	slog:info(distance)
 				return distance
 			else 
 				return 0
@@ -1993,8 +1960,8 @@ do
 		end,
 		
 		advancedTaskLogic = function(iadGroup, compared)
-			--superLog:info('advanced task logic')
-		--	superLog:info(iadGroup.names.NATO .. '  ' .. iadGroup.groupName)
+			--slog:info('advanced task logic')
+		--	slog:info(iadGroup.names.NATO .. '  ' .. iadGroup.groupName)
 			if iadGroup.level >= 4 then
 				local choice = 'search'
 				local nearRelatives = {}
@@ -2054,16 +2021,16 @@ do
 				
 	
 					
-			--	superLog:info('check 1')
+			--	slog:info('check 1')
 				if iadGroup.level == 5 then
 					
 				else -- level 4 or something else
 					if (totalParents > 0 and maxParPower <= 1.3) or totalParents == 0 then -- if sam is alone or has parents that are roughly the same size
-					--	superLog:info('Test 1')
+					--	slog:info('Test 1')
 						--[[
 						Most likely want sam on. Give chance to blink, Small shance is off for short time
 						]]
-						--superLog:info('sam lonely or parent same size')
+						--slog:info('sam lonely or parent same size')
 				
 					
 						if chance > 30 then
@@ -2077,7 +2044,7 @@ do
 							newTask.taskFor = timer.getTime() + math.random(60, 450)
 						end
 					elseif totalParents > 0 and maxParPower > 1.3 then -- first test failed, max parents have power > 1.3
-						--superLog:info('not batman')
+						--slog:info('not batman')
 						local totalNotDark = 0
 						for parId, parTask in pairs(parentTasks) do
 							if parTask ~= 'dark' then
@@ -2085,22 +2052,22 @@ do
 							end
 						end	
 
-						--superLog:info(totalNotDark)
-						--superLog:info(totalParents)
+						--slog:info(totalNotDark)
+						--slog:info(totalParents)
 						if totalNotDark <= totalParents * .98 and maxParPower > 3 then
-							--superLog:info('random 50')
+							--slog:info('random 50')
 							chance = math.random(50)
 						elseif totalNotDark <= totalParents * .95 and maxParPower > 2 then
-							--superLog:info('random 40')
+							--slog:info('random 40')
 							chance = math.random(40)
 						elseif totalNotDark <= totalParents * .90 and maxParPower > 1 then
-							--superLog:info('random 30')
+							--slog:info('random 30')
 							chance = math.random(30)	
 						end
 						
 						if compared.ownMaxLR < 19000 then -- if smallish sam likely turn off
 							chance = math.random(5, 20) + chance
-							--superLog:info(chance)
+							--slog:info(chance)
 						end
 						if compared.hasEWR > 0 then -- hasEWR is EWR id, defaults to 0
 							
@@ -2118,7 +2085,7 @@ do
 							newTask.taskFor = timer.getTime() + math.random(120,900)
 						elseif chance <= 20 and chance > 10 then
 							newTaskPush = false
-							--superLog:info('blink')
+							--slog:info('blink')
 							iadGroup:blink(math.random(60,450))
 						elseif chance <= 10 then
 							choice = 'search'
@@ -2145,12 +2112,12 @@ do
 					iadGroup:setTask(newTask)
 				end
 			end
-			--superLog:info('end of advanced task search')
+			--slog:info('end of advanced task search')
 			return
 		end,
 		
 		getSearchRange = function(iadGroup, searchType)
-			--superLog:info('search range')
+			--slog:info('search range')
 			if iadGroup.SR then
 				local distance = 0
 				for srId, srData in pairs(iadGroup.SR) do
@@ -2165,7 +2132,7 @@ do
 				if searchType == 'avg' then
 					distance = distance/#iadGroup.SR
 				end
-				--superLog:info(distance)
+				--slog:info(distance)
 				return distance
 			else 
 				return 0
@@ -2173,7 +2140,7 @@ do
 		end,
 		
 		getRangeToTarget = function(iadGroup, target)
-			--superLog:info('range to target')
+			--slog:info('range to target')
 			local targetPos
 			if type(target) == 'string' and Unit.getByName(target) then
 				targetPos = Unit.getByName(target):getPosition().p
@@ -2185,14 +2152,14 @@ do
 		end,
 		
 		checkToEngage = function(iadGroup, target) -- this is a behavioral check to see if a sam site that is turned off should power up to kill
-			--superLog:info('checkToEngage')
+			--slog:info('checkToEngage')
 			if iadGroup.LR then
 				if iadGroup:getMissiles() > 0 then
 					local lowRange = 50
 					local hiRange = 120
 					
 					if iadGroup:getTask().action == 'hold' then
-						--superLog:info('hold logic')
+						--slog:info('hold logic')
 						local holdTask = iadGroup:getTask()
 						if not Unit.getByName(holdTask.target) then
 							iadGroup:popTask()
@@ -2233,19 +2200,19 @@ do
 						end
 					end
 					for LRId, LRData in pairs(iadGroup.LR) do
-						--superLog:info(LRData.unitName)
+						--slog:info(LRData.unitName)
 						if Unit.getByName(LRData.unitName) then -- launcher must exist
 							local radarPos = Unit.getByName(LRData.unitName):getPosition().p
 							local targetPos = Unit.getByName(target):getPosition().p
 							
 							if LRData.range < 19000 then -- smaller sams are forced to engage sooner because the distance is shorter. Need to compensate for reaction times.
-								--superLog:info('smallish sam')
+								--slog:info('smallish sam')
 								lowRange = 85
 								hiRange = math.random(90, 120)
 							end
 							radarPos.y = radarPos.y + 5
 							if iadGroup.level > 0 and iadGroup.level < 6 and land.isVisible(targetPos, radarPos) == true then -- if Line of sight
-								--superLog:info('check range')
+								--slog:info('check range')
 								if (math.sqrt(((targetPos.x - radarPos.x)^2) + ((targetPos.z - radarPos.z)^2)) < ((math.random(lowRange, hiRange)/100) * LRData.range))  then-- locks if within range or visual range
 									return true
 								end
@@ -2254,7 +2221,7 @@ do
 					end
 				end
 			end
-			--superLog:info('end of check to engage')
+			--slog:info('end of check to engage')
 			return false
 		end,
 		
@@ -2337,11 +2304,7 @@ do
 
 														
 							if iads_settings.debug == true then
-								local msg = {}
-								msg.text = tostring(timer.getTime() .. '  ' .. lrData.unitName .. ' has fired a ' .. Object.getTypeName(event.weapon) .. ' there are ' .. lrData.missiles .. ' missiles remaining')
-								msg.msgFor = {coa = iads_settings.debugMsgFor}
-								msg.displayTime = 10
-								mist.message.add(msg)
+								debugMessage(tostring(timer.getTime() .. '  ' .. lrData.unitName .. ' has fired a ' .. Object.getTypeName(event.weapon) .. ' there are ' .. lrData.missiles .. ' missiles remaining'))
 							end
 						end
 					end
@@ -2350,11 +2313,7 @@ do
 							if lrData.missiles > 0 then
 								lrData.missiles = lrData.missiles - 1
 								if iads_settings.debug == true then
-									local msg = {}
-									msg.text = tostring(timer.getTime() .. '  ' .. iadData.groupName .. ' has fired a ' .. Object.getTypeName(event.weapon) .. ' there are ' .. lrData.missiles .. ' missiles remaining')
-									msg.msgFor = {coa = iads_settings.debugMsgFor}
-									msg.displayTime = 10
-									mist.message.add(msg)
+									debugMessage(tostring(timer.getTime() .. '  ' .. iadData.groupName .. ' has fired a ' .. Object.getTypeName(event.weapon) .. ' there are ' .. lrData.missiles .. ' missiles remaining'))
 								end
 								
 								break
@@ -2379,7 +2338,7 @@ do
 			if unitsPerRun < 5 then
 				unitsPerRun = 5
 			end
-			--superLog:info('checking sam')
+			--slog:info('checking sam')
 			for i = 1, #liads do
 				if liads[i].stats.timeToCheck < timer.getTime() then
 					iads.setNextCheck(liads[i]) -- sets next check time
@@ -2405,7 +2364,7 @@ do
 				end
 				
 				if i%unitsPerRun == 0 then
-					--superLog:info('samsyield')
+					--slog:info('samsyield')
 					coroutine.yield()
 				end
 			end
@@ -2501,7 +2460,7 @@ do
 				coroutine.resume(coroutines.checkSams)
 
 				if coroutine.status(coroutines.checkSams) == 'dead' then
-				--	superLog:info('dead')
+				--	slog:info('dead')
 					iads_co_alive = false
 					coroutines.checkSams = nil
 				end
@@ -2510,7 +2469,7 @@ do
 		
 		if updateStatsCheck < 0 then
 			updateStatsCheck = 30
-			superLog:info('updatestats')
+			slog:info('updatestats')
 			--[[
 			Populate relatives data by using link information. Makes more sense to populate it by checking for actual link entries rather than iterating through 2 iads_list tables and checking one by one
 			Create entry for each type and add basic stats to it. This will also be useful in providing information to a newer debug view
@@ -2527,7 +2486,7 @@ do
 			If hiLevel is 4 or more then run iads.positionLogic on the grouping Table
 			]]
 			if iads_settings.debug == true then
-				--superLog:info('liadsFunc')
+				--slog:info('liadsFunc')
 				local liadsStats = {}
 				for iadId, iadData in pairs(iads_list) do
 					if iadData.linked then
@@ -2611,22 +2570,22 @@ do
 		
 		updateStatsCheck = updateStatsCheck - 0.1
 		if timeSinceLast < 0 then
-			superLog:info('run next check')
+			slog:info('run next check')
 			timeSinceLast = iads_settings.refreshRate
 
 			for netId, netData in pairs(iads_network) do
 				iads_AI.monitorNet(netData)
 			end
-			superLog:info('netMonitor')
+			slog:info('netMonitor')
 
 			
 			if iads_co_alive == false then
 				iads_co_alive = true
 			end
-			superLog:info('iads_co_alive')
+			slog:info('iads_co_alive')
 	
 			if iads_settings.debug == true then
-				superLog:info('letsDebug')
+				slog:info('letsDebug')
 				if iads_settings.debugWriteFiles == true then
 					mist.debug.writeData(mist.utils.serialize,{'iads_list', iad_targets}, 'iadTargets.lua')
 					mist.debug.writeData(mist.utils.serialize,{'iads_list', iads_list}, 'iads_list.lua')
@@ -2684,14 +2643,14 @@ do
 	end
 	
 	iads_AI.monitorNet = function(netTable)
-		superLog:info('checkNet')
+		slog:info('checkNet')
 		for trackId, trackData in pairs(netTable.tracks) do
 			if trackData + 15 < timer.getTime() then
-				--superLog:info('remove track')
+				--slog:info('remove track')
 				netTable.tracks[trackId] = nil
 			end		
 		end
-		superLog:info('endNetCheck')
+		slog:info('endNetCheck')
 		return
 	end
 	
@@ -2707,23 +2666,25 @@ do
 			--local newMsg = tostring(iadData.groupName) .. '     ' .. tostring(iadData.ROE) .. '        ' .. tostring(iadData.taskFor) .. '        ' .. tostring(#iadData.children)
 			--local totalMissiles = iadData:getMissiles()
 			samChecked = samChecked + 1
-			superLog:info(iadData.groupName .. ' checked')
+			slog:info(iadData.groupName .. ' checked')
 
 			
 			local status = iadData:getStatus()
+			slog:info(status)
 			
+			if iadData.ROE ~= 'dark' then
+				iadData:getTracks()
+			end
 			if status == 'readyToShoot' then -- must be capable of engaging enemies
-				--superLog:info('status good')
+				
 				local validTarget = false -- create value
 				local foundTarget = false
 				
-				if iadData.ROE ~= 'dark' then
-					iadData:getTracks()
-				end
+
 				if iadData.LR then
 					for tgtName, tgtData in pairs(iadData:getNetworkTracks()) do -- perhaps make subset of DB that is filtered to airborne targets
 						validTarget = false -- for each target set false
-						--superLog:info('target detected')
+						--slog:info('target detected')
 						local childCanShoot = false
 						local nearestChildToTrack
 						
@@ -2733,11 +2694,11 @@ do
 						if iadData.level > 3 then
 							nearestChildToTrack = iadData:findNearestLinkToTrack(tgtName)
 							if nearestChildToTrack then
-								--superLog:info('child found')
+								slog:info('child found')
 								if nearestChildToTrack:getTask().action ~= 'engage' then
-								--superLog:info('task is not engage')
+								--slog:info('task is not engage')
 									childCanShoot = nearestChildToTrack:checkToEngage(tgtName)
-									--superLog:info('child shoot')
+									--slog:info('child shoot')
 									childEngage = true
 								else
 									childCanShoot = true
@@ -2750,35 +2711,35 @@ do
 						local letsShoot = iadData:checkToEngage(tgtName)
 						
 						local doHold = false
-						--superLog:info('check target status')
+						--slog:info('check target status')
 						if letsShoot == true then -- if it has missiles, is not already engaging targets
-							--superLog:info('no existing target, can shoot')
+							slog:info('no existing target, can shoot')
 							if iadData.level > 3 and math.random(50) > 42.5 then -- 40
-								--superLog:info('target clear, lets engage')
+								slog:info('target clear, lets engage')
 								local choice = math.random(40) -- math.random(4)
-								--superLog:info(choice)
+								--slog:info(choice)
 								if choice <= 10 and iadData:matchTasks({'engage', 'hold'}) == false and childEngage == true then -- if it isn't the closest and teh child can shoot for it
 									doHold = true
-									--superLog:info('hold')
+									slog:info('hold')
 									--hold
 								elseif choice > 10 then
 									if childCanShoot == true and childEngage == false then
-										--superLog:info('nearest can shoot')
+										slog:info('nearest can shoot')
 										nearestChildToTrack:engage()
 									end
 								end
 							end
-							--superLog:info('engage')
+							slog:info('engage')
 							iadData:engage()
 							
 							validTarget = true
 							foundTarget = true
 							break
 						elseif letsShoot == false and selfDist < iadData:getMissileRange('avg') * 1.2 and math.random(100) > 98 and iadData:matchTasks({'engage', 'hold'}) == false and iadData.level > 3 then --47
-						--	superLog:info('other check')
+						--	slog:info('other check')
 							doHold = true
 						end
-						--superLog:info('do hold check')
+						--slog:info('do hold check')
 						if doHold == true then
 							local holdTask = {}
 							holdTask.target = tgtName
@@ -2787,18 +2748,18 @@ do
 							holdTask.deleteRange = selfDist + ((iadData:getSearchRange('avg') * math.random(55, 100)/100) * .1) -- current distance from target + 10% of random avg search range
 							holdTask.engageRange = iadData:getMissileRange('avg') * math.random(25, 60)/100 -- surprise!
 							holdTask.radarAction = 'goDark'
-							--superLog:info('send task')
+							--slog:info('send task')
 							iadData:setTask(holdTask)
 						end
 					end					
 				end
 
-				--superLog:info('monitor')
+				--slog:info('monitor')
 				iadData:taskMonitor() -- get that out of the way
 				
-				--superLog:info('check tasks')
+				--slog:info('check tasks')
 				if foundTarget == false then 
-					--superLog:info('no target, check tasks')
+					--slog:info('no target, check tasks')
 					local newTask = {}
 					if iadData.level == 1 and #iadData.tasks == 0 then
 						newTask.radarAction = 'search'
@@ -2845,9 +2806,9 @@ do
 					
 				end
 			--status[#status + 1]	= newMsg .. '      ' .. totalMissiles  .. '\n'
-			--superLog:info('end check')
+			--slog:info('end check')
 			else
-			--	superLog:info('else check')
+			--	slog:info('else check')
 			--if iadData.setup == 'ewr' then
 				if iadData:getTask().taskFor < timer.getTime() then
 					iadData:popTask()
@@ -2871,11 +2832,11 @@ do
 				end
 			end
 		 
-		superLog:info('end of check')
+		slog:info('end of check')
 		return
 
 	end
-	superLog:info('Init')
+	slog:info('Init')
 	mist.scheduleFunction(iads_AI.main, {}, timer.getTime() + iads_settings.refreshRate)
 
 end
@@ -2883,14 +2844,14 @@ end
 
 
 
-	--superLog:info(timer.getTime0())
-	--superLog:info(timer.getAbsTime())
+	--slog:info(timer.getTime0())
+	--slog:info(timer.getAbsTime())
 	--[[
 	linked defines scope of system. Uses message system scope
 			coa = {...}, -- coa names
 		countries = {...}, -- country names
 		etc.
-	-- rev 33
+	-- rev 34
 
 	link defined by table of strings {'coa', 'country', 'uid'}
 	
