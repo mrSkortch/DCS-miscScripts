@@ -34,15 +34,15 @@ do
 		--iads_settings.refreshRate = 0.67
 	--end
 	
-	local warehouse = {
+	local warehouseDef = {
 		['airbase'] = 2000,
-		['farp'] = 200,
+		['FARP'] = 200,
 		['.Ammunition depot'] = 200,
 		['Tank'] = 200,
 		['Tank 2'] = 200,
 		['Tank 3'] = 200,
 		['Warehouse'] = 200,
-		['Ural-375'] = 200,
+		['Ural%-375'] = 200,
 		['Ural%-375 PBU'] = 200,
 		['Ural%-4320%-31'] = 200,
 		['Ural 4320T'] = 200,
@@ -783,6 +783,8 @@ do
 		end
 	end
 	
+
+	
 	
 	local coroutines = {}
 	local iad_targets = {}
@@ -790,10 +792,45 @@ do
 	local iads_list = {}
 	local iads_stats = {}
 	local iads_network = {}
+	local warehouse = {['red'] = {}, ['blue'] = {}}
 	
 	local samChecked = 0
 	--local iads_sorted = {['red'] = {}, ['blue'] = {}}
 	--local activeAircraft = {}
+	
+	local function addWarehouseEvent(event) -- adds objects to warehouse table based on events
+	
+	end
+	
+	local popWarehouses = false
+	local function updateWarehouses()
+		if popWarehouses == false then
+			for unitName, unitData in pairs(mist.DBs.unitsByName) do
+				if warehouseDef[unitData.type] then
+					local newEntry = {}
+					newEntry.category = unitData.category
+					newEntry.range = warehouseDef[unitData.type]
+					newEntry.point = unitData.point -- this will be updated periodically so its not important to update now
+				end
+			end
+			
+			popWarehouses = true
+		end
+		
+		-- on first run makes table of objects.
+		--[[objectName = {
+			'category' = 'static', 'unit', 'airbase',
+			'objectId' = objectId or RTobject?,
+			'vec2' = pos2,
+			'range' = range of re-arm
+		}
+		
+		On subsquent runs it checks the status. For farp/airbase if it changed sides. 
+		Normal objects if they still exist
+		Units if they have moved
+		]]
+	end
+	
 	
 	local function createNetwork(newNet)
 		iads_network[#iads_network + 1] = {}
@@ -2833,7 +2870,7 @@ do
 					local newTask = {}
 					local chance
 					if iadData.setup == 'ewr' then
-						chance = math.random(1, 100) -- EWR always on, because apparently there is no off switch
+						chance = math.random(90, 100) -- EWR always on, because apparently there is no off switch
 					else
 						chance = math.random(60)
 					end
