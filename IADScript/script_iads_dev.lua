@@ -33,6 +33,24 @@ do
 	--if iads_settings.radarSim == true then
 		--iads_settings.refreshRate = 0.67
 	--end
+	
+	local warehouse = {
+		['airbase'] = 2000,
+		['farp'] = 200,
+		['.Ammunition depot'] = 200,
+		['Tank'] = 200,
+		['Tank 2'] = 200,
+		['Tank 3'] = 200,
+		['Warehouse'] = 200,
+		['Ural-375'] = 200,
+		['Ural%-375 PBU'] = 200,
+		['Ural%-4320%-31'] = 200,
+		['Ural 4320T'] = 200,
+		['Gaz%-3308'] = 200,
+		['Gaz%-66'] = 200,
+		['M 818'] = 200,
+	}
+	
 	local samTypesDB = { -- this is a static DB based off of scripts/database files for each sam type.
 	-- '-' character needs special search term %
 	['S%-300'] = {
