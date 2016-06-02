@@ -798,12 +798,82 @@ do
 	--local iads_sorted = {['red'] = {}, ['blue'] = {}}
 	--local activeAircraft = {}
 	
-	local function editWarehouseEvent(event) -- adds/removes objects to warehouse table based on events
-		-- capture events for airbase
-		-- spawn or kill
-		
+	local function editWarehouseEvent(event) -- adds/removes/edits objects to warehouse table based on events
+		if event.id == world.event.S_EVENT_BIRTH or event.id == world.event.S_EVENT_DEAD or event.id == world.event.S_EVENT_BASE_CAPTURED then	-- capture events for airbase
+			-- spawn or kill
+			slog:info(event)
+			local obj = event.initiator -- for easy use
+			local bSide = obj:getCoalition()
+			
+			if bSide == 0 then
+				bSide = 'neutral'
+			elseif bSide == 1 then
+				bSide = 'red'
+			else
+				bSide = 'blue'
+			end
+			
+			if event.id == world.event.S_EVENT_BIRTH and event.initiator and warehouseDef[obj:getTypeName()] then -- object is in warehouse definition, add it as needed
+				slog:info('Warehouse spawned $1' , obj:getName())
+				local newEntry = {}
+				newEntry.type = obj:getTypeName()
+				newEntry.range = warehouseDef[newEntry.type]
+				newEntry.point = mist.utils.roundTbl(mist.utils.makeVec2(obj:getPoint()))
+				if obj:getCategory() == 3 then
+					newEntry.category = 'static'
+				else
+					newEntry.category = 'vehicle'
+				end
+				warehouse[bSide][obj:getName()] = mist.utils.deepCopy(newEntry)
+			elseif event.id == world.event.S_EVENT_DEAD then -- remove
+				slog:info('Warehouse destroyed $1' , obj:getName())
+				for side, sideData in pairs(warehouse) do 
+					for ware, wareData in pairs(sideData) do
+						if obj:getName() == ware then
+							slog:info('removed')
+							warehouse[side][ware] = nil
+							break
+						end
+					end
+				end
+			elseif event.id == world.event.S_EVENT_BASE_CAPTURED then -- edit as needed
+				slog:info('Warehouse captured $1' , obj:getName())
+				local found = false
+				
+				for side, sideData in pairs(warehouse) do -- first check if base belonged to a team before
+					for ware, wareData in pairs(sideData) do
+						if wareData.category == 'airbase' and ware == obj:getName() then
+							if bSide == 'neutral' then -- went back to neutral. nothing should be able to rearm so remove it
+								warehouse[side][ware] = nil
+								found = true
+								break
+							else -- edit
+								found = true
+								local lCopy = mist.utils.deepCopy(wareData)
+								warehouse[side][ware] = nil
+								warehouse[bSide][ware] = lCopy
+							end
+						end
+					end
+				end
+				if found == false then -- itsa newly captured base!
+					local newEntry = {}
+					newEntry.point = mist.utils.roundTbl(mist.utils.makeVec2(obj:getPoint()))
+					if obj:getCategory() == 4 then
+						newEntry.category = 'airbase'
+					else
+						newEntry.category = 'static' -- farps can be captured also...
+					end
+					newEntry.range = 2000
+					newEntry.callsign = obj:getCallsign()
+					warehouse[bSide][obj:getName()] = mist.utils.deepCopy(newEntry)
+				end
+			end
+		end
 		
 	end
+	
+	mist.addEventHandler(editWarehouseEvent)
 	
 	local popWarehouses = false
 	local function updateWarehouses()
@@ -817,6 +887,7 @@ do
 					newEntry.category = unitData.category
 					newEntry.range = warehouseDef[unitData.type]
 					newEntry.point = mist.utils.roundTbl(unitData.point) -- this will be updated periodically so its not important to update now
+					newEntry.type = unitData.type
 					warehouse[unitData.coalition][unitName] = mist.utils.deepCopy(newEntry)
 				end
 			end
@@ -832,22 +903,29 @@ do
 							sideString = 'blue'
 						end
 						newEntry.callsign = obj:getCallsign()
-						slog:info(newEntry)
+						newEntry.type = obj:getTypeName()
 
 						warehouse[sideString][obj:getName()] = mist.utils.deepCopy(newEntry)
 					end
 				end
 			end
 			popWarehouses = true
-		--mist.debug.writeData(mist.utils.serialize,{'warehouses', warehouse}, 'warehouses.lua')
+		
 		end
 		
-		for side, sideData in pairs(warehouses) do
+		for side, sideData in pairs(warehouse) do
 			for uName, uData in pairs(sideData) do
 				if uData.category == 'vehicle' then
-					uData.point = mist.utils.roundTbl(mist.utils.makeVec2(Unit.getByName(uName):getPosition().p))
+					if Unit.getByName(uName) then
+						uData.point = mist.utils.roundTbl(mist.utils.makeVec2(Unit.getByName(uName):getPosition().p))
+					else
+						warehouse[side][uName] = nil
+					end
 				end
 			end
+		end
+		if iads_settings.debug == true and iads_settings.debugWriteFiles == true then
+			mist.debug.writeData(mist.utils.serialize,{'warehouses', warehouse}, 'warehouses.lua')
 		end
 	end
 	
@@ -2912,7 +2990,7 @@ do
 
 	end
 	slog:info('Init')
-	updateWarehouses()
+	mist.scheduleFunction(updateWarehouses, {}, timer.getTime() + 2, 15)
 	mist.scheduleFunction(iads_AI.main, {}, timer.getTime() + iads_settings.refreshRate)
 
 end
