@@ -18,7 +18,7 @@ do
 	local log = mist.Logger:new('IADS')
 	local slog = mist.Logger:new('IADSL', 0)
 	if iads_settings.logger == 'debug' then
-		--log:setLevel('info')
+		log:setLevel('info')
 		slog:setLevel('info')
 	end
 
@@ -42,12 +42,12 @@ do
 		['Tank 2'] = 200,
 		['Tank 3'] = 200,
 		['Warehouse'] = 200,
-		['Ural%-375'] = 200,
-		['Ural%-375 PBU'] = 200,
-		['Ural%-4320%-31'] = 200,
-		['Ural 4320T'] = 200,
-		['Gaz%-3308'] = 200,
-		['Gaz%-66'] = 200,
+		['Ural-375'] = 200,
+		['Ural-375 PBU'] = 200,
+		['Ural-4320-31'] = 200,
+		['Ural-4320T'] = 200,
+		['Gaz-3308'] = 200,
+		['Gaz-66'] = 200,
 		['M 818'] = 200,
 	}
 	
@@ -798,37 +798,57 @@ do
 	--local iads_sorted = {['red'] = {}, ['blue'] = {}}
 	--local activeAircraft = {}
 	
-	local function addWarehouseEvent(event) -- adds objects to warehouse table based on events
-	
+	local function editWarehouseEvent(event) -- adds/removes objects to warehouse table based on events
+		-- capture events for airbase
+		-- spawn or kill
+		
+		
 	end
 	
 	local popWarehouses = false
 	local function updateWarehouses()
+		slog:info('Update warehouses')
 		if popWarehouses == false then
+			slog:info('populating list')
 			for unitName, unitData in pairs(mist.DBs.unitsByName) do
 				if warehouseDef[unitData.type] then
+					slog:info('Adding $1 to warehouses', unitName)
 					local newEntry = {}
 					newEntry.category = unitData.category
 					newEntry.range = warehouseDef[unitData.type]
-					newEntry.point = unitData.point -- this will be updated periodically so its not important to update now
+					newEntry.point = mist.utils.roundTbl(unitData.point) -- this will be updated periodically so its not important to update now
+					warehouse[unitData.coalition][unitName] = mist.utils.deepCopy(newEntry)
 				end
 			end
-			
+			for i = 1, 2 do
+				for index, obj in pairs(coalition.getAirbases(i)) do
+					if obj:getCategory() == 4 then -- it is an airbase
+						local newEntry = {}
+						newEntry.point = mist.utils.roundTbl(mist.utils.makeVec2(obj:getPoint()))
+						newEntry.category = 'airbase'
+						newEntry.range = 2000
+						local sideString = 'red'
+						if i == 2 then
+							sideString = 'blue'
+						end
+						newEntry.callsign = obj:getCallsign()
+						slog:info(newEntry)
+
+						warehouse[sideString][obj:getName()] = mist.utils.deepCopy(newEntry)
+					end
+				end
+			end
 			popWarehouses = true
+		--mist.debug.writeData(mist.utils.serialize,{'warehouses', warehouse}, 'warehouses.lua')
 		end
 		
-		-- on first run makes table of objects.
-		--[[objectName = {
-			'category' = 'static', 'unit', 'airbase',
-			'objectId' = objectId or RTobject?,
-			'vec2' = pos2,
-			'range' = range of re-arm
-		}
-		
-		On subsquent runs it checks the status. For farp/airbase if it changed sides. 
-		Normal objects if they still exist
-		Units if they have moved
-		]]
+		for side, sideData in pairs(warehouses) do
+			for uName, uData in pairs(sideData) do
+				if uData.category == 'vehicle' then
+					uData.point = mist.utils.roundTbl(mist.utils.makeVec2(Unit.getByName(uName):getPosition().p))
+				end
+			end
+		end
 	end
 	
 	
@@ -2892,6 +2912,7 @@ do
 
 	end
 	slog:info('Init')
+	updateWarehouses()
 	mist.scheduleFunction(iads_AI.main, {}, timer.getTime() + iads_settings.refreshRate)
 
 end
