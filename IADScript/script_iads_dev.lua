@@ -5,6 +5,7 @@ do
 		['linked'] = 'coalition',  -- only valid entries are 'coalition' and 'country'. If links aren't specified for the group it wil use this
 		['level'] = 4, -- this sets the default complexy of system, see level documentation
 		['refreshRate'] = 5, -- This is how many seconds there are between checks for sams with "radarSim" set to false
+		['rearm'] = 'auto', -- auto, sim, virtual. sim relys on placed in game objects/airbase ownership to re-arm sams. auto uses logistics but it will also spawn warehouses to re-arm stuff. Virtual is N/A currently. 
 		['radarSim'] = true,  -- Default value for radarSim. If true it checks each sam based on radar rotation speed. 
 		['debug'] = true, -- set to true if you want to display a generic list of what orders the sams have. Some sam commands are displayed on this debug screen when command is assigned.
 		['debugMsgFor'] = {'blue'}, -- Structure of mist message system, can send messages specifically to certain groups. Made to easier segment who gets debug messages.
@@ -193,7 +194,6 @@ do
 				['range'] = 25000,
 				['missiles'] = 3,
 				['rearmTime'] = 600,
-			
 			},
 		},
 		['name'] = {
@@ -305,7 +305,7 @@ do
 			['Roland ADS'] = {
 				['laser'] = true,
 				['range'] = 8000,
-				['missiles'] = 8,
+				['missiles'] = 2,
 				['rearmTime'] = 70,
 			},
 		},
@@ -803,70 +803,73 @@ do
 			-- spawn or kill
 			slog:info(event)
 			local obj = event.initiator -- for easy use
-			local bSide = obj:getCoalition()
 			
-			if bSide == 0 then
-				bSide = 'neutral'
-			elseif bSide == 1 then
-				bSide = 'red'
-			else
-				bSide = 'blue'
-			end
-			
-			if event.id == world.event.S_EVENT_BIRTH and event.initiator and warehouseDef[obj:getTypeName()] then -- object is in warehouse definition, add it as needed
-				slog:info('Warehouse spawned $1' , obj:getName())
-				local newEntry = {}
-				newEntry.type = obj:getTypeName()
-				newEntry.range = warehouseDef[newEntry.type]
-				newEntry.point = mist.utils.roundTbl(mist.utils.makeVec2(obj:getPoint()))
-				if obj:getCategory() == 3 then
-					newEntry.category = 'static'
-				else
-					newEntry.category = 'vehicle'
-				end
-				warehouse[bSide][obj:getName()] = mist.utils.deepCopy(newEntry)
-			elseif event.id == world.event.S_EVENT_DEAD then -- remove
-				slog:info('Warehouse destroyed $1' , obj:getName())
-				for side, sideData in pairs(warehouse) do 
-					for ware, wareData in pairs(sideData) do
-						if obj:getName() == ware then
-							slog:info('removed')
-							warehouse[side][ware] = nil
-							break
-						end
-					end
-				end
-			elseif event.id == world.event.S_EVENT_BASE_CAPTURED then -- edit as needed
-				slog:info('Warehouse captured $1' , obj:getName())
-				local found = false
+			if obj and (obj:getCategory() == 0 or obj:getCategory() == 2 or obj:getCategory() == 4) then -- make sure object can have a coalition
+				local bSide = obj:getCoalition()
 				
-				for side, sideData in pairs(warehouse) do -- first check if base belonged to a team before
-					for ware, wareData in pairs(sideData) do
-						if wareData.category == 'airbase' and ware == obj:getName() then
-							if bSide == 'neutral' then -- went back to neutral. nothing should be able to rearm so remove it
+				if bSide == 0 then
+					bSide = 'neutral'
+				elseif bSide == 1 then
+					bSide = 'red'
+				else
+					bSide = 'blue'
+				end
+				
+				if event.id == world.event.S_EVENT_BIRTH and event.initiator and warehouseDef[obj:getTypeName()] then -- object is in warehouse definition, add it as needed
+					slog:info('Warehouse spawned $1' , obj:getName())
+					local newEntry = {}
+					newEntry.type = obj:getTypeName()
+					newEntry.range = warehouseDef[newEntry.type]
+					newEntry.point = mist.utils.roundTbl(mist.utils.makeVec2(obj:getPoint()))
+					if obj:getCategory() == 3 then
+						newEntry.category = 'static'
+					else
+						newEntry.category = 'vehicle'
+					end
+					warehouse[bSide][obj:getName()] = mist.utils.deepCopy(newEntry)
+				elseif event.id == world.event.S_EVENT_DEAD then -- remove
+					slog:info('Warehouse destroyed $1' , obj:getName())
+					for side, sideData in pairs(warehouse) do 
+						for ware, wareData in pairs(sideData) do
+							if obj:getName() == ware then
+								slog:info('removed')
 								warehouse[side][ware] = nil
-								found = true
 								break
-							else -- edit
-								found = true
-								local lCopy = mist.utils.deepCopy(wareData)
-								warehouse[side][ware] = nil
-								warehouse[bSide][ware] = lCopy
 							end
 						end
 					end
-				end
-				if found == false then -- itsa newly captured base!
-					local newEntry = {}
-					newEntry.point = mist.utils.roundTbl(mist.utils.makeVec2(obj:getPoint()))
-					if obj:getCategory() == 4 then
-						newEntry.category = 'airbase'
-					else
-						newEntry.category = 'static' -- farps can be captured also...
+				elseif event.id == world.event.S_EVENT_BASE_CAPTURED then -- edit as needed
+					slog:info('Warehouse captured $1' , obj:getName())
+					local found = false
+					
+					for side, sideData in pairs(warehouse) do -- first check if base belonged to a team before
+						for ware, wareData in pairs(sideData) do
+							if wareData.category == 'airbase' and ware == obj:getName() then
+								if bSide == 'neutral' then -- went back to neutral. nothing should be able to rearm so remove it
+									warehouse[side][ware] = nil
+									found = true
+									break
+								else -- edit
+									found = true
+									local lCopy = mist.utils.deepCopy(wareData)
+									warehouse[side][ware] = nil
+									warehouse[bSide][ware] = lCopy
+								end
+							end
+						end
 					end
-					newEntry.range = 2000
-					newEntry.callsign = obj:getCallsign()
-					warehouse[bSide][obj:getName()] = mist.utils.deepCopy(newEntry)
+					if found == false then -- itsa newly captured base!
+						local newEntry = {}
+						newEntry.point = mist.utils.roundTbl(mist.utils.makeVec2(obj:getPoint()))
+						if obj:getCategory() == 4 then
+							newEntry.category = 'airbase'
+						else
+							newEntry.category = 'static' -- farps can be captured also...
+						end
+						newEntry.range = 2000
+						newEntry.callsign = obj:getCallsign()
+						warehouse[bSide][obj:getName()] = mist.utils.deepCopy(newEntry)
+					end
 				end
 			end
 		end
@@ -1138,6 +1141,14 @@ do
 													if not samImport.LR then
 														samImport.LR = {}
 													end
+													tempData.rearmAt = -1
+                                                    if Unit.getByName(unitData.unitName) then
+                                                        for i, ammo in pairs(Unit.getByName(unitData.unitName):getAmmo()) do
+                                                            if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count > tempData.missiles then
+                                                                tempData.hasInventory = ammo.count
+                                                            end
+                                                        end
+                                                    end                                                    
 													table.insert(samImport.LR, tempData)
 												elseif tempData.adUnitType == 'misc' then
 													if not samImport.CC then
@@ -1941,6 +1952,15 @@ do
 			end
 		end,
 		
+		findNearestWarehouse = function(iadGroup)
+			local nearest = ''
+			local nearestDist = 10000000
+			
+			for ware, wareData in pairs(warehouse[iadGroup.coalition]) do
+			
+			end		
+		end,
+		
 		compareIADS = function(iadGroup)
 			--slog:info('startcompare')
 			local maxSamSize = 0
@@ -2048,28 +2068,18 @@ do
 			if iadGroup.LR then
 				for lrId, lrData in pairs(iadGroup.LR) do
 					if Unit.getByName(lrData.unitName) then
-						missiles = lrData.missiles + missiles
-					--	mist.debug.writeData(mist.utils.serialize,{'iads_list', Unit.getByName(lrData.unitName):getAmmo()}, 'AmmoCount.txt')
-						if lrData.missiles == 0 then
-							if lrData.rearmAt and lrData.rearmAt > timer.getTime() then
-								lrData.rearmAt = -1
-								local ammo = Unit.getByName(lrData.unitName):getAmmo()
-								for ammoId, ammoData in pairs(ammo) do
-									if ammoData.desc.category == 2 then
-										lrData.missiles = ammoData.count
-									end
-								end
-							else
-								if lrData.rearmTime then
-									lrData.rearmAt = timer.getTime() + lrData.rearmTime
-								else
-									lrData.rearmAt = timer.getTime() + 1800
+						if lrData.rearmAt == -1 then
+							missiles = lrData.missiles + missiles
+						else
+							for i, ammo in pairs(Unit.getByName(lrData.unitName):getAmmo()) do
+                                if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count < lrData.missiles then
+							
 								end
 							end
-						end
-						if lrData.rearmAt and lrData.rearmAt > 0 and lrData.rearmAt > timer.getTime() then
-							if lrData.rearmAt < firstRearm then
-								firstRearm = lrData.rearmAt
+							
+							
+							if lrData.rearmAt and lrData.rearmAt > timer.getTime() then -- missiles should be rearmed by now
+								lrData.rearmAt = -1
 							end
 						end
 					end
@@ -2462,16 +2472,17 @@ do
 						end
 					end
 					if trFiredMissileBug == true then
-						for lrId, lrData in pairs(iadData.LR) do
-							if lrData.missiles > 0 then
-								lrData.missiles = lrData.missiles - 1
-								if iads_settings.debug == true then
-									debugMessage(tostring(timer.getTime() .. '  ' .. iadData.groupName .. ' has fired a ' .. Object.getTypeName(event.weapon) .. ' there are ' .. lrData.missiles .. ' missiles remaining'))
-								end
-								
-								break
-							end
-						end
+                        for lrId, lrData in pairs(iadData.LR) do
+                            if Unit.getByName(lrData.unitName) then
+                                for i, ammo in pairs(Unit.getByName(lrData.unitName):getAmmo()) do
+                                    if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count < lrData.missiles then
+                                        slog:info('TR fired and found that unit $1 shot', lrDara.unitName)
+										lrData.missiles = lrData.missiles - 1
+                                        debugMessage(tostring(timer.getTime() .. '  ' .. lrData.unitName .. ' has fired a ' .. Object.getTypeName(event.weapon) .. ' there are ' .. lrData.missiles .. ' missiles remaining'))
+                                    end
+                                end
+                            end   
+                        end
 					end
 				end
 			end
