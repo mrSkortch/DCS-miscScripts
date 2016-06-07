@@ -1069,6 +1069,7 @@ do
 					
 					samImport.coalition = groupData.coalition
 					samImport.country = groupData.country
+					samImport.combatReady = true
 					if vars and vars.link then
 						samImport.linked = vars.link
 					else
@@ -1261,6 +1262,7 @@ do
 	
 		setTask = function(iadGroup, task)
 			--slog:info('setTask' .. task.action)
+			iadGroup.combatReady = iadData:getStatus()
 			if not task.startTime then
 				task.startTime = timer.getTime()
 			end
@@ -1665,81 +1667,74 @@ do
 			local caseToRemove = false
 			if Group.getByName(iadGroup.groupName) then
 				if iadGroup.setup ~= 'ewr' and iadGroup.LR then -- make sure launchers exist and it isnt an EWR
-					if iadGroup:getMissiles() > 0 then -- group has missiles
-						for lrId, lrData in pairs(iadGroup.LR) do -- first search launchers. 
-							if Unit.getByName(lrData.unitName) then -- Unit is alive
-								if lrData.atkVisual then -- unit can aquire with visual and no SR
-									visualOnly = true
-								end
-								for srId, srData in pairs(iadGroup.SR) do -- check search radars
-									if Unit.getByName(srData.unitName) then  -- awesome, search radar is still alive
-										if srData.trackingRadar then -- search radar is also tracking radar
-											weGotDeathStars = true 
-										else  
-											if iadGroup.TR then -- search tracking radars
-												for trId, trData in pairs(iadGroup.TR) do -- make sure tracking radar is alive
-													if Unit.getByName(trData.unitName) then -- TR alive
-														weGotDeathStars = true
-													else
-														weGotDeathStars = false --TR dead
-													end
-												end
-											elseif lrData.trackingRadar then -- TR in LR check
-												weGotDeathStars = true
-											else
-												weGotDeathStars = false -- top checks failed
-												caseToRemove = true
-											end
-										end
-									else
-										weGotDeathStars = false -- NOOOOOOOOOOOPE.gif
-									end
-								end
-								
-								if visualOnly == true and weGotDeathStars == false then
-									weGotDeathStars = true -- can shoot as long as last CC check passes
-								end
-								
-								if iadGroup.CC then -- but wait there is more!
-									for ccId, ccData in pairs(iadGroup.CC) do
-										if ccData.required then -- Some groups require CC unit
-											if Unit.getByName(ccData.unitName) then -- hey look a CC unit
-												weGotDeathStars = true
-											else
-												weGotDeathStars = false -- aww, CC unit is dead :(
-												caseToRemove = true
-											end
-										end
-									end
-								end
-								
-								-- this section is the coding equivilant to the  "chewbaca defense"
-								
-								-- I'm really tired.
-							else
-								--Complex possibilities exist in removing the group. Logically a sam site might still be useful for gathering radar information if its out of missiles or tracking radars are dead. 
-								--Radars that lack launchers can be turned into EWR based systems if needed
-								--if missiles are run out, system can still turn on
-								--if applicable, system could merge with another system
-								--etc
-								
-								--v1 simply turns the complex into an EWR equivilant if all TR, LL are dead
-								--if sam completely dead remove from system
-								
-								
+					for lrId, lrData in pairs(iadGroup.LR) do -- first search launchers. 
+						if Unit.getByName(lrData.unitName) then -- Unit is alive
+							if lrData.atkVisual then -- unit can aquire with visual and no SR
+								visualOnly = true
 							end
+							for srId, srData in pairs(iadGroup.SR) do -- check search radars
+								if Unit.getByName(srData.unitName) then  -- awesome, search radar is still alive
+									if srData.trackingRadar then -- search radar is also tracking radar
+										weGotDeathStars = true 
+									else  
+										if iadGroup.TR then -- search tracking radars
+											for trId, trData in pairs(iadGroup.TR) do -- make sure tracking radar is alive
+												if Unit.getByName(trData.unitName) then -- TR alive
+													weGotDeathStars = true
+												else
+													weGotDeathStars = false --TR dead
+												end
+											end
+										elseif lrData.trackingRadar then -- TR in LR check
+											weGotDeathStars = true
+										else
+											weGotDeathStars = false -- top checks failed
+											caseToRemove = true
+										end
+									end
+								else
+									weGotDeathStars = false -- NOOOOOOOOOOOPE.gif
+								end
+							end
+							
+							if visualOnly == true and weGotDeathStars == false then
+								weGotDeathStars = true -- can shoot as long as last CC check passes
+							end
+							
+							if iadGroup.CC then -- but wait there is more!
+								for ccId, ccData in pairs(iadGroup.CC) do
+									if ccData.required then -- Some groups require CC unit
+										if Unit.getByName(ccData.unitName) then -- hey look a CC unit
+											weGotDeathStars = true
+										else
+											weGotDeathStars = false -- aww, CC unit is dead :(
+											caseToRemove = true
+										end
+									end
+								end
+							end
+							
+							-- this section is the coding equivilant to the  "chewbaca defense"
+							
+							-- I'm really tired.
+						else
+							--Complex possibilities exist in removing the group. Logically a sam site might still be useful for gathering radar information if its out of missiles or tracking radars are dead. 
+							--Radars that lack launchers can be turned into EWR based systems if needed
+							--if missiles are run out, system can still turn on
+							--if applicable, system could merge with another system
+							--etc
+							
+							--v1 simply turns the complex into an EWR equivilant if all TR, LL are dead
+							--if sam completely dead remove from system
+							
+							
 						end
-					else 
-						return 'outOfMissiles'
 					end
 				end
 			else
 				iadGroup:destroy() -- sam no longer exists in world, remove from system
 			end
-			
-			if weGotDeathStars == true then
-				return 'readyToShoot'
-			end
+
 		--	slog:info('status end')
 			return weGotDeathStars 
 		end,
@@ -2838,15 +2833,11 @@ do
 			--local totalMissiles = iadData:getMissiles()
 			samChecked = samChecked + 1
 			slog:info(iadData.groupName .. ' checked')
-
-			
-			local status = iadData:getStatus()
-			slog:info(status)
-			
+	
 			if iadData.ROE ~= 'dark' then
 				iadData:getTracks()
 			end
-			if status == 'readyToShoot' then -- must be capable of engaging enemies
+			if iadData.combatReady == true and iadData:getMissiles() > 0 then -- must be capable of engaging enemies
 				
 				local validTarget = false -- create value
 				local foundTarget = false
