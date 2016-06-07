@@ -1142,6 +1142,7 @@ do
 														samImport.LR = {}
 													end
 													tempData.rearmAt = -1
+													tempData.lastShot = -1
                                                     if Unit.getByName(unitData.unitName) then
                                                         for i, ammo in pairs(Unit.getByName(unitData.unitName):getAmmo()) do
                                                             if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count > tempData.missiles then
@@ -1490,15 +1491,15 @@ do
 		end,
 		
 		childMatch = function(samData, iadData)
-		local found = false
-		for linkId, linkData in pairs(iadData.linked) do
-			for listId, listData in pairs(samData.linked) do
-				if listId == linkId then
-					found = true
+			local found = false
+			for linkId, linkData in pairs(iadData.linked) do
+				for listId, listData in pairs(samData.linked) do
+					if listId == linkId then
+						found = true
+					end
 				end
 			end
-		end
-		return found
+			return found
 		end,
 		
 
@@ -1952,13 +1953,19 @@ do
 			end
 		end,
 		
-		findNearestWarehouse = function(iadGroup)
-			local nearest = ''
-			local nearestDist = 10000000
-			
-			for ware, wareData in pairs(warehouse[iadGroup.coalition]) do
-			
-			end		
+		getUnitsInWarehouseRange = function(iadGroup)
+			local units = {}
+			for lrInd, lrData in pairs(iadGroup.LR) do	
+				if Unit.getByName(lrData.unitName) then -- verify the unit is alive before checking
+					local pos = Unit.getByName(lrData.unitName):getPosition().p
+					for ware, wareData in pairs(warehouse[iadGroup.coalition]) do
+						if mist.get2DDist(pos, wareData.point) < wareData.range then
+							units[#units + 1] = unitName
+						end
+					end
+				end
+			end
+			return units
 		end,
 		
 		compareIADS = function(iadGroup)
@@ -2463,9 +2470,8 @@ do
 						if lrData.unitName == Unit.getName(event.initiator) then
 							trFiredMissileBug = false
 							lrData.missiles = lrData.missiles - 1
-							-- and the event thing == this so sutract one missile from it
+							lrData.lastShot = timer.getTime() -- and the event thing == this so sutract one missile from it
 
-														
 							if iads_settings.debug == true then
 								debugMessage(tostring(timer.getTime() .. '  ' .. lrData.unitName .. ' has fired a ' .. Object.getTypeName(event.weapon) .. ' there are ' .. lrData.missiles .. ' missiles remaining'))
 							end
@@ -2478,6 +2484,7 @@ do
                                     if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count < lrData.missiles then
                                         slog:info('TR fired and found that unit $1 shot', lrDara.unitName)
 										lrData.missiles = lrData.missiles - 1
+										lrData.lastShot = timer.getTime()
                                         debugMessage(tostring(timer.getTime() .. '  ' .. lrData.unitName .. ' has fired a ' .. Object.getTypeName(event.weapon) .. ' there are ' .. lrData.missiles .. ' missiles remaining'))
                                     end
                                 end
