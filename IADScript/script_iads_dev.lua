@@ -1262,7 +1262,7 @@ do
 	
 		setTask = function(iadGroup, task)
 			--slog:info('setTask' .. task.action)
-			iadGroup.combatReady = iadData:getStatus()
+			iadGroup.combatReady = iadGroup:getStatus()
 			if not task.startTime then
 				task.startTime = timer.getTime()
 			end
@@ -2073,21 +2073,18 @@ do
 						if lrData.rearmAt == -1 then
 							missiles = lrData.missiles + missiles
 						else
-							for i, ammo in pairs(Unit.getByName(lrData.unitName):getAmmo()) do
-                                if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count < lrData.missiles then
-							
-								end
-							end
-							
-							
 							if lrData.rearmAt and lrData.rearmAt > timer.getTime() then -- missiles should be rearmed by now
 								lrData.rearmAt = -1
+							else
+								if lrData.rearmAt < firstRearm and lrData.rearmAt ~= -1 then -- gotta be sure, can't give it a negative number
+									firstRearm = lrData.rearmAt
+								end							
 							end
 						end
 					end
 				end
 			end
-			
+				
 			if missiles == 0 and iadGroup:getTask().action ~= 'rearming' then
 				local task = {}
 				task.taskFor = firstRearm
@@ -2477,7 +2474,7 @@ do
                             if Unit.getByName(lrData.unitName) then
                                 for i, ammo in pairs(Unit.getByName(lrData.unitName):getAmmo()) do
                                     if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count < lrData.missiles then
-                                        slog:info('TR fired and found that unit $1 shot', lrDara.unitName)
+                                        slog:info('TR fired and found that unit $1 shot', lrData.unitName)
 										lrData.missiles = lrData.missiles - 1
 										lrData.lastShot = timer.getTime()
                                         debugMessage(tostring(timer.getTime() .. '  ' .. lrData.unitName .. ' has fired a ' .. Object.getTypeName(event.weapon) .. ' there are ' .. lrData.missiles .. ' missiles remaining'))
