@@ -1144,6 +1144,9 @@ do
 													end
 													tempData.rearmAt = -1
 													tempData.lastShot = -1
+													if tempData.missiles then
+														tempData.racks = mist.utils.deepCopy(tempData.missiles) -- number of missiles that can be launched
+													end
                                                     if Unit.getByName(unitData.unitName) then
                                                         for i, ammo in pairs(Unit.getByName(unitData.unitName):getAmmo()) do
                                                             if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count > tempData.missiles then
@@ -1223,19 +1226,6 @@ do
 		
 		end,
 		
-
-		
-		setRadar = function(iadGroup, setting)
-
-			local name = iadGroup.groupName
-			for iadName, iadData in pairs(iads_list) do
-				if iadData.groupName == name then
-					iadData.ROE = setting
-				end
-			end
-			return
-		end,
-		
 		popTask = function(iadGroup, taskId)
 			if not taskId then
 				if iadGroup.tasks[1].taskFor then
@@ -1262,7 +1252,6 @@ do
 	
 		setTask = function(iadGroup, task)
 			--slog:info('setTask' .. task.action)
-			iadGroup.combatReady = iadGroup:getStatus()
 			if not task.startTime then
 				task.startTime = timer.getTime()
 			end
@@ -1515,7 +1504,6 @@ do
 					if iadData ~= samData and iadData.groupName ~= samData.groupName then
 
 						if samData:childMatch(iadData) then
-						--	samData.relatives[iadName] =  mist.utils.round(mist.utils.get2DDist(mist.getAvgPos(mist.makeUnitsTable({tostring([g][samData.groupName]}))), (mist.getAvgPosmist.makeUnitsTable({tostring([g][iadData.groupName])})))) -- all sams linked with it
 							samData.relatives[iadName] =  mist.utils.round(mist.utils.get2DDist(mist.getLeadPos(samData.groupName), mist.getLeadPos(iadData.groupName))) -- all sams linked with it
 							if samData.SR then
 								local useSrId = 0
@@ -1733,10 +1721,11 @@ do
 				end
 			else
 				iadGroup:destroy() -- sam no longer exists in world, remove from system
+				return
 			end
-
+			iadGroup.combatReady = weGotDeathStars
+			return
 		--	slog:info('status end')
-			return weGotDeathStars 
 		end,
 		
 		goDark = function(iadGroup)
@@ -1744,7 +1733,7 @@ do
 				con:setOption(0, 4) --hold fire
 				con:setOption(9, 1) --radar off
 			--print('radar off')
-			iads.setRadar(iadGroup, 'dark')
+				iadGroup.ROE = 'dark'
 			return
 		end,
 	
@@ -1752,7 +1741,7 @@ do
 			local con = Group.getByName(iadGroup.groupName):getController()
 				con:setOption(0, 4) -- hold fire
 				con:setOption(9, 2) -- radar on
-			iads.setRadar(iadGroup, 'search')
+				iadGroup.ROE =  'search'
 			return
 		end,
 		
@@ -1761,7 +1750,7 @@ do
 				con:setOption(0, 0) --fire at will
 				con:setOption(9, 2) --radar on
 			--print('radar on')
-			iads.setRadar(iadGroup, 'fireAtWill')
+				iadGroup.ROE =  'fireAtWill'
 			return
 		end,
 		
@@ -1949,17 +1938,23 @@ do
 		end,
 		
 		getUnitsInWarehouseRange = function(iadGroup)
+			slog:info('Checking units to warehouses')
 			local units = {}
-			for lrInd, lrData in pairs(iadGroup.LR) do	
-				if Unit.getByName(lrData.unitName) then -- verify the unit is alive before checking
-					local pos = Unit.getByName(lrData.unitName):getPosition().p
-					for ware, wareData in pairs(warehouse[iadGroup.coalition]) do
-						if mist.get2DDist(pos, wareData.point) < wareData.range then
-							units[#units + 1] = unitName
+			if iadGroup.LR then
+				for lrInd, lrData in pairs(iadGroup.LR) do	
+					if Unit.getByName(lrData.unitName) then -- verify the unit is alive before checking
+						local pos = Unit.getByName(lrData.unitName):getPosition().p
+						for ware, wareData in pairs(warehouse[iadGroup.coalition]) do
+							local dist = mist.utils.get2DDist(pos, wareData.point)
+							if dist < wareData.range then
+								slog:info(lrData.unitName .. ' is near a warehouse')
+								units[lrData.unitName] = dist
+							end
 						end
 					end
 				end
 			end
+			slog:info('end of func')
 			return units
 		end,
 		
@@ -2076,6 +2071,15 @@ do
 							if lrData.rearmAt and lrData.rearmAt > timer.getTime() then -- missiles should be rearmed by now
 								lrData.rearmAt = -1
 							else
+								for ind, ammo in pairs(Unit.getByName(lrData.unitName):getAmmo()) do
+									if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 then -- it is a sam
+									 	if lrData.hasInventory == ammo.count or lrData.racks == ammo.count then
+											lrData.rearmAt = -1
+											lrData.missiles = mist.utils.deepCopy(lrData.racks)
+											missiles = lrData.missiles + missiles
+										end		
+									end								
+								end
 								if lrData.rearmAt < firstRearm and lrData.rearmAt ~= -1 then -- gotta be sure, can't give it a negative number
 									firstRearm = lrData.rearmAt
 								end							
@@ -2086,6 +2090,8 @@ do
 			end
 				
 			if missiles == 0 and iadGroup:getTask().action ~= 'rearming' then
+				-- make something to spawn rearm or check it here.			
+				iadGroup:checkRearmState()
 				local task = {}
 				task.taskFor = firstRearm
 				task.action = 'rearming'
@@ -2442,7 +2448,70 @@ do
 			end
 			
 			return
-		end,						
+		end,
+
+		checkRearmState = function(iadGroup)
+			slog:info('checkRearmState')
+			local unitsInRange = iadGroup:getUnitsInWarehouseRange()
+			local unitsNeedAmmo = {}
+			local couldRearm = false
+			if iadGroup.LR then
+				slog:info('checkLR')
+				local nearTarget = iadGroup:findNearestTarget()
+				if Unit.getByName(nearTarget.name) then
+					nearTarget = Unit.getByName(nearTarget.name):getPosition()
+				end
+				slog:info('iterate LRs')
+				for lrId, lrData in pairs(iadGroup.LR) do
+					if Unit.getByName(lrData.unitName) then -- unit is alive
+						if unitsInRange[lrData.unitName] and lrData.rearmAt == -1 and lrData.missiles > 0 then -- unit is not rearming, can still shoot, and can rearm
+							if iadGroup.ROE ~= 'fireAtWill' then
+								couldRearm = true
+							end
+						end
+						
+						if lrData.missiles == 0 and not unitsInRange[lrData.unitName] then
+							debugMessage(tostring(lrData.unitName .. ' is not near a warehouse and needs ammo.'))
+							slog:info(lrData.unitName .. ' is not near a warehouse and needs ammo.')
+							if lrData.rearmTime then 
+								unitsNeedAmmo[lrData.unitName] = lrData.rack * lrData.rearmTime
+							else
+								unitsNeedAmmo[lrData.unitName] = 1800 * lrData.rack
+							end
+						end
+						
+					end
+					
+					if couldRearm == true and rearmAt == -1 then
+						debugMessage(tostring(lrData.unitName .. ' is probably automatically rearming'))
+						if lrData.rearmTime then
+							lrData.rearmAt = timer.getTime() + (lrData.rack * lrData.rearmTime)
+						else
+							lrData.rearmAt = timer.getTime() + (1800 * lrData.rearmTime)
+						end
+						slog:info(lrData.unitName .. ' is probably automatically rearming')
+					end
+				end
+			end
+--[[
+Talk through the idea
+
+Get list of sam units inside a rearm radius
+if sam is not already rearming and it has missiles
+check if any targets are near. Also the ROE. if off sam is likely to rearm. If searching re-arm possible based on range
+			
+
+]]			
+
+			if iads_settings.rearm == 'auto' then
+				--iadGroup:spawnRearm(unitsNeedAmmo)
+			end
+			return
+		end,
+		
+		spawnRearm = function(iadGroup, units) -- spawn a static object, usually a truck
+			return
+		end,
 	}
 
 	
@@ -2454,34 +2523,28 @@ do
 			end
 			if iadData then
 				if iadData.LR then
-					local trFiredMissileBug = true
+					local found = false
 					if iadData:getTask().action == 'engage' and iadData:getTask().taskFor - 20 < timer.getTime() then -- if it is already told to shoot 
 						iadData:addTimeToCurrentTask(20)
 					end
 					for lrId, lrData in pairs(iadData.LR) do
-						if lrData.unitName == Unit.getName(event.initiator) then
-							trFiredMissileBug = false
+						if Unit.getByName(lrData.unitName) then
+                            for i, ammo in pairs(Unit.getByName(lrData.unitName):getAmmo()) do
+								if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count < lrData.missiles then
+									found = true
+								end
+								break
+							end
+						end
+						if found == true or lrData.unitName == Unit.getName(event.initiator) then
 							lrData.missiles = lrData.missiles - 1
 							lrData.lastShot = timer.getTime() -- and the event thing == this so sutract one missile from it
-
+							lrData.rearmAt = -1 -- if it was supposed to be rearming it clearly isnt
 							if iads_settings.debug == true then
 								debugMessage(tostring(timer.getTime() .. '  ' .. lrData.unitName .. ' has fired a ' .. Object.getTypeName(event.weapon) .. ' there are ' .. lrData.missiles .. ' missiles remaining'))
 							end
+							break
 						end
-					end
-					if trFiredMissileBug == true then
-                        for lrId, lrData in pairs(iadData.LR) do
-                            if Unit.getByName(lrData.unitName) then
-                                for i, ammo in pairs(Unit.getByName(lrData.unitName):getAmmo()) do
-                                    if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count < lrData.missiles then
-                                        slog:info('TR fired and found that unit $1 shot', lrData.unitName)
-										lrData.missiles = lrData.missiles - 1
-										lrData.lastShot = timer.getTime()
-                                        debugMessage(tostring(timer.getTime() .. '  ' .. lrData.unitName .. ' has fired a ' .. Object.getTypeName(event.weapon) .. ' there are ' .. lrData.missiles .. ' missiles remaining'))
-                                    end
-                                end
-                            end   
-                        end
 					end
 				end
 			end
@@ -2507,9 +2570,13 @@ do
 					iads.setNextCheck(liads[i]) -- sets next check time
 					
 					if timer.getTime() > liads[i].stats.updateRelationships then ---- NEED TO CHANGE THIS TO A STATS THING FOR EACH IADS. Update it periodically!
+						slog:info('Updaterelationships for $1', liads[i].groupName)
 						iads.findParent(liads[i]) -- based on last parent info
 						iads.findChild(liads[i])
 						iads.updateStats(liads[i])
+						iads.getStatus(liads[i])
+						iads.checkRearmState(liads[i])
+						slog:info('NextRelationship check set')
 						liads[i].stats.updateRelationships = timer.getTime() + 60
 					end
 					--if liads[i].level >= 4 then -- if its an full blown iads use this
