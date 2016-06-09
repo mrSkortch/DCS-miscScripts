@@ -167,7 +167,7 @@ do
 				['range'] = 18000,
 				['missiles'] = 4,
 				['rearmTime'] = 360,
-				['rearmType'] = 3,
+				['rearmPer'] = 2,
 			},
 		},
 		['name'] = {
@@ -191,7 +191,7 @@ do
 		},
 		['launchers'] = {
 			['Kub 2P25 ln'] = {
-				['range'] = 25000,
+				['range'] = 35000,
 				['missiles'] = 3,
 				['rearmTime'] = 600,
 			},
@@ -273,7 +273,7 @@ do
 				['range'] = 50000,
 				['missiles'] = 3,
 				['rearmTime'] = 120,
-				['rearmType'] = 3,
+				['rearmPer'] = 3,
 			},
 		},
 		['misc'] = {
@@ -439,7 +439,7 @@ do
 				['missiles'] = 8,
 				['radar_on'] = 10,
 				['rearmTime'] = 650,
-				['rearmType'] = 3,
+				['rearmPer'] = 4,
 			},
 		},
 		['name'] = {
@@ -1938,7 +1938,7 @@ do
 		end,
 		
 		getUnitsInWarehouseRange = function(iadGroup)
-			slog:info('Checking units to warehouses')
+			slog:info('Checking units to warehouses for $1', iadGroup.groupName)
 			local units = {}
 			if iadGroup.LR then
 				for lrInd, lrData in pairs(iadGroup.LR) do	
@@ -1946,6 +1946,7 @@ do
 						local pos = Unit.getByName(lrData.unitName):getPosition().p
 						for ware, wareData in pairs(warehouse[iadGroup.coalition]) do
 							local dist = mist.utils.get2DDist(pos, wareData.point)
+							slog:info('$1 is $3m from warehouse $2', lrData.unitName, ware, dist)
 							if dist < wareData.range then
 								slog:info(lrData.unitName .. ' is near a warehouse')
 								units[lrData.unitName] = dist
@@ -2463,8 +2464,10 @@ do
 				end
 				slog:info('iterate LRs')
 				for lrId, lrData in pairs(iadGroup.LR) do
+					local rTime = lrData.rearmTime or 1800 
+					
 					if Unit.getByName(lrData.unitName) then -- unit is alive
-						if unitsInRange[lrData.unitName] and lrData.rearmAt == -1 and lrData.missiles > 0 then -- unit is not rearming, can still shoot, and can rearm
+						if unitsInRange[lrData.unitName] and lrData.rearmAt == -1 and lrData.missiles > 0 and lrData.missiles ~= lrData.racks then -- unit is not rearming, can still shoot, and can rearm
 							if iadGroup.ROE ~= 'fireAtWill' then
 								couldRearm = true
 							end
@@ -2473,21 +2476,27 @@ do
 						if lrData.missiles == 0 and not unitsInRange[lrData.unitName] then
 							debugMessage(tostring(lrData.unitName .. ' is not near a warehouse and needs ammo.'))
 							slog:info(lrData.unitName .. ' is not near a warehouse and needs ammo.')
-							if lrData.rearmTime then 
-								unitsNeedAmmo[lrData.unitName] = lrData.rack * lrData.rearmTime
-							else
-								unitsNeedAmmo[lrData.unitName] = 1800 * lrData.rack
-							end
+							unitsNeedAmmo[lrData.unitName] = lrData.racks * rTime
 						end
 						
 					end
-					
-					if couldRearm == true and rearmAt == -1 then
+					if couldRearm == true and lrData.rearmAt == -1 and not lrData.missiles == lrData.racks then
 						debugMessage(tostring(lrData.unitName .. ' is probably automatically rearming'))
-						if lrData.rearmTime then
-							lrData.rearmAt = timer.getTime() + (lrData.rack * lrData.rearmTime)
+						if lrData.rearmPer then -- Some sams dont rearm 1 missile at a time. Hawk rearms all 3 at once. Tor does 4 pack, Sa-3 does 2.
+							if lrData.rearmPer ~= lrData.racks then 
+								local rSet = lrData.racks/lrData.rearmPer -- max rearms possible
+								if lrData.missiles >= lrData.rearmPer then
+									lrData.rearmAt = timer.getTime() + lrData.rearmTime
+								else
+									lrData.rearmAt = timer.getTime() + (lrData.rearmTime*rSet)
+								end
+								
+							else -- its a hawk
+								lrData.rearmAt = timer.getTime() + rTime
+							end
+								
 						else
-							lrData.rearmAt = timer.getTime() + (1800 * lrData.rearmTime)
+							lrData.rearmAt = timer.getTime() + ((lrData.racks - lrData.missiles) * rTime)
 						end
 						slog:info(lrData.unitName .. ' is probably automatically rearming')
 					end
@@ -2506,6 +2515,7 @@ check if any targets are near. Also the ROE. if off sam is likely to rearm. If s
 			if iads_settings.rearm == 'auto' then
 				--iadGroup:spawnRearm(unitsNeedAmmo)
 			end
+			slog:info('endRearmCheck')
 			return
 		end,
 		
@@ -2522,6 +2532,7 @@ check if any targets are near. Also the ROE. if off sam is likely to rearm. If s
 				iadData = iads.getByName(Group.getName(Unit.getGroup(event.initiator)))
 			end
 			if iadData then
+				slog:info('$1 has fired a missile', iadData.groupName)
 				if iadData.LR then
 					local found = false
 					if iadData:getTask().action == 'engage' and iadData:getTask().taskFor - 20 < timer.getTime() then -- if it is already told to shoot 
@@ -2529,11 +2540,16 @@ check if any targets are near. Also the ROE. if off sam is likely to rearm. If s
 					end
 					for lrId, lrData in pairs(iadData.LR) do
 						if Unit.getByName(lrData.unitName) then
-                            for i, ammo in pairs(Unit.getByName(lrData.unitName):getAmmo()) do
-								if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count < lrData.missiles then
-									found = true
+                            local lAmmo = Unit.getByName(lrData.unitName):getAmmo()
+							if #lAmmo > 0 and lrData.missiles > 0 then
+								for i, ammo in pairs(lAmmo) do
+									if ammo.desc.category == 1 and ammo.desc.missileCategory == 2 and ammo.count < lrData.missiles then
+										found = true
+									end
+									break
 								end
-								break
+							else
+								found = true
 							end
 						end
 						if found == true or lrData.unitName == Unit.getName(event.initiator) then
