@@ -831,7 +831,7 @@ do
 					slog:info('Warehouse destroyed $1' , obj:getName())
 					for side, sideData in pairs(warehouse) do 
 						for ware, wareData in pairs(sideData) do
-							if obj:getName() == ware then
+							if obj:getName() == ware and wareData.category ~= 'airbase' then
 								slog:info('removed')
 								warehouse[side][ware] = nil
 								break
@@ -2092,6 +2092,7 @@ do
 				
 			if missiles == 0 and iadGroup:getTask().action ~= 'rearming' then
 				-- make something to spawn rearm or check it here.			
+				debugMessage(iadGroup.groupName .. ' is completely out of missiles')
 				iadGroup:checkRearmState()
 				local task = {}
 				task.taskFor = firstRearm
@@ -2456,6 +2457,8 @@ do
 			local unitsInRange = iadGroup:getUnitsInWarehouseRange()
 			local unitsNeedAmmo = {}
 			local couldRearm = false
+			local couldAutoRearm = false
+			local ammoRatio = 0
 			if iadGroup.LR then
 				slog:info('checkLR')
 				local nearTarget = iadGroup:findNearestTarget()
@@ -2465,22 +2468,42 @@ do
 				slog:info('iterate LRs')
 				for lrId, lrData in pairs(iadGroup.LR) do
 					local rTime = lrData.rearmTime or 1800 
-					
 					if Unit.getByName(lrData.unitName) then -- unit is alive
-						if unitsInRange[lrData.unitName] and lrData.rearmAt == -1 and lrData.missiles > 0 and lrData.missiles ~= lrData.racks then -- unit is not rearming, can still shoot, and can rearm
-							if iadGroup.ROE ~= 'fireAtWill' then
+						if lrData.missiles > 0 then
+							ammoRatio = lrData.missiles/lrData.racks
+							if ammoRatio < 1 then
 								couldRearm = true
 							end
 						end
 						
-						if lrData.missiles == 0 and not unitsInRange[lrData.unitName] then
+						if unitsInRange[lrData.unitName] and lrData.rearmAt == -1 and lrData.missiles > 0 and lrData.missiles ~= lrData.racks then -- unit is not rearming, can still shoot, and can rearm
+							debugMessage(tostring(lrData.unitName .. ' auto rearm possible'))
+							couldAutoRearm = true
+						end
+						
+						if (lrData.missiles == 0 or couldRearm == true) and not unitsInRange[lrData.unitName] then
 							debugMessage(tostring(lrData.unitName .. ' is not near a warehouse and needs ammo.'))
 							slog:info(lrData.unitName .. ' is not near a warehouse and needs ammo.')
-							unitsNeedAmmo[lrData.unitName] = lrData.racks * rTime
+							
+							if lrData.rearmPer then
+								if lrData.rearmPer ~= lrData.racks then
+									local rSet = lrData.racks/lrData.rearmPer -- max rearms possible
+									if lrData.missiles >= lrData.rearmPer then
+										unitsNeedAmmo[lrData.unitName] = lrData.rearmTime
+									else
+										unitsNeedAmmo[lrData.unitName] = (lrData.rearmTime * rSet)
+									end
+								else
+									unitsNeedAmmo[lrData.unitName] = lrData.rearmTime
+								end
+							else
+								unitsNeedAmmo[lrData.unitName] = ((lrData.racks - lrData.missiles) * rTime)
+							end
+							
 						end
 						
 					end
-					if couldRearm == true and lrData.rearmAt == -1 and not lrData.missiles == lrData.racks then
+					if couldAutoRearm == true and lrData.rearmAt == -1 and not lrData.missiles == lrData.racks then
 						debugMessage(tostring(lrData.unitName .. ' is probably automatically rearming'))
 						if lrData.rearmPer then -- Some sams dont rearm 1 missile at a time. Hawk rearms all 3 at once. Tor does 4 pack, Sa-3 does 2.
 							if lrData.rearmPer ~= lrData.racks then 
@@ -2488,7 +2511,7 @@ do
 								if lrData.missiles >= lrData.rearmPer then
 									lrData.rearmAt = timer.getTime() + lrData.rearmTime
 								else
-									lrData.rearmAt = timer.getTime() + (lrData.rearmTime*rSet)
+									lrData.rearmAt = timer.getTime() + (lrData.rearmTime * rSet)
 								end
 								
 							else -- its a hawk
@@ -2502,17 +2525,12 @@ do
 					end
 				end
 			end
---[[
-Talk through the idea
-
-Get list of sam units inside a rearm radius
-if sam is not already rearming and it has missiles
-check if any targets are near. Also the ROE. if off sam is likely to rearm. If searching re-arm possible based on range
-			
-
-]]			
 
 			if iads_settings.rearm == 'auto' then
+				for name, r in pairs(unitsNeedAmmo) do
+					debugMessage(tostring(name .. ' could rearm, would take: ' .. r))
+				end
+				
 				--iadGroup:spawnRearm(unitsNeedAmmo)
 			end
 			slog:info('endRearmCheck')
@@ -2844,7 +2862,7 @@ check if any targets are near. Also the ROE. if off sam is likely to rearm. If s
 				timeMsg.displayTime = 20
 				timeMsg.msgFor = {coa = iads_settings.debugMsgFor}
 				mist.message.add(timeMsg)
-				for coaId, coaData in pairs(coalition.side) do
+				for x, coaId in pairs({'red', 'blue'}) do
 					local msg = {}
 					msg[#msg + 1] = coaId
 					msg[#msg + 1] = '   Team Sam Site Status \n'
