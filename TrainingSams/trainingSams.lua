@@ -42,7 +42,11 @@ do
 			if Weapon.getTarget(aiMissiles[id].missile) == aiMissiles[id].origTarg and Unit.getPlayerName(aiMissiles[id].origTarg) then
 				trigger.action.outText(Unit.getPlayerName(aiMissiles[id].origTarg) .. ' has been hit by a simulated missile. You should eject in shame.', 20)
 			end
+			local killMis = true
 			if removePlayerHitsOnly == true and not Unit.getPlayerName(aiMissiles[id].origTarg) then
+				killMis = false
+			end
+			if killMis == true then
 				if remove_missile_method == 0 then
 					trigger.action.explosion(Object.getPosition(aiMissiles[id].missile).p, 5)
 				else

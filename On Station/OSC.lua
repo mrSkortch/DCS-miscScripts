@@ -141,9 +141,9 @@ do
 	sFiles[#sFiles + 1] = {file = 'tusk_offStation.wav', len = 3.1, text = 'All Tusk and Boar flights reporting we are off station', voice = 'tusk'}
 	
 	sFiles[#sFiles + 1] = {file = 'tusk_excuse0.wav', len = 3.1, text = "Affirmative, I've lost contact also", voice = 'tusk'}
-	sFiles[#sFiles + 1] = {file = 'tusk_excuse0.wav', len = 3.1, text = "Pretty sure it was Hawg that screwn that one up", voice = 'tusk'}
-	sFiles[#sFiles + 1] = {file = 'tusk_excuse0.wav', len = 3.1, text = "Thats my fault, I Hoozin'd that one up", voice = 'tusk'}
-	sFiles[#sFiles + 1] = {file = 'tusk_excuse0.wav', len = 4.5, text = "Whoops", voice = 'tusk'}
+	sFiles[#sFiles + 1] = {file = 'tusk_excuse1.wav', len = 3.1, text = "Pretty sure it was Hawg that screwed that one up", voice = 'tusk'}
+	sFiles[#sFiles + 1] = {file = 'tusk_excuse2.wav', len = 3.1, text = "Thats my fault, I Hoozin'd that one up", voice = 'tusk'}
+	sFiles[#sFiles + 1] = {file = 'tusk_excuse3.wav', len = 4.5, text = "Whoops", voice = 'tusk'}
 	-- jtac
 	sFiles[#sFiles + 1] = {file = 'jtac_out.wav', len = 0.8, text = 'out', voice = 'spectre'}
 	sFiles[#sFiles + 1] = {file = 'jtac_over.wav', len = 1.5, text = 'over', voice = 'spectre'}
@@ -285,7 +285,7 @@ do
 		['excuse'] = {
 			['info'] = {
 				[1] = "Affirmative, I've lost contact also",
-				[2] = "Pretty sure it was Hawg that screwn that one up",
+				[2] = "Pretty sure it was Hawg that screwed that one up",
 				[3] = "Thats my fault, I Hoozin'd that one up",
 				[4] = "Whoops",			
 			},
