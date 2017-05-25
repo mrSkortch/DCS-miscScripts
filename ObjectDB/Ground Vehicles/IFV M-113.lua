@@ -16,7 +16,7 @@ IFV M-113 =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
-				["displayName"] = "M2_12_7_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{

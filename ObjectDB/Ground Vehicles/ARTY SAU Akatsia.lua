@@ -16,7 +16,7 @@ ARTY SAU Akatsia =
 					["caliber"] = 152,
 					["mass"] = 43.56,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A33_152",
+				["displayName"] = "152mm HE",
 				["typeName"] = "weapons.shells.2A33_152",
 				["box"] = 
 				{

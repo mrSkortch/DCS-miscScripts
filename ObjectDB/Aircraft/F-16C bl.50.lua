@@ -16,7 +16,7 @@ F-16C bl.50 =
 					["caliber"] = 20,
 					["mass"] = 0.11,
 				}, -- end of ["warhead"]
-				["displayName"] = "M61_20_HE",
+				["displayName"] = "20mm HE",
 				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{

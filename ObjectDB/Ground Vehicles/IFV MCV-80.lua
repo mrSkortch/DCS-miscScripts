@@ -16,7 +16,7 @@ IFV MCV-80 =
 					["caliber"] = 30,
 					["mass"] = 0.357,
 				}, -- end of ["warhead"]
-				["displayName"] = "L21A1_30_HE",
+				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.L21A1_30_HE",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ IFV MCV-80 =
 					["caliber"] = 30,
 					["mass"] = 0.3,
 				}, -- end of ["warhead"]
-				["displayName"] = "L14A2_30_APDS",
+				["displayName"] = "30mm APDS",
 				["typeName"] = "weapons.shells.L14A2_30_APDS",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ IFV MCV-80 =
 					["caliber"] = 7.62,
 					["mass"] = 0.00933,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x51",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
@@ -130,15 +130,15 @@ IFV MCV-80 =
 		{
 			["min"] = 
 			{
-				["y"] = 0.028722900897264,
-				["x"] = -3.5603575706482,
-				["z"] = -1.506253361702,
+				["y"] = 0.00080186419654638,
+				["x"] = -3.3349845409393,
+				["z"] = -1.569064617157,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 2.061475276947,
-				["x"] = 3.1526401042938,
-				["z"] = 1.5062534809113,
+				["y"] = 2.604597568512,
+				["x"] = 3.2145817279816,
+				["z"] = 1.5690647363663,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 20.833299636841,

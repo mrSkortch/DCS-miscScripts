@@ -16,7 +16,7 @@ ARTY SAU Msta =
 					["caliber"] = 152,
 					["mass"] = 43.56,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A64_152",
+				["displayName"] = "152mm HE",
 				["typeName"] = "weapons.shells.2A64_152",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ ARTY SAU Msta =
 					["caliber"] = 12.7,
 					["mass"] = 0.044,
 				}, -- end of ["warhead"]
-				["displayName"] = "Utes_12_7x108_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.Utes_12_7x108_T",
 				["box"] = 
 				{

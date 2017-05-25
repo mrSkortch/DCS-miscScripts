@@ -16,7 +16,7 @@ MBT M1128 Stryker MGS =
 					["caliber"] = 7.62,
 					["mass"] = 0.00933,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x51",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ MBT M1128 Stryker MGS =
 					["caliber"] = 105,
 					["mass"] = 2.73,
 				}, -- end of ["warhead"]
-				["displayName"] = "M68_105_AP",
+				["displayName"] = "105mm AP",
 				["typeName"] = "weapons.shells.M68_105_AP",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ MBT M1128 Stryker MGS =
 					["caliber"] = 100,
 					["mass"] = 15.6,
 				}, -- end of ["warhead"]
-				["displayName"] = "HESH_105",
+				["displayName"] = "105mm HE",
 				["typeName"] = "weapons.shells.HESH_105",
 				["box"] = 
 				{
@@ -115,7 +115,7 @@ MBT M1128 Stryker MGS =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
-				["displayName"] = "M2_12_7_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
@@ -163,7 +163,7 @@ MBT M1128 Stryker MGS =
 		{
 			["min"] = 
 			{
-				["y"] = -7.6937605626881e-005,
+				["y"] = -7.6937605626881e-05,
 				["x"] = -3.389023065567,
 				["z"] = -1.5992095470428,
 			}, -- end of ["min"]

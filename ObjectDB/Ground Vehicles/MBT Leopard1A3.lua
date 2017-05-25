@@ -16,7 +16,7 @@ MBT Leopard1A3 =
 					["caliber"] = 105,
 					["mass"] = 2.73,
 				}, -- end of ["warhead"]
-				["displayName"] = "M68_105_AP",
+				["displayName"] = "105mm AP",
 				["typeName"] = "weapons.shells.M68_105_AP",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ MBT Leopard1A3 =
 					["caliber"] = 100,
 					["mass"] = 15.6,
 				}, -- end of ["warhead"]
-				["displayName"] = "HESH_105",
+				["displayName"] = "105mm HE",
 				["typeName"] = "weapons.shells.HESH_105",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ MBT Leopard1A3 =
 					["caliber"] = 7.62,
 					["mass"] = 0.00933,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x51",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
@@ -130,7 +130,7 @@ MBT Leopard1A3 =
 		{
 			["min"] = 
 			{
-				["y"] = -6.8741566792596e-005,
+				["y"] = -6.8741566792596e-05,
 				["x"] = -4.4337348937988,
 				["z"] = -1.7583384513855,
 			}, -- end of ["min"]

@@ -16,7 +16,7 @@ INF Soldier M4 =
 					["caliber"] = 5.56,
 					["mass"] = 0.00356,
 				}, -- end of ["warhead"]
-				["displayName"] = "5_56x45",
+				["displayName"] = "5.56mm",
 				["typeName"] = "weapons.shells.5_56x45",
 				["box"] = 
 				{
@@ -36,18 +36,6 @@ INF Soldier M4 =
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
-	["sensors"] = 
-	{
-		[0] = 
-		{
-			[1] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human daysight",
-				["opticType"] = 0,
-			}, -- end of [1]
-		}, -- end of [0]
-	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 90,

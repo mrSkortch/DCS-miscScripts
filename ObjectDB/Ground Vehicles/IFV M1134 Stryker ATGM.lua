@@ -8,10 +8,10 @@ IFV M1134 Stryker ATGM =
 			["desc"] = 
 			{
 				["missileCategory"] = 6,
-				["rangeMaxAltMax"] = 4200,
+				["rangeMaxAltMax"] = 3800,
 				["rangeMin"] = 65,
 				["displayName"] = "BGM-71E",
-				["rangeMaxAltMin"] = 4200,
+				["rangeMaxAltMin"] = 3800,
 				["altMax"] = 2000,
 				["RCS"] = 0.065800003707409,
 				["box"] = 
@@ -61,7 +61,7 @@ IFV M1134 Stryker ATGM =
 					["caliber"] = 7.62,
 					["mass"] = 0.00933,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x51",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
@@ -109,7 +109,7 @@ IFV M1134 Stryker ATGM =
 		{
 			["min"] = 
 			{
-				["y"] = -7.6937605626881e-005,
+				["y"] = -7.6937605626881e-05,
 				["x"] = -2.752231836319,
 				["z"] = -1.5992095470428,
 			}, -- end of ["min"]

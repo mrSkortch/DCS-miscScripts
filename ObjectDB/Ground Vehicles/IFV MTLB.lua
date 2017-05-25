@@ -16,7 +16,7 @@ IFV MTLB =
 					["caliber"] = 7.62,
 					["mass"] = 0.0119,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x54",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{

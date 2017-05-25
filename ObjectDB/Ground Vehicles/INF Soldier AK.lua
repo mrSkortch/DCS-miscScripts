@@ -16,7 +16,7 @@ INF Soldier AK =
 					["caliber"] = 5.45,
 					["mass"] = 0.00343,
 				}, -- end of ["warhead"]
-				["displayName"] = "5_45x39",
+				["displayName"] = "5.45mm",
 				["typeName"] = "weapons.shells.5_45x39",
 				["box"] = 
 				{
@@ -36,18 +36,6 @@ INF Soldier AK =
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
-	["sensors"] = 
-	{
-		[0] = 
-		{
-			[1] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human daysight",
-				["opticType"] = 0,
-			}, -- end of [1]
-		}, -- end of [0]
-	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 90,

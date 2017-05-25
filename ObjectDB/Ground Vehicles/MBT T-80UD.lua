@@ -4,39 +4,6 @@ MBT T-80UD =
 	{
 		[1] = 
 		{
-			["count"] = 1254,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["category"] = 0,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 7.62,
-					["mass"] = 0.0119,
-				}, -- end of ["warhead"]
-				["displayName"] = "7_62x54",
-				["typeName"] = "weapons.shells.7_62x54",
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-			}, -- end of ["desc"]
-		}, -- end of [1]
-		[2] = 
-		{
 			["count"] = 23,
 			["desc"] = 
 			{
@@ -49,7 +16,7 @@ MBT T-80UD =
 					["caliber"] = 125,
 					["mass"] = 4.85,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A46M_125_AP",
+				["displayName"] = "125mm AP",
 				["typeName"] = "weapons.shells.2A46M_125_AP",
 				["box"] = 
 				{
@@ -67,8 +34,8 @@ MBT T-80UD =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
+		}, -- end of [1]
+		[2] = 
 		{
 			["count"] = 18,
 			["desc"] = 
@@ -82,7 +49,7 @@ MBT T-80UD =
 					["caliber"] = 125,
 					["mass"] = 23,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A46M_125_HE",
+				["displayName"] = "125mm HE",
 				["typeName"] = "weapons.shells.2A46M_125_HE",
 				["box"] = 
 				{
@@ -100,8 +67,8 @@ MBT T-80UD =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
-		}, -- end of [3]
-		[4] = 
+		}, -- end of [2]
+		[3] = 
 		{
 			["count"] = 7,
 			["desc"] = 
@@ -112,7 +79,7 @@ MBT T-80UD =
 				["displayName"] = "9M119",
 				["rangeMaxAltMin"] = 5000,
 				["altMax"] = 3000,
-				["RCS"] = 0.065800003707409,
+				["RCS"] = 0.032000001519918,
 				["box"] = 
 				{
 					["min"] = 
@@ -135,15 +102,48 @@ MBT T-80UD =
 				["guidance"] = 7,
 				["warhead"] = 
 				{
-					["mass"] = 7,
-					["explosiveMass"] = 4.5,
+					["mass"] = 4.5,
+					["explosiveMass"] = 2.7000000476837,
 					["shapedExplosiveArmorThickness"] = 1,
-					["shapedExplosiveMass"] = 13.5,
+					["shapedExplosiveMass"] = 8.1000003814697,
 					["caliber"] = 0,
 					["type"] = 2,
 				}, -- end of ["warhead"]
 				["typeName"] = "9M119",
 				["Nmax"] = 1.2,
+			}, -- end of ["desc"]
+		}, -- end of [3]
+		[4] = 
+		{
+			["count"] = 1254,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["category"] = 0,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 7.62,
+					["mass"] = 0.0119,
+				}, -- end of ["warhead"]
+				["displayName"] = "7.62mm",
+				["typeName"] = "weapons.shells.7_62x54",
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.34973141551018,
+						["x"] = -15.915153503418,
+						["z"] = -0.35240435600281,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.34613394737244,
+						["x"] = 0.0010121095692739,
+						["z"] = 0.34346318244934,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -160,7 +160,7 @@ MBT T-80UD =
 					["caliber"] = 12.7,
 					["mass"] = 0.044,
 				}, -- end of ["warhead"]
-				["displayName"] = "Utes_12_7x108_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.Utes_12_7x108_T",
 				["box"] = 
 				{

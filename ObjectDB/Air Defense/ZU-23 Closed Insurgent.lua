@@ -16,7 +16,7 @@ ZU-23 Closed Insurgent =
 					["caliber"] = 23,
 					["mass"] = 0.189,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A7_23_AP",
+				["displayName"] = "23mm AP",
 				["typeName"] = "weapons.shells.2A7_23_AP",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ ZU-23 Closed Insurgent =
 					["caliber"] = 23,
 					["mass"] = 0.189,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A7_23_HE",
+				["displayName"] = "23mm HE",
 				["typeName"] = "weapons.shells.2A7_23_HE",
 				["box"] = 
 				{

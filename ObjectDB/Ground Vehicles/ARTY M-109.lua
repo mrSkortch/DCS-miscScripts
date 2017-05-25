@@ -16,7 +16,7 @@ ARTY M-109 =
 					["caliber"] = 155,
 					["mass"] = 42.9,
 				}, -- end of ["warhead"]
-				["displayName"] = "M185_155",
+				["displayName"] = "155mm HE",
 				["typeName"] = "weapons.shells.M185_155",
 				["box"] = 
 				{
@@ -58,7 +58,7 @@ ARTY M-109 =
 		{
 			["min"] = 
 			{
-				["y"] = -6.6423919633962e-005,
+				["y"] = -6.6423919633962e-05,
 				["x"] = -3.6328065395355,
 				["z"] = -1.4730145931244,
 			}, -- end of ["min"]

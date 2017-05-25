@@ -8,10 +8,10 @@ M6 Linebacker =
 			["desc"] = 
 			{
 				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 5200,
+				["rangeMaxAltMax"] = 6000,
 				["rangeMin"] = 200,
 				["displayName"] = "FIM-92C",
-				["rangeMaxAltMin"] = 4500,
+				["rangeMaxAltMin"] = 5000,
 				["altMax"] = 3500,
 				["RCS"] = 0.0043999999761581,
 				["box"] = 
@@ -36,10 +36,10 @@ M6 Linebacker =
 				["guidance"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 1.75,
+					["explosiveMass"] = 3,
 					["type"] = 1,
 					["caliber"] = 70,
-					["mass"] = 1.75,
+					["mass"] = 3,
 				}, -- end of ["warhead"]
 				["typeName"] = "FIM-92C",
 				["Nmax"] = 18,
@@ -59,7 +59,7 @@ M6 Linebacker =
 					["caliber"] = 25,
 					["mass"] = 0.185,
 				}, -- end of ["warhead"]
-				["displayName"] = "M242_25_HE_M792",
+				["displayName"] = "25mm HE",
 				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["box"] = 
 				{
@@ -92,7 +92,7 @@ M6 Linebacker =
 					["caliber"] = 25,
 					["mass"] = 0.155,
 				}, -- end of ["warhead"]
-				["displayName"] = "M242_25_AP_M791",
+				["displayName"] = "25mm AP",
 				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["box"] = 
 				{
@@ -125,7 +125,7 @@ M6 Linebacker =
 					["caliber"] = 7.62,
 					["mass"] = 0.00933,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x51",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{

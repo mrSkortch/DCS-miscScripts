@@ -4,39 +4,6 @@ MBT Leopard-2 =
 	{
 		[1] = 
 		{
-			["count"] = 1004,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["category"] = 0,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 7.62,
-					["mass"] = 0.00933,
-				}, -- end of ["warhead"]
-				["displayName"] = "7_62x51",
-				["typeName"] = "weapons.shells.7_62x51",
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-			}, -- end of ["desc"]
-		}, -- end of [1]
-		[2] = 
-		{
 			["count"] = 26,
 			["desc"] = 
 			{
@@ -49,7 +16,7 @@ MBT Leopard-2 =
 					["caliber"] = 120,
 					["mass"] = 4.6,
 				}, -- end of ["warhead"]
-				["displayName"] = "M256_120_AP",
+				["displayName"] = "120mm AP",
 				["typeName"] = "weapons.shells.M256_120_AP",
 				["box"] = 
 				{
@@ -67,8 +34,8 @@ MBT Leopard-2 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
+		}, -- end of [1]
+		[2] = 
 		{
 			["count"] = 18,
 			["desc"] = 
@@ -82,7 +49,7 @@ MBT Leopard-2 =
 					["caliber"] = 120,
 					["mass"] = 14.3,
 				}, -- end of ["warhead"]
-				["displayName"] = "M256_120_HE",
+				["displayName"] = "120mm HE",
 				["typeName"] = "weapons.shells.M256_120_HE",
 				["box"] = 
 				{
@@ -97,6 +64,39 @@ MBT Leopard-2 =
 						["y"] = 0.060612548142672,
 						["x"] = 0.24980916082859,
 						["z"] = 0.060612548142672,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+			}, -- end of ["desc"]
+		}, -- end of [2]
+		[3] = 
+		{
+			["count"] = 1004,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["category"] = 0,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 7.62,
+					["mass"] = 0.00933,
+				}, -- end of ["warhead"]
+				["displayName"] = "7.62mm",
+				["typeName"] = "weapons.shells.7_62x51",
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.34973141551018,
+						["x"] = -15.915153503418,
+						["z"] = -0.35240435600281,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.34613394737244,
+						["x"] = 0.0010121095692739,
+						["z"] = 0.34346318244934,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]

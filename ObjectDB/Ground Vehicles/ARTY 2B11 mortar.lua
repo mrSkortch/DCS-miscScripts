@@ -16,7 +16,7 @@ ARTY 2B11 mortar =
 					["caliber"] = 120,
 					["mass"] = 15.9,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A60_120",
+				["displayName"] = "120mm HE",
 				["typeName"] = "weapons.shells.2A60_120",
 				["box"] = 
 				{

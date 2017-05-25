@@ -16,7 +16,7 @@
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A38_30_AP",
+				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.2A38_30_AP",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A38_30_HE",
+				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.2A38_30_HE",
 				["box"] = 
 				{

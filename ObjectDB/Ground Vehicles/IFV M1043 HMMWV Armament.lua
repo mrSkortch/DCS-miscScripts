@@ -16,7 +16,7 @@ IFV M1043 HMMWV Armament =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
-				["displayName"] = "M2_12_7_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
@@ -36,18 +36,6 @@ IFV M1043 HMMWV Armament =
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
-	["sensors"] = 
-	{
-		[0] = 
-		{
-			[1] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human daysight",
-				["opticType"] = 0,
-			}, -- end of [1]
-		}, -- end of [0]
-	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 3990,

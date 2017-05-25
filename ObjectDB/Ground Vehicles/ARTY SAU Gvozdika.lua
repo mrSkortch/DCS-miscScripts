@@ -16,7 +16,7 @@ ARTY SAU Gvozdika =
 					["caliber"] = 122,
 					["mass"] = 21.76,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A18_122",
+				["displayName"] = "122mm HE",
 				["typeName"] = "weapons.shells.2A18_122",
 				["box"] = 
 				{

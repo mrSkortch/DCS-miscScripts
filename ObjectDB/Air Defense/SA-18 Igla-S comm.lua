@@ -1,17 +1,5 @@
 SA-18 Igla-S comm = 
 {
-	["sensors"] = 
-	{
-		[0] = 
-		{
-			[1] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human daysight",
-				["opticType"] = 0,
-			}, -- end of [1]
-		}, -- end of [0]
-	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 90,

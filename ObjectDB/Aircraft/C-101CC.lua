@@ -6,53 +6,42 @@ C-101CC =
 		{
 			[1] = 
 			{
-				["detectionDistanceAir"] = 
-				{
-					["upperHemisphere"] = 
-					{
-						["tailOn"] = 22737.171875,
-						["headOn"] = 33437.015625,
-					}, -- end of ["upperHemisphere"]
-					["lowerHemisphere"] = 
-					{
-						["tailOn"] = 12037.326171875,
-						["headOn"] = 33437.015625,
-					}, -- end of ["lowerHemisphere"]
-				}, -- end of ["detectionDistanceAir"]
+				["detectionDistanceHRM"] = 180,
 				["type"] = 1,
-				["typeName"] = "N-008",
+				["typeName"] = "Tornado SS radar",
+				["detectionDistanceRBM"] = 1600,
 			}, -- end of [1]
 		}, -- end of [1]
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["speedMax0"] = 205,
-		["massEmpty"] = 3380,
+		["massEmpty"] = 3560,
 		["range"] = 1015,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -0.71359127759933,
-				["x"] = -6.4766268730164,
-				["z"] = -5.0197262763977,
+				["y"] = -2.0559206008911,
+				["x"] = -6.0715231895447,
+				["z"] = -5.3563561439514,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 2.5495290756226,
-				["x"] = 5.8810930252075,
-				["z"] = 5.0197281837463,
+				["y"] = 3.0657634735107,
+				["x"] = 6.7703795433044,
+				["z"] = 5.4268088340759,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["Hmax"] = 12500,
-		["Kmax"] = 1.0199999809265,
+		["Hmax"] = 11000,
+		["Kmax"] = 0.20000000298023,
 		["category"] = 0,
 		["speedMax10K"] = 257,
 		["NyMin"] = -3.9000000953674,
-		["fuelMassMax"] = 1885,
+		["fuelMassMax"] = 2337,
 		["speedMax"] = 257,
 		["NyMax"] = 6,
-		["massMax"] = 5600,
+		["massMax"] = 6300,
 		["RCS"] = 2.5,
 		["displayName"] = "C-101CC",
 		["life"] = 18,
@@ -68,6 +57,6 @@ C-101CC =
 			["Planes"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "C-101CC",
-		["Kab"] = 1.6200000047684,
+		["Kab"] = 0,
 	}, -- end of ["desc"]
 } -- end of C-101CC

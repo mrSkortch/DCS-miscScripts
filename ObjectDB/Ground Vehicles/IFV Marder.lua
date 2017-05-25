@@ -16,7 +16,7 @@ IFV Marder =
 					["caliber"] = 20,
 					["mass"] = 0.12,
 				}, -- end of ["warhead"]
-				["displayName"] = "Rh202_20_HE",
+				["displayName"] = "20mm HE",
 				["typeName"] = "weapons.shells.Rh202_20_HE",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ IFV Marder =
 					["caliber"] = 20,
 					["mass"] = 0.12,
 				}, -- end of ["warhead"]
-				["displayName"] = "Rh202_20_AP",
+				["displayName"] = "20mm AP",
 				["typeName"] = "weapons.shells.Rh202_20_AP",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ IFV Marder =
 					["caliber"] = 7.62,
 					["mass"] = 0.00933,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x51",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{

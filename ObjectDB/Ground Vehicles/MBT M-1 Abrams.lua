@@ -16,7 +16,7 @@ MBT M-1 Abrams =
 					["caliber"] = 120,
 					["mass"] = 4.6,
 				}, -- end of ["warhead"]
-				["displayName"] = "M256_120_AP",
+				["displayName"] = "120mm AP",
 				["typeName"] = "weapons.shells.M256_120_AP",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ MBT M-1 Abrams =
 					["caliber"] = 120,
 					["mass"] = 14.3,
 				}, -- end of ["warhead"]
-				["displayName"] = "M256_120_HE",
+				["displayName"] = "120mm HE",
 				["typeName"] = "weapons.shells.M256_120_HE",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ MBT M-1 Abrams =
 					["caliber"] = 7.62,
 					["mass"] = 0.00933,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x51",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
@@ -115,7 +115,7 @@ MBT M-1 Abrams =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
-				["displayName"] = "M2_12_7_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{

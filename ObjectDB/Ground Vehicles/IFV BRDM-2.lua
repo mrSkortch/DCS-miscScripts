@@ -16,7 +16,7 @@ IFV BRDM-2 =
 					["caliber"] = 14.5,
 					["mass"] = 0.064,
 				}, -- end of ["warhead"]
-				["displayName"] = "KPVT_14_5_T",
+				["displayName"] = "14.5mm AP",
 				["typeName"] = "weapons.shells.KPVT_14_5_T",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ IFV BRDM-2 =
 					["caliber"] = 7.62,
 					["mass"] = 0.0119,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x54",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{

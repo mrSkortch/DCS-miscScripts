@@ -16,7 +16,7 @@ AH-1W =
 					["caliber"] = 20,
 					["mass"] = 0.1,
 				}, -- end of ["warhead"]
-				["displayName"] = "M197_20",
+				["displayName"] = "20mm HE",
 				["typeName"] = "weapons.shells.M197_20",
 				["box"] = 
 				{

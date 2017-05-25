@@ -16,7 +16,7 @@ Gepard =
 					["caliber"] = 35,
 					["mass"] = 0.54,
 				}, -- end of ["warhead"]
-				["displayName"] = "KDA_35_HE",
+				["displayName"] = "35mm HE",
 				["typeName"] = "weapons.shells.KDA_35_HE",
 				["box"] = 
 				{

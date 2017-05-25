@@ -16,7 +16,7 @@ Mi-24V =
 					["caliber"] = 12.7,
 					["mass"] = 0.048,
 				}, -- end of ["warhead"]
-				["displayName"] = "YakB_12_7_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.YakB_12_7_T",
 				["box"] = 
 				{

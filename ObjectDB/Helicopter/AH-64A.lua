@@ -18,7 +18,7 @@ AH-64A =
 					["caliber"] = 30,
 					["type"] = 2,
 				}, -- end of ["warhead"]
-				["displayName"] = "M230_30",
+				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.M230_30",
 				["box"] = 
 				{

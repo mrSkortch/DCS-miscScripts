@@ -16,7 +16,7 @@ F-86F Sabre =
 					["caliber"] = 12.7,
 					["mass"] = 0.041,
 				}, -- end of ["warhead"]
-				["displayName"] = "M20_50_aero_APIT",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M20_50_aero_APIT",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ F-86F Sabre =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
-				["displayName"] = "M2_50_aero_AP",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_50_aero_AP",
 				["box"] = 
 				{

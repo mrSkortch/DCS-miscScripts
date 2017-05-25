@@ -11,13 +11,15 @@ M-2000C =
 				["category"] = 0,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 30,
 					["mass"] = 0.242,
+					["explosiveMass"] = 0.12,
+					["shapedExplosiveArmorThickness"] = 0.05,
+					["shapedExplosiveMass"] = 0.28,
+					["caliber"] = 30,
+					["type"] = 2,
 				}, -- end of ["warhead"]
-				["displayName"] = "DEFA552_30",
-				["typeName"] = "weapons.shells.DEFA552_30",
+				["displayName"] = "DEFA554_30_HE",
+				["typeName"] = "weapons.shells.DEFA554_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -94,11 +96,11 @@ M-2000C =
 		["Hmax"] = 17526,
 		["Kmax"] = 0.80000001192093,
 		["category"] = 0,
-		["speedMax10K"] = 700,
-		["NyMin"] = -3.9000000953674,
+		["speedMax10K"] = 660,
+		["NyMin"] = -3,
 		["fuelMassMax"] = 3165,
-		["speedMax"] = 700,
-		["NyMax"] = 9,
+		["speedMax"] = 660,
+		["NyMax"] = 8,
 		["massMax"] = 17463,
 		["RCS"] = 2.5,
 		["displayName"] = "M-2000C",

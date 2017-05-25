@@ -16,7 +16,7 @@ MBT M-60 =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
-				["displayName"] = "M2_12_7_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ MBT M-60 =
 					["caliber"] = 105,
 					["mass"] = 2.73,
 				}, -- end of ["warhead"]
-				["displayName"] = "M68_105_AP",
+				["displayName"] = "105mm AP",
 				["typeName"] = "weapons.shells.M68_105_AP",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ MBT M-60 =
 					["caliber"] = 105,
 					["mass"] = 14.7,
 				}, -- end of ["warhead"]
-				["displayName"] = "M68_105_HE",
+				["displayName"] = "105mm HE",
 				["typeName"] = "weapons.shells.M68_105_HE",
 				["box"] = 
 				{

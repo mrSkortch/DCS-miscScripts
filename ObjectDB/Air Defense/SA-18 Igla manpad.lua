@@ -46,18 +46,6 @@ SA-18 Igla manpad =
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
-	["sensors"] = 
-	{
-		[0] = 
-		{
-			[1] = 
-			{
-				["type"] = 0,
-				["typeName"] = "human daysight",
-				["opticType"] = 0,
-			}, -- end of [1]
-		}, -- end of [0]
-	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 90,
@@ -83,22 +71,23 @@ SA-18 Igla manpad =
 		["life"] = 0.079999998211861,
 		["attributes"] = 
 		{
-			["Rocket Attack Valid AirDefence"] = true,
-			["SAM"] = true,
 			["Vehicles"] = true,
-			["Infantry"] = true,
-			["NonArmoredUnits"] = true,
-			["Ground Units"] = true,
-			["Ground Units Non Airdefence"] = true,
-			["Air Defence"] = true,
 			["SAM related"] = true,
-			["All"] = true,
-			["NonAndLightArmoredUnits"] = true,
-			["Ground vehicles"] = true,
+			["New infantry"] = true,
 			["Armed ground units"] = true,
-			["Armed Air Defence"] = true,
 			["MANPADS"] = true,
 			["IR Guided SAM"] = true,
+			["Ground Units Non Airdefence"] = true,
+			["NonArmoredUnits"] = true,
+			["Air Defence"] = true,
+			["Rocket Attack Valid AirDefence"] = true,
+			["Infantry"] = true,
+			["NonAndLightArmoredUnits"] = true,
+			["SAM"] = true,
+			["All"] = true,
+			["Armed Air Defence"] = true,
+			["Ground Units"] = true,
+			["Ground vehicles"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 4,

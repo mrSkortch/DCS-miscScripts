@@ -16,7 +16,7 @@ IFV AAV7 =
 					["caliber"] = 40,
 					["mass"] = 0.248,
 				}, -- end of ["warhead"]
-				["displayName"] = "M383",
+				["displayName"] = "40mm HE",
 				["typeName"] = "weapons.shells.M383",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ IFV AAV7 =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
-				["displayName"] = "M2_12_7_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
@@ -91,7 +91,7 @@ IFV AAV7 =
 		{
 			["min"] = 
 			{
-				["y"] = -6.6480184614193e-005,
+				["y"] = -6.6480184614193e-05,
 				["x"] = -4.1306757926941,
 				["z"] = -1.7921028137207,
 			}, -- end of ["min"]

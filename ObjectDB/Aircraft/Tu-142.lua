@@ -16,7 +16,7 @@ Tu-142 =
 					["caliber"] = 23,
 					["mass"] = 0.175,
 				}, -- end of ["warhead"]
-				["displayName"] = "GSH23_23_HE_T",
+				["displayName"] = "23mm HE",
 				["typeName"] = "weapons.shells.GSH23_23_HE_T",
 				["box"] = 
 				{

@@ -16,7 +16,7 @@ Ural-375 ZU-23 Insurgent =
 					["caliber"] = 23,
 					["mass"] = 0.189,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A7_23_AP",
+				["displayName"] = "23mm AP",
 				["typeName"] = "weapons.shells.2A7_23_AP",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ Ural-375 ZU-23 Insurgent =
 					["caliber"] = 23,
 					["mass"] = 0.189,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A7_23_HE",
+				["displayName"] = "23mm HE",
 				["typeName"] = "weapons.shells.2A7_23_HE",
 				["box"] = 
 				{
@@ -79,7 +79,7 @@ Ural-375 ZU-23 Insurgent =
 		{
 			["min"] = 
 			{
-				["y"] = -7.6826043368783e-005,
+				["y"] = -7.6826043368783e-05,
 				["x"] = -3.0357229709625,
 				["z"] = -1.258252620697,
 			}, -- end of ["min"]

@@ -16,7 +16,7 @@ IFV M-2 Bradley =
 					["caliber"] = 25,
 					["mass"] = 0.185,
 				}, -- end of ["warhead"]
-				["displayName"] = "M242_25_HE_M792",
+				["displayName"] = "25mm HE",
 				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ IFV M-2 Bradley =
 					["caliber"] = 25,
 					["mass"] = 0.155,
 				}, -- end of ["warhead"]
-				["displayName"] = "M242_25_AP_M791",
+				["displayName"] = "25mm AP",
 				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ IFV M-2 Bradley =
 					["caliber"] = 7.62,
 					["mass"] = 0.00933,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x51",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
@@ -107,10 +107,10 @@ IFV M-2 Bradley =
 			["desc"] = 
 			{
 				["missileCategory"] = 6,
-				["rangeMaxAltMax"] = 4200,
+				["rangeMaxAltMax"] = 3800,
 				["rangeMin"] = 65,
 				["displayName"] = "BGM-71E",
-				["rangeMaxAltMin"] = 4200,
+				["rangeMaxAltMin"] = 3800,
 				["altMax"] = 2000,
 				["RCS"] = 0.065800003707409,
 				["box"] = 

@@ -16,7 +16,7 @@ A-10A =
 					["caliber"] = 30,
 					["mass"] = 0.36,
 				}, -- end of ["warhead"]
-				["displayName"] = "GAU8_30_AP",
+				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.GAU8_30_AP",
 				["box"] = 
 				{

@@ -4,39 +4,6 @@ MBT T-55 =
 	{
 		[1] = 
 		{
-			["count"] = 2760,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["category"] = 0,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 7.62,
-					["mass"] = 0.0119,
-				}, -- end of ["warhead"]
-				["displayName"] = "7_62x54",
-				["typeName"] = "weapons.shells.7_62x54",
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-			}, -- end of ["desc"]
-		}, -- end of [1]
-		[2] = 
-		{
 			["count"] = 33,
 			["desc"] = 
 			{
@@ -49,7 +16,7 @@ MBT T-55 =
 					["caliber"] = 105,
 					["mass"] = 2.73,
 				}, -- end of ["warhead"]
-				["displayName"] = "M68_105_AP",
+				["displayName"] = "105mm AP",
 				["typeName"] = "weapons.shells.M68_105_AP",
 				["box"] = 
 				{
@@ -67,8 +34,8 @@ MBT T-55 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
+		}, -- end of [1]
+		[2] = 
 		{
 			["count"] = 12,
 			["desc"] = 
@@ -82,7 +49,7 @@ MBT T-55 =
 					["caliber"] = 100,
 					["mass"] = 15.6,
 				}, -- end of ["warhead"]
-				["displayName"] = "UOF_412_100HE",
+				["displayName"] = "100mm HE",
 				["typeName"] = "weapons.shells.UOF_412_100HE",
 				["box"] = 
 				{
@@ -97,6 +64,39 @@ MBT T-55 =
 						["y"] = 0.060612548142672,
 						["x"] = 0.24980916082859,
 						["z"] = 0.060612548142672,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+			}, -- end of ["desc"]
+		}, -- end of [2]
+		[3] = 
+		{
+			["count"] = 2760,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["category"] = 0,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 7.62,
+					["mass"] = 0.0119,
+				}, -- end of ["warhead"]
+				["displayName"] = "7.62mm",
+				["typeName"] = "weapons.shells.7_62x54",
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.34973141551018,
+						["x"] = -15.915153503418,
+						["z"] = -0.35240435600281,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.34613394737244,
+						["x"] = 0.0010121095692739,
+						["z"] = 0.34346318244934,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -115,7 +115,7 @@ MBT T-55 =
 					["caliber"] = 12.7,
 					["mass"] = 0.044,
 				}, -- end of ["warhead"]
-				["displayName"] = "Utes_12_7x108_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.Utes_12_7x108_T",
 				["box"] = 
 				{

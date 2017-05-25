@@ -16,7 +16,7 @@ IFV BMP-2 =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A42_30_HE",
+				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.2A42_30_HE",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ IFV BMP-2 =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A42_30_AP",
+				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.2A42_30_AP",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ IFV BMP-2 =
 					["caliber"] = 7.62,
 					["mass"] = 0.0119,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x54",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
@@ -112,7 +112,7 @@ IFV BMP-2 =
 				["displayName"] = "9M113",
 				["rangeMaxAltMin"] = 4000,
 				["altMax"] = 2000,
-				["RCS"] = 0.065800003707409,
+				["RCS"] = 0.035000000149012,
 				["box"] = 
 				{
 					["min"] = 

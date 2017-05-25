@@ -16,7 +16,7 @@ MiG-27K =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "GSH301_30_AP",
+				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.GSH301_30_AP",
 				["box"] = 
 				{

@@ -16,7 +16,7 @@ FA-18C =
 					["caliber"] = 20,
 					["mass"] = 0.11,
 				}, -- end of ["warhead"]
-				["displayName"] = "M61_20_HE",
+				["displayName"] = "20mm HE",
 				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
@@ -73,7 +73,7 @@ FA-18C =
 	["desc"] = 
 	{
 		["speedMax0"] = 361.10000610352,
-		["massEmpty"] = 10455,
+		["massEmpty"] = 11399,
 		["tankerType"] = 1,
 		["range"] = 1520,
 		["box"] = 
@@ -96,7 +96,7 @@ FA-18C =
 		["category"] = 0,
 		["speedMax10K"] = 541.70001220703,
 		["NyMin"] = -3,
-		["fuelMassMax"] = 4930,
+		["fuelMassMax"] = 4900,
 		["speedMax"] = 541.70001220703,
 		["NyMax"] = 7,
 		["massMax"] = 25401,

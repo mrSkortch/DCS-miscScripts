@@ -16,7 +16,7 @@ IFV BMP-3 =
 					["caliber"] = 7.62,
 					["mass"] = 0.0119,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x54",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ IFV BMP-3 =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A42_30_HE",
+				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.2A42_30_HE",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ IFV BMP-3 =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A42_30_AP",
+				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.2A42_30_AP",
 				["box"] = 
 				{
@@ -110,13 +110,13 @@ IFV BMP-3 =
 				["category"] = 0,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 15.6,
+					["explosiveMass"] = 3.69,
 					["type"] = 1,
 					["caliber"] = 100,
 					["mass"] = 15.6,
 				}, -- end of ["warhead"]
-				["displayName"] = "UOF_412_100HE",
-				["typeName"] = "weapons.shells.UOF_412_100HE",
+				["displayName"] = "100mm HE",
+				["typeName"] = "weapons.shells.UOF_17_100HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -145,7 +145,7 @@ IFV BMP-3 =
 				["displayName"] = "9M117",
 				["rangeMaxAltMin"] = 4000,
 				["altMax"] = 2000,
-				["RCS"] = 0.065800003707409,
+				["RCS"] = 0.032000001519918,
 				["box"] = 
 				{
 					["min"] = 
@@ -168,10 +168,10 @@ IFV BMP-3 =
 				["guidance"] = 7,
 				["warhead"] = 
 				{
-					["mass"] = 7,
-					["explosiveMass"] = 1.5,
+					["mass"] = 4.5,
+					["explosiveMass"] = 2.7000000476837,
 					["shapedExplosiveArmorThickness"] = 0.55000001192093,
-					["shapedExplosiveMass"] = 4.5,
+					["shapedExplosiveMass"] = 8.1000003814697,
 					["caliber"] = 0,
 					["type"] = 2,
 				}, -- end of ["warhead"]

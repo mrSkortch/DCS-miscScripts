@@ -59,7 +59,7 @@ Strela-10M3 =
 					["caliber"] = 7.62,
 					["mass"] = 0.0119,
 				}, -- end of ["warhead"]
-				["displayName"] = "7_62x54",
+				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
@@ -104,9 +104,11 @@ Strela-10M3 =
 		["life"] = 2,
 		["attributes"] = 
 		{
-			["SAM"] = true,
+			["SAM TR"] = true,
 			["Vehicles"] = true,
+			["SAM elements"] = true,
 			["NonArmoredUnits"] = true,
+			["SAM"] = true,
 			["Ground vehicles"] = true,
 			["Air Defence"] = true,
 			["SAM related"] = true,

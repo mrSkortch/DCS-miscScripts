@@ -16,7 +16,7 @@ Ka-50 =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "2A42_30_HE",
+				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.2A42_30_HE",
 				["box"] = 
 				{

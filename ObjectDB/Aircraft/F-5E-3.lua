@@ -16,7 +16,7 @@ F-5E-3 =
 					["caliber"] = 20,
 					["mass"] = 0.102,
 				}, -- end of ["warhead"]
-				["displayName"] = "M39_20_HEI",
+				["displayName"] = "20mm HEI",
 				["typeName"] = "weapons.shells.M39_20_HEI",
 				["box"] = 
 				{
