@@ -16,7 +16,7 @@ PERRY =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
-				["displayName"] = "M2_12_7_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ PERRY =
 					["caliber"] = 25,
 					["mass"] = 0.185,
 				}, -- end of ["warhead"]
-				["displayName"] = "M242_25_HE_M792",
+				["displayName"] = "25mm HE",
 				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ PERRY =
 					["caliber"] = 25,
 					["mass"] = 0.155,
 				}, -- end of ["warhead"]
-				["displayName"] = "M242_25_AP_M791",
+				["displayName"] = "25mm AP",
 				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["box"] = 
 				{
@@ -115,7 +115,7 @@ PERRY =
 					["caliber"] = 20,
 					["mass"] = 0.11,
 				}, -- end of ["warhead"]
-				["displayName"] = "M61_20_AP",
+				["displayName"] = "20mm AP",
 				["typeName"] = "weapons.shells.M61_20_AP",
 				["box"] = 
 				{
@@ -148,7 +148,7 @@ PERRY =
 					["caliber"] = 20,
 					["mass"] = 0.11,
 				}, -- end of ["warhead"]
-				["displayName"] = "M61_20_HE",
+				["displayName"] = "20mm HE",
 				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
@@ -267,7 +267,7 @@ PERRY =
 					["caliber"] = 76,
 					["mass"] = 6.3,
 				}, -- end of ["warhead"]
-				["displayName"] = "MK75_76",
+				["displayName"] = "76mm HE",
 				["typeName"] = "weapons.shells.MK75_76",
 				["box"] = 
 				{

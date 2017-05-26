@@ -16,7 +16,7 @@ NEUSTRASH =
 					["caliber"] = 100,
 					["mass"] = 15.6,
 				}, -- end of ["warhead"]
-				["displayName"] = "AK100_100",
+				["displayName"] = "100mm HE",
 				["typeName"] = "weapons.shells.AK100_100",
 				["box"] = 
 				{
@@ -92,7 +92,7 @@ NEUSTRASH =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "AK630_30_AP",
+				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
@@ -125,7 +125,7 @@ NEUSTRASH =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "AK630_30_HE",
+				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
@@ -153,7 +153,7 @@ NEUSTRASH =
 				["rangeMaxAltMax"] = 12000,
 				["rangeMin"] = 1500,
 				["displayName"] = "9M330",
-				["rangeMaxAltMin"] = 8000,
+				["rangeMaxAltMin"] = 12000,
 				["altMax"] = 6000,
 				["RCS"] = 0.03070000000298,
 				["box"] = 

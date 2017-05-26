@@ -16,7 +16,7 @@ KUZNECOW =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "AK630_30_AP",
+				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ KUZNECOW =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "AK630_30_HE",
+				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
@@ -120,7 +120,7 @@ KUZNECOW =
 				["rangeMaxAltMax"] = 12000,
 				["rangeMin"] = 1500,
 				["displayName"] = "9M330",
-				["rangeMaxAltMin"] = 8000,
+				["rangeMaxAltMin"] = 12000,
 				["altMax"] = 6000,
 				["RCS"] = 0.03070000000298,
 				["box"] = 

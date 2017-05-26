@@ -59,7 +59,7 @@ REZKY =
 					["caliber"] = 100,
 					["mass"] = 15.6,
 				}, -- end of ["warhead"]
-				["displayName"] = "AK100_100",
+				["displayName"] = "100mm HE",
 				["typeName"] = "weapons.shells.AK100_100",
 				["box"] = 
 				{

@@ -16,7 +16,7 @@ MOLNIYA =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "AK630_30_AP",
+				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ MOLNIYA =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "AK630_30_HE",
+				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ MOLNIYA =
 					["caliber"] = 76,
 					["mass"] = 5.9,
 				}, -- end of ["warhead"]
-				["displayName"] = "AK176_76",
+				["displayName"] = "76mm HE",
 				["typeName"] = "weapons.shells.AK176_76",
 				["box"] = 
 				{

@@ -59,7 +59,7 @@ PIOTR =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "AK630_30_AP",
+				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
@@ -92,7 +92,7 @@ PIOTR =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
-				["displayName"] = "AK630_30_HE",
+				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
@@ -125,7 +125,7 @@ PIOTR =
 					["caliber"] = 130,
 					["mass"] = 33.4,
 				}, -- end of ["warhead"]
-				["displayName"] = "A222_130",
+				["displayName"] = "130mm HE",
 				["typeName"] = "weapons.shells.A222_130",
 				["box"] = 
 				{
@@ -153,7 +153,7 @@ PIOTR =
 				["rangeMaxAltMax"] = 12000,
 				["rangeMin"] = 1500,
 				["displayName"] = "9M330",
-				["rangeMaxAltMin"] = 8000,
+				["rangeMaxAltMin"] = 12000,
 				["altMax"] = 6000,
 				["RCS"] = 0.03070000000298,
 				["box"] = 

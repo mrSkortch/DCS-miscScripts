@@ -16,7 +16,7 @@ TICONDEROG =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
-				["displayName"] = "M2_12_7_T",
+				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
@@ -49,7 +49,7 @@ TICONDEROG =
 					["caliber"] = 25,
 					["mass"] = 0.185,
 				}, -- end of ["warhead"]
-				["displayName"] = "M242_25_HE_M792",
+				["displayName"] = "25mm HE",
 				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["box"] = 
 				{
@@ -82,7 +82,7 @@ TICONDEROG =
 					["caliber"] = 25,
 					["mass"] = 0.155,
 				}, -- end of ["warhead"]
-				["displayName"] = "M242_25_AP_M791",
+				["displayName"] = "25mm AP",
 				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["box"] = 
 				{
@@ -115,7 +115,7 @@ TICONDEROG =
 					["caliber"] = 20,
 					["mass"] = 0.11,
 				}, -- end of ["warhead"]
-				["displayName"] = "M61_20_AP",
+				["displayName"] = "20mm AP",
 				["typeName"] = "weapons.shells.M61_20_AP",
 				["box"] = 
 				{
@@ -148,7 +148,7 @@ TICONDEROG =
 					["caliber"] = 20,
 					["mass"] = 0.11,
 				}, -- end of ["warhead"]
-				["displayName"] = "M61_20_HE",
+				["displayName"] = "20mm HE",
 				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
@@ -181,7 +181,7 @@ TICONDEROG =
 					["caliber"] = 127,
 					["mass"] = 31.3,
 				}, -- end of ["warhead"]
-				["displayName"] = "MK45_127",
+				["displayName"] = "127mm HE",
 				["typeName"] = "weapons.shells.MK45_127",
 				["box"] = 
 				{
@@ -302,15 +302,15 @@ TICONDEROG =
 				{
 					["min"] = 
 					{
-						["y"] = -0.57365518808365,
-						["x"] = -2.7824559211731,
-						["z"] = -1.3927972316742,
+						["y"] = -2.8014440536499,
+						["x"] = -2.8723754882813,
+						["z"] = -2.8484604358673,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.57365518808365,
-						["x"] = 2.8278908729553,
-						["z"] = 1.3709205389023,
+						["y"] = 2.895476102829,
+						["x"] = 2.8245449066162,
+						["z"] = 2.8484604358673,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["altMin"] = -1,
