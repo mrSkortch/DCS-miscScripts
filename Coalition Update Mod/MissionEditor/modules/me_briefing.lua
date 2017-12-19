@@ -38,6 +38,7 @@ cdata = {
         description = _('DESCRIPTION'), 
         redTask = _('RED TASK'), 
         blueTask = _('BLUE TASK'),
+        neutralsTask = _('NEUTRALS TASK'),                            
         redPictureHint = _('changes picture for RED coalition'),
         bluePictureHint = _('changes picture for BLUE coalition'),
         deletePictureHint = _('erases picture'),
@@ -115,9 +116,21 @@ local function create_()
     
     U.bindDataTimeCallback(editBoxYear, cb_month, editBoxHours, editBoxMinutes, editBoxSeconds, editBoxDays, updateMissionStart)
     
-    editBoxDescription = window.editBoxDescription
-    editBoxRedTask = window.editBoxRedTask
-    editBoxBlueTask = window.editBoxBlueTask
+    editBoxDescription = window.spDesc.editBoxDescription
+    editBoxRedTask = window.spDesc.editBoxRedTask
+    editBoxBlueTask = window.spDesc.editBoxBlueTask
+	editBoxNeutralsTask = window.spDesc.editBoxNeutralsTask
+	
+	window.spDesc:setSize(390,h_-240)
+	if base.test_addNeutralCoalition == true then  
+		window.spDesc.editBoxNeutralsTask:setVisible(true)
+		window.spDesc.staticNeutralsTask:setVisible(true)
+	else
+		window.spDesc.editBoxNeutralsTask:setVisible(false)
+		window.spDesc.staticNeutralsTask:setVisible(false)
+	end
+	
+	window.spDesc:updateWidgetsBounds()                               
     
     setupCallbacks()
 end
@@ -127,6 +140,7 @@ function setupCallbacks()
     editBoxDescription.onChange = descriptionChange;
     editBoxRedTask.onChange = descriptionRChange;
     editBoxBlueTask.onChange = descriptionBChange;
+    editBoxNeutralsTask.onChange = descriptionNChange;                                               
     editBoxSortie.onChange = sortieChange;
     bEditImages.onChange = bEditImages_onChange
     editBoxYear.onChange = editBoxYear_onChange;
@@ -191,6 +205,9 @@ function update()
             mission.descriptionBlueTask = mission.descriptionBlueTask or '';
             editBoxBlueTask:setText(mission.descriptionBlueTask);
             vdata.descriptionBlueTask = mission.descriptionBlueTask;
+			mission.descriptionNeutralsTask = mission.descriptionNeutralsTask or '';
+            editBoxNeutralsTask:setText(mission.descriptionNeutralsTask);
+            vdata.descriptionNeutralsTask = mission.descriptionNeutralsTask;                                                               
         end;
         
 
@@ -209,6 +226,7 @@ function applyChanges()
         mission.descriptionText = editBoxDescription:getText();
         mission.descriptionRedTask = editBoxRedTask:getText();
         mission.descriptionBlueTask = editBoxBlueTask:getText();
+        mission.descriptionNeutralsTask = editBoxNeutralsTask:getText();                                                          
         mission.sortie = editBoxSortie:getText();
     end;
 end
@@ -293,6 +311,9 @@ function descriptionBChange(self, text)
     mission.descriptionBlueTask = self:getText();
 end; 
 
+function descriptionNChange(self, text)
+    mission.descriptionNeutralsTask = self:getText();
+end;                                        
 function sortieChange(self, text)
     mission.sortie = self:getText();
 end; 

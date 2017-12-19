@@ -3,32 +3,18 @@ dialog = {
 		["main_panel"] = {
 			["children"] = {
 				["Static1"] = {
-					["children"] = {
-					},
 					["params"] = {
 						["bounds"] = {
-							[1] = {
-								["h"] = 20,
-								["w"] = 202,
-								["x"] = 593,
-								["y"] = 113,
-							},
+							["h"] = 20,
+							["w"] = 202,
+							["x"] = 593,
+							["y"] = 103,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["text"] = {
-							[1] = "$CHOOSE_COALITION",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["text"] = "$CHOOSE_COALITION",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
 					},
 					["skin"] = {
 						["params"] = {
@@ -38,11 +24,7 @@ dialog = {
 							["released"] = {
 								[1] = {
 									["text"] = {
-										["color"] = {
-											["b"] = 1,
-											["g"] = 1,
-											["r"] = 1,
-										},
+										["color"] = "0xffffffff",
 										["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
 										["horzAlign"] = {
 											["type"] = "middle",
@@ -56,32 +38,18 @@ dialog = {
 					["type"] = "Static",
 				},
 				["Static2"] = {
-					["children"] = {
-					},
 					["params"] = {
 						["bounds"] = {
-							[1] = {
-								["h"] = 23,
-								["w"] = 170,
-								["x"] = 407,
-								["y"] = 113,
-							},
+							["h"] = 23,
+							["w"] = 170,
+							["x"] = 407,
+							["y"] = 143,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["text"] = {
-							[1] = "$red",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["text"] = "$red",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
 					},
 					["skin"] = {
 						["params"] = {
@@ -94,11 +62,7 @@ dialog = {
 										["center_center"] = "$nil$",
 									},
 									["text"] = {
-										["color"] = {
-											["b"] = 0.18823529411765,
-											["g"] = 0.18823529411765,
-											["r"] = 0.96078431372549,
-										},
+										["color"] = "0xf53030ff",
 										["horzAlign"] = {
 											["offset"] = 0,
 											["type"] = "middle",
@@ -111,32 +75,18 @@ dialog = {
 					["type"] = "Static",
 				},
 				["Static3"] = {
-					["children"] = {
-					},
 					["params"] = {
 						["bounds"] = {
-							[1] = {
-								["h"] = 26,
-								["w"] = 170,
-								["x"] = 811,
-								["y"] = 113,
-							},
+							["h"] = 26,
+							["w"] = 170,
+							["x"] = 811,
+							["y"] = 143,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["text"] = {
-							[1] = "$blue",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["text"] = "$blue",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
 					},
 					["skin"] = {
 						["params"] = {
@@ -149,11 +99,7 @@ dialog = {
 										["center_center"] = "$nil$",
 									},
 									["text"] = {
-										["color"] = {
-											["b"] = 0.96078431372549,
-											["g"] = 0.51372549019608,
-											["r"] = 0.18823529411765,
-										},
+										["color"] = "0x3083f5ff",
 										["horzAlign"] = {
 											["offset"] = 0,
 											["type"] = "middle",
@@ -166,34 +112,19 @@ dialog = {
 					["type"] = "Static",
 				},
 				["btnToBlueCoa"] = {
-					["children"] = {
-					},
 					["params"] = {
 						["bounds"] = {
-							[1] = {
-								["h"] = 25,
-								["w"] = 25,
-								["x"] = 725,
-								["y"] = 146,
-							},
+							["h"] = 25,
+							["w"] = 25,
+							["x"] = 725,
+							["y"] = 136,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["sound"] = {
-						},
-						["text"] = {
-							[1] = "",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
 					},
 					["skin"] = {
 						["params"] = {
@@ -212,12 +143,7 @@ dialog = {
 										},
 									},
 									["picture"] = {
-										["color"] = {
-											["a"] = 1,
-											["b"] = 1,
-											["g"] = 1,
-											["r"] = 1,
-										},
+										["color"] = "0xffffffff",
 										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\coalition_choose\\blue\\blue_coalition_pressed.png",
 										["vertAlign"] = {
 											["type"] = "middle",
@@ -263,49 +189,21 @@ dialog = {
 							["released"] = {
 								[1] = {
 									["bkg"] = {
-										["center_bottom"] = {
-											["b"] = 1,
-											["g"] = 0.47058823529412,
-											["r"] = 0,
-										},
+										["center_bottom"] = "0x0078ffff",
 										["center_center"] = "$nil$",
-										["center_top"] = {
-											["b"] = 1,
-											["g"] = 0.47058823529412,
-											["r"] = 0,
-										},
+										["center_top"] = "0x0078ffff",
 										["insets"] = {
 											["bottom"] = "$nil$",
 											["left"] = "$nil$",
 											["right"] = "$nil$",
 											["top"] = "$nil$",
 										},
-										["left_bottom"] = {
-											["b"] = 1,
-											["g"] = 0.47058823529412,
-											["r"] = 0,
-										},
-										["left_center"] = {
-											["b"] = 1,
-											["g"] = 0.47058823529412,
-											["r"] = 0,
-										},
+										["left_bottom"] = "0x0078ffff",
+										["left_center"] = "0x0078ffff",
 										["left_top"] = "$nil$",
-										["right_bottom"] = {
-											["b"] = 1,
-											["g"] = 0.47058823529412,
-											["r"] = 0,
-										},
-										["right_center"] = {
-											["b"] = 1,
-											["g"] = 0.47058823529412,
-											["r"] = 0,
-										},
-										["right_top"] = {
-											["b"] = 1,
-											["g"] = 0.47058823529412,
-											["r"] = 0,
-										},
+										["right_bottom"] = "0x0078ffff",
+										["right_center"] = "0x0078ffff",
+										["right_top"] = "0x0078ffff",
 									},
 									["picture"] = {
 										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\coalition_choose\\blue\\blue_coalition_neutral.png",
@@ -317,34 +215,19 @@ dialog = {
 					["type"] = "Button",
 				},
 				["btnToNeutralCoa"] = {
-					["children"] = {
-					},
 					["params"] = {
 						["bounds"] = {
-							[1] = {
-								["h"] = 25,
-								["w"] = 25,
-								["x"] = 682,
-								["y"] = 146,
-							},
+							["h"] = 25,
+							["w"] = 25,
+							["x"] = 682,
+							["y"] = 136,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["sound"] = {
-						},
-						["text"] = {
-							[1] = "",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
 					},
 					["skin"] = {
 						["params"] = {
@@ -360,19 +243,9 @@ dialog = {
 							["disabled"] = {
 								[1] = {
 									["bkg"] = {
-										["center_bottom"] = {
-											["a"] = 1,
-											["b"] = 0.54901960784314,
-											["g"] = 0.55686274509804,
-											["r"] = 0.56078431372549,
-										},
+										["center_bottom"] = "0x8f8e8cff",
 										["center_center"] = "$nil$",
-										["center_top"] = {
-											["a"] = 1,
-											["b"] = 0.54901960784314,
-											["g"] = 0.55686274509804,
-											["r"] = 0.56078431372549,
-										},
+										["center_top"] = "0x8f8e8cff",
 										["file"] = "$nil$",
 										["insets"] = {
 											["bottom"] = "$nil$",
@@ -380,50 +253,15 @@ dialog = {
 											["right"] = "$nil$",
 											["top"] = "$nil$",
 										},
-										["left_bottom"] = {
-											["a"] = 1,
-											["b"] = 0.54901960784314,
-											["g"] = 0.55686274509804,
-											["r"] = 0.56078431372549,
-										},
-										["left_center"] = {
-											["a"] = 1,
-											["b"] = 0.54901960784314,
-											["g"] = 0.55686274509804,
-											["r"] = 0.56078431372549,
-										},
-										["left_top"] = {
-											["a"] = 1,
-											["b"] = 0.54901960784314,
-											["g"] = 0.55686274509804,
-											["r"] = 0.56078431372549,
-										},
-										["right_bottom"] = {
-											["a"] = 1,
-											["b"] = 0.54901960784314,
-											["g"] = 0.55686274509804,
-											["r"] = 0.56078431372549,
-										},
-										["right_center"] = {
-											["a"] = 1,
-											["b"] = 0.54901960784314,
-											["g"] = 0.55686274509804,
-											["r"] = 0.56078431372549,
-										},
-										["right_top"] = {
-											["a"] = 1,
-											["b"] = 0.54901960784314,
-											["g"] = 0.55686274509804,
-											["r"] = 0.56078431372549,
-										},
+										["left_bottom"] = "0x8f8e8cff",
+										["left_center"] = "0x8f8e8cff",
+										["left_top"] = "0x8f8e8cff",
+										["right_bottom"] = "0x8f8e8cff",
+										["right_center"] = "0x8f8e8cff",
+										["right_top"] = "0x8f8e8cff",
 									},
 									["picture"] = {
-										["color"] = {
-											["a"] = 1,
-											["b"] = 1,
-											["g"] = 1,
-											["r"] = 1,
-										},
+										["color"] = "0xffffffff",
 										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\coalition_choose\\grey\\grey_coalition_pressed.png",
 										["horzAlign"] = {
 											["type"] = "middle",
@@ -437,12 +275,7 @@ dialog = {
 							["hover"] = {
 								[1] = {
 									["picture"] = {
-										["color"] = {
-											["a"] = 1,
-											["b"] = 1,
-											["g"] = 1,
-											["r"] = 1,
-										},
+										["color"] = "0xffffffff",
 										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\coalition_choose\\grey\\grey_coalition_chosen.png",
 										["horzAlign"] = {
 											["type"] = "middle",
@@ -474,12 +307,7 @@ dialog = {
 										["right_top"] = "$nil$",
 									},
 									["picture"] = {
-										["color"] = {
-											["a"] = 1,
-											["b"] = 1,
-											["g"] = 1,
-											["r"] = 1,
-										},
+										["color"] = "0xffffffff",
 										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\coalition_choose\\grey\\grey_coalition_pressed.png",
 										["horzAlign"] = {
 											["type"] = "middle",
@@ -493,17 +321,9 @@ dialog = {
 							["released"] = {
 								[1] = {
 									["bkg"] = {
-										["center_bottom"] = {
-											["b"] = 0.58823529411765,
-											["g"] = 0.58823529411765,
-											["r"] = 0.58823529411765,
-										},
+										["center_bottom"] = "0x969696ff",
 										["center_center"] = "$nil$",
-										["center_top"] = {
-											["b"] = 0.58823529411765,
-											["g"] = 0.58823529411765,
-											["r"] = 0.58823529411765,
-										},
+										["center_top"] = "0x969696ff",
 										["file"] = "$nil$",
 										["insets"] = {
 											["bottom"] = "$nil$",
@@ -511,44 +331,15 @@ dialog = {
 											["right"] = "$nil$",
 											["top"] = "$nil$",
 										},
-										["left_bottom"] = {
-											["b"] = 0.58823529411765,
-											["g"] = 0.58823529411765,
-											["r"] = 0.58823529411765,
-										},
-										["left_center"] = {
-											["b"] = 0.58823529411765,
-											["g"] = 0.58823529411765,
-											["r"] = 0.58823529411765,
-										},
-										["left_top"] = {
-											["b"] = 0.58823529411765,
-											["g"] = 0.58823529411765,
-											["r"] = 0.58823529411765,
-										},
-										["right_bottom"] = {
-											["b"] = 0.58823529411765,
-											["g"] = 0.58823529411765,
-											["r"] = 0.58823529411765,
-										},
-										["right_center"] = {
-											["b"] = 0.58823529411765,
-											["g"] = 0.58823529411765,
-											["r"] = 0.58823529411765,
-										},
-										["right_top"] = {
-											["b"] = 0.58823529411765,
-											["g"] = 0.58823529411765,
-											["r"] = 0.58823529411765,
-										},
+										["left_bottom"] = "0x969696ff",
+										["left_center"] = "0x969696ff",
+										["left_top"] = "0x969696ff",
+										["right_bottom"] = "0x969696ff",
+										["right_center"] = "0x969696ff",
+										["right_top"] = "0x969696ff",
 									},
 									["picture"] = {
-										["color"] = {
-											["a"] = 1,
-											["b"] = 1,
-											["g"] = 1,
-											["r"] = 1,
-										},
+										["color"] = "0xffffffff",
 										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\coalition_choose\\grey\\grey_coalition_neutral.png",
 										["horzAlign"] = {
 											["type"] = "middle",
@@ -564,34 +355,19 @@ dialog = {
 					["type"] = "Button",
 				},
 				["btnToRedCoa"] = {
-					["children"] = {
-					},
 					["params"] = {
 						["bounds"] = {
-							[1] = {
-								["h"] = 25,
-								["w"] = 25,
-								["x"] = 640,
-								["y"] = 146,
-							},
+							["h"] = 25,
+							["w"] = 25,
+							["x"] = 640,
+							["y"] = 136,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["sound"] = {
-						},
-						["text"] = {
-							[1] = "",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
 					},
 					["skin"] = {
 						["params"] = {
@@ -610,12 +386,7 @@ dialog = {
 										},
 									},
 									["picture"] = {
-										["color"] = {
-											["a"] = 1,
-											["b"] = 1,
-											["g"] = 1,
-											["r"] = 1,
-										},
+										["color"] = "0xffffffff",
 										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\coalition_choose\\red\\red_coalition_pressed.png",
 										["vertAlign"] = {
 											["type"] = "middle",
@@ -677,53 +448,21 @@ dialog = {
 							["released"] = {
 								[1] = {
 									["bkg"] = {
-										["center_bottom"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
+										["center_bottom"] = "0xff0000ff",
 										["center_center"] = "$nil$",
-										["center_top"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
+										["center_top"] = "0xff0000ff",
 										["insets"] = {
 											["bottom"] = "$nil$",
 											["left"] = "$nil$",
 											["right"] = "$nil$",
 											["top"] = "$nil$",
 										},
-										["left_bottom"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
-										["left_center"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
-										["left_top"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
-										["right_bottom"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
-										["right_center"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
-										["right_top"] = {
-											["b"] = 0,
-											["g"] = 0,
-											["r"] = 1,
-										},
+										["left_bottom"] = "0xff0000ff",
+										["left_center"] = "0xff0000ff",
+										["left_top"] = "0xff0000ff",
+										["right_bottom"] = "0xff0000ff",
+										["right_center"] = "0xff0000ff",
+										["right_top"] = "0xff0000ff",
 									},
 									["picture"] = {
 										["file"] = "dxgui\\skins\\skinme\\images\\buttons\\coalition_choose\\red\\red_coalition_neutral.png",
@@ -735,261 +474,93 @@ dialog = {
 					["type"] = "Button",
 				},
 				["buttonOk"] = {
-					["children"] = {
-					},
 					["params"] = {
 						["bounds"] = {
-							[1] = {
-								["h"] = 42,
-								["w"] = 120,
-								["x"] = 863,
-								["y"] = 573,
-							},
+							["h"] = 32,
+							["w"] = 120,
+							["x"] = 862,
+							["y"] = 591,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["sound"] = {
-						},
-						["text"] = {
-							[1] = "$okbtn",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$okbtn",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
 					},
 					["skin"] = {
 						["params"] = {
-							["name"] = "buttonSkin_Multiplayer_btn_select_role",
+							["name"] = "buttonSkinGreenNew",
 						},
 					},
 					["type"] = "Button",
 				},
 				["buttonCancel"] = {
-					["children"] = {
-					},
 					["params"] = {
 						["bounds"] = {
-							[1] = {
-								["h"] = 40,
-								["w"] = 120,
-								["x"] = 660,
-								["y"] = 573,
-							},
+							["h"] = 30,
+							["w"] = 120,
+							["x"] = 595,
+							["y"] = 592,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["sound"] = {
-						},
-						["text"] = {
-							[1] = "$cancelbtn",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "$cancelbtn",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
 					},
 					["skin"] = {
 						["params"] = {
-							["minSize"] = {
-								["vert"] = 35,
-							},
-							["name"] = "buttonSkin_Multiplayer_btn_select_role",
+							["name"] = "buttonSkinGrayNew",
 						},
 					},
 					["type"] = "Button",
 				},
-				["editBoxMapDescription"] = {
-					["children"] = {
-					},
+				--[["clPresets"] = {
 					["params"] = {
-						["acceptDecimalPoint"] = {
-							[1] = false,
-						},
 						["bounds"] = {
-							[1] = {
-								["h"] = 375,
-								["w"] = 320,
-								["x"] = 42,
-								["y"] = 147,
-							},
+							["h"] = 20,
+							["w"] = 319,
+							["x"] = 514,
+							["y"] = 41,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["multiline"] = {
-							[1] = true,
-						},
-						["numeric"] = {
-							[1] = false,
-						},
-						["password"] = {
-							[1] = false,
-						},
-						["readOnly"] = {
-							[1] = true,
-						},
-						["text"] = {
-							[1] = "",
-						},
-						["textWrapping"] = {
-							[1] = true,
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "Item1",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 1,
 					},
 					["skin"] = {
 						["params"] = {
-							["insets"] = {
-								["right"] = 2,
-							},
-							["name"] = "editBoxSkin_ME",
-							["textOffset"] = {
-								["horz"] = 0,
-							},
+							["name"] = "comboListSkinNew_",
 						},
 						["skins"] = {
-							["vertScrollBar"] = {
+							["editBox"] = {
 								["skinData"] = {
 									["params"] = {
-										["maxSize"] = {
-											["horz"] = 6,
-										},
-										["minSize"] = {
-											["horz"] = 6,
+										["textOffset"] = {
+											["vert"] = 4,
 										},
 									},
 									["skins"] = {
-										["decreaseButton"] = {
+										["caret"] = {
 											["skinData"] = {
-												["states"] = {
-													["hover"] = {
-														[1] = {
-															["picture"] = {
-																["color"] = "$nil$",
-																["file"] = "$nil$",
-															},
-														},
-													},
-													["pressed"] = {
-														[1] = {
-															["picture"] = {
-																["color"] = "$nil$",
-																["file"] = "$nil$",
-															},
-														},
-													},
-													["released"] = {
-														[1] = {
-															["picture"] = {
-																["color"] = "$nil$",
-																["file"] = "$nil$",
-															},
-														},
-													},
-												},
-											},
-										},
-										["increaseButton"] = {
-											["skinData"] = {
-												["states"] = {
-													["hover"] = {
-														[1] = {
-															["picture"] = {
-																["color"] = "$nil$",
-																["file"] = "$nil$",
-															},
-														},
-													},
-													["pressed"] = {
-														[1] = {
-															["picture"] = {
-																["color"] = "$nil$",
-																["file"] = "$nil$",
-															},
-														},
-													},
-													["released"] = {
-														[1] = {
-															["picture"] = {
-																["color"] = "$nil$",
-																["file"] = "$nil$",
-															},
-														},
-													},
-												},
-											},
-										},
-										["thumb"] = {
-											["skinData"] = {
-												["params"] = {
-													["insets"] = {
-														["right"] = 5,
-													},
-												},
 												["states"] = {
 													["disabled"] = {
 														[1] = {
-															["bkg"] = {
-																["center_center"] = {
-																	["a"] = 1,
-																	["b"] = 1,
-																	["g"] = 1,
-																	["r"] = 1,
-																},
-																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_dis.png",
-															},
-														},
-													},
-													["hover"] = {
-														[1] = {
-															["bkg"] = {
-																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_hover.png",
-																["insets"] = {
-																	["bottom"] = "$nil$",
-																	["left"] = "$nil$",
-																	["right"] = "$nil$",
-																	["top"] = "$nil$",
-																},
-															},
-														},
-													},
-													["pressed"] = {
-														[1] = {
-															["bkg"] = {
-																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_pressed.png",
-																["insets"] = {
-																	["bottom"] = "$nil$",
-																	["left"] = "$nil$",
-																	["right"] = "$nil$",
-																	["top"] = "$nil$",
+															["picture"] = {
+																["rect"] = {
 																},
 															},
 														},
 													},
 													["released"] = {
 														[1] = {
-															["bkg"] = {
-																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_normal.png",
+															["picture"] = {
+																["rect"] = {
+																},
 															},
 														},
 													},
@@ -998,15 +569,81 @@ dialog = {
 										},
 									},
 									["states"] = {
+										["disabled"] = {
+											[1] = {
+												["bkg"] = {
+													["rect"] = {
+													},
+												},
+												["picture"] = {
+													["rect"] = {
+													},
+												},
+											},
+											[2] = {
+												["bkg"] = {
+													["rect"] = {
+													},
+												},
+												["picture"] = {
+													["rect"] = {
+													},
+												},
+											},
+										},
+										["hover"] = {
+											[1] = {
+												["bkg"] = {
+													["rect"] = {
+													},
+												},
+												["picture"] = {
+													["rect"] = {
+													},
+												},
+											},
+											[2] = {
+												["bkg"] = {
+													["rect"] = {
+													},
+												},
+												["picture"] = {
+													["rect"] = {
+													},
+												},
+											},
+										},
 										["released"] = {
 											[1] = {
 												["bkg"] = {
-													["center_center"] = "$nil$",
-													["insets"] = {
-														["bottom"] = "$nil$",
-														["left"] = "$nil$",
-														["right"] = "$nil$",
-														["top"] = "$nil$",
+													["rect"] = {
+													},
+												},
+												["picture"] = {
+													["rect"] = {
+													},
+												},
+												["text"] = {
+													["horzAlign"] = {
+														["offset"] = 10,
+													},
+												},
+											},
+											[2] = {
+												["bkg"] = {
+													["rect"] = {
+													},
+												},
+												["picture"] = {
+													["rect"] = {
+													},
+												},
+												["text"] = {
+													["horzAlign"] = {
+														["offset"] = 10,
+													},
+													["vertAlign"] = {
+														["type"] = "middle",
 													},
 												},
 											},
@@ -1019,78 +656,355 @@ dialog = {
 							["released"] = {
 								[1] = {
 									["bkg"] = {
-										["center_bottom"] = "$nil$",
+										["center_bottom"] = "0xffffff59",
 										["center_center"] = "$nil$",
-										["center_top"] = "$nil$",
-										["insets"] = {
-											["bottom"] = "$nil$",
-											["left"] = "$nil$",
-											["top"] = "$nil$",
+										["center_top"] = "0xffffff59",
+										["left_bottom"] = "0xffffff59",
+										["left_center"] = "0xffffff59",
+										["left_top"] = "0xffffff59",
+										["right_bottom"] = "0xffffff59",
+										["right_center"] = "0xffffff59",
+										["right_top"] = "0xffffff59",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ComboList",
+				},]]
+				["editBoxMapDescription"] = {
+					["params"] = {
+						["acceptDecimalPoint"] = false,
+						["bounds"] = {
+							["h"] = 375,
+							["w"] = 320,
+							["x"] = 42,
+							["y"] = 146,
+						},
+						["enabled"] = true,
+						["multiline"] = true,
+						["numeric"] = false,
+						["password"] = false,
+						["readOnly"] = true,
+						["tabOrder"] = 0,
+						["text"] = "",
+						["textWrapping"] = true,
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["name"] = "editBoxNew",
+						},
+						["skins"] = {
+							["vertScrollBar"] = {
+								["skinData"] = {
+									["params"] = {
+										["maxSize"] = {
+											["horz"] = 11,
 										},
-										["left_bottom"] = "$nil$",
-										["left_center"] = "$nil$",
-										["left_top"] = "$nil$",
-										["right_bottom"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
-										},
-										["right_center"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
-										},
-										["right_top"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
+										["minSize"] = {
+											["horz"] = 11,
 										},
 									},
-									["text"] = {
-										["horzAlign"] = {
-											["offset"] = 0,
+									["skins"] = {
+										["decreaseButton"] = {
+											["skinData"] = {
+												["params"] = {
+													["insets"] = {
+														["left"] = 1,
+													},
+													["maxSize"] = {
+														["horz"] = 10,
+													},
+													["minSize"] = {
+														["horz"] = 10,
+													},
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["picture"] = {
+																["color"] = "0xffffffff",
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_dis.png",
+																["horzAlign"] = {
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["picture"] = {
+																["color"] = "0xffffffff",
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_hover.png",
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_pressed.png",
+																["rect"] = {
+																	["x1"] = "$nil$",
+																	["x2"] = "$nil$",
+																	["y1"] = "$nil$",
+																	["y2"] = "$nil$",
+																},
+																["size"] = {
+																	["horz"] = "$nil$",
+																	["vert"] = "$nil$",
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\up_normal.png",
+																["size"] = {
+																	["horz"] = "$nil$",
+																	["vert"] = "$nil$",
+																},
+															},
+														},
+													},
+												},
+											},
 										},
+										["increaseButton"] = {
+											["skinData"] = {
+												["params"] = {
+													["maxSize"] = {
+														["horz"] = 11,
+													},
+													["minSize"] = {
+														["horz"] = 11,
+													},
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["picture"] = {
+																["color"] = "0xffffffff",
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_dis.png",
+																["horzAlign"] = {
+																	["type"] = "middle",
+																},
+																["vertAlign"] = {
+																	["type"] = "middle",
+																},
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["picture"] = {
+																["color"] = "0xffffffff",
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_hover.png",
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_pressed.png",
+																["rect"] = {
+																	["x1"] = "$nil$",
+																	["x2"] = "$nil$",
+																	["y1"] = "$nil$",
+																	["y2"] = "$nil$",
+																},
+																["size"] = {
+																	["horz"] = "$nil$",
+																	["vert"] = "$nil$",
+																},
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["picture"] = {
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\down_normal.png",
+																["size"] = {
+																	["horz"] = "$nil$",
+																	["vert"] = "$nil$",
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+										["thumb"] = {
+											["skinData"] = {
+												["params"] = {
+													["maxSize"] = {
+														["horz"] = 5,
+														["vert"] = 0,
+													},
+													["minSize"] = {
+														["horz"] = 5,
+														["vert"] = 20,
+													},
+												},
+												["states"] = {
+													["disabled"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0xffffffff",
+																["center_center"] = "0xffffffff",
+																["center_top"] = "0xffffffff",
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_dis.png",
+																["left_bottom"] = "0xffffffff",
+																["left_center"] = "0xffffffff",
+																["left_top"] = "0xffffffff",
+																["right_bottom"] = "0xffffffff",
+																["right_center"] = "0xffffffff",
+																["right_top"] = "0xffffffff",
+															},
+														},
+													},
+													["hover"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0xffffffff",
+																["center_center"] = "0xffffffff",
+																["center_top"] = "0xffffffff",
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_hover.png",
+																["insets"] = {
+																	["bottom"] = 20,
+																	["left"] = 0,
+																	["right"] = 0,
+																	["top"] = 10,
+																},
+																["left_bottom"] = "0xffffffff",
+																["left_center"] = "0xffffffff",
+																["left_top"] = "0xffffffff",
+																["rect"] = {
+																	["x1"] = 0,
+																	["x2"] = 0,
+																	["y1"] = 0,
+																	["y2"] = 0,
+																},
+																["right_bottom"] = "0xffffffff",
+																["right_center"] = "0xffffffff",
+																["right_top"] = "0xffffffff",
+															},
+														},
+													},
+													["pressed"] = {
+														[1] = {
+															["bkg"] = {
+																["center_bottom"] = "0xffffffff",
+																["center_center"] = "0xffffffff",
+																["center_top"] = "0xffffffff",
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_normal.png",
+																["insets"] = {
+																	["left"] = 1,
+																	["right"] = 1,
+																},
+																["left_bottom"] = "0xffffffff",
+																["left_center"] = "0xffffffff",
+																["left_top"] = "0xffffffff",
+																["rect"] = {
+																	["x1"] = 0,
+																	["x2"] = 0,
+																	["y1"] = 0,
+																	["y2"] = 0,
+																},
+																["right_bottom"] = "0xffffffff",
+																["right_center"] = "0xffffffff",
+																["right_top"] = "0xffffffff",
+															},
+														},
+													},
+													["released"] = {
+														[1] = {
+															["bkg"] = {
+																["center_center"] = "0xffffffff",
+																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_normal.png",
+																["rect"] = {
+																	["x1"] = 0,
+																	["x2"] = 0,
+																	["y1"] = 0,
+																	["y2"] = 0,
+																},
+															},
+														},
+													},
+												},
+											},
+										},
+									},
+									["states"] = {
+										["disabled"] = {
+											[1] = {
+												["bkg"] = {
+													["center_bottom"] = "0x00000000",
+													["center_center"] = "0xffffffff",
+													["center_top"] = "0x00000000",
+													["file"] = "dxgui\\skins\\skinme\\images\\vertscrollbarskinsvbg.png",
+													["insets"] = {
+														["bottom"] = 0,
+														["left"] = 0,
+														["right"] = 0,
+														["top"] = 0,
+													},
+													["left_bottom"] = "0x00000000",
+													["left_center"] = "0x00000000",
+													["left_top"] = "0x00000000",
+													["rect"] = {
+														["x1"] = 0,
+														["x2"] = 0,
+														["y1"] = 0,
+														["y2"] = 0,
+													},
+													["right_bottom"] = "0x00000000",
+													["right_center"] = "0x00000000",
+													["right_top"] = "0x00000000",
+												},
+											},
+										},
+										["released"] = {
+											[1] = {
+												["bkg"] = {
+													["center_center"] = "0x363636ff",
+													["file"] = "$nil$",
+												},
+												["picture"] = {
+													["horzAlign"] = {
+														["type"] = "middle",
+													},
+												},
+											},
+										},
+									},
+								},
+							},
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_center"] = "0x212d3a40",
 									},
 								},
 								[2] = {
 									["bkg"] = {
-										["center_bottom"] = "$nil$",
-										["center_center"] = "$nil$",
-										["center_top"] = "$nil$",
-										["insets"] = {
-											["bottom"] = "$nil$",
-											["left"] = "$nil$",
-											["top"] = "$nil$",
-										},
-										["left_bottom"] = "$nil$",
-										["left_center"] = "$nil$",
-										["left_top"] = "$nil$",
-										["right_bottom"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
-										},
-										["right_center"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
-										},
-										["right_top"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
-										},
-									},
-									["text"] = {
-										["color"] = {
-											["b"] = 0.90196078431373,
-											["g"] = 0.90196078431373,
-											["r"] = 0.90196078431373,
-										},
-										["horzAlign"] = {
-											["offset"] = 0,
-										},
-										["lineHeight"] = 5,
+										["center_bottom"] = "0x00000080",
+										["center_center"] = "0x212d3a40",
+										["center_top"] = "0x00000080",
+										["left_bottom"] = "0x00000080",
+										["left_center"] = "0x00000080",
+										["left_top"] = "0x00000080",
+										["right_bottom"] = "0x00000080",
+										["right_center"] = "0x00000080",
+										["right_top"] = "0x00000080",
 									},
 								},
 							},
@@ -1099,442 +1013,54 @@ dialog = {
 					["type"] = "EditBox",
 				},
 				["listBoxBlueCoa"] = {
-					["children"] = {
-					},
 					["params"] = {
 						["bounds"] = {
-							[1] = {
-								["h"] = 375,
-								["w"] = 170,
-								["x"] = 812,
-								["y"] = 146,
-							},
+							["h"] = 375,
+							["w"] = 170,
+							["x"] = 812,
+							["y"] = 176,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["text"] = {
-							[1] = "ListBox1",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
-					},
-					["skin"] = {
-						["params"] = {
-							["name"] = "coalition_list_box_skin",
-						},
-					},
-					["type"] = "ListBox",
-				},
-        ["listBoxNeutralCoa"] = {
-					["children"] = {
-					},
-					["params"] = {
-						["bounds"] = {
-							[1] = {
-								["h"] = 375,
-								["w"] = 170,
-								["x"] = 609,
-								["y"] = 186,
-							},
-						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["text"] = {
-							[1] = "ListBox3",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
-					},
-					["skin"] = {
-						["params"] = {
-							["name"] = "coalition_list_box_skin",
-						},
-						["skins"] = {
-							["item"] = {
-								["skinData"] = {
-									["states"] = {
-										["released"] = {
-											[1] = {
-												["text"] = {
-													["color"] = {
-														["b"] = 0.90196078431373,
-														["g"] = 0.90196078431373,
-														["r"] = 0.90196078431373,
-													},
-												},
-											},
-										},
-									},
-								},
-							},
-						},
-					},
-					["type"] = "ListBox",
-				},
-				["listBoxRedCoa"] = {
-					["children"] = {
-					},
-					["params"] = {
-						["bounds"] = {
-							[1] = {
-								["h"] = 375,
-								["w"] = 170,
-								["x"] = 407,
-								["y"] = 146,
-							},
-						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["text"] = {
-							[1] = "ListBox1",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "ListBox1",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
 					},
 					["skin"] = {
 						["params"] = {
 							["insets"] = {
-								["left"] = 0,
-								["right"] = 3,
-								["top"] = "$nil$",
+								["top"] = 15,
 							},
-							["name"] = "listBoxSkin_ME",
+							["name"] = "coalition_list_box_skin",
 						},
 						["skins"] = {
 							["item"] = {
 								["skinData"] = {
-									["params"] = {
-										["insets"] = {
-											["left"] = 15,
-										},
-									},
 									["states"] = {
-										["disabled"] = {
-											[1] = {
-												["picture"] = {
-													["horzAlign"] = {
-														["offset"] = -8,
-													},
-													["vertAlign"] = {
-														["type"] = "max",
-													},
-												},
-												["text"] = {
-													["color"] = {
-														["a"] = 1,
-													},
-													["horzAlign"] = {
-														["offset"] = 16,
-													},
-													["lineThroughHeight"] = 1,
-												},
-											},
-											[2] = {
-												["picture"] = {
-													["horzAlign"] = {
-														["offset"] = -8,
-													},
-													["vertAlign"] = {
-														["type"] = "max",
-													},
-												},
-												["text"] = {
-													["color"] = {
-														["b"] = 0.85490196078431,
-														["g"] = 0.87058823529412,
-														["r"] = 0.87843137254902,
-													},
-													["horzAlign"] = {
-														["offset"] = 16,
-													},
-													["lineThroughHeight"] = 1,
-												},
-											},
-										},
 										["hover"] = {
 											[1] = {
-												["bkg"] = {
-													["insets"] = {
-														["bottom"] = 0,
-														["top"] = 0,
-													},
-												},
-												["picture"] = {
-													["file"] = "$nil$",
-													["horzAlign"] = {
-														["offset"] = -8,
-													},
-													["size"] = {
-														["horz"] = 0,
-														["vert"] = 0,
-													},
-													["vertAlign"] = {
-														["type"] = "max",
-													},
-												},
 												["text"] = {
-													["color"] = {
-														["b"] = 0.25098039215686,
-														["g"] = 0.72549019607843,
-														["r"] = 0.96862745098039,
-													},
-													["horzAlign"] = {
-														["offset"] = 25,
-													},
-													["lineThroughHeight"] = 1,
+													["color"] = "0x6ed8f3ff",
 												},
 											},
 											[2] = {
-												["bkg"] = {
-													["center_center"] = "$nil$",
-													["insets"] = {
-														["bottom"] = 0,
-														["top"] = 0,
-													},
-												},
-												["picture"] = {
-													["file"] = "$nil$",
-													["horzAlign"] = {
-														["offset"] = -8,
-													},
-													["size"] = {
-														["horz"] = 0,
-														["vert"] = 0,
-													},
-													["vertAlign"] = {
-														["type"] = "max",
-													},
-												},
 												["text"] = {
-													["color"] = {
-														["b"] = 0.25098039215686,
-														["g"] = 0.72549019607843,
-														["r"] = 0.96862745098039,
-													},
-													["font"] = "DejaVuLGCSansCondensed-BoldOblique.ttf",
-													["horzAlign"] = {
-														["offset"] = 25,
-													},
-													["lineThroughHeight"] = 1,
+													["color"] = "0x6ed8f3ff",
+													["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
 												},
 											},
 										},
 										["released"] = {
 											[1] = {
-												["picture"] = {
-													["file"] = "$nil$",
-													["horzAlign"] = {
-														["offset"] = -8,
-													},
-													["size"] = {
-														["horz"] = "$nil$",
-														["vert"] = "$nil$",
-													},
-													["vertAlign"] = {
-														["type"] = "max",
-													},
-												},
 												["text"] = {
-													["horzAlign"] = {
-														["offset"] = 25,
-													},
+													["color"] = "0xe6e6e6ff",
 												},
 											},
 											[2] = {
-												["bkg"] = {
-													["center_center"] = "$nil$",
-													["insets"] = {
-														["bottom"] = 0,
-														["top"] = 0,
-													},
-												},
-												["picture"] = {
-													["file"] = "$nil$",
-													["horzAlign"] = {
-														["offset"] = -8,
-													},
-													["size"] = {
-														["horz"] = 0,
-														["vert"] = 0,
-													},
-													["vertAlign"] = {
-														["type"] = "max",
-													},
-												},
 												["text"] = {
-													["color"] = {
-														["b"] = 0.25098039215686,
-														["g"] = 0.72549019607843,
-														["r"] = 0.96862745098039,
-													},
-													["font"] = "DejaVuLGCSansCondensed-BoldOblique.ttf",
-													["horzAlign"] = {
-														["offset"] = 25,
-													},
-													["lineThroughHeight"] = 1,
-												},
-											},
-										},
-									},
-								},
-							},
-							["vertScrollBar"] = {
-								["skinData"] = {
-									["params"] = {
-										["insets"] = {
-											["bottom"] = "$nil$",
-											["top"] = "$nil$",
-										},
-										["maxSize"] = {
-											["horz"] = 6,
-										},
-										["minSize"] = {
-											["horz"] = 6,
-										},
-									},
-									["skins"] = {
-										["decreaseButton"] = {
-											["skinData"] = {
-												["params"] = {
-													["maxSize"] = {
-														["vert"] = 5,
-													},
-													["minSize"] = {
-														["vert"] = 5,
-													},
-												},
-												["states"] = {
-													["hover"] = {
-														[1] = {
-															["picture"] = {
-																["color"] = "$nil$",
-																["file"] = "$nil$",
-															},
-														},
-													},
-													["pressed"] = {
-														[1] = {
-															["picture"] = {
-																["color"] = "$nil$",
-																["file"] = "$nil$",
-															},
-														},
-													},
-													["released"] = {
-														[1] = {
-															["picture"] = {
-																["color"] = "$nil$",
-																["file"] = "$nil$",
-															},
-														},
-													},
-												},
-											},
-										},
-										["increaseButton"] = {
-											["skinData"] = {
-												["states"] = {
-													["hover"] = {
-														[1] = {
-															["picture"] = {
-																["color"] = "$nil$",
-																["file"] = "$nil$",
-															},
-														},
-													},
-													["released"] = {
-														[1] = {
-															["picture"] = {
-																["color"] = "$nil$",
-																["file"] = "$nil$",
-															},
-														},
-													},
-												},
-											},
-										},
-										["thumb"] = {
-											["skinData"] = {
-												["params"] = {
-													["insets"] = {
-														["left"] = 2,
-														["right"] = 2,
-													},
-												},
-												["states"] = {
-													["disabled"] = {
-														[1] = {
-															["bkg"] = {
-																["center_center"] = {
-																	["a"] = 1,
-																	["b"] = 1,
-																	["g"] = 1,
-																	["r"] = 1,
-																},
-																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_dis.png",
-															},
-														},
-													},
-													["hover"] = {
-														[1] = {
-															["bkg"] = {
-																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_hover.png",
-															},
-														},
-													},
-													["pressed"] = {
-														[1] = {
-															["bkg"] = {
-																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_pressed.png",
-															},
-														},
-													},
-													["released"] = {
-														[1] = {
-															["bkg"] = {
-																["file"] = "dxgui\\skins\\skinme\\images\\buttons\\scroll\\polzunok_normal.png",
-															},
-														},
-													},
-												},
-											},
-										},
-									},
-									["states"] = {
-										["released"] = {
-											[1] = {
-												["bkg"] = {
-													["center_center"] = "$nil$",
-													["insets"] = {
-														["bottom"] = "$nil$",
-														["left"] = "$nil$",
-														["right"] = "$nil$",
-														["top"] = "$nil$",
-													},
+													["color"] = "0x6ed8f3ff",
+													["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
 												},
 											},
 										},
@@ -1546,47 +1072,164 @@ dialog = {
 							["released"] = {
 								[1] = {
 									["bkg"] = {
-										["center_bottom"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
+										["center_bottom"] = "0xdadada40",
+										["center_top"] = "0xdadada40",
+										["left_bottom"] = "0xdadada40",
+										["left_center"] = "0xdadada40",
+										["left_top"] = "0xdadada40",
+										["right_bottom"] = "0xdadada40",
+										["right_center"] = "0xdadada40",
+										["right_top"] = "0xdadada40",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ListBox",
+				},
+				["listBoxNeutralCoa"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 375,
+							["w"] = 170,
+							["x"] = 609,
+							["y"] = 176,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "ListBox3",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["top"] = 15,
+							},
+							["name"] = "coalition_list_box_skin",
+						},
+						["skins"] = {
+							["item"] = {
+								["skinData"] = {
+									["states"] = {
+										["hover"] = {
+											[1] = {
+												["text"] = {
+													["color"] = "0x6ed8f3ff",
+												},
+											},
+											[2] = {
+												["text"] = {
+													["color"] = "0x6ed8f3ff",
+													["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+												},
+											},
 										},
-										["center_center"] = "$nil$",
-										["center_top"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
+										["released"] = {
+											[1] = {
+												["text"] = {
+													["color"] = "0xe6e6e6ff",
+												},
+											},
+											[2] = {
+												["text"] = {
+													["color"] = "0x6ed8f3ff",
+													["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+												},
+											},
 										},
-										["left_bottom"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
+									},
+								},
+							},
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xdadada40",
+										["center_top"] = "0xdadada40",
+										["left_bottom"] = "0xdadada40",
+										["left_center"] = "0xdadada40",
+										["left_top"] = "0xdadada40",
+										["right_bottom"] = "0xdadada40",
+										["right_center"] = "0xdadada40",
+										["right_top"] = "0xdadada40",
+									},
+								},
+							},
+						},
+					},
+					["type"] = "ListBox",
+				},
+				["listBoxRedCoa"] = {
+					["params"] = {
+						["bounds"] = {
+							["h"] = 375,
+							["w"] = 170,
+							["x"] = 407,
+							["y"] = 176,
+						},
+						["enabled"] = true,
+						["tabOrder"] = 0,
+						["text"] = "ListBox1",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
+					},
+					["skin"] = {
+						["params"] = {
+							["insets"] = {
+								["top"] = 15,
+							},
+							["name"] = "coalition_list_box_skin",
+						},
+						["skins"] = {
+							["item"] = {
+								["skinData"] = {
+									["states"] = {
+										["hover"] = {
+											[1] = {
+												["text"] = {
+													["color"] = "0x6ed8f3ff",
+												},
+											},
+											[2] = {
+												["text"] = {
+													["color"] = "0x6ed8f3ff",
+													["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+												},
+											},
 										},
-										["left_center"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
+										["released"] = {
+											[1] = {
+												["text"] = {
+													["color"] = "0xe6e6e6ff",
+												},
+											},
+											[2] = {
+												["text"] = {
+													["color"] = "0x6ed8f3ff",
+													["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
+												},
+											},
 										},
-										["left_top"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
-										},
-										["right_bottom"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
-										},
-										["right_center"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
-										},
-										["right_top"] = {
-											["b"] = 0.85490196078431,
-											["g"] = 0.85490196078431,
-											["r"] = 0.85490196078431,
-										},
+									},
+								},
+							},
+						},
+						["states"] = {
+							["released"] = {
+								[1] = {
+									["bkg"] = {
+										["center_bottom"] = "0xdadada40",
+										["center_top"] = "0xdadada40",
+										["left_bottom"] = "0xdadada40",
+										["left_center"] = "0xdadada40",
+										["left_top"] = "0xdadada40",
+										["right_bottom"] = "0xdadada40",
+										["right_center"] = "0xdadada40",
+										["right_top"] = "0xdadada40",
 									},
 								},
 							},
@@ -1595,32 +1238,18 @@ dialog = {
 					["type"] = "ListBox",
 				},
 				["static0"] = {
-					["children"] = {
-					},
 					["params"] = {
 						["bounds"] = {
-							[1] = {
-								["h"] = 24,
-								["w"] = 128,
-								["x"] = 42,
-								["y"] = 105,
-							},
+							["h"] = 24,
+							["w"] = 128,
+							["x"] = 42,
+							["y"] = 105,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["text"] = {
-							[1] = "$info",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["text"] = "$info",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
 					},
 					["skin"] = {
 						["params"] = {
@@ -1639,11 +1268,7 @@ dialog = {
 										["center_center"] = "$nil$",
 									},
 									["text"] = {
-										["color"] = {
-											["b"] = 0.80392156862745,
-											["g"] = 0.80392156862745,
-											["r"] = 0.80392156862745,
-										},
+										["color"] = "0xcdcdcdff",
 										["horzAlign"] = {
 											["offset"] = 0,
 										},
@@ -1655,32 +1280,18 @@ dialog = {
 					["type"] = "Static",
 				},
 				["title"] = {
-					["children"] = {
-					},
 					["params"] = {
 						["bounds"] = {
-							[1] = {
-								["h"] = 40,
-								["w"] = 940,
-								["x"] = 42,
-								["y"] = 36,
-							},
+							["h"] = 40,
+							["w"] = 940,
+							["x"] = 42,
+							["y"] = 36,
 						},
-						["enabled"] = {
-							[1] = true,
-						},
-						["text"] = {
-							[1] = "$title",
-						},
-						["tooltip"] = {
-							[1] = "",
-						},
-						["visible"] = {
-							[1] = true,
-						},
-						["zindex"] = {
-							[1] = 0,
-						},
+						["enabled"] = true,
+						["text"] = "$title",
+						["tooltip"] = "",
+						["visible"] = true,
+						["zindex"] = 0,
 					},
 					["skin"] = {
 						["params"] = {
@@ -1690,22 +1301,13 @@ dialog = {
 							["released"] = {
 								[1] = {
 									["bkg"] = {
-										["center_bottom"] = {
-											["a"] = 1,
-											["b"] = 0.25098039215686,
-											["g"] = 0.72549019607843,
-											["r"] = 0.96862745098039,
-										},
+										["center_bottom"] = "0x2d3e50ff",
 										["insets"] = {
 											["bottom"] = 1,
 										},
 									},
 									["text"] = {
-										["color"] = {
-											["b"] = 1,
-											["g"] = 1,
-											["r"] = 1,
-										},
+										["color"] = "0xffffffff",
 										["font"] = "DejaVuLGCSansCondensed-Bold.ttf",
 										["fontSize"] = 24,
 										["lineHeight"] = 0,
@@ -1723,32 +1325,16 @@ dialog = {
 			},
 			["params"] = {
 				["bounds"] = {
-					[1] = {
-						["h"] = 650,
-						["w"] = 1024,
-						["x"] = 13,
-						["y"] = 13,
-					},
+					["h"] = 650,
+					["w"] = 1024,
+					["x"] = 13,
+					["y"] = 13,
 				},
-				["enabled"] = {
-					[1] = true,
-				},
-				["layout"] = {
-					[1] = {
-					},
-				},
-				["text"] = {
-					[1] = "",
-				},
-				["tooltip"] = {
-					[1] = "",
-				},
-				["visible"] = {
-					[1] = true,
-				},
-				["zindex"] = {
-					[1] = 0,
-				},
+				["enabled"] = true,
+				["text"] = "",
+				["tooltip"] = "",
+				["visible"] = true,
+				["zindex"] = 0,
 			},
 			["skin"] = {
 				["params"] = {
@@ -1758,12 +1344,7 @@ dialog = {
 					["released"] = {
 						[1] = {
 							["picture"] = {
-								["color"] = {
-									["a"] = 1,
-									["b"] = 1,
-									["g"] = 1,
-									["r"] = 1,
-								},
+								["color"] = "0xffffffff",
 								["file"] = "missioneditor\\themes\\main\\images\\nomap.png",
 								["horzAlign"] = {
 									["type"] = "stretch",
@@ -1779,40 +1360,29 @@ dialog = {
 			["type"] = "Panel",
 		},
 	},
+	["horzGuids"] = {
+		[1] = 190,
+		[2] = 564,
+		[3] = 89,
+		[4] = 606,
+		[5] = 637,
+	},
 	["params"] = {
 		["bounds"] = {
-			[1] = {
-				["h"] = 762,
-				["w"] = 1273,
-				["x"] = 0,
-				["y"] = 0,
-			},
+			["h"] = 762,
+			["w"] = 1273,
+			["x"] = 0,
+			["y"] = 0,
 		},
-		["draggable"] = {
-			[1] = false,
-		},
-		["enabled"] = {
-			[1] = true,
-		},
-		["hasCursor"] = {
-			[1] = true,
-		},
-		["layout"] = {
-			[1] = {
-			},
-		},
-		["lockFlow"] = {
-			[1] = false,
-		},
-		["modal"] = {
-			[1] = false,
-		},
-		["text"] = {
-			[1] = "New dialog",
-		},
-		["zOrder"] = {
-			[1] = 100,
-		},
+		["draggable"] = false,
+		["enabled"] = true,
+		["hasCursor"] = true,
+		["lockFlow"] = false,
+		["modal"] = false,
+		["offscreen"] = false,
+		["resizable"] = false,
+		["text"] = "New dialog",
+		["zOrder"] = 100,
 	},
 	["skin"] = {
 		["params"] = {
@@ -1823,17 +1393,15 @@ dialog = {
 			["released"] = {
 				[1] = {
 					["bkg"] = {
-						["center_center"] = {
-							["a"] = 0.72549019607843,
-							["b"] = 0.1843137254902,
-							["g"] = 0.18823529411765,
-							["r"] = 0.18823529411765,
-						},
+						["center_center"] = "0x30302fb9",
 					},
 				},
 			},
 		},
 	},
 	["type"] = "Window",
+	["vertGuids"] = {
+		[1] = 51,
+		[2] = 193,
+	},
 }
-
