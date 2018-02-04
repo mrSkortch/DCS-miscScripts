@@ -38,7 +38,7 @@ cdata = {
         description = _('DESCRIPTION'), 
         redTask = _('RED TASK'), 
         blueTask = _('BLUE TASK'),
-        neutralsTask = _('NEUTRALS TASK'),                            
+		neutralsTask = _('NEUTRALS TASK'),
         redPictureHint = _('changes picture for RED coalition'),
         bluePictureHint = _('changes picture for BLUE coalition'),
         deletePictureHint = _('erases picture'),
@@ -49,7 +49,7 @@ cdata = {
     }
     
 vdata = {
-    start_time = 43200,
+    start_time = 28800,
     date = {Year = 1900 , Month  = 1 , Day = 1},
     countryName = '',
     alliesString = '',
@@ -62,12 +62,44 @@ vdata = {
     group = '';
     player = nil;
     playerUnit = nil;
-   
+	modifiedTime = false
 }
 
+defaultTimeByMonth = 
+{
+	[1] = 36000,
+	[2] = 36000,
+	[3] = 36000,
+	[4] = 36000,
+	[5] = 28800,
+	[6] = 28800,
+	[7] = 28800,
+	[8] = 28800,
+	[9] = 28800,
+	[10] = 36000,
+	[11] = 36000,
+	[12] = 36000,
+
+}
+
+function resetModifiedTime()
+	modifiedTime = false
+end
+
+
 -- set start time
-function updateMissionStart(time, date)
+function updateMissionStart(time, date, editMonth)
     MissionModule.mission.date = date
+	
+	if modifiedTime == false and editMonth == "month" then
+		time = defaultTimeByMonth[date.Month]
+		U.setDataTime(editBoxYear, cb_month, editBoxHours, editBoxMinutes, editBoxSeconds, editBoxDays, time, date)
+	end
+	
+	if editMonth == "time" then
+		modifiedTime = true
+	end
+	
     MissionModule.mission.start_time = time
     panel_weather.updateSeason(time, date)
 end
@@ -130,7 +162,7 @@ local function create_()
 		window.spDesc.staticNeutralsTask:setVisible(false)
 	end
 	
-	window.spDesc:updateWidgetsBounds()                               
+	window.spDesc:updateWidgetsBounds()
     
     setupCallbacks()
 end
@@ -140,7 +172,7 @@ function setupCallbacks()
     editBoxDescription.onChange = descriptionChange;
     editBoxRedTask.onChange = descriptionRChange;
     editBoxBlueTask.onChange = descriptionBChange;
-    editBoxNeutralsTask.onChange = descriptionNChange;                                               
+	editBoxNeutralsTask.onChange = descriptionNChange;
     editBoxSortie.onChange = sortieChange;
     bEditImages.onChange = bEditImages_onChange
     editBoxYear.onChange = editBoxYear_onChange;
@@ -205,9 +237,10 @@ function update()
             mission.descriptionBlueTask = mission.descriptionBlueTask or '';
             editBoxBlueTask:setText(mission.descriptionBlueTask);
             vdata.descriptionBlueTask = mission.descriptionBlueTask;
+			
 			mission.descriptionNeutralsTask = mission.descriptionNeutralsTask or '';
             editBoxNeutralsTask:setText(mission.descriptionNeutralsTask);
-            vdata.descriptionNeutralsTask = mission.descriptionNeutralsTask;                                                               
+            vdata.descriptionNeutralsTask = mission.descriptionNeutralsTask;
         end;
         
 
@@ -226,7 +259,7 @@ function applyChanges()
         mission.descriptionText = editBoxDescription:getText();
         mission.descriptionRedTask = editBoxRedTask:getText();
         mission.descriptionBlueTask = editBoxBlueTask:getText();
-        mission.descriptionNeutralsTask = editBoxNeutralsTask:getText();                                                          
+		mission.descriptionNeutralsTask = editBoxNeutralsTask:getText();
         mission.sortie = editBoxSortie:getText();
     end;
 end
@@ -313,7 +346,8 @@ end;
 
 function descriptionNChange(self, text)
     mission.descriptionNeutralsTask = self:getText();
-end;                                        
+end; 
+
 function sortieChange(self, text)
     mission.sortie = self:getText();
 end; 
