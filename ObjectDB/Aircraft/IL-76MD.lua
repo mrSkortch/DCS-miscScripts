@@ -8,7 +8,6 @@ IL-76MD =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.175,
@@ -16,21 +15,23 @@ IL-76MD =
 					["caliber"] = 23,
 					["mass"] = 0.175,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "23mm HE",
 				["typeName"] = "weapons.shells.GSH23_23_HE_T",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -58,7 +59,7 @@ IL-76MD =
 		}, -- end of ["box"]
 		["Hmax"] = 12000,
 		["Kmax"] = 4,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 236.11000061035,
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 70000,
@@ -69,6 +70,7 @@ IL-76MD =
 		["displayName"] = "il-76md",
 		["life"] = 60,
 		["VyMax"] = 10,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -79,6 +81,6 @@ IL-76MD =
 			["Transports"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "IL-76MD",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of IL-76MD

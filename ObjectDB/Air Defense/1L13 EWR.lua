@@ -29,6 +29,7 @@
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -49,20 +50,23 @@
 		["life"] = 1,
 		["attributes"] = 
 		{
+			["Air"] = true,
 			["Vehicles"] = true,
 			["NonArmoredUnits"] = true,
 			["CustomAimPoint"] = true,
 			["Air Defence"] = true,
-			["Ground vehicles"] = true,
+			["AWACS"] = true,
+			["Planes"] = true,
 			["NonAndLightArmoredUnits"] = true,
 			["EWR"] = true,
+			["Air Defence vehicles"] = true,
 			["All"] = true,
 			["Ground Units"] = true,
-			["Air Defence vehicles"] = true,
+			["Ground vehicles"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "1L13 EWR",
 		["displayName"] = "EWR 1L13",
 	}, -- end of ["desc"]

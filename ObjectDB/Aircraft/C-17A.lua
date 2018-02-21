@@ -23,7 +23,7 @@ C-17A =
 		}, -- end of ["box"]
 		["Hmax"] = 13715,
 		["Kmax"] = 3,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 180,
 		["NyMin"] = -1,
 		["fuelMassMax"] = 132405,
@@ -34,6 +34,7 @@ C-17A =
 		["displayName"] = "c-17",
 		["life"] = 45,
 		["VyMax"] = 8,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -45,6 +46,6 @@ C-17A =
 			["Refuelable"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "C-17A",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of C-17A

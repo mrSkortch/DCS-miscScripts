@@ -5,6 +5,7 @@ Truck Trolley bus =
 		["massEmpty"] = 10100,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -37,7 +38,7 @@ Truck Trolley bus =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 19.444400787354,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Trolley bus",
 		["displayName"] = "Transport ZIU-9",
 	}, -- end of ["desc"]

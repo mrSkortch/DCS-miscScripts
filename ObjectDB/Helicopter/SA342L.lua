@@ -8,7 +8,6 @@ SA342L =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.11,
@@ -16,21 +15,23 @@ SA342L =
 					["caliber"] = 20,
 					["mass"] = 0.11,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "20mm HE",
 				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -68,7 +69,7 @@ SA342L =
 		}, -- end of ["box"]
 		["Hmax"] = 6000,
 		["Kmax"] = 0.20000000298023,
-		["category"] = 1,
+		["_origin"] = "SA342 AI by Polychop-Simulations",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 416.32998657227,
 		["speedMax"] = 240,
@@ -79,7 +80,6 @@ SA342L =
 		["life"] = 18,
 		["HmaxStat"] = 3040,
 		["VyMax"] = 14.60000038147,
-		["typeName"] = "SA342L",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -89,5 +89,7 @@ SA342L =
 			["Helicopters"] = true,
 			["Attack helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "SA342L",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of SA342L

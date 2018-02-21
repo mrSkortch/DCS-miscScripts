@@ -21,7 +21,7 @@ Mi-26 =
 		}, -- end of ["box"]
 		["Hmax"] = 4600,
 		["Kmax"] = 1,
-		["category"] = 1,
+		["_origin"] = "",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 9600,
 		["speedMax"] = 295,
@@ -32,7 +32,6 @@ Mi-26 =
 		["life"] = 30,
 		["HmaxStat"] = 1000,
 		["VyMax"] = 14.60000038147,
-		["typeName"] = "Mi-26",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -42,5 +41,7 @@ Mi-26 =
 			["Helicopters"] = true,
 			["Transport helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "Mi-26",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of Mi-26

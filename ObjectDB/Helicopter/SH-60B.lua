@@ -50,7 +50,7 @@ SH-60B =
 		}, -- end of ["box"]
 		["Hmax"] = 4510,
 		["Kmax"] = 0.34999999403954,
-		["category"] = 1,
+		["_origin"] = "",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 1100,
 		["speedMax"] = 276,
@@ -61,7 +61,6 @@ SH-60B =
 		["life"] = 14,
 		["HmaxStat"] = 4510,
 		["VyMax"] = 10.159999847412,
-		["typeName"] = "SH-60B",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -71,5 +70,7 @@ SH-60B =
 			["Helicopters"] = true,
 			["Attack helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "SH-60B",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of SH-60B

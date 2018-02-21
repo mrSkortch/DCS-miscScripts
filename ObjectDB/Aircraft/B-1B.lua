@@ -58,7 +58,7 @@ B-1B =
 		}, -- end of ["box"]
 		["Hmax"] = 15240,
 		["Kmax"] = 3,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 369.39999389648,
 		["NyMin"] = -2,
 		["fuelMassMax"] = 88450,
@@ -69,6 +69,7 @@ B-1B =
 		["displayName"] = "b-1b",
 		["life"] = 60,
 		["VyMax"] = 70,
+		["Kab"] = 8,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -82,6 +83,6 @@ B-1B =
 			["Refuelable"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "B-1B",
-		["Kab"] = 8,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of B-1B

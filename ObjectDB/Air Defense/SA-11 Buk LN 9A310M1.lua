@@ -7,13 +7,6 @@ SA-11 Buk LN 9A310M1 =
 			["count"] = 4,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 35000,
-				["rangeMin"] = 3320,
-				["displayName"] = "9M38M1",
-				["rangeMaxAltMin"] = 25500,
-				["altMax"] = 22000,
-				["RCS"] = 0.09179999679327,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ SA-11 Buk LN 9A310M1 =
 						["z"] = 0.31660988926888,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 22,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 25500,
 				["fuseDist"] = 13,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 19,
+				["rangeMin"] = 3320,
+				["altMax"] = 22000,
+				["RCS"] = 0.09179999679327,
+				["displayName"] = "9M38M1",
+				["altMin"] = 22,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 70,
@@ -41,8 +41,9 @@ SA-11 Buk LN 9A310M1 =
 					["caliber"] = 400,
 					["mass"] = 70,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 35000,
 				["typeName"] = "9M38M1",
-				["Nmax"] = 19,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -82,8 +83,9 @@ SA-11 Buk LN 9A310M1 =
 	["desc"] = 
 	{
 		["massEmpty"] = 34000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -123,7 +125,7 @@ SA-11 Buk LN 9A310M1 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 18.055599212646,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "SA-11 Buk LN 9A310M1",
 		["displayName"] = "SAM SA-11 Buk LN 9A310M1",
 	}, -- end of ["desc"]

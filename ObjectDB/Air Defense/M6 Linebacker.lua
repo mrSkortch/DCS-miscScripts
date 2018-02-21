@@ -7,13 +7,6 @@ M6 Linebacker =
 			["count"] = 10,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 6000,
-				["rangeMin"] = 200,
-				["displayName"] = "FIM-92C",
-				["rangeMaxAltMin"] = 5000,
-				["altMax"] = 3500,
-				["RCS"] = 0.0043999999761581,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ M6 Linebacker =
 						["z"] = 0.088496953248978,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 5000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 2,
+				["Nmax"] = 18,
+				["rangeMin"] = 200,
+				["altMax"] = 3500,
+				["RCS"] = 0.0043999999761581,
+				["displayName"] = "FIM-92C",
+				["altMin"] = 1,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 3,
@@ -41,8 +41,9 @@ M6 Linebacker =
 					["caliber"] = 70,
 					["mass"] = 3,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 6000,
 				["typeName"] = "FIM-92C",
-				["Nmax"] = 18,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,7 +52,6 @@ M6 Linebacker =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.185,
@@ -59,21 +59,23 @@ M6 Linebacker =
 					["caliber"] = 25,
 					["mass"] = 0.185,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "25mm HE",
 				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -84,7 +86,6 @@ M6 Linebacker =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -92,21 +93,23 @@ M6 Linebacker =
 					["caliber"] = 25,
 					["mass"] = 0.155,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "25mm AP",
 				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -117,7 +120,6 @@ M6 Linebacker =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -125,21 +127,23 @@ M6 Linebacker =
 					["caliber"] = 7.62,
 					["mass"] = 0.00933,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -166,8 +170,9 @@ M6 Linebacker =
 	["desc"] = 
 	{
 		["massEmpty"] = 21300,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -206,7 +211,7 @@ M6 Linebacker =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 18.333299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "M6 Linebacker",
 		["displayName"] = "SAM Linebacker M6",
 	}, -- end of ["desc"]

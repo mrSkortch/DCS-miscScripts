@@ -8,7 +8,6 @@ INF Paratrooper RPG-16 =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["mass"] = 6,
@@ -18,6 +17,8 @@ INF Paratrooper RPG-16 =
 					["caliber"] = 73,
 					["type"] = 2,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "73mm RPG",
 				["typeName"] = "weapons.shells.2A28_73",
 				["box"] = 
@@ -43,6 +44,7 @@ INF Paratrooper RPG-16 =
 		["massEmpty"] = 90,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.87000000476837,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -74,7 +76,7 @@ INF Paratrooper RPG-16 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 4,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Paratrooper RPG-16",
 		["displayName"] = "Paratrooper RPG-16",
 	}, -- end of ["desc"]

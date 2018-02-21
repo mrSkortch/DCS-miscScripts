@@ -36,8 +36,9 @@ Dog Ear radar =
 	["desc"] = 
 	{
 		["massEmpty"] = 12300,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.43999999761581,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -73,7 +74,7 @@ Dog Ear radar =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Dog Ear radar",
 		["displayName"] = "CP 9S80M1 Sborka",
 	}, -- end of ["desc"]

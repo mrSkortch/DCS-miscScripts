@@ -56,7 +56,7 @@ E-3A =
 		}, -- end of ["box"]
 		["Hmax"] = 12000,
 		["Kmax"] = 4,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 280.2799987793,
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 65000,
@@ -67,6 +67,7 @@ E-3A =
 		["displayName"] = "e-3a",
 		["life"] = 60,
 		["VyMax"] = 10,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["AWACS"] = true,
@@ -78,6 +79,6 @@ E-3A =
 			["NonArmoredUnits"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "E-3A",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of E-3A

@@ -19,7 +19,8 @@ Dry-cargo ship-1 =
 				["z"] = 11.057329177856,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["life"] = 200,
+		["speedMax"] = 7.2022199630737,
+		["life"] = 0,
 		["attributes"] = 
 		{
 			["HeavyArmoredUnits"] = true,
@@ -28,8 +29,8 @@ Dry-cargo ship-1 =
 			["Ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
-		["speedMax"] = 7.2022199630737,
 		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Dry-cargo ship-1",
 		["displayName"] = "Bulk cargo ship Yakushev",
 	}, -- end of ["desc"]

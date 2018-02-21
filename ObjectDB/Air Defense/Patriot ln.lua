@@ -7,13 +7,6 @@ Patriot ln =
 			["count"] = 4,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 120000,
-				["rangeMin"] = 3000,
-				["displayName"] = "MIM-104",
-				["rangeMaxAltMin"] = 30000,
-				["altMax"] = 24240,
-				["RCS"] = 0.10660000145435,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ Patriot ln =
 						["z"] = 0.32681864500046,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 45,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 30000,
 				["fuseDist"] = 13,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 25,
+				["rangeMin"] = 3000,
+				["altMax"] = 24240,
+				["RCS"] = 0.10660000145435,
+				["displayName"] = "MIM-104",
+				["altMin"] = 45,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 73,
@@ -41,8 +41,9 @@ Patriot ln =
 					["caliber"] = 410,
 					["mass"] = 73,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 120000,
 				["typeName"] = "MIM-104",
-				["Nmax"] = 25,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -51,6 +52,7 @@ Patriot ln =
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -87,7 +89,7 @@ Patriot ln =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Patriot ln",
 		["displayName"] = "SAM Patriot LN M901",
 	}, -- end of ["desc"]

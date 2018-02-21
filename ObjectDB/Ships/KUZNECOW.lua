@@ -8,7 +8,6 @@ KUZNECOW =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,21 +15,23 @@ KUZNECOW =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -41,7 +42,6 @@ KUZNECOW =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.39,
@@ -49,21 +49,23 @@ KUZNECOW =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -73,13 +75,6 @@ KUZNECOW =
 			["count"] = 512,
 			["desc"] = 
 			{
-				["missileCategory"] = 6,
-				["rangeMaxAltMax"] = 8000,
-				["rangeMin"] = 2000,
-				["displayName"] = "9M311",
-				["rangeMaxAltMin"] = 8000,
-				["altMax"] = 3500,
-				["RCS"] = 0.010200000368059,
 				["box"] = 
 				{
 					["min"] = 
@@ -95,11 +90,18 @@ KUZNECOW =
 						["z"] = 0.17395660281181,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 14.5,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 8000,
 				["fuseDist"] = 5,
 				["category"] = 1,
 				["guidance"] = 8,
+				["Nmax"] = 18,
+				["rangeMin"] = 2000,
+				["altMax"] = 3500,
+				["RCS"] = 0.010200000368059,
+				["displayName"] = "9M311",
+				["altMin"] = 14.5,
+				["life"] = 2,
+				["missileCategory"] = 6,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 9,
@@ -107,8 +109,9 @@ KUZNECOW =
 					["caliber"] = 100,
 					["mass"] = 9,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 8000,
 				["typeName"] = "9M311",
-				["Nmax"] = 18,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -116,13 +119,6 @@ KUZNECOW =
 			["count"] = 192,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 12000,
-				["rangeMin"] = 1500,
-				["displayName"] = "9M330",
-				["rangeMaxAltMin"] = 12000,
-				["altMax"] = 6000,
-				["RCS"] = 0.03070000000298,
 				["box"] = 
 				{
 					["min"] = 
@@ -138,11 +134,18 @@ KUZNECOW =
 						["z"] = 0.26600670814514,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 10,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 12000,
 				["fuseDist"] = 7,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 30,
+				["rangeMin"] = 1500,
+				["altMax"] = 6000,
+				["RCS"] = 0.03070000000298,
+				["displayName"] = "9M330",
+				["altMin"] = 10,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 14.5,
@@ -150,8 +153,9 @@ KUZNECOW =
 					["caliber"] = 220,
 					["mass"] = 14.5,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 12000,
 				["typeName"] = "9M330",
-				["Nmax"] = 30,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -159,13 +163,6 @@ KUZNECOW =
 			["count"] = 12,
 			["desc"] = 
 			{
-				["missileCategory"] = 5,
-				["rangeMaxAltMax"] = 550000,
-				["rangeMin"] = 13000,
-				["displayName"] = "P-700",
-				["rangeMaxAltMin"] = 550000,
-				["altMax"] = 12000,
-				["RCS"] = 0.79000002145767,
 				["box"] = 
 				{
 					["min"] = 
@@ -181,11 +178,18 @@ KUZNECOW =
 						["z"] = 1.2964717149734,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = -1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 550000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 1,
+				["Nmax"] = 12,
+				["rangeMin"] = 13000,
+				["altMax"] = 12000,
+				["RCS"] = 0.79000002145767,
+				["displayName"] = "P-700",
+				["altMin"] = -1,
+				["life"] = 2,
+				["missileCategory"] = 5,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 400,
@@ -193,8 +197,9 @@ KUZNECOW =
 					["caliber"] = 850,
 					["mass"] = 400,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 550000,
 				["typeName"] = "P-700",
-				["Nmax"] = 12,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [5]
 	}, -- end of ["weapons"]
@@ -217,27 +222,28 @@ KUZNECOW =
 				["z"] = 40.046398162842,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["life"] = 7000,
+		["speedMax"] = 16.462200164795,
+		["life"] = 0,
 		["attributes"] = 
 		{
 			["ski_jump"] = true,
 			["Aircraft Carriers"] = true,
 			["AircraftCarrier With Tramplin"] = true,
 			["AircraftCarrier"] = true,
-			["Ships"] = true,
+			["Arresting Gear"] = true,
 			["Heavy armed ships"] = true,
 			["Armed ships"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
 			["Armed Air Defence"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
-			["cord"] = true,
-			["DetectionByAWACS"] = true,
 			["All"] = true,
+			["DetectionByAWACS"] = true,
+			["Ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
-		["speedMax"] = 16.462200164795,
 		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "KUZNECOW",
 		["displayName"] = "CV 1143.5 Admiral Kuznetsov",
 	}, -- end of ["desc"]

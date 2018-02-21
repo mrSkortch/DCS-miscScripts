@@ -3,8 +3,9 @@ IFV Tigr_233036 =
 	["desc"] = 
 	{
 		["massEmpty"] = 6400,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.40000000596046,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -42,7 +43,7 @@ IFV Tigr_233036 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 40,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Tigr_233036",
 		["displayName"] = "APC Tigr 233036",
 	}, -- end of ["desc"]

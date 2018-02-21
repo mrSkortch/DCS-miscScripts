@@ -27,8 +27,9 @@ Patriot ECS =
 	["desc"] = 
 	{
 		["massEmpty"] = 8000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -65,7 +66,7 @@ Patriot ECS =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20.833299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Patriot ECS",
 		["displayName"] = "SAM Patriot ECS AN/MSQ-104",
 	}, -- end of ["desc"]

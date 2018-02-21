@@ -33,7 +33,7 @@ C-130 =
 		}, -- end of ["box"]
 		["Hmax"] = 9315,
 		["Kmax"] = 1,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 172.5,
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 20830,
@@ -44,6 +44,7 @@ C-130 =
 		["displayName"] = "c-130j",
 		["life"] = 45,
 		["VyMax"] = 9.1000003814697,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -54,6 +55,6 @@ C-130 =
 			["Transports"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "C-130",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of C-130

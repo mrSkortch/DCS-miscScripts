@@ -3,16 +3,17 @@ UAZ-469 =
 	["desc"] = 
 	{
 		["massEmpty"] = 2290,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -0.17903968691826,
+				["y"] = -0.17903964221478,
 				["x"] = -2.2788860797882,
-				["z"] = -1.1330075263977,
+				["z"] = -1.1330074071884,
 			}, -- end of ["min"]
 			["max"] = 
 			{
@@ -38,7 +39,7 @@ UAZ-469 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 27.777799606323,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "UAZ-469",
 		["displayName"] = "Transport UAZ-469",
 	}, -- end of ["desc"]

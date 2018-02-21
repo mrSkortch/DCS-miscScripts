@@ -10,13 +10,20 @@ Truck Kubelwagen_82 =
 				["typeName"] = "TRP-2A day",
 				["opticType"] = 0,
 			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "TRP-2A night",
+				["opticType"] = 1,
+			}, -- end of [2]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 1160,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -49,7 +56,7 @@ Truck Kubelwagen_82 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 22.219999313354,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Kubelwagen_82",
 		["displayName"] = "Kübelwagen 82",
 	}, -- end of ["desc"]

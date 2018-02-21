@@ -27,8 +27,9 @@ SA-11 Buk SR 9S18M1 =
 	["desc"] = 
 	{
 		["massEmpty"] = 34000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -64,7 +65,7 @@ SA-11 Buk SR 9S18M1 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 18.055599212646,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "SA-11 Buk SR 9S18M1",
 		["displayName"] = "SAM SA-11 Buk SR 9S18M1",
 	}, -- end of ["desc"]

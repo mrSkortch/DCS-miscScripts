@@ -8,7 +8,6 @@ VINSON =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,21 +15,23 @@ VINSON =
 					["caliber"] = 20,
 					["mass"] = 0.11,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "20mm AP",
 				["typeName"] = "weapons.shells.M61_20_AP",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -41,7 +42,6 @@ VINSON =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.11,
@@ -49,21 +49,23 @@ VINSON =
 					["caliber"] = 20,
 					["mass"] = 0.11,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "20mm HE",
 				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -73,13 +75,6 @@ VINSON =
 			["count"] = 24,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 27500,
-				["rangeMin"] = 1500,
-				["displayName"] = "RIM-7",
-				["rangeMaxAltMin"] = 27000,
-				["altMax"] = 24400,
-				["RCS"] = 0.03660000115633,
 				["box"] = 
 				{
 					["min"] = 
@@ -95,11 +90,18 @@ VINSON =
 						["z"] = 0.36893802881241,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 27000,
 				["fuseDist"] = 10,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 32,
+				["rangeMin"] = 1500,
+				["altMax"] = 24400,
+				["RCS"] = 0.03660000115633,
+				["displayName"] = "RIM-7",
+				["altMin"] = 1,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 39,
@@ -107,8 +109,9 @@ VINSON =
 					["caliber"] = 203,
 					["mass"] = 39,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 27500,
 				["typeName"] = "RIM-7",
-				["Nmax"] = 32,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]
@@ -131,13 +134,14 @@ VINSON =
 				["z"] = 54.01900100708,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["life"] = 7300,
+		["speedMax"] = 15.433300018311,
+		["life"] = 0,
 		["attributes"] = 
 		{
 			["Aircraft Carriers"] = true,
 			["Heavy armed ships"] = true,
 			["AircraftCarrier"] = true,
-			["AircraftCarrier With Catapult"] = true,
+			["Arresting Gear"] = true,
 			["HeavyArmoredUnits"] = true,
 			["Armed Air Defence"] = true,
 			["Armed ships"] = true,
@@ -145,13 +149,13 @@ VINSON =
 			["Ships"] = true,
 			["Armed Ship"] = true,
 			["RADAR_BAND2_FOR_ARM"] = true,
-			["cord"] = true,
-			["catapult"] = true,
 			["All"] = true,
+			["catapult"] = true,
+			["AircraftCarrier With Catapult"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
-		["speedMax"] = 15.433300018311,
 		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "VINSON",
 		["displayName"] = "CVN-70 Carl Vinson",
 	}, -- end of ["desc"]

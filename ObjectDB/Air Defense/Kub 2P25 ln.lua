@@ -7,13 +7,6 @@ Kub 2P25 ln =
 			["count"] = 3,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 25000,
-				["rangeMin"] = 4000,
-				["displayName"] = "3M9M",
-				["rangeMaxAltMin"] = 25000,
-				["altMax"] = 8000,
-				["RCS"] = 0.1059999987483,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ Kub 2P25 ln =
 						["z"] = 0.4395649433136,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 30,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 25000,
 				["fuseDist"] = 12,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 16,
+				["rangeMin"] = 4000,
+				["altMax"] = 8000,
+				["RCS"] = 0.1059999987483,
+				["displayName"] = "3M9M",
+				["altMin"] = 30,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 59,
@@ -41,16 +41,18 @@ Kub 2P25 ln =
 					["caliber"] = 330,
 					["mass"] = 59,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 25000,
 				["typeName"] = "3M9M",
-				["Nmax"] = 16,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
 		["massEmpty"] = 19500,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -86,7 +88,7 @@ Kub 2P25 ln =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 12.222200393677,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Kub 2P25 ln",
 		["displayName"] = "SAM SA-6 Kub LN 2P25",
 	}, -- end of ["desc"]

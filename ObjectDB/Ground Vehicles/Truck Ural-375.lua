@@ -3,8 +3,9 @@ Truck Ural-375 =
 	["desc"] = 
 	{
 		["massEmpty"] = 6000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -37,7 +38,7 @@ Truck Ural-375 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20.833299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Ural-375",
 		["displayName"] = "Transport Ural-375",
 	}, -- end of ["desc"]

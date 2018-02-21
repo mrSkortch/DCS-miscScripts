@@ -19,7 +19,8 @@ ELNYA =
 				["z"] = 7.9082589149475,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["life"] = 400,
+		["speedMax"] = 7.2022199630737,
+		["life"] = 0,
 		["attributes"] = 
 		{
 			["HeavyArmoredUnits"] = true,
@@ -28,8 +29,8 @@ ELNYA =
 			["Ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
-		["speedMax"] = 7.2022199630737,
 		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "ELNYA",
 		["displayName"] = "Tanker Elnya 160",
 	}, -- end of ["desc"]

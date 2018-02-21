@@ -7,13 +7,6 @@ Tor 9A331 =
 			["count"] = 8,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 12000,
-				["rangeMin"] = 1500,
-				["displayName"] = "9M330",
-				["rangeMaxAltMin"] = 12000,
-				["altMax"] = 6000,
-				["RCS"] = 0.03070000000298,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ Tor 9A331 =
 						["z"] = 0.26600670814514,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 10,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 12000,
 				["fuseDist"] = 7,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 30,
+				["rangeMin"] = 1500,
+				["altMax"] = 6000,
+				["RCS"] = 0.03070000000298,
+				["displayName"] = "9M330",
+				["altMin"] = 10,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 14.5,
@@ -41,8 +41,9 @@ Tor 9A331 =
 					["caliber"] = 220,
 					["mass"] = 14.5,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 12000,
 				["typeName"] = "9M330",
-				["Nmax"] = 30,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -82,8 +83,9 @@ Tor 9A331 =
 	["desc"] = 
 	{
 		["massEmpty"] = 34000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -121,7 +123,7 @@ Tor 9A331 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 18.055599212646,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Tor 9A331",
 		["displayName"] = "SAM SA-15 Tor 9A331",
 	}, -- end of ["desc"]

@@ -8,7 +8,6 @@ Ka-50 =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.39,
@@ -16,21 +15,23 @@ Ka-50 =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.2A42_30_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -69,7 +70,7 @@ Ka-50 =
 		}, -- end of ["box"]
 		["Hmax"] = 6400,
 		["Kmax"] = 0.30000001192093,
-		["category"] = 1,
+		["_origin"] = "",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 1450,
 		["speedMax"] = 350,
@@ -80,7 +81,6 @@ Ka-50 =
 		["life"] = 15,
 		["HmaxStat"] = 4000,
 		["VyMax"] = 14.60000038147,
-		["typeName"] = "Ka-50",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -90,5 +90,7 @@ Ka-50 =
 			["Helicopters"] = true,
 			["Attack helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "Ka-50",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of Ka-50

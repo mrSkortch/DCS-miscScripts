@@ -8,7 +8,6 @@ MiG-23MLD =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.175,
@@ -16,21 +15,23 @@ MiG-23MLD =
 					["caliber"] = 23,
 					["mass"] = 0.175,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "23mm HE",
 				["typeName"] = "weapons.shells.GSH23_23_HE_T",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -101,7 +102,7 @@ MiG-23MLD =
 		}, -- end of ["box"]
 		["Hmax"] = 18500,
 		["Kmax"] = 0.68999999761581,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 693.25,
 		["NyMin"] = -3,
 		["fuelMassMax"] = 3800,
@@ -112,6 +113,7 @@ MiG-23MLD =
 		["displayName"] = "mig-23ml",
 		["life"] = 16,
 		["VyMax"] = 240,
+		["Kab"] = 3,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -123,6 +125,6 @@ MiG-23MLD =
 			["Planes"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "MiG-23MLD",
-		["Kab"] = 3,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of MiG-23MLD

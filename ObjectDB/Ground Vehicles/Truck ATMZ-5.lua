@@ -3,8 +3,9 @@ Truck ATMZ-5 =
 	["desc"] = 
 	{
 		["massEmpty"] = 6000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -37,7 +38,7 @@ Truck ATMZ-5 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20.833299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "ATMZ-5",
 		["displayName"] = "Fuel Truck ATMZ-5",
 	}, -- end of ["desc"]

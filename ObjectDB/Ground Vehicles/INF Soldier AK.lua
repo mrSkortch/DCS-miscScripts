@@ -8,7 +8,6 @@ INF Soldier AK =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,21 +15,23 @@ INF Soldier AK =
 					["caliber"] = 5.45,
 					["mass"] = 0.00343,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "5.45mm",
 				["typeName"] = "weapons.shells.5_45x39",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -41,6 +42,7 @@ INF Soldier AK =
 		["massEmpty"] = 90,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.87000000476837,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -72,7 +74,7 @@ INF Soldier AK =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 4,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Soldier AK",
 		["displayName"] = "Soldier AK",
 	}, -- end of ["desc"]

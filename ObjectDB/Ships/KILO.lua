@@ -19,7 +19,8 @@ KILO =
 				["z"] = 6.4511313438416,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["life"] = 300,
+		["speedMax"] = 8.7455596923828,
+		["life"] = 0,
 		["attributes"] = 
 		{
 			["HeavyArmoredUnits"] = true,
@@ -28,8 +29,8 @@ KILO =
 			["Ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
-		["speedMax"] = 8.7455596923828,
 		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "KILO",
 		["displayName"] = "SSK 877",
 	}, -- end of ["desc"]

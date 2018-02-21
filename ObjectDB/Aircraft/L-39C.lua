@@ -22,7 +22,7 @@ L-39C =
 		}, -- end of ["box"]
 		["Hmax"] = 11000,
 		["Kmax"] = 0.20000000298023,
-		["category"] = 0,
+		["_origin"] = "L-39C/ZA by Eagle Dynamics",
 		["speedMax10K"] = 212,
 		["NyMin"] = -3,
 		["fuelMassMax"] = 980,
@@ -33,6 +33,7 @@ L-39C =
 		["displayName"] = "L-39C",
 		["life"] = 15,
 		["VyMax"] = 22,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -44,6 +45,6 @@ L-39C =
 			["Planes"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "L-39C",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of L-39C

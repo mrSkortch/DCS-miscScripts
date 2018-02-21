@@ -65,7 +65,7 @@ MiG-25PD =
 		}, -- end of ["box"]
 		["Hmax"] = 24200,
 		["Kmax"] = 4,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 833.33001708984,
 		["NyMin"] = -2,
 		["fuelMassMax"] = 15245,
@@ -76,6 +76,7 @@ MiG-25PD =
 		["displayName"] = "mig-25p",
 		["life"] = 24,
 		["VyMax"] = 250,
+		["Kab"] = 8,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -87,6 +88,6 @@ MiG-25PD =
 			["Interceptors"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "MiG-25PD",
-		["Kab"] = 8,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of MiG-25PD

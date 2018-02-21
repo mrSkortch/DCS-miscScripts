@@ -8,7 +8,6 @@ ARTY SpGH_Dana =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 7.65,
@@ -16,6 +15,8 @@ ARTY SpGH_Dana =
 					["caliber"] = 152,
 					["mass"] = 43.56,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "DANA_152",
 				["typeName"] = "weapons.shells.DANA_152",
 				["box"] = 
@@ -57,8 +58,9 @@ ARTY SpGH_Dana =
 	["desc"] = 
 	{
 		["massEmpty"] = 29250,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.20000000298023,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -93,7 +95,7 @@ ARTY SpGH_Dana =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 22.219999313354,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "SpGH_Dana",
 		["displayName"] = "SpGH Dana",
 	}, -- end of ["desc"]

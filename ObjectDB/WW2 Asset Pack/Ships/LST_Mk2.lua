@@ -8,7 +8,6 @@ LST_Mk2 =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.45,
@@ -16,6 +15,8 @@ LST_Mk2 =
 					["caliber"] = 40,
 					["mass"] = 0.9,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "Bofors 40mm HE",
 				["typeName"] = "weapons.shells.Bofors_40mm_HE",
 				["box"] = 
@@ -41,7 +42,6 @@ LST_Mk2 =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.06,
@@ -49,21 +49,23 @@ LST_Mk2 =
 					["caliber"] = 20,
 					["mass"] = 0.13,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "Oerlikon 20mm HE",
 				["typeName"] = "weapons.shells.Oerlikon_20mm_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -88,7 +90,8 @@ LST_Mk2 =
 				["z"] = 8.9478454589844,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["life"] = 2100,
+		["speedMax"] = 6,
+		["life"] = 0,
 		["attributes"] = 
 		{
 			["Ships"] = true,
@@ -101,8 +104,8 @@ LST_Mk2 =
 			["Landing Ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
-		["speedMax"] = 6,
 		["Kmax"] = 0.050000000745058,
+		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "LST_Mk2",
 		["displayName"] = "LST Mk.II",
 	}, -- end of ["desc"]

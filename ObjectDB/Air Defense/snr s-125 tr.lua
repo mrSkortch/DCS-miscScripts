@@ -29,6 +29,7 @@ snr s-125 tr =
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -65,7 +66,7 @@ snr s-125 tr =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "snr s-125 tr",
 		["displayName"] = "SAM SA-3 S-125 TR SNR",
 	}, -- end of ["desc"]

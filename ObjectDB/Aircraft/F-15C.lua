@@ -8,7 +8,6 @@ F-15C =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.11,
@@ -16,21 +15,23 @@ F-15C =
 					["caliber"] = 20,
 					["mass"] = 0.11,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "20mm HE",
 				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -91,7 +92,7 @@ F-15C =
 		}, -- end of ["box"]
 		["Hmax"] = 18300,
 		["Kmax"] = 0.91000002622604,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 736.10998535156,
 		["NyMin"] = -3,
 		["fuelMassMax"] = 6103,
@@ -102,6 +103,7 @@ F-15C =
 		["displayName"] = "F-15C",
 		["life"] = 20,
 		["VyMax"] = 275,
+		["Kab"] = 4,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -114,6 +116,6 @@ F-15C =
 			["NonArmoredUnits"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "F-15C",
-		["Kab"] = 4,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of F-15C

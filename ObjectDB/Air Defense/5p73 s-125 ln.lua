@@ -7,13 +7,6 @@
 			["count"] = 4,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 25000,
-				["rangeMin"] = 3500,
-				["displayName"] = "5V27",
-				["rangeMaxAltMin"] = 11000,
-				["altMax"] = 18000,
-				["RCS"] = 0.1676000058651,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@
 						["z"] = 0.62915688753128,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 20,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 11000,
 				["fuseDist"] = 14,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 16,
+				["rangeMin"] = 3500,
+				["altMax"] = 18000,
+				["RCS"] = 0.1676000058651,
+				["displayName"] = "5V27",
+				["altMin"] = 20,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 60,
@@ -41,8 +41,9 @@
 					["caliber"] = 400,
 					["mass"] = 60,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 25000,
 				["typeName"] = "5V27",
-				["Nmax"] = 16,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -51,6 +52,7 @@
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -87,7 +89,7 @@
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "5p73 s-125 ln",
 		["displayName"] = "SAM SA-3 S-125 LN 5P73",
 	}, -- end of ["desc"]

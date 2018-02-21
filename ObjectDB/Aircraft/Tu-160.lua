@@ -43,7 +43,7 @@ Tu-160 =
 		}, -- end of ["box"]
 		["Hmax"] = 15000,
 		["Kmax"] = 4,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 611.10998535156,
 		["NyMin"] = 0,
 		["fuelMassMax"] = 171000,
@@ -54,6 +54,7 @@ Tu-160 =
 		["displayName"] = "tu-160",
 		["life"] = 60,
 		["VyMax"] = 70,
+		["Kab"] = 10,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -67,6 +68,6 @@ Tu-160 =
 			["Refuelable"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "Tu-160",
-		["Kab"] = 10,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of Tu-160

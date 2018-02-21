@@ -7,13 +7,6 @@ IFV BTR_D =
 			["count"] = 4,
 			["desc"] = 
 			{
-				["missileCategory"] = 6,
-				["rangeMaxAltMax"] = 4000,
-				["rangeMin"] = 75,
-				["displayName"] = "9M113",
-				["rangeMaxAltMin"] = 4000,
-				["altMax"] = 2000,
-				["RCS"] = 0.035000000149012,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ IFV BTR_D =
 						["z"] = 0.30754190683365,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = -1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 4000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 8,
+				["Nmax"] = 1.2,
+				["rangeMin"] = 75,
+				["altMax"] = 2000,
+				["RCS"] = 0.035000000149012,
+				["displayName"] = "9M113",
+				["altMin"] = -1,
+				["life"] = 2,
+				["missileCategory"] = 6,
 				["warhead"] = 
 				{
 					["mass"] = 2.7000000476837,
@@ -43,8 +43,9 @@ IFV BTR_D =
 					["caliber"] = 0,
 					["type"] = 2,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 4000,
 				["typeName"] = "9M113",
-				["Nmax"] = 1.2,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -53,7 +54,6 @@ IFV BTR_D =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -61,21 +61,23 @@ IFV BTR_D =
 					["caliber"] = 7.62,
 					["mass"] = 0.0119,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -102,8 +104,9 @@ IFV BTR_D =
 	["desc"] = 
 	{
 		["massEmpty"] = 8700,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.61000001430511,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -142,7 +145,7 @@ IFV BTR_D =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "BTR_D",
 		["displayName"] = "ARV BTR-RD",
 	}, -- end of ["desc"]

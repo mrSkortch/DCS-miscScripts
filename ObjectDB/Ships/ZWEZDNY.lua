@@ -19,7 +19,8 @@ ZWEZDNY =
 				["z"] = 3.2845299243927,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["life"] = 20,
+		["speedMax"] = 7.3051099777222,
+		["life"] = 0,
 		["attributes"] = 
 		{
 			["Ships"] = true,
@@ -29,8 +30,8 @@ ZWEZDNY =
 			["Unarmed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
-		["speedMax"] = 7.3051099777222,
 		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "ZWEZDNY",
 		["displayName"] = "Civil boat Zvezdny",
 	}, -- end of ["desc"]

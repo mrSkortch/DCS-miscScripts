@@ -7,13 +7,8 @@ MLRS Uragan_BM-27 =
 			["count"] = 16,
 			["desc"] = 
 			{
-				["RCS"] = 0,
-				["life"] = 2,
 				["distMax"] = 0,
-				["category"] = 2,
-				["distMin"] = 0,
-				["displayName"] = "URAGAN",
-				["typeName"] = "weapons.nurs.URAGAN_9M27F",
+				["RCS"] = 0,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,14 +24,21 @@ MLRS Uragan_BM-27 =
 						["z"] = 0.24881513416767,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["life"] = 2,
+				["category"] = 2,
+				["displayName"] = "URAGAN",
+				["_origin"] = "",
+				["typeName"] = "weapons.nurs.URAGAN_9M27F",
+				["distMin"] = 0,
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
 		["massEmpty"] = 20000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.89999997615814,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -72,7 +74,7 @@ MLRS Uragan_BM-27 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 18,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Uragan_BM-27",
 		["displayName"] = "MLRS 9K57 Uragan BM-27",
 	}, -- end of ["desc"]

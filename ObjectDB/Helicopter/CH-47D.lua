@@ -21,7 +21,7 @@ CH-47D =
 		}, -- end of ["box"]
 		["Hmax"] = 3100,
 		["Kmax"] = 0.72000002861023,
-		["category"] = 1,
+		["_origin"] = "",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 3600,
 		["speedMax"] = 285,
@@ -32,7 +32,6 @@ CH-47D =
 		["life"] = 20,
 		["HmaxStat"] = 1675,
 		["VyMax"] = 14.60000038147,
-		["typeName"] = "CH-47D",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -42,5 +41,7 @@ CH-47D =
 			["Helicopters"] = true,
 			["Transport helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "CH-47D",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of CH-47D

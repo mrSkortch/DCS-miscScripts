@@ -27,8 +27,9 @@ Kub 1S91 str =
 	["desc"] = 
 	{
 		["massEmpty"] = 19500,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -66,7 +67,7 @@ Kub 1S91 str =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 12.222200393677,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Kub 1S91 str",
 		["displayName"] = "SAM SA-6 Kub STR 9S91",
 	}, -- end of ["desc"]

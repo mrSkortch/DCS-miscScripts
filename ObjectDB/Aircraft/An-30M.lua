@@ -22,7 +22,7 @@ An-30M =
 		}, -- end of ["box"]
 		["Hmax"] = 7500,
 		["Kmax"] = 0.5,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 140,
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 5500,
@@ -33,6 +33,7 @@ An-30M =
 		["displayName"] = "an-30m",
 		["life"] = 45,
 		["VyMax"] = 8,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -43,6 +44,6 @@ An-30M =
 			["Transports"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "An-30M",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of An-30M

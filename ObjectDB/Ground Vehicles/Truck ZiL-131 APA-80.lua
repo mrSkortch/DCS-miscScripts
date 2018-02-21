@@ -3,8 +3,9 @@ Truck ZiL-131 APA-80 =
 	["desc"] = 
 	{
 		["massEmpty"] = 15000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -37,7 +38,7 @@ Truck ZiL-131 APA-80 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20.833299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "ZiL-131 APA-80",
 		["displayName"] = "GPU APA-80 on ZiL-131",
 	}, -- end of ["desc"]

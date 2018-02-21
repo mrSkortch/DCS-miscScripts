@@ -8,7 +8,6 @@ MBT Leclerc =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,6 +15,8 @@ MBT Leclerc =
 					["caliber"] = 120,
 					["mass"] = 4.6,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "120mm AP",
 				["typeName"] = "weapons.shells.M256_120_AP",
 				["box"] = 
@@ -41,7 +42,6 @@ MBT Leclerc =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 14.3,
@@ -49,6 +49,8 @@ MBT Leclerc =
 					["caliber"] = 120,
 					["mass"] = 14.3,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "120mm HE",
 				["typeName"] = "weapons.shells.M256_120_HE",
 				["box"] = 
@@ -74,7 +76,6 @@ MBT Leclerc =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -82,21 +83,23 @@ MBT Leclerc =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -123,8 +126,9 @@ MBT Leclerc =
 	["desc"] = 
 	{
 		["massEmpty"] = 55150,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.61000001430511,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -160,7 +164,7 @@ MBT Leclerc =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Leclerc",
 		["displayName"] = "MBT Leclerc",
 	}, -- end of ["desc"]

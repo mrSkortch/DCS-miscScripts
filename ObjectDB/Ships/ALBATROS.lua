@@ -7,13 +7,6 @@ ALBATROS =
 			["count"] = 22,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 10300,
-				["rangeMin"] = 1500,
-				["displayName"] = "9M33",
-				["rangeMaxAltMin"] = 8500,
-				["altMax"] = 5000,
-				["RCS"] = 0.040399998426437,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ ALBATROS =
 						["z"] = 0.23642687499523,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 25,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 8500,
 				["fuseDist"] = 5,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 14,
+				["rangeMin"] = 1500,
+				["altMax"] = 5000,
+				["RCS"] = 0.040399998426437,
+				["displayName"] = "9M33",
+				["altMin"] = 25,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 15,
@@ -41,8 +41,9 @@ ALBATROS =
 					["caliber"] = 206,
 					["mass"] = 15,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 10300,
 				["typeName"] = "9M33",
-				["Nmax"] = 14,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,7 +52,6 @@ ALBATROS =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -59,21 +59,23 @@ ALBATROS =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -84,7 +86,6 @@ ALBATROS =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.39,
@@ -92,21 +93,23 @@ ALBATROS =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -117,7 +120,6 @@ ALBATROS =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 5.9,
@@ -125,6 +127,8 @@ ALBATROS =
 					["caliber"] = 76,
 					["mass"] = 5.9,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "76mm HE",
 				["typeName"] = "weapons.shells.AK176_76",
 				["box"] = 
@@ -164,7 +168,8 @@ ALBATROS =
 				["z"] = 4.7569856643677,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["life"] = 1600,
+		["speedMax"] = 15.433300018311,
+		["life"] = 0,
 		["attributes"] = 
 		{
 			["Ships"] = true,
@@ -178,8 +183,8 @@ ALBATROS =
 			["Armed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
-		["speedMax"] = 15.433300018311,
 		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "ALBATROS",
 		["displayName"] = "FFL 1124.4 Grisha",
 	}, -- end of ["desc"]

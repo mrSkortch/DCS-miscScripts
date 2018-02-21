@@ -5,6 +5,7 @@ Truck Predator TrojanSpirit =
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -37,7 +38,7 @@ Truck Predator TrojanSpirit =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Predator TrojanSpirit",
 		["displayName"] = "CP Predator TrojanSpirit",
 	}, -- end of ["desc"]

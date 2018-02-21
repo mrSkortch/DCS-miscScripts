@@ -7,13 +7,8 @@ MLRS Grad-URAL =
 			["count"] = 40,
 			["desc"] = 
 			{
-				["RCS"] = 0,
-				["life"] = 2,
 				["distMax"] = 0,
-				["category"] = 2,
-				["distMin"] = 0,
-				["displayName"] = "GRAD",
-				["typeName"] = "weapons.nurs.GRAD_9M22U",
+				["RCS"] = 0,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,14 +24,21 @@ MLRS Grad-URAL =
 						["z"] = 0.21701017022133,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["life"] = 2,
+				["category"] = 2,
+				["displayName"] = "GRAD",
+				["_origin"] = "",
+				["typeName"] = "weapons.nurs.GRAD_9M22U",
+				["distMin"] = 0,
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
 		["massEmpty"] = 6000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -72,7 +74,7 @@ MLRS Grad-URAL =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20.833299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Grad-URAL",
 		["displayName"] = "MLRS BM-21 Grad",
 	}, -- end of ["desc"]

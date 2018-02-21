@@ -7,13 +7,6 @@ IFV M1045 HMMWV TOW =
 			["count"] = 6,
 			["desc"] = 
 			{
-				["missileCategory"] = 6,
-				["rangeMaxAltMax"] = 3800,
-				["rangeMin"] = 65,
-				["displayName"] = "BGM-71E",
-				["rangeMaxAltMin"] = 3800,
-				["altMax"] = 2000,
-				["RCS"] = 0.065800003707409,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ IFV M1045 HMMWV TOW =
 						["z"] = 0.22932435572147,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = -1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 3800,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 8,
+				["Nmax"] = 3,
+				["rangeMin"] = 65,
+				["altMax"] = 2000,
+				["RCS"] = 0.065800003707409,
+				["displayName"] = "BGM-71E",
+				["altMin"] = -1,
+				["life"] = 2,
+				["missileCategory"] = 6,
 				["warhead"] = 
 				{
 					["mass"] = 5.9000000953674,
@@ -43,8 +43,9 @@ IFV M1045 HMMWV TOW =
 					["caliber"] = 0,
 					["type"] = 2,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 3800,
 				["typeName"] = "BGM-71E",
-				["Nmax"] = 3,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -69,8 +70,9 @@ IFV M1045 HMMWV TOW =
 	["desc"] = 
 	{
 		["massEmpty"] = 3990,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -109,7 +111,7 @@ IFV M1045 HMMWV TOW =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 31.388900756836,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "M1045 HMMWV TOW",
 		["displayName"] = "ATGM M1045 HMMWV TOW",
 	}, -- end of ["desc"]

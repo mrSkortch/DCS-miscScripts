@@ -5,6 +5,7 @@ VAZ Car =
 		["massEmpty"] = 945,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -37,7 +38,7 @@ VAZ Car =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 19.444400787354,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "VAZ Car",
 		["displayName"] = "Transport VAZ-2109",
 	}, -- end of ["desc"]

@@ -8,7 +8,6 @@ MOSCOW =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,21 +15,23 @@ MOSCOW =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -41,7 +42,6 @@ MOSCOW =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.39,
@@ -49,21 +49,23 @@ MOSCOW =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -74,7 +76,6 @@ MOSCOW =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 33.4,
@@ -82,6 +83,8 @@ MOSCOW =
 					["caliber"] = 130,
 					["mass"] = 33.4,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "130mm HE",
 				["typeName"] = "weapons.shells.A222_130",
 				["box"] = 
@@ -106,13 +109,6 @@ MOSCOW =
 			["count"] = 44,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 10300,
-				["rangeMin"] = 1500,
-				["displayName"] = "9M33",
-				["rangeMaxAltMin"] = 8500,
-				["altMax"] = 5000,
-				["RCS"] = 0.040399998426437,
 				["box"] = 
 				{
 					["min"] = 
@@ -128,11 +124,18 @@ MOSCOW =
 						["z"] = 0.23642687499523,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 25,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 8500,
 				["fuseDist"] = 5,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 14,
+				["rangeMin"] = 1500,
+				["altMax"] = 5000,
+				["RCS"] = 0.040399998426437,
+				["displayName"] = "9M33",
+				["altMin"] = 25,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 15,
@@ -140,8 +143,9 @@ MOSCOW =
 					["caliber"] = 206,
 					["mass"] = 15,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 10300,
 				["typeName"] = "9M33",
-				["Nmax"] = 14,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -149,13 +153,6 @@ MOSCOW =
 			["count"] = 16,
 			["desc"] = 
 			{
-				["missileCategory"] = 5,
-				["rangeMaxAltMax"] = 500000,
-				["rangeMin"] = 13000,
-				["displayName"] = "P-500",
-				["rangeMaxAltMin"] = 500000,
-				["altMax"] = 12000,
-				["RCS"] = 0.75,
 				["box"] = 
 				{
 					["min"] = 
@@ -171,11 +168,18 @@ MOSCOW =
 						["z"] = 1.6088041067123,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = -1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 500000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 1,
+				["Nmax"] = 12,
+				["rangeMin"] = 13000,
+				["altMax"] = 12000,
+				["RCS"] = 0.75,
+				["displayName"] = "P-500",
+				["altMin"] = -1,
+				["life"] = 2,
+				["missileCategory"] = 5,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 400,
@@ -183,8 +187,9 @@ MOSCOW =
 					["caliber"] = 950,
 					["mass"] = 400,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 500000,
 				["typeName"] = "P-500",
-				["Nmax"] = 12,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [5]
 		[6] = 
@@ -192,13 +197,6 @@ MOSCOW =
 			["count"] = 64,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 75000,
-				["rangeMin"] = 5000,
-				["displayName"] = "5V55R",
-				["rangeMaxAltMin"] = 40000,
-				["altMax"] = 30000,
-				["RCS"] = 0.17800000309944,
 				["box"] = 
 				{
 					["min"] = 
@@ -214,11 +212,18 @@ MOSCOW =
 						["z"] = 0.81109911203384,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 25,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 40000,
 				["fuseDist"] = 20,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 25,
+				["rangeMin"] = 5000,
+				["altMax"] = 30000,
+				["RCS"] = 0.17800000309944,
+				["displayName"] = "5V55R",
+				["altMin"] = 25,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 133,
@@ -226,8 +231,9 @@ MOSCOW =
 					["caliber"] = 508,
 					["mass"] = 133,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 75000,
 				["typeName"] = "5V55R",
-				["Nmax"] = 25,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [6]
 	}, -- end of ["weapons"]
@@ -250,7 +256,8 @@ MOSCOW =
 				["z"] = 10.337091445923,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["life"] = 5200,
+		["speedMax"] = 16.719400405884,
+		["life"] = 0,
 		["attributes"] = 
 		{
 			["Ships"] = true,
@@ -266,8 +273,8 @@ MOSCOW =
 			["Armed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
-		["speedMax"] = 16.719400405884,
 		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "MOSCOW",
 		["displayName"] = "CG 1164 Moskva",
 	}, -- end of ["desc"]

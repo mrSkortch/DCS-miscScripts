@@ -7,13 +7,6 @@ Hawk ln =
 			["count"] = 3,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 45000,
-				["rangeMin"] = 1500,
-				["displayName"] = "MIM-23B",
-				["rangeMaxAltMin"] = 22000,
-				["altMax"] = 18000,
-				["RCS"] = 0.1676000058651,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ Hawk ln =
 						["z"] = 0.43280005455017,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 60,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 22000,
 				["fuseDist"] = 12,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 15,
+				["rangeMin"] = 1500,
+				["altMax"] = 18000,
+				["RCS"] = 0.1676000058651,
+				["displayName"] = "MIM-23B",
+				["altMin"] = 60,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 70,
@@ -41,8 +41,9 @@ Hawk ln =
 					["caliber"] = 370,
 					["mass"] = 70,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 45000,
 				["typeName"] = "MIM-23B",
-				["Nmax"] = 15,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -51,6 +52,7 @@ Hawk ln =
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -87,7 +89,7 @@ Hawk ln =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Hawk ln",
 		["displayName"] = "SAM Hawk LN M192",
 	}, -- end of ["desc"]

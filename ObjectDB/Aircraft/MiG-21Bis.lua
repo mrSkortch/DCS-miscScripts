@@ -8,7 +8,6 @@ MiG-21Bis =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.18,
@@ -16,6 +15,8 @@ MiG-21Bis =
 					["caliber"] = 23,
 					["mass"] = 0.18,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "GSH 23 HE",
 				["typeName"] = "weapons.shells.GSH_23_HE",
 				["box"] = 
@@ -99,7 +100,7 @@ MiG-21Bis =
 		}, -- end of ["box"]
 		["Hmax"] = 20000,
 		["Kmax"] = 0.60000002384186,
-		["category"] = 0,
+		["_origin"] = "MiG-21Bis AI by Magnitude 3 LLC",
 		["speedMax10K"] = 697,
 		["NyMin"] = -4,
 		["fuelMassMax"] = 2280,
@@ -110,6 +111,7 @@ MiG-21Bis =
 		["displayName"] = "MiG-21Bis",
 		["life"] = 20,
 		["VyMax"] = 200,
+		["Kab"] = 2,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -121,6 +123,6 @@ MiG-21Bis =
 			["Planes"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "MiG-21Bis",
-		["Kab"] = 2,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of MiG-21Bis

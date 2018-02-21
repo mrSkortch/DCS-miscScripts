@@ -29,6 +29,7 @@ S-300PS 40B6MD sr =
 		["massEmpty"] = 42150,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -65,7 +66,7 @@ S-300PS 40B6MD sr =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "S-300PS 40B6MD sr",
 		["displayName"] = "SAM SA-10 S-300PS SR 5N66M",
 	}, -- end of ["desc"]

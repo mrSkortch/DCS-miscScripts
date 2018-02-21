@@ -7,13 +7,6 @@ Osa 9A33 ln =
 			["count"] = 6,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 10300,
-				["rangeMin"] = 1500,
-				["displayName"] = "9M33",
-				["rangeMaxAltMin"] = 8500,
-				["altMax"] = 5000,
-				["RCS"] = 0.040399998426437,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ Osa 9A33 ln =
 						["z"] = 0.23642687499523,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 25,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 8500,
 				["fuseDist"] = 5,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 14,
+				["rangeMin"] = 1500,
+				["altMax"] = 5000,
+				["RCS"] = 0.040399998426437,
+				["displayName"] = "9M33",
+				["altMin"] = 25,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 15,
@@ -41,8 +41,9 @@ Osa 9A33 ln =
 					["caliber"] = 206,
 					["mass"] = 15,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 10300,
 				["typeName"] = "9M33",
-				["Nmax"] = 14,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -94,8 +95,9 @@ Osa 9A33 ln =
 	["desc"] = 
 	{
 		["massEmpty"] = 17500,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -133,7 +135,7 @@ Osa 9A33 ln =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 22.222200393677,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Osa 9A33 ln",
 		["displayName"] = "SAM SA-8 Osa 9A33",
 	}, -- end of ["desc"]

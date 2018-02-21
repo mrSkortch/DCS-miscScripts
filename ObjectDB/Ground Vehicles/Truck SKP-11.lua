@@ -3,8 +3,9 @@ Truck SKP-11 =
 	["desc"] = 
 	{
 		["massEmpty"] = 15000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -37,7 +38,7 @@ Truck SKP-11 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20.833299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "SKP-11",
 		["displayName"] = "CP SKP-11 ATC Mobile Command Post",
 	}, -- end of ["desc"]

@@ -29,6 +29,7 @@ Hawk cwar =
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -66,7 +67,7 @@ Hawk cwar =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Hawk cwar",
 		["displayName"] = "SAM Hawk CWAR AN/MPQ-55",
 	}, -- end of ["desc"]

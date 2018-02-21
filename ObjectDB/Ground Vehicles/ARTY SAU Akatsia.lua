@@ -8,7 +8,6 @@ ARTY SAU Akatsia =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 7.65,
@@ -16,6 +15,8 @@ ARTY SAU Akatsia =
 					["caliber"] = 152,
 					["mass"] = 43.56,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "152mm HE",
 				["typeName"] = "weapons.shells.2A33_152",
 				["box"] = 
@@ -59,6 +60,7 @@ ARTY SAU Akatsia =
 		["massEmpty"] = 27500,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -93,7 +95,7 @@ ARTY SAU Akatsia =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "SAU Akatsia",
 		["displayName"] = "SPH 2S3 Akatsia",
 	}, -- end of ["desc"]

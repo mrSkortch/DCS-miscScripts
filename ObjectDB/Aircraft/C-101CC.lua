@@ -35,7 +35,7 @@ C-101CC =
 		}, -- end of ["box"]
 		["Hmax"] = 11000,
 		["Kmax"] = 0.20000000298023,
-		["category"] = 0,
+		["_origin"] = "C-101 Aviojet by AvioDev",
 		["speedMax10K"] = 257,
 		["NyMin"] = -3.9000000953674,
 		["fuelMassMax"] = 2337,
@@ -46,6 +46,7 @@ C-101CC =
 		["displayName"] = "C-101CC",
 		["life"] = 18,
 		["VyMax"] = 10,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -57,6 +58,6 @@ C-101CC =
 			["Planes"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "C-101CC",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of C-101CC

@@ -4,6 +4,7 @@ KC-135 =
 	{
 		["speedMax0"] = 280.2799987793,
 		["massEmpty"] = 44663,
+		["tankerType"] = 0,
 		["range"] = 12247,
 		["box"] = 
 		{
@@ -22,7 +23,7 @@ KC-135 =
 		}, -- end of ["box"]
 		["Hmax"] = 12000,
 		["Kmax"] = 4,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 280.2799987793,
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 90700,
@@ -33,16 +34,18 @@ KC-135 =
 		["displayName"] = "kc-135",
 		["life"] = 60,
 		["VyMax"] = 10,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["Air"] = true,
 			["Tankers"] = true,
 			["NonAndLightArmoredUnits"] = true,
-			["NonArmoredUnits"] = true,
+			["Refuelable"] = true,
 			["All"] = true,
 			["Planes"] = true,
+			["NonArmoredUnits"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "KC-135",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of KC-135

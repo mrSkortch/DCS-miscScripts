@@ -7,28 +7,29 @@ MLRS Smerch =
 			["count"] = 12,
 			["desc"] = 
 			{
-				["RCS"] = 0,
-				["life"] = 2,
 				["distMax"] = 0,
-				["category"] = 2,
-				["distMin"] = 0,
-				["displayName"] = "SMERCH",
-				["typeName"] = "weapons.nurs.SMERCH_9M55K",
+				["RCS"] = 0,
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.3039955496788,
-						["x"] = -3.7810354232788,
-						["z"] = -0.30665841698647,
+						["y"] = -0.26067706942558,
+						["x"] = -3.67169713974,
+						["z"] = -0.26067706942558,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.30399557948112,
-						["x"] = 3.7823920249939,
-						["z"] = 0.30665841698647,
+						["y"] = 0.26067706942558,
+						["x"] = 3.67169713974,
+						["z"] = 0.26067706942558,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["life"] = 2,
+				["category"] = 2,
+				["displayName"] = "SMERCH",
+				["_origin"] = "",
+				["typeName"] = "weapons.nurs.SMERCH_9M55K",
+				["distMin"] = 0,
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -37,20 +38,21 @@ MLRS Smerch =
 		["massEmpty"] = 42150,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = 0.00075821625068784,
-				["x"] = -4.5537519454956,
-				["z"] = -1.6940207481384,
+				["y"] = -0.4738253057003,
+				["x"] = -6.3490138053894,
+				["z"] = -2.1793839931488,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 5.8430919647217,
-				["x"] = 6.9527177810669,
-				["z"] = 1.6940202713013,
+				["y"] = 3.73677277565,
+				["x"] = 6.1595435142517,
+				["z"] = 2.1793839931488,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 16.666700363159,
@@ -72,7 +74,7 @@ MLRS Smerch =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Smerch",
 		["displayName"] = "MLRS 9A52 Smerch",
 	}, -- end of ["desc"]

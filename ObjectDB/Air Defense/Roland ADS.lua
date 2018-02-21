@@ -7,13 +7,6 @@ Roland ADS =
 			["count"] = 10,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 8000,
-				["rangeMin"] = 500,
-				["displayName"] = "MIM-115",
-				["rangeMaxAltMin"] = 8000,
-				["altMax"] = 6000,
-				["RCS"] = 0.019600000232458,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ Roland ADS =
 						["z"] = 0.1697566062212,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 10,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 8000,
 				["fuseDist"] = 5,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 14,
+				["rangeMin"] = 500,
+				["altMax"] = 6000,
+				["RCS"] = 0.019600000232458,
+				["displayName"] = "MIM-115",
+				["altMin"] = 10,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 6.5,
@@ -41,8 +41,9 @@ Roland ADS =
 					["caliber"] = 150,
 					["mass"] = 6.5,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 8000,
 				["typeName"] = "MIM-115",
-				["Nmax"] = 14,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -90,6 +91,7 @@ Roland ADS =
 		["massEmpty"] = 29207,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.61000001430511,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -130,7 +132,7 @@ Roland ADS =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20.833299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Roland ADS",
 		["displayName"] = "SAM Roland ADS",
 	}, -- end of ["desc"]

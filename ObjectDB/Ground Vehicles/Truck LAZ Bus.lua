@@ -5,6 +5,7 @@ Truck LAZ Bus =
 		["massEmpty"] = 15000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -37,7 +38,7 @@ Truck LAZ Bus =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 27.777799606323,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "LAZ Bus",
 		["displayName"] = "Transport LAZ-695",
 	}, -- end of ["desc"]

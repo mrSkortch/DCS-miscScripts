@@ -8,7 +8,6 @@ F-5E =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.102,
@@ -16,21 +15,23 @@ F-5E =
 					["caliber"] = 20,
 					["mass"] = 0.102,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "20mm HEI",
 				["typeName"] = "weapons.shells.M39_20_HEI",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -82,7 +83,7 @@ F-5E =
 		}, -- end of ["box"]
 		["Hmax"] = 16154,
 		["Kmax"] = 0.40000000596046,
-		["category"] = 0,
+		["_origin"] = "F-5E/E-3 by Belsimtek",
 		["speedMax10K"] = 484,
 		["NyMin"] = -2,
 		["fuelMassMax"] = 1996,
@@ -93,6 +94,7 @@ F-5E =
 		["displayName"] = "F-5E",
 		["life"] = 16,
 		["VyMax"] = 200,
+		["Kab"] = 2,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -104,6 +106,6 @@ F-5E =
 			["Planes"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "F-5E",
-		["Kab"] = 2,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of F-5E

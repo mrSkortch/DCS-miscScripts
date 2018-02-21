@@ -8,7 +8,6 @@ MOLNIYA =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,21 +15,23 @@ MOLNIYA =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -41,7 +42,6 @@ MOLNIYA =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.39,
@@ -49,21 +49,23 @@ MOLNIYA =
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -74,7 +76,6 @@ MOLNIYA =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 5.9,
@@ -82,6 +83,8 @@ MOLNIYA =
 					["caliber"] = 76,
 					["mass"] = 5.9,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "76mm HE",
 				["typeName"] = "weapons.shells.AK176_76",
 				["box"] = 
@@ -106,13 +109,6 @@ MOLNIYA =
 			["count"] = 4,
 			["desc"] = 
 			{
-				["missileCategory"] = 5,
-				["rangeMaxAltMax"] = 250000,
-				["rangeMin"] = 5000,
-				["displayName"] = "KH-41",
-				["rangeMaxAltMin"] = 100000,
-				["altMax"] = 12000,
-				["RCS"] = 0.40999999642372,
 				["box"] = 
 				{
 					["min"] = 
@@ -128,11 +124,18 @@ MOLNIYA =
 						["z"] = 0.42636647820473,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = -1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 100000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 1,
+				["Nmax"] = 16,
+				["rangeMin"] = 5000,
+				["altMax"] = 12000,
+				["RCS"] = 0.40999999642372,
+				["displayName"] = "KH-41",
+				["altMin"] = -1,
+				["life"] = 2,
+				["missileCategory"] = 5,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 128,
@@ -140,8 +143,9 @@ MOLNIYA =
 					["caliber"] = 760,
 					["mass"] = 128,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 250000,
 				["typeName"] = "KH-41",
-				["Nmax"] = 16,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 	}, -- end of ["weapons"]
@@ -164,7 +168,8 @@ MOLNIYA =
 				["z"] = 5.9535574913025,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["life"] = 1100,
+		["speedMax"] = 18.520000457764,
+		["life"] = 0,
 		["attributes"] = 
 		{
 			["Ships"] = true,
@@ -178,8 +183,8 @@ MOLNIYA =
 			["DetectionByAWACS"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
-		["speedMax"] = 18.520000457764,
 		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "MOLNIYA",
 		["displayName"] = "FSG 1241.1MP Molniya",
 	}, -- end of ["desc"]

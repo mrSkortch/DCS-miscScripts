@@ -7,13 +7,8 @@ MLRS MLRS =
 			["count"] = 12,
 			["desc"] = 
 			{
-				["RCS"] = 0,
-				["life"] = 2,
 				["distMax"] = 0,
-				["category"] = 2,
-				["distMin"] = 0,
-				["displayName"] = "M26",
-				["typeName"] = "weapons.nurs.M26",
+				["RCS"] = 0,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,14 +24,21 @@ MLRS MLRS =
 						["z"] = 0.15113028883934,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["life"] = 2,
+				["category"] = 2,
+				["displayName"] = "M26",
+				["_origin"] = "",
+				["typeName"] = "weapons.nurs.M26",
+				["distMin"] = 0,
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
 		["massEmpty"] = 25191,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -73,7 +75,7 @@ MLRS MLRS =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 17.777799606323,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "MLRS",
 		["displayName"] = "MLRS M270",
 	}, -- end of ["desc"]

@@ -33,7 +33,7 @@ MiG-25RBT =
 		}, -- end of ["box"]
 		["Hmax"] = 24200,
 		["Kmax"] = 4,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 833.33001708984,
 		["NyMin"] = -2,
 		["fuelMassMax"] = 15245,
@@ -44,6 +44,7 @@ MiG-25RBT =
 		["displayName"] = "mig-25rbv",
 		["life"] = 24,
 		["VyMax"] = 250,
+		["Kab"] = 8,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -54,6 +55,6 @@ MiG-25RBT =
 			["Aux"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "MiG-25RBT",
-		["Kab"] = 8,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of MiG-25RBT

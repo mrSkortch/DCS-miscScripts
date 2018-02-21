@@ -4,11 +4,10 @@ FA-18C =
 	{
 		[1] = 
 		{
-			["count"] = 570,
+			["count"] = 578,
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.11,
@@ -16,21 +15,23 @@ FA-18C =
 					["caliber"] = 20,
 					["mass"] = 0.11,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "20mm HE",
 				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -73,7 +74,7 @@ FA-18C =
 	["desc"] = 
 	{
 		["speedMax0"] = 361.10000610352,
-		["massEmpty"] = 11399,
+		["massEmpty"] = 11631,
 		["tankerType"] = 1,
 		["range"] = 1520,
 		["box"] = 
@@ -93,17 +94,18 @@ FA-18C =
 		}, -- end of ["box"]
 		["Hmax"] = 15240,
 		["Kmax"] = 0.5799999833107,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 541.70001220703,
 		["NyMin"] = -3,
 		["fuelMassMax"] = 4900,
 		["speedMax"] = 541.70001220703,
 		["NyMax"] = 7,
-		["massMax"] = 25401,
+		["massMax"] = 23541,
 		["RCS"] = 5,
 		["displayName"] = "f-18c",
 		["life"] = 20,
 		["VyMax"] = 254,
+		["Kab"] = 2.5,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -116,6 +118,6 @@ FA-18C =
 			["Multirole fighters"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "F/A-18C",
-		["Kab"] = 2.5,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of FA-18C

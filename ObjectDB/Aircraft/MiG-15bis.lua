@@ -8,7 +8,6 @@ MiG-15bis =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.41,
@@ -16,6 +15,8 @@ MiG-15bis =
 					["caliber"] = 37,
 					["mass"] = 0.722,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "37mm HEI T",
 				["typeName"] = "weapons.shells.N37_37x155_HEI_T",
 				["box"] = 
@@ -41,7 +42,6 @@ MiG-15bis =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -49,6 +49,8 @@ MiG-15bis =
 					["caliber"] = 37,
 					["mass"] = 0.199,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "23mm API",
 				["typeName"] = "weapons.shells.NR23_23x115_API",
 				["box"] = 
@@ -74,7 +76,6 @@ MiG-15bis =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.011,
@@ -82,6 +83,8 @@ MiG-15bis =
 					["caliber"] = 23,
 					["mass"] = 0.196,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "23mm HEI T",
 				["typeName"] = "weapons.shells.NR23_23x115_HEI_T",
 				["box"] = 
@@ -124,7 +127,7 @@ MiG-15bis =
 		}, -- end of ["box"]
 		["Hmax"] = 15100,
 		["Kmax"] = 0.75999999046326,
-		["category"] = 0,
+		["_origin"] = "MiG-15bis AI by Eagle Dynamics",
 		["speedMax10K"] = 275.55554199219,
 		["NyMin"] = -3,
 		["fuelMassMax"] = 1172,
@@ -135,6 +138,7 @@ MiG-15bis =
 		["displayName"] = "MiG-15bis",
 		["life"] = 15,
 		["VyMax"] = 51,
+		["Kab"] = 0.75999999046326,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -146,6 +150,6 @@ MiG-15bis =
 			["Planes"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "MiG-15bis",
-		["Kab"] = 0.75999999046326,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of MiG-15bis

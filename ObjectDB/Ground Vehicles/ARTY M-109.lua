@@ -8,7 +8,6 @@ ARTY M-109 =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 42.9,
@@ -16,6 +15,8 @@ ARTY M-109 =
 					["caliber"] = 155,
 					["mass"] = 42.9,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "155mm HE",
 				["typeName"] = "weapons.shells.M185_155",
 				["box"] = 
@@ -51,8 +52,9 @@ ARTY M-109 =
 	["desc"] = 
 	{
 		["massEmpty"] = 24948,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -88,7 +90,7 @@ ARTY M-109 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 15.638899803162,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "M-109",
 		["displayName"] = "SPH M109 Paladin",
 	}, -- end of ["desc"]

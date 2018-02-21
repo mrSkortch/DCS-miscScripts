@@ -7,13 +7,6 @@ IFV M1134 Stryker ATGM =
 			["count"] = 14,
 			["desc"] = 
 			{
-				["missileCategory"] = 6,
-				["rangeMaxAltMax"] = 3800,
-				["rangeMin"] = 65,
-				["displayName"] = "BGM-71E",
-				["rangeMaxAltMin"] = 3800,
-				["altMax"] = 2000,
-				["RCS"] = 0.065800003707409,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ IFV M1134 Stryker ATGM =
 						["z"] = 0.22932435572147,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = -1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 3800,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 8,
+				["Nmax"] = 3,
+				["rangeMin"] = 65,
+				["altMax"] = 2000,
+				["RCS"] = 0.065800003707409,
+				["displayName"] = "BGM-71E",
+				["altMin"] = -1,
+				["life"] = 2,
+				["missileCategory"] = 6,
 				["warhead"] = 
 				{
 					["mass"] = 5.9000000953674,
@@ -43,8 +43,9 @@ IFV M1134 Stryker ATGM =
 					["caliber"] = 0,
 					["type"] = 2,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 3800,
 				["typeName"] = "BGM-71E",
-				["Nmax"] = 3,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -53,7 +54,6 @@ IFV M1134 Stryker ATGM =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -61,21 +61,23 @@ IFV M1134 Stryker ATGM =
 					["caliber"] = 7.62,
 					["mass"] = 0.00933,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -102,8 +104,9 @@ IFV M1134 Stryker ATGM =
 	["desc"] = 
 	{
 		["massEmpty"] = 17237,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -142,7 +145,7 @@ IFV M1134 Stryker ATGM =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "M1134 Stryker ATGM",
 		["displayName"] = "ATGM M1134 Stryker",
 	}, -- end of ["desc"]

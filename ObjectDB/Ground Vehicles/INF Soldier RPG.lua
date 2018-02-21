@@ -8,7 +8,6 @@ INF Soldier RPG =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["mass"] = 6,
@@ -18,6 +17,8 @@ INF Soldier RPG =
 					["caliber"] = 73,
 					["type"] = 2,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "73mm RPG",
 				["typeName"] = "weapons.shells.2A28_73",
 				["box"] = 
@@ -43,6 +44,7 @@ INF Soldier RPG =
 		["massEmpty"] = 90,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.87000000476837,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -74,7 +76,7 @@ INF Soldier RPG =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 4,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Soldier RPG",
 		["displayName"] = "Soldier RPG",
 	}, -- end of ["desc"]

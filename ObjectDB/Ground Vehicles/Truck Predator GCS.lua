@@ -5,6 +5,7 @@ Truck Predator GCS =
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -38,7 +39,7 @@ Truck Predator GCS =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Predator GCS",
 		["displayName"] = "CP Predator GCS",
 	}, -- end of ["desc"]

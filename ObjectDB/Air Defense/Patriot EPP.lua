@@ -3,8 +3,9 @@ Patriot EPP =
 	["desc"] = 
 	{
 		["massEmpty"] = 8000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -41,7 +42,7 @@ Patriot EPP =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20.833299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Patriot EPP",
 		["displayName"] = "SAM Patriot EPP-III",
 	}, -- end of ["desc"]

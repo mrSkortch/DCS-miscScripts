@@ -8,7 +8,6 @@
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,21 +15,23 @@
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.2A38_30_AP",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -41,7 +42,6 @@
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0.39,
@@ -49,21 +49,23 @@
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm HE",
 				["typeName"] = "weapons.shells.2A38_30_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -73,13 +75,6 @@
 			["count"] = 8,
 			["desc"] = 
 			{
-				["missileCategory"] = 6,
-				["rangeMaxAltMax"] = 8000,
-				["rangeMin"] = 2000,
-				["displayName"] = "9M311",
-				["rangeMaxAltMin"] = 8000,
-				["altMax"] = 3500,
-				["RCS"] = 0.010200000368059,
 				["box"] = 
 				{
 					["min"] = 
@@ -95,11 +90,18 @@
 						["z"] = 0.17395660281181,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 14.5,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 8000,
 				["fuseDist"] = 5,
 				["category"] = 1,
 				["guidance"] = 8,
+				["Nmax"] = 18,
+				["rangeMin"] = 2000,
+				["altMax"] = 3500,
+				["RCS"] = 0.010200000368059,
+				["displayName"] = "9M311",
+				["altMin"] = 14.5,
+				["life"] = 2,
+				["missileCategory"] = 6,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 9,
@@ -107,8 +109,9 @@
 					["caliber"] = 100,
 					["mass"] = 9,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 8000,
 				["typeName"] = "9M311",
-				["Nmax"] = 18,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]
@@ -160,8 +163,9 @@
 	["desc"] = 
 	{
 		["massEmpty"] = 34000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -204,7 +208,7 @@
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 18.055599212646,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "2S6 Tunguska",
 		["displayName"] = "SAM SA-19 Tunguska 2S6",
 	}, -- end of ["desc"]

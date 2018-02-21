@@ -22,7 +22,7 @@ IL-78M =
 		}, -- end of ["box"]
 		["Hmax"] = 12000,
 		["Kmax"] = 4,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 236.11000061035,
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 70000,
@@ -33,6 +33,7 @@ IL-78M =
 		["displayName"] = "il-78m",
 		["life"] = 60,
 		["VyMax"] = 10,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -43,6 +44,6 @@ IL-78M =
 			["Planes"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "IL-78M",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of IL-78M

@@ -55,7 +55,7 @@ E-2C =
 		}, -- end of ["box"]
 		["Hmax"] = 11275,
 		["Kmax"] = 0.5,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 173.80000305176,
 		["NyMin"] = 0,
 		["fuelMassMax"] = 5624,
@@ -66,6 +66,7 @@ E-2C =
 		["displayName"] = "e-2c hawkeye",
 		["life"] = 25,
 		["VyMax"] = 12,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["AWACS"] = true,
@@ -76,6 +77,6 @@ E-2C =
 			["Air"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "E-2C",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of E-2C

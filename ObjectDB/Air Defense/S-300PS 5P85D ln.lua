@@ -7,13 +7,6 @@ S-300PS 5P85D ln =
 			["count"] = 4,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 75000,
-				["rangeMin"] = 5000,
-				["displayName"] = "5V55R",
-				["rangeMaxAltMin"] = 40000,
-				["altMax"] = 30000,
-				["RCS"] = 0.17800000309944,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ S-300PS 5P85D ln =
 						["z"] = 0.81109911203384,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 25,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 40000,
 				["fuseDist"] = 20,
 				["category"] = 1,
 				["guidance"] = 4,
+				["Nmax"] = 25,
+				["rangeMin"] = 5000,
+				["altMax"] = 30000,
+				["RCS"] = 0.17800000309944,
+				["displayName"] = "5V55R",
+				["altMin"] = 25,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 133,
@@ -41,8 +41,9 @@ S-300PS 5P85D ln =
 					["caliber"] = 508,
 					["mass"] = 133,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 75000,
 				["typeName"] = "5V55R",
-				["Nmax"] = 25,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -51,6 +52,7 @@ S-300PS 5P85D ln =
 		["massEmpty"] = 42150,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -86,7 +88,7 @@ S-300PS 5P85D ln =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "S-300PS 5P85D ln",
 		["displayName"] = "SAM SA-10 S-300PS LN 5P85D",
 	}, -- end of ["desc"]

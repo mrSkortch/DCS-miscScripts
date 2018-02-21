@@ -56,7 +56,7 @@ A-50 =
 		}, -- end of ["box"]
 		["Hmax"] = 12247,
 		["Kmax"] = 4,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 236.11000061035,
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 70000,
@@ -67,6 +67,7 @@ A-50 =
 		["displayName"] = "a-50",
 		["life"] = 60,
 		["VyMax"] = 10,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["AWACS"] = true,
@@ -78,6 +79,6 @@ A-50 =
 			["NonArmoredUnits"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "A-50",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of A-50

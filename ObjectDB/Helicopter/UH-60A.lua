@@ -21,7 +21,7 @@ UH-60A =
 		}, -- end of ["box"]
 		["Hmax"] = 5790,
 		["Kmax"] = 0.21999999880791,
-		["category"] = 1,
+		["_origin"] = "",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 1100,
 		["speedMax"] = 268,
@@ -32,7 +32,6 @@ UH-60A =
 		["life"] = 14,
 		["HmaxStat"] = 3170,
 		["VyMax"] = 3.4000000953674,
-		["typeName"] = "UH-60A",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -42,5 +41,7 @@ UH-60A =
 			["Helicopters"] = true,
 			["Transport helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "UH-60A",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of UH-60A

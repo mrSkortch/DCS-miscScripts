@@ -7,13 +7,6 @@ Strela-1 9P31 =
 			["count"] = 4,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 4200,
-				["rangeMin"] = 800,
-				["displayName"] = "9M31",
-				["rangeMaxAltMin"] = 4200,
-				["altMax"] = 3500,
-				["RCS"] = 0.03999999910593,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ Strela-1 9P31 =
 						["z"] = 0.13213211297989,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 30,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 4200,
 				["fuseDist"] = 2.5,
 				["category"] = 1,
 				["guidance"] = 2,
+				["Nmax"] = 16,
+				["rangeMin"] = 800,
+				["altMax"] = 3500,
+				["RCS"] = 0.03999999910593,
+				["displayName"] = "9M31",
+				["altMin"] = 30,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 2.5999999046326,
@@ -41,16 +41,18 @@ Strela-1 9P31 =
 					["caliber"] = 120,
 					["mass"] = 2.5999999046326,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 4200,
 				["typeName"] = "9M31",
-				["Nmax"] = 16,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
 		["massEmpty"] = 7000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -87,7 +89,7 @@ Strela-1 9P31 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 27.777799606323,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Strela-1 9P31",
 		["displayName"] = "SAM SA-9 Strela-1 9P31",
 	}, -- end of ["desc"]

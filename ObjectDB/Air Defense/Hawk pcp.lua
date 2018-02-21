@@ -5,6 +5,7 @@ Hawk pcp =
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -38,7 +39,7 @@ Hawk pcp =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Hawk pcp",
 		["displayName"] = "SAM Hawk PCP",
 	}, -- end of ["desc"]

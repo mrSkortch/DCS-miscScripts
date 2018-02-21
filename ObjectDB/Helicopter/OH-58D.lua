@@ -47,7 +47,7 @@ OH-58D =
 		}, -- end of ["box"]
 		["Hmax"] = 8000,
 		["Kmax"] = 0.20000000298023,
-		["category"] = 1,
+		["_origin"] = "",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 454,
 		["speedMax"] = 222,
@@ -58,7 +58,6 @@ OH-58D =
 		["life"] = 12,
 		["HmaxStat"] = 6000,
 		["VyMax"] = 8.1999998092651,
-		["typeName"] = "OH-58D",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -68,5 +67,7 @@ OH-58D =
 			["Helicopters"] = true,
 			["Attack helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "OH-58D",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of OH-58D

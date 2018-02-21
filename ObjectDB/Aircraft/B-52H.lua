@@ -58,7 +58,7 @@ B-52H =
 		}, -- end of ["box"]
 		["Hmax"] = 16764,
 		["Kmax"] = 4,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 266,
 		["NyMin"] = 0,
 		["fuelMassMax"] = 141135,
@@ -69,6 +69,7 @@ B-52H =
 		["displayName"] = "b-52h",
 		["life"] = 60,
 		["VyMax"] = 10.199999809265,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -82,6 +83,6 @@ B-52H =
 			["Refuelable"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "B-52H",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of B-52H

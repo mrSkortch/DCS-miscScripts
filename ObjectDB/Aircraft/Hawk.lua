@@ -22,7 +22,7 @@ Hawk =
 		}, -- end of ["box"]
 		["Hmax"] = 14630,
 		["Kmax"] = 0.62000000476837,
-		["category"] = 0,
+		["_origin"] = "Hawk T.1A AI by VEAO Simulations",
 		["speedMax10K"] = 800,
 		["NyMin"] = -4,
 		["fuelMassMax"] = 1272,
@@ -33,6 +33,7 @@ Hawk =
 		["displayName"] = "Hawk",
 		["life"] = 18,
 		["VyMax"] = 200,
+		["Kab"] = 1.0199999809265,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -44,6 +45,6 @@ Hawk =
 			["Planes"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "Hawk",
-		["Kab"] = 1.0199999809265,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of Hawk

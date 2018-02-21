@@ -8,7 +8,6 @@ ARTY SAU Msta =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 7.65,
@@ -16,6 +15,8 @@ ARTY SAU Msta =
 					["caliber"] = 152,
 					["mass"] = 43.56,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "152mm HE",
 				["typeName"] = "weapons.shells.2A64_152",
 				["box"] = 
@@ -41,7 +42,6 @@ ARTY SAU Msta =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -49,21 +49,23 @@ ARTY SAU Msta =
 					["caliber"] = 12.7,
 					["mass"] = 0.044,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.Utes_12_7x108_T",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -90,8 +92,9 @@ ARTY SAU Msta =
 	["desc"] = 
 	{
 		["massEmpty"] = 40000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.61000001430511,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -126,7 +129,7 @@ ARTY SAU Msta =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "SAU Msta",
 		["displayName"] = "SPH 2S19 Msta",
 	}, -- end of ["desc"]

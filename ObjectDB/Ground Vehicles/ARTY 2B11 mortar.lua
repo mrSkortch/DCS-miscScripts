@@ -8,7 +8,6 @@ ARTY 2B11 mortar =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 15.9,
@@ -16,6 +15,8 @@ ARTY 2B11 mortar =
 					["caliber"] = 120,
 					["mass"] = 15.9,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "120mm HE",
 				["typeName"] = "weapons.shells.2A60_120",
 				["box"] = 
@@ -41,6 +42,7 @@ ARTY 2B11 mortar =
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -75,7 +77,7 @@ ARTY 2B11 mortar =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "2B11 mortar",
 		["displayName"] = "2B11 mortar",
 	}, -- end of ["desc"]

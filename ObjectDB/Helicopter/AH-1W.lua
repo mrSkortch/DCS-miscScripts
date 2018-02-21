@@ -8,7 +8,6 @@ AH-1W =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,21 +15,23 @@ AH-1W =
 					["caliber"] = 20,
 					["mass"] = 0.1,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "20mm HE",
 				["typeName"] = "weapons.shells.M197_20",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -77,7 +78,7 @@ AH-1W =
 		}, -- end of ["box"]
 		["Hmax"] = 4270,
 		["Kmax"] = 0.20000000298023,
-		["category"] = 1,
+		["_origin"] = "",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 1250,
 		["speedMax"] = 352,
@@ -88,7 +89,6 @@ AH-1W =
 		["life"] = 14,
 		["HmaxStat"] = 915,
 		["VyMax"] = 4.0700001716614,
-		["typeName"] = "AH-1W",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -98,5 +98,7 @@ AH-1W =
 			["Helicopters"] = true,
 			["Attack helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "AH-1W",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of AH-1W

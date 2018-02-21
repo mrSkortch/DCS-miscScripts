@@ -3,8 +3,9 @@ IFV Hummer =
 	["desc"] = 
 	{
 		["massEmpty"] = 3990,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -43,7 +44,7 @@ IFV Hummer =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 31.388900756836,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Hummer",
 		["displayName"] = "APC M1025 HMMWV",
 	}, -- end of ["desc"]

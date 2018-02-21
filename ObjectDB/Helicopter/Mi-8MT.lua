@@ -2,7 +2,7 @@ Mi-8MT =
 {
 	["desc"] = 
 	{
-		["massEmpty"] = 8669,
+		["massEmpty"] = 8866.2001953125,
 		["range"] = 580,
 		["box"] = 
 		{
@@ -21,7 +21,7 @@ Mi-8MT =
 		}, -- end of ["box"]
 		["Hmax"] = 6000,
 		["Kmax"] = 0.5,
-		["category"] = 1,
+		["_origin"] = "",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 1929,
 		["speedMax"] = 250,
@@ -32,7 +32,6 @@ Mi-8MT =
 		["life"] = 18,
 		["HmaxStat"] = 1850,
 		["VyMax"] = 14.60000038147,
-		["typeName"] = "Mi-8MT",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -42,5 +41,7 @@ Mi-8MT =
 			["Helicopters"] = true,
 			["Attack helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "Mi-8MT",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of Mi-8MT

@@ -5,6 +5,7 @@ Truck GAZ-3308 =
 		["massEmpty"] = 15000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -37,7 +38,7 @@ Truck GAZ-3308 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20.833299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "GAZ-3308",
 		["displayName"] = "Transport GAZ-3308",
 	}, -- end of ["desc"]

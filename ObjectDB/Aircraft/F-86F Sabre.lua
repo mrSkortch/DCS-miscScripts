@@ -8,7 +8,6 @@ F-86F Sabre =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,21 +15,23 @@ F-86F Sabre =
 					["caliber"] = 12.7,
 					["mass"] = 0.041,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M20_50_aero_APIT",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -41,7 +42,6 @@ F-86F Sabre =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -49,6 +49,8 @@ F-86F Sabre =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_50_aero_AP",
 				["box"] = 
@@ -115,7 +117,7 @@ F-86F Sabre =
 		}, -- end of ["box"]
 		["Hmax"] = 15100,
 		["Kmax"] = 0.75999999046326,
-		["category"] = 0,
+		["_origin"] = "F-86F Sabre AI by Eagle Dynamics",
 		["speedMax10K"] = 268,
 		["NyMin"] = -3,
 		["fuelMassMax"] = 1282,
@@ -126,6 +128,7 @@ F-86F Sabre =
 		["displayName"] = "F-86F",
 		["life"] = 15,
 		["VyMax"] = 45.720001220703,
+		["Kab"] = 0.75999999046326,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -137,6 +140,6 @@ F-86F Sabre =
 			["Planes"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "F-86F Sabre",
-		["Kab"] = 0.75999999046326,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of F-86F Sabre

@@ -4,11 +4,40 @@ IFV Boman =
 	{
 		[1] = 
 		{
+			["count"] = 1,
+			["desc"] = 
+			{
+				["distMax"] = 0,
+				["RCS"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.21512581408024,
+						["x"] = -1.4337531328201,
+						["z"] = -0.21701017022133,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.21512581408024,
+						["x"] = 1.4351097345352,
+						["z"] = 0.21701017022133,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["life"] = 2,
+				["category"] = 2,
+				["displayName"] = "GRAD",
+				["_origin"] = "",
+				["typeName"] = "weapons.nurs.GRAD_9M22U",
+				["distMin"] = 0,
+			}, -- end of ["desc"]
+		}, -- end of [1]
+		[2] = 
+		{
 			["count"] = 1009,
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,25 +45,27 @@ IFV Boman =
 					["caliber"] = 7.62,
 					["mass"] = 0.0119,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
-		}, -- end of [1]
+		}, -- end of [2]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{
@@ -57,8 +88,9 @@ IFV Boman =
 	["desc"] = 
 	{
 		["massEmpty"] = 12300,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.43999999761581,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -95,7 +127,7 @@ IFV Boman =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Boman",
 		["displayName"] = "ARV MTLB-U BOMAN",
 	}, -- end of ["desc"]

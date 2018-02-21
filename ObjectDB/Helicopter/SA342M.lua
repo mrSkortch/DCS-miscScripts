@@ -41,7 +41,7 @@ SA342M =
 		}, -- end of ["box"]
 		["Hmax"] = 6000,
 		["Kmax"] = 0.20000000298023,
-		["category"] = 1,
+		["_origin"] = "SA342 AI by Polychop-Simulations",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 416.32998657227,
 		["speedMax"] = 240,
@@ -52,7 +52,6 @@ SA342M =
 		["life"] = 18,
 		["HmaxStat"] = 3040,
 		["VyMax"] = 14.60000038147,
-		["typeName"] = "SA342M",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -62,5 +61,7 @@ SA342M =
 			["Helicopters"] = true,
 			["Attack helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "SA342M",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of SA342M

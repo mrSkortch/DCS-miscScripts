@@ -3,8 +3,9 @@ Truck HEMTT TFFT =
 	["desc"] = 
 	{
 		["massEmpty"] = 15000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -37,7 +38,7 @@ Truck HEMTT TFFT =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20.833299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "HEMTT TFFT",
 		["displayName"] = "HEMTT TFFT",
 	}, -- end of ["desc"]

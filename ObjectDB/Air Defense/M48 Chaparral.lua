@@ -7,13 +7,6 @@ M48 Chaparral =
 			["count"] = 8,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 8500,
-				["rangeMin"] = 300,
-				["displayName"] = "MIM-72G",
-				["rangeMaxAltMin"] = 8500,
-				["altMax"] = 3000,
-				["RCS"] = 0.018200000748038,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ M48 Chaparral =
 						["z"] = 0.22345870733261,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = -1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 8500,
 				["fuseDist"] = 5,
 				["category"] = 1,
 				["guidance"] = 2,
+				["Nmax"] = 30,
+				["rangeMin"] = 300,
+				["altMax"] = 3000,
+				["RCS"] = 0.018200000748038,
+				["displayName"] = "MIM-72G",
+				["altMin"] = -1,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 10,
@@ -41,8 +41,9 @@ M48 Chaparral =
 					["caliber"] = 127,
 					["mass"] = 10,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 8500,
 				["typeName"] = "MIM-72G",
-				["Nmax"] = 30,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -51,6 +52,7 @@ M48 Chaparral =
 		["massEmpty"] = 11253,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.61000001430511,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -88,7 +90,7 @@ M48 Chaparral =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "M48 Chaparral",
 		["displayName"] = "SAM Chaparral M48",
 	}, -- end of ["desc"]

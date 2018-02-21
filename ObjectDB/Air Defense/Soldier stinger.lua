@@ -7,13 +7,6 @@ Soldier stinger =
 			["count"] = 3,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 6000,
-				["rangeMin"] = 200,
-				["displayName"] = "FIM-92C",
-				["rangeMaxAltMin"] = 5000,
-				["altMax"] = 3500,
-				["RCS"] = 0.0043999999761581,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ Soldier stinger =
 						["z"] = 0.088496953248978,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 5000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 2,
+				["Nmax"] = 18,
+				["rangeMin"] = 200,
+				["altMax"] = 3500,
+				["RCS"] = 0.0043999999761581,
+				["displayName"] = "FIM-92C",
+				["altMin"] = 1,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 3,
@@ -41,8 +41,9 @@ Soldier stinger =
 					["caliber"] = 70,
 					["mass"] = 3,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 6000,
 				["typeName"] = "FIM-92C",
-				["Nmax"] = 18,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -51,6 +52,7 @@ Soldier stinger =
 		["massEmpty"] = 90,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.87000000476837,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -91,7 +93,7 @@ Soldier stinger =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 4,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Soldier stinger",
 		["displayName"] = "Stinger MANPADS",
 	}, -- end of ["desc"]

@@ -8,7 +8,6 @@ M-2000C =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["mass"] = 0.242,
@@ -18,21 +17,23 @@ M-2000C =
 					["caliber"] = 30,
 					["type"] = 2,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "DEFA554_30_HE",
 				["typeName"] = "weapons.shells.DEFA554_30_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -95,17 +96,18 @@ M-2000C =
 		}, -- end of ["box"]
 		["Hmax"] = 17526,
 		["Kmax"] = 0.80000001192093,
-		["category"] = 0,
+		["_origin"] = "M-2000C AI by RAZBAM Sims",
 		["speedMax10K"] = 660,
 		["NyMin"] = -3,
 		["fuelMassMax"] = 3165,
 		["speedMax"] = 660,
 		["NyMax"] = 8,
-		["massMax"] = 17463,
+		["massMax"] = 16500,
 		["RCS"] = 2.5,
 		["displayName"] = "M-2000C",
 		["life"] = 18,
 		["VyMax"] = 304,
+		["Kab"] = 1.6200000047684,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -118,6 +120,6 @@ M-2000C =
 			["Multirole fighters"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "M-2000C",
-		["Kab"] = 1.6200000047684,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of M-2000C

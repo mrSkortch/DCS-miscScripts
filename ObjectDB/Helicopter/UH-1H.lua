@@ -21,7 +21,7 @@ UH-1H =
 		}, -- end of ["box"]
 		["Hmax"] = 3840,
 		["Kmax"] = 0.20000000298023,
-		["category"] = 1,
+		["_origin"] = "",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 631,
 		["speedMax"] = 240,
@@ -32,7 +32,6 @@ UH-1H =
 		["life"] = 12,
 		["HmaxStat"] = 1850,
 		["VyMax"] = 6.0999999046326,
-		["typeName"] = "UH-1H",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -42,5 +41,7 @@ UH-1H =
 			["Helicopters"] = true,
 			["Attack helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "UH-1H",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of UH-1H

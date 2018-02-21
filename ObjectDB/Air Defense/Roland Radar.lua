@@ -29,6 +29,7 @@ Roland Radar =
 		["massEmpty"] = 29207,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.61000001430511,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -64,7 +65,7 @@ Roland Radar =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20.833299636841,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Roland Radar",
 		["displayName"] = "SAM Roland EWR",
 	}, -- end of ["desc"]

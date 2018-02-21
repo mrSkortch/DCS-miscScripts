@@ -21,8 +21,9 @@ Truck Bedford_MWD =
 	["desc"] = 
 	{
 		["massEmpty"] = 2100,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -30,13 +31,13 @@ Truck Bedford_MWD =
 			{
 				["y"] = -0.024176426231861,
 				["x"] = -2.2464213371277,
-				["z"] = -1.0826803445816,
+				["z"] = -1.2003791332245,
 			}, -- end of ["min"]
 			["max"] = 
 			{
 				["y"] = 2.3432791233063,
 				["x"] = 2.2464213371277,
-				["z"] = 1.0826803445816,
+				["z"] = 1.2003791332245,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 22.200000762939,
@@ -55,7 +56,7 @@ Truck Bedford_MWD =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 22.200000762939,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Bedford_MWD",
 		["displayName"] = "Bedford MWD",
 	}, -- end of ["desc"]

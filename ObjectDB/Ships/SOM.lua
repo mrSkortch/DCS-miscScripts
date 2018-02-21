@@ -19,7 +19,8 @@ SOM =
 				["z"] = 5.8239998817444,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["life"] = 300,
+		["speedMax"] = 8.2311096191406,
+		["life"] = 0,
 		["attributes"] = 
 		{
 			["HeavyArmoredUnits"] = true,
@@ -28,8 +29,8 @@ SOM =
 			["Ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
-		["speedMax"] = 8.2311096191406,
 		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "SOM",
 		["displayName"] = "SSK 641B",
 	}, -- end of ["desc"]

@@ -8,7 +8,6 @@ A-10A =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,6 +15,8 @@ A-10A =
 					["caliber"] = 30,
 					["mass"] = 0.36,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "30mm AP",
 				["typeName"] = "weapons.shells.GAU8_30_AP",
 				["box"] = 
@@ -70,7 +71,7 @@ A-10A =
 		}, -- end of ["box"]
 		["Hmax"] = 10000,
 		["Kmax"] = 0.52999997138977,
-		["category"] = 0,
+		["_origin"] = "",
 		["speedMax10K"] = 134,
 		["NyMin"] = -2,
 		["fuelMassMax"] = 5029,
@@ -81,6 +82,7 @@ A-10A =
 		["displayName"] = "a-10a",
 		["life"] = 32,
 		["VyMax"] = 30,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -93,6 +95,6 @@ A-10A =
 			["NonArmoredUnits"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "A-10A",
-		["Kab"] = 0,
+		["category"] = 0,
 	}, -- end of ["desc"]
 } -- end of A-10A

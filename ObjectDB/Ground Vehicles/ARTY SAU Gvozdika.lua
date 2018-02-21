@@ -8,7 +8,6 @@ ARTY SAU Gvozdika =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 21.76,
@@ -16,6 +15,8 @@ ARTY SAU Gvozdika =
 					["caliber"] = 122,
 					["mass"] = 21.76,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "122mm HE",
 				["typeName"] = "weapons.shells.2A18_122",
 				["box"] = 
@@ -57,8 +58,9 @@ ARTY SAU Gvozdika =
 	["desc"] = 
 	{
 		["massEmpty"] = 12300,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.43999999761581,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -93,7 +95,7 @@ ARTY SAU Gvozdika =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "SAU Gvozdika",
 		["displayName"] = "SPH 2S1 Gvozdika",
 	}, -- end of ["desc"]

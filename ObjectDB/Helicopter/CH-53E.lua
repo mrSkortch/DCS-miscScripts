@@ -21,7 +21,7 @@ CH-53E =
 		}, -- end of ["box"]
 		["Hmax"] = 5640,
 		["Kmax"] = 1,
-		["category"] = 1,
+		["_origin"] = "",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 6940,
 		["speedMax"] = 315,
@@ -32,7 +32,6 @@ CH-53E =
 		["life"] = 20,
 		["HmaxStat"] = 2895,
 		["VyMax"] = 12.699999809265,
-		["typeName"] = "CH-53E",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -42,5 +41,7 @@ CH-53E =
 			["Helicopters"] = true,
 			["Transport helicopters"] = true,
 		}, -- end of ["attributes"]
+		["typeName"] = "CH-53E",
+		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of CH-53E

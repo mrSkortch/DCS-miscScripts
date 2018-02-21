@@ -5,6 +5,7 @@ Stinger comm =
 		["massEmpty"] = 90,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.87000000476837,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -44,7 +45,7 @@ Stinger comm =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 4,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "Stinger comm",
 		["displayName"] = "SAM Stinger comm",
 	}, -- end of ["desc"]

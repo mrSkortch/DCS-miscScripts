@@ -7,13 +7,6 @@ M1097 Avenger =
 			["count"] = 16,
 			["desc"] = 
 			{
-				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 6000,
-				["rangeMin"] = 200,
-				["displayName"] = "FIM-92C",
-				["rangeMaxAltMin"] = 5000,
-				["altMax"] = 3500,
-				["RCS"] = 0.0043999999761581,
 				["box"] = 
 				{
 					["min"] = 
@@ -29,11 +22,18 @@ M1097 Avenger =
 						["z"] = 0.088496953248978,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = 1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 5000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 2,
+				["Nmax"] = 18,
+				["rangeMin"] = 200,
+				["altMax"] = 3500,
+				["RCS"] = 0.0043999999761581,
+				["displayName"] = "FIM-92C",
+				["altMin"] = 1,
+				["life"] = 2,
+				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 3,
@@ -41,8 +41,9 @@ M1097 Avenger =
 					["caliber"] = 70,
 					["mass"] = 3,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 6000,
 				["typeName"] = "FIM-92C",
-				["Nmax"] = 18,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,7 +52,6 @@ M1097 Avenger =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -59,21 +59,23 @@ M1097 Avenger =
 					["caliber"] = 12.7,
 					["mass"] = 0.046,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -100,8 +102,9 @@ M1097 Avenger =
 	["desc"] = 
 	{
 		["massEmpty"] = 3990,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.27000001072884,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -140,7 +143,7 @@ M1097 Avenger =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 31.388900756836,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "M1097 Avenger",
 		["displayName"] = "SAM Avenger M1097",
 	}, -- end of ["desc"]

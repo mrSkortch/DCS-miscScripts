@@ -21,8 +21,9 @@ Truck Willys_MB =
 	["desc"] = 
 	{
 		["massEmpty"] = 1220,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -55,7 +56,7 @@ Truck Willys_MB =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 29.170000076294,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Willys_MB",
 		["displayName"] = "Willys MB",
 	}, -- end of ["desc"]

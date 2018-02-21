@@ -8,7 +8,6 @@ MBT T-90 =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -16,6 +15,8 @@ MBT T-90 =
 					["caliber"] = 125,
 					["mass"] = 4.85,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "125mm AP",
 				["typeName"] = "weapons.shells.2A46M_125_AP",
 				["box"] = 
@@ -41,7 +42,6 @@ MBT T-90 =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 23,
@@ -49,6 +49,8 @@ MBT T-90 =
 					["caliber"] = 125,
 					["mass"] = 23,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "125mm HE",
 				["typeName"] = "weapons.shells.2A46M_125_HE",
 				["box"] = 
@@ -73,13 +75,6 @@ MBT T-90 =
 			["count"] = 7,
 			["desc"] = 
 			{
-				["missileCategory"] = 6,
-				["rangeMaxAltMax"] = 5000,
-				["rangeMin"] = 100,
-				["displayName"] = "9M119",
-				["rangeMaxAltMin"] = 5000,
-				["altMax"] = 3000,
-				["RCS"] = 0.032000001519918,
 				["box"] = 
 				{
 					["min"] = 
@@ -95,11 +90,18 @@ MBT T-90 =
 						["z"] = 0.18512244522572,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["altMin"] = -1,
-				["life"] = 2,
+				["rangeMaxAltMin"] = 5000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 7,
+				["Nmax"] = 1.2,
+				["rangeMin"] = 100,
+				["altMax"] = 3000,
+				["RCS"] = 0.032000001519918,
+				["displayName"] = "9M119",
+				["altMin"] = -1,
+				["life"] = 2,
+				["missileCategory"] = 6,
 				["warhead"] = 
 				{
 					["mass"] = 4.5,
@@ -109,8 +111,9 @@ MBT T-90 =
 					["caliber"] = 0,
 					["type"] = 2,
 				}, -- end of ["warhead"]
+				["rangeMaxAltMax"] = 5000,
 				["typeName"] = "9M119",
-				["Nmax"] = 1.2,
+				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -119,7 +122,6 @@ MBT T-90 =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -127,21 +129,23 @@ MBT T-90 =
 					["caliber"] = 7.62,
 					["mass"] = 0.0119,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "7.62mm",
 				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.34973141551018,
-						["x"] = -15.915153503418,
-						["z"] = -0.35240435600281,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.34613394737244,
-						["x"] = 0.0010121095692739,
-						["z"] = 0.34346318244934,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -152,7 +156,6 @@ MBT T-90 =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -160,21 +163,23 @@ MBT T-90 =
 					["caliber"] = 12.7,
 					["mass"] = 0.044,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "12.7mm",
 				["typeName"] = "weapons.shells.Utes_12_7x108_T",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 			}, -- end of ["desc"]
@@ -201,8 +206,9 @@ MBT T-90 =
 	["desc"] = 
 	{
 		["massEmpty"] = 40000,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.61000001430511,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -239,7 +245,7 @@ MBT T-90 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "T-90",
 		["displayName"] = "MBT T-90",
 	}, -- end of ["desc"]

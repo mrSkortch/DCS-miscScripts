@@ -8,7 +8,6 @@ ARTY SAU 2-C9 =
 			["desc"] = 
 			{
 				["life"] = 2,
-				["category"] = 0,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 15.9,
@@ -16,6 +15,8 @@ ARTY SAU 2-C9 =
 					["caliber"] = 120,
 					["mass"] = 15.9,
 				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
 				["displayName"] = "120mm HE",
 				["typeName"] = "weapons.shells.2A60_120",
 				["box"] = 
@@ -57,8 +58,9 @@ ARTY SAU 2-C9 =
 	["desc"] = 
 	{
 		["massEmpty"] = 8700,
-		["riverCrossing"] = true,
+		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.61000001430511,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -93,7 +95,7 @@ ARTY SAU 2-C9 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "SAU 2-C9",
 		["displayName"] = "SPH 2S9 Nona",
 	}, -- end of ["desc"]
