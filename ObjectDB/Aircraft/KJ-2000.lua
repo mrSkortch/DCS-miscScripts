@@ -10,18 +10,18 @@ KJ-2000 =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 204461.796875,
-						["headOn"] = 204461.796875,
+						["tailOn"] = 268356.125,
+						["headOn"] = 268356.125,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 204461.796875,
-						["headOn"] = 204461.796875,
+						["tailOn"] = 268356.125,
+						["headOn"] = 268356.125,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
-				["typeName"] = "Shmel",
-				["detectionDistanceRBM"] = 2500,
+				["typeName"] = "AESA_KJ2000",
+				["detectionDistanceRBM"] = 3500,
 			}, -- end of [1]
 		}, -- end of [1]
 		[3] = 

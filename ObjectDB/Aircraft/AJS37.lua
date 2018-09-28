@@ -10,19 +10,19 @@ AJS37 =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 30762.0546875,
-						["headOn"] = 50824.265625,
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 23405.912109375,
-						["headOn"] = 50824.265625,
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
-				["detectionDistanceRBM"] = 1800,
-				["typeName"] = "AN/APG-73",
-				["detectionDistanceHRM"] = 200,
+				["detectionDistanceRBM"] = 1200,
+				["typeName"] = "PS-37A",
+				["detectionDistanceHRM"] = 1200,
 			}, -- end of [1]
 		}, -- end of [1]
 		[0] = 
@@ -45,7 +45,7 @@ AJS37 =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["speedMax0"] = 1200,
+		["speedMax0"] = 408,
 		["massEmpty"] = 10749,
 		["range"] = 2000,
 		["box"] = 
@@ -53,7 +53,7 @@ AJS37 =
 			["min"] = 
 			{
 				["y"] = -1.2390263080597,
-				["x"] = -14.131653785706,
+				["x"] = -14.131652832031,
 				["z"] = -5.2076072692871,
 			}, -- end of ["min"]
 			["max"] = 
@@ -66,10 +66,10 @@ AJS37 =
 		["Hmax"] = 21000,
 		["Kmax"] = 0.62000000476837,
 		["_origin"] = "AJS37 AI by Heatblur Simulations",
-		["speedMax10K"] = 550,
+		["speedMax10K"] = 612,
 		["NyMin"] = -2,
 		["fuelMassMax"] = 4476,
-		["speedMax"] = 1200,
+		["speedMax"] = 612,
 		["NyMax"] = 8,
 		["massMax"] = 20000,
 		["RCS"] = 3,

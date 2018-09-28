@@ -4,6 +4,7 @@ Water tower A =
 	["desc"] = 
 	{
 		["life"] = 150,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Water tower A",
 		["typeName"] = "Water tower A",

@@ -4,6 +4,7 @@ Small house 1A area =
 	["desc"] = 
 	{
 		["life"] = 50,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Small house 1A area",
 		["typeName"] = "Small house 1A area",

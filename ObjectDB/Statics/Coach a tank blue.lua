@@ -4,6 +4,7 @@ Coach a tank blue =
 	["desc"] = 
 	{
 		["life"] = 12,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Coach a tank blue",
 		["typeName"] = "Coach a tank blue",

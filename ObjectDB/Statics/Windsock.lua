@@ -4,6 +4,7 @@ Windsock =
 	["desc"] = 
 	{
 		["life"] = 3,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Windsock",
 		["typeName"] = "Windsock",

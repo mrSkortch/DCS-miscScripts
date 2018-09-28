@@ -4,6 +4,7 @@ Shelter =
 	["desc"] = 
 	{
 		["life"] = 8000,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Shelter",
 		["typeName"] = "Shelter",

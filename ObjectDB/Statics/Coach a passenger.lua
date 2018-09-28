@@ -4,6 +4,7 @@ Coach a passenger =
 	["desc"] = 
 	{
 		["life"] = 5,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Coach for passengers",
 		["typeName"] = "Coach a passenger",

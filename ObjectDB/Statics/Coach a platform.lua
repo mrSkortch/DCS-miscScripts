@@ -4,6 +4,7 @@ Coach a platform =
 	["desc"] = 
 	{
 		["life"] = 11,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Coach flatbed",
 		["typeName"] = "Coach a platform",

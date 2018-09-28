@@ -50,19 +50,16 @@
 		["life"] = 1,
 		["attributes"] = 
 		{
-			["Air"] = true,
 			["Vehicles"] = true,
 			["NonArmoredUnits"] = true,
 			["CustomAimPoint"] = true,
 			["Air Defence"] = true,
-			["AWACS"] = true,
-			["Planes"] = true,
+			["Ground vehicles"] = true,
 			["NonAndLightArmoredUnits"] = true,
 			["EWR"] = true,
-			["Air Defence vehicles"] = true,
 			["All"] = true,
 			["Ground Units"] = true,
-			["Ground vehicles"] = true,
+			["Air Defence vehicles"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,

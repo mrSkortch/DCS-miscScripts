@@ -39,7 +39,7 @@ speedboat =
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
-		["massEmpty"] = 10000,
+		["massEmpty"] = 5000,
 		["RCS"] = 16.362232208252,
 		["box"] = 
 		{
@@ -56,7 +56,7 @@ speedboat =
 				["z"] = 1.3865644931793,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 40,
+		["speedMax"] = 30,
 		["life"] = 0,
 		["attributes"] = 
 		{

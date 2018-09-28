@@ -4,6 +4,7 @@ Repair workshop =
 	["desc"] = 
 	{
 		["life"] = 500,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Repair workshop",
 		["typeName"] = "Repair workshop",

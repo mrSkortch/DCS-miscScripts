@@ -4,6 +4,7 @@ Pump station =
 	["desc"] = 
 	{
 		["life"] = 150,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Pump station",
 		["typeName"] = "Pump station",

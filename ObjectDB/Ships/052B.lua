@@ -56,12 +56,12 @@
 						["z"] = 0.43460181355476,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["rangeMaxAltMin"] = 250000,
+				["rangeMaxAltMin"] = 180000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 1,
 				["Nmax"] = 6,
-				["rangeMin"] = 2000,
+				["rangeMin"] = 12000,
 				["altMax"] = 10000,
 				["RCS"] = 0.12099999934435,
 				["displayName"] = "YJ-83",
@@ -75,7 +75,7 @@
 					["caliber"] = 343,
 					["mass"] = 100,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 250000,
+				["rangeMaxAltMax"] = 180000,
 				["typeName"] = "YJ-83",
 				["_origin"] = "",
 			}, -- end of ["desc"]
@@ -119,7 +119,7 @@
 					["caliber"] = 400,
 					["mass"] = 59,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 30000,
+				["rangeMaxAltMax"] = 40000,
 				["typeName"] = "9M317",
 				["_origin"] = "",
 			}, -- end of ["desc"]
@@ -196,12 +196,12 @@
 	["desc"] = 
 	{
 		["massEmpty"] = 5850000,
-		["RCS"] = 3923.9953613281,
+		["RCS"] = 3926.75,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -7.260241985321,
+				["y"] = -7.5165162086487,
 				["x"] = -63.557834625244,
 				["z"] = -8.5776329040527,
 			}, -- end of ["min"]

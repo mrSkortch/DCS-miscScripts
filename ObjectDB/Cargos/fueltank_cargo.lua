@@ -9,6 +9,7 @@ fueltank_cargo =
 		{
 			["Cargos"] = true,
 		}, -- end of ["attributes"]
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Fueltank",
 		["typeName"] = "fueltank_cargo",

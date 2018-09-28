@@ -68,6 +68,6 @@ p-19 s-125 sr =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "p-19 s-125 sr",
-		["displayName"] = "SAM SA-3 S-125 SR P-19",
+		["displayName"] = "SAM SR P-19",
 	}, -- end of ["desc"]
 } -- end of p-19 s-125 sr

@@ -4,6 +4,7 @@ Small werehouse 1 =
 	["desc"] = 
 	{
 		["life"] = 80,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Small warehouse 1",
 		["typeName"] = "Small werehouse 1",

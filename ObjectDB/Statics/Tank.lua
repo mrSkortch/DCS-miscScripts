@@ -4,6 +4,7 @@ Tank =
 	["desc"] = 
 	{
 		["life"] = 5,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Tank",
 		["typeName"] = "Tank",

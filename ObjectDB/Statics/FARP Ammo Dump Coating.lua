@@ -4,6 +4,7 @@ FARP Ammo Dump Coating =
 	["desc"] = 
 	{
 		["life"] = 5,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "FARP Ammo Storage",
 		["typeName"] = "FARP Ammo Dump Coating",

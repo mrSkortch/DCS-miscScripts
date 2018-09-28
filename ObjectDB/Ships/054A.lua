@@ -61,7 +61,7 @@
 				["category"] = 1,
 				["guidance"] = 4,
 				["Nmax"] = 22,
-				["rangeMin"] = 700,
+				["rangeMin"] = 500,
 				["altMax"] = 35000,
 				["RCS"] = 0.09179999679327,
 				["displayName"] = "HQ-16",
@@ -75,7 +75,7 @@
 					["caliber"] = 160,
 					["mass"] = 59,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 45000,
+				["rangeMaxAltMax"] = 50000,
 				["typeName"] = "HQ-16",
 				["_origin"] = "",
 			}, -- end of ["desc"]
@@ -168,12 +168,12 @@
 						["z"] = 0.43460181355476,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["rangeMaxAltMin"] = 250000,
+				["rangeMaxAltMin"] = 180000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 1,
 				["Nmax"] = 6,
-				["rangeMin"] = 2000,
+				["rangeMin"] = 12000,
 				["altMax"] = 10000,
 				["RCS"] = 0.12099999934435,
 				["displayName"] = "YJ-83",
@@ -187,7 +187,7 @@
 					["caliber"] = 343,
 					["mass"] = 100,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 250000,
+				["rangeMaxAltMax"] = 180000,
 				["typeName"] = "YJ-83",
 				["_origin"] = "",
 			}, -- end of ["desc"]
@@ -196,18 +196,18 @@
 	["desc"] = 
 	{
 		["massEmpty"] = 4200000,
-		["RCS"] = 3069.9133300781,
+		["RCS"] = 3080.5261230469,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -5.5619053840637,
+				["y"] = -6.6589636802673,
 				["x"] = -62.756683349609,
 				["z"] = -8.7077188491821,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 28.441719055176,
+				["y"] = 28.341720581055,
 				["x"] = 73.04704284668,
 				["z"] = 8.707670211792,
 			}, -- end of ["max"]

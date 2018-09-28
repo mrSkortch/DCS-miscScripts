@@ -4,6 +4,7 @@ FARP Fuel Depot =
 	["desc"] = 
 	{
 		["life"] = 10,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "FARP Fuel Depot",
 		["typeName"] = "FARP Fuel Depot",

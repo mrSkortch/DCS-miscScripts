@@ -9,6 +9,7 @@ pipes_big_cargo =
 		{
 			["Cargos"] = true,
 		}, -- end of ["attributes"]
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Pipes big",
 		["typeName"] = "pipes_big_cargo",

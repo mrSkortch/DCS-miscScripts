@@ -86,17 +86,20 @@ ARTY SK_C_28_naval_gun =
 			["Vehicles"] = true,
 			["Armed vehicles"] = true,
 			["LightArmoredUnits"] = true,
-			["Ground vehicles"] = true,
+			["HeavyArmoredUnits"] = true,
+			["Fortifications"] = true,
+			["AntiAir Armed Vehicles"] = true,
 			["NonAndLightArmoredUnits"] = true,
+			["Indirect fire"] = true,
 			["Armed ground units"] = true,
 			["All"] = true,
 			["Ground Units"] = true,
-			["Indirect fire"] = true,
+			["Ground vehicles"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "SK_C_28_naval_gun",
-		["displayName"] = "SK C/28 15cm naval gun",
+		["displayName"] = "Bunker with SK C/28 15cm naval gun",
 	}, -- end of ["desc"]
 } -- end of ARTY SK_C_28_naval_gun

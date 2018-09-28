@@ -5,6 +5,7 @@ houseA_arm =
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -35,7 +36,7 @@ houseA_arm =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "",
 		["typeName"] = "houseA_arm",
 		["displayName"] = "Armed house",
 	}, -- end of ["desc"]

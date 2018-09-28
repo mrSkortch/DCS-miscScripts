@@ -4,6 +4,7 @@ Black_Tyre_RF =
 	["desc"] = 
 	{
 		["life"] = 3,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Mark Tyre with Red Flag",
 		["typeName"] = "Black_Tyre_RF",

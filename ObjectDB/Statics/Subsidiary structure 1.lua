@@ -4,6 +4,7 @@ Subsidiary structure 1 =
 	["desc"] = 
 	{
 		["life"] = 100,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Subsidiary structure 1",
 		["typeName"] = "Subsidiary structure 1",

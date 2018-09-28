@@ -4,6 +4,7 @@ Airshow_Cone =
 	["desc"] = 
 	{
 		["life"] = 10,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Airshow cone",
 		["typeName"] = "Airshow_Cone",

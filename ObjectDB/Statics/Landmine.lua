@@ -3,8 +3,9 @@ Landmine =
 	["shapeName"] = "landmine",
 	["desc"] = 
 	{
-		["category"] = 4,
 		["life"] = 1,
+		["_origin"] = "",
+		["category"] = 4,
 		["typeName"] = "Landmine",
 		["displayName"] = "Landmine",
 	}, -- end of ["desc"]

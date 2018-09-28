@@ -4,6 +4,7 @@ Farm B =
 	["desc"] = 
 	{
 		["life"] = 400,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Farm B",
 		["typeName"] = "Farm B",
