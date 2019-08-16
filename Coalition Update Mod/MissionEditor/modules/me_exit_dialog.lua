@@ -29,7 +29,7 @@ local function show()
 			
 			if result then
 				if MapWindow.getVisible() then
-					if me_mission.isMissionModified() or not me_mission.getMissionPathIsSaved() then
+					if not me_mission.isSignedMission() and (me_mission.isMissionModified() and not me_mission.getMissionPathIsSaved()) then
 						handler_:close()
 						
 						local button = me_menubar.showOnExitSavePrompt(yes, no, cancel)
@@ -42,6 +42,7 @@ local function show()
 					end
 				end
 			end
+            START_PARAMS.command = '--quit'                     
 		end
 		
 		handler_:show()
