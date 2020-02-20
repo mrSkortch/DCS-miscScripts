@@ -1,5 +1,15 @@
 F-16C bl.50 = 
 {
+	["countries"] = 
+	{
+		[31] = "Greece",
+		[73] = "Oman",
+		[10] = "The Netherlands",
+		[40] = "Poland",
+		[3] = "Turkey",
+		[63] = "Chile",
+		[2] = "USA",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +27,6 @@ F-16C bl.50 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm HE",
-				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +42,8 @@ F-16C bl.50 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M61_20_HE",
+				["displayName"] = "20mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -109,13 +119,15 @@ F-16C bl.50 =
 		["attributes"] = 
 		{
 			["Air"] = true,
+			["Refuelable"] = true,
+			["Link16"] = true,
+			["Multirole fighters"] = true,
 			["Battle airplanes"] = true,
 			["NonAndLightArmoredUnits"] = true,
 			["Planes"] = true,
-			["Refuelable"] = true,
 			["All"] = true,
+			["Datalink"] = true,
 			["NonArmoredUnits"] = true,
-			["Multirole fighters"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "F-16C bl.50",
 		["category"] = 0,

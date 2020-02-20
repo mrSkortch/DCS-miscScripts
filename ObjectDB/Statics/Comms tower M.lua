@@ -4,7 +4,6 @@ Comms tower M =
 	["desc"] = 
 	{
 		["life"] = 200,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Comms tower M",
 		["typeName"] = "Comms tower M",

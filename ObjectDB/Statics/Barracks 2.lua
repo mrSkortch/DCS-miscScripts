@@ -4,7 +4,6 @@ Barracks 2 =
 	["desc"] = 
 	{
 		["life"] = 800,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Barracks 2",
 		["typeName"] = "Barracks 2",

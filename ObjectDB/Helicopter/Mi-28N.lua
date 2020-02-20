@@ -1,5 +1,11 @@
 Mi-28N = 
 {
+	["countries"] = 
+	{
+		[0] = "Russia",
+		[35] = "Iraq",
+		[70] = "Algeria",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +23,6 @@ Mi-28N =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.2A42_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +38,8 @@ Mi-28N =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.2A42_30_HE",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

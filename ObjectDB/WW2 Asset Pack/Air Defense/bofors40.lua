@@ -17,23 +17,23 @@ bofors40 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "Bofors 40mm HE",
-				["typeName"] = "weapons.shells.Bofors_40mm_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.060612548142672,
-						["x"] = -0.27024647593498,
-						["z"] = -0.060612548142672,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.060612548142672,
-						["x"] = 0.24980916082859,
-						["z"] = 0.060612548142672,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Bofors_40mm_HE",
+				["displayName"] = "Bofors 40mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

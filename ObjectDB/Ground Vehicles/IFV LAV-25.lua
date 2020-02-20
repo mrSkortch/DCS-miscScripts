@@ -17,8 +17,6 @@ IFV LAV-25 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "25mm HE",
-				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ IFV LAV-25 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M242_25_HE_M792",
+				["displayName"] = "25mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ IFV LAV-25 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "25mm AP",
-				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ IFV LAV-25 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M242_25_AP_M791",
+				["displayName"] = "25mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ IFV LAV-25 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ IFV LAV-25 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x51",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]

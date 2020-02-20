@@ -13,27 +13,27 @@ MBT M4A4_Sherman_FF =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 76.2,
-					["mass"] = 3.6,
+					["mass"] = 7.71,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "SVDS",
-				["typeName"] = "weapons.shells.SVDS",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
+						["y"] = -0.70802044868469,
+						["x"] = -0.84232467412949,
+						["z"] = -0.70802044868469,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
+						["y"] = 0.70802044868469,
+						["x"] = 0.57371598482132,
+						["z"] = 0.70802044868469,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.APCBC",
+				["displayName"] = "APCBC",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -44,15 +44,13 @@ MBT M4A4_Sherman_FF =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 2.2,
+					["explosiveMass"] = 0.58,
 					["type"] = 1,
 					["caliber"] = 76.2,
-					["mass"] = 6.98,
+					["mass"] = 7.7,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "QF17 HE",
-				["typeName"] = "weapons.shells.QF17_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ MBT M4A4_Sherman_FF =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.QF17_HE",
+				["displayName"] = "QF17 HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ MBT M4A4_Sherman_FF =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = ".303 British",
-				["typeName"] = "weapons.shells.Br303_tr",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ MBT M4A4_Sherman_FF =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Br303_tr",
+				["displayName"] = ".303 British",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -124,24 +124,6 @@ MBT M4A4_Sherman_FF =
 			}, -- end of ["desc"]
 		}, -- end of [4]
 	}, -- end of ["weapons"]
-	["sensors"] = 
-	{
-		[0] = 
-		{
-			[1] = 
-			{
-				["type"] = 0,
-				["typeName"] = "TRP-2A day",
-				["opticType"] = 0,
-			}, -- end of [1]
-			[2] = 
-			{
-				["type"] = 0,
-				["typeName"] = "TRP-2A night",
-				["opticType"] = 1,
-			}, -- end of [2]
-		}, -- end of [0]
-	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 33000,

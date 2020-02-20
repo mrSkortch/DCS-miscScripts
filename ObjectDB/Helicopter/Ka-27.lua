@@ -21,7 +21,7 @@ Ka-27 =
 		}, -- end of ["box"]
 		["Hmax"] = 4300,
 		["Kmax"] = 0.5,
-		["_origin"] = "",
+		["category"] = 1,
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 2616,
 		["speedMax"] = 270,
@@ -32,6 +32,7 @@ Ka-27 =
 		["life"] = 14,
 		["HmaxStat"] = 2500,
 		["VyMax"] = 12.5,
+		["typeName"] = "Ka-27",
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -41,7 +42,5 @@ Ka-27 =
 			["Helicopters"] = true,
 			["Transport helicopters"] = true,
 		}, -- end of ["attributes"]
-		["typeName"] = "Ka-27",
-		["category"] = 1,
 	}, -- end of ["desc"]
 } -- end of Ka-27

@@ -7,33 +7,19 @@ M1097 Avenger =
 			["count"] = 16,
 			["desc"] = 
 			{
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.08772849291563,
-						["x"] = -0.76689594984055,
-						["z"] = -0.088496953248978,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.087728500366211,
-						["x"] = 0.76825255155563,
-						["z"] = 0.088496953248978,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
+				["missileCategory"] = 2,
+				["rangeMaxAltMax"] = 6000,
+				["rangeMin"] = 200,
+				["_origin"] = "",
 				["rangeMaxAltMin"] = 5000,
+				["altMax"] = 3500,
+				["RCS"] = 0.0043999999761581,
+				["displayName"] = "FIM-92B",
+				["altMin"] = 1,
+				["life"] = 2,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 2,
-				["Nmax"] = 18,
-				["rangeMin"] = 200,
-				["altMax"] = 3500,
-				["RCS"] = 0.0043999999761581,
-				["displayName"] = "FIM-92C",
-				["altMin"] = 1,
-				["life"] = 2,
-				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 3,
@@ -41,9 +27,8 @@ M1097 Avenger =
 					["caliber"] = 70,
 					["mass"] = 3,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 6000,
-				["typeName"] = "FIM-92C",
-				["_origin"] = "",
+				["typeName"] = "weapons.missiles.FIM_92C",
+				["Nmax"] = 18,
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -61,8 +46,6 @@ M1097 Avenger =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -78,6 +61,8 @@ M1097 Avenger =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M2_12_7_T",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]

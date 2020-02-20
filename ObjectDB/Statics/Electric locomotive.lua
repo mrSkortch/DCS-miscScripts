@@ -4,7 +4,6 @@ Electric locomotive =
 	["desc"] = 
 	{
 		["life"] = 2,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Electric locomotive",
 		["typeName"] = "Electric locomotive",

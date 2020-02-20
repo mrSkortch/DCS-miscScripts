@@ -42,7 +42,7 @@ M48 Chaparral =
 					["mass"] = 10,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 8500,
-				["typeName"] = "MIM-72G",
+				["typeName"] = "weapons.missiles.MIM_72G",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

@@ -1,5 +1,28 @@
 MiG-21Bis = 
 {
+	["countries"] = 
+	{
+		[15] = "Israel",
+		[30] = "Finland",
+		[62] = "Ethiopia",
+		[32] = "Hungary",
+		[33] = "India",
+		[34] = "Iran",
+		[35] = "Iraq",
+		[70] = "Algeria",
+		[38] = "North Korea",
+		[76] = "Cuba",
+		[40] = "Poland",
+		[43] = "Serbia",
+		[6] = "Germany",
+		[47] = "Syria",
+		[25] = "Bulgaria",
+		[67] = "Yugoslavia",
+		[28] = "Croatia",
+		[68] = "USSR",
+		[58] = "Libya",
+		[49] = "Vietnam",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +40,6 @@ MiG-21Bis =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "GSH 23 HE",
-				["typeName"] = "weapons.shells.GSH_23_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +55,8 @@ MiG-21Bis =
 						["z"] = 0.24857969582081,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.GSH_23_HE",
+				["displayName"] = "GSH 23 HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

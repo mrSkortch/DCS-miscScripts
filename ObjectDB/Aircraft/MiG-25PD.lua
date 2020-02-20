@@ -1,5 +1,14 @@
 MiG-25PD = 
 {
+	["countries"] = 
+	{
+		[1] = "Ukraine",
+		[0] = "Russia",
+		[24] = "Belarus",
+		[68] = "USSR",
+		[70] = "Algeria",
+		[35] = "Iraq",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

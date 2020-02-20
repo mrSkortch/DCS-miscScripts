@@ -9,6 +9,9 @@ MLRS MLRS =
 			{
 				["distMax"] = 0,
 				["RCS"] = 0,
+				["displayName"] = "M26",
+				["life"] = 2,
+				["category"] = 2,
 				["box"] = 
 				{
 					["min"] = 
@@ -24,9 +27,6 @@ MLRS MLRS =
 						["z"] = 0.15113028883934,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["life"] = 2,
-				["category"] = 2,
-				["displayName"] = "M26",
 				["_origin"] = "",
 				["typeName"] = "weapons.nurs.M26",
 				["distMin"] = 0,

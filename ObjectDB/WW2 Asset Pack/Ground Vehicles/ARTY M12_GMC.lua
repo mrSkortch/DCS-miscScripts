@@ -17,8 +17,6 @@ ARTY M12_GMC =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "M101 155mm HE",
-				["typeName"] = "weapons.shells.M101",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ ARTY M12_GMC =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M101",
+				["displayName"] = "M101 155mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

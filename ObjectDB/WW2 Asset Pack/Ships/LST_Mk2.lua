@@ -17,23 +17,23 @@ LST_Mk2 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "Bofors 40mm HE",
-				["typeName"] = "weapons.shells.Bofors_40mm_HE",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.060612548142672,
-						["x"] = -0.27024647593498,
-						["z"] = -0.060612548142672,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.060612548142672,
-						["x"] = 0.24980916082859,
-						["z"] = 0.060612548142672,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Bofors_40mm_HE",
+				["displayName"] = "Bofors 40mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ LST_Mk2 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "Oerlikon 20mm HE",
-				["typeName"] = "weapons.shells.Oerlikon_20mm_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ LST_Mk2 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Oerlikon_20mm_HE",
+				["displayName"] = "Oerlikon 20mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]
@@ -95,13 +95,14 @@ LST_Mk2 =
 		["attributes"] = 
 		{
 			["Ships"] = true,
-			["Armed Air Defence"] = true,
+			["Landing Ships"] = true,
 			["Armed ships"] = true,
+			["Armed Air Defence"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["Heavy armed ships"] = true,
 			["All"] = true,
-			["Landing Ships"] = true,
+			["</WSTYPE>"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

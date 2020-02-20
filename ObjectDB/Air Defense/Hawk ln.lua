@@ -30,7 +30,7 @@ Hawk ln =
 				["rangeMin"] = 1500,
 				["altMax"] = 18000,
 				["RCS"] = 0.1676000058651,
-				["displayName"] = "MIM-23B",
+				["displayName"] = "MIM-23K Hawk",
 				["altMin"] = 60,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@ Hawk ln =
 					["mass"] = 70,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 45000,
-				["typeName"] = "MIM-23B",
+				["typeName"] = "HAWK_RAKETA",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

@@ -9,7 +9,6 @@ f_bar_cargo =
 		{
 			["Cargos"] = true,
 		}, -- end of ["attributes"]
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "F-shape barrier",
 		["typeName"] = "f_bar_cargo",

@@ -1,5 +1,81 @@
 A-10C = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+		[2] = "Ukraine",
+		[3] = "USA",
+		[4] = "Turkey",
+		[5] = "UK",
+		[6] = "France",
+		[7] = "Germany",
+		[8] = "USAF Aggressors",
+		[9] = "Canada",
+		[10] = "Spain",
+		[11] = "The Netherlands",
+		[12] = "Belgium",
+		[13] = "Norway",
+		[14] = "Denmark",
+		[15] = "Israel",
+		[16] = "Georgia",
+		[17] = "Italy",
+		[18] = "Australia",
+		[19] = "Switzerland",
+		[20] = "Austria",
+		[21] = "Belarus",
+		[22] = "Bulgaria",
+		[23] = "Czech Republic",
+		[24] = "China",
+		[25] = "Croatia",
+		[26] = "Egypt",
+		[27] = "Finland",
+		[28] = "Greece",
+		[29] = "Hungary",
+		[30] = "India",
+		[31] = "Iran",
+		[32] = "Iraq",
+		[33] = "Japan",
+		[34] = "Kazakhstan",
+		[35] = "North Korea",
+		[36] = "Pakistan",
+		[37] = "Poland",
+		[38] = "Romania",
+		[39] = "Saudi Arabia",
+		[40] = "Serbia",
+		[41] = "Slovakia",
+		[42] = "South Korea",
+		[43] = "Sweden",
+		[44] = "Syria",
+		[45] = "Yemen",
+		[46] = "Vietnam",
+		[47] = "Venezuela",
+		[48] = "Tunisia",
+		[49] = "Thailand",
+		[50] = "Sudan",
+		[51] = "Philippines",
+		[52] = "Morocco",
+		[53] = "Mexico",
+		[54] = "Malaysia",
+		[55] = "Libya",
+		[56] = "Jordan",
+		[57] = "Indonesia",
+		[58] = "Honduras",
+		[59] = "Ethiopia",
+		[60] = "Chile",
+		[61] = "Brazil",
+		[62] = "Bahrain",
+		[63] = "Third Reich",
+		[64] = "Yugoslavia",
+		[65] = "USSR",
+		[66] = "Italian Social Republic",
+		[67] = "Algeria",
+		[68] = "Kuwait",
+		[69] = "Qatar",
+		[70] = "Oman",
+		[71] = "United Arab Emirates",
+		[72] = "South Africa",
+		[73] = "Cuba",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +93,6 @@ A-10C =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.GAU8_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +108,8 @@ A-10C =
 						["z"] = 0.64480221271515,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.GAU8_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -51,7 +127,7 @@ A-10C =
 	["desc"] = 
 	{
 		["speedMax0"] = 236,
-		["massEmpty"] = 11739,
+		["massEmpty"] = 11325,
 		["tankerType"] = 0,
 		["range"] = 1500,
 		["box"] = 
@@ -86,12 +162,14 @@ A-10C =
 		["attributes"] = 
 		{
 			["Air"] = true,
-			["Battle airplanes"] = true,
-			["NonAndLightArmoredUnits"] = true,
 			["Battleplanes"] = true,
 			["Refuelable"] = true,
-			["All"] = true,
+			["Link16"] = true,
+			["Battle airplanes"] = true,
+			["NonAndLightArmoredUnits"] = true,
 			["Planes"] = true,
+			["All"] = true,
+			["Datalink"] = true,
 			["NonArmoredUnits"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "A-10C",

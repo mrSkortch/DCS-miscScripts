@@ -17,8 +17,6 @@ PERRY =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ PERRY =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M2_12_7_T",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ PERRY =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "25mm HE",
-				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ PERRY =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M242_25_HE_M792",
+				["displayName"] = "25mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ PERRY =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "25mm AP",
-				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ PERRY =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M242_25_AP_M791",
+				["displayName"] = "25mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -115,12 +115,10 @@ PERRY =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm AP",
-				["typeName"] = "weapons.shells.M61_20_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -136,6 +134,8 @@ PERRY =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M61_20_AP",
+				["displayName"] = "20mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -146,15 +146,13 @@ PERRY =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.11,
+					["explosiveMass"] = 0.1,
 					["type"] = 1,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm HE",
-				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -170,6 +168,8 @@ PERRY =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M61_20_HE",
+				["displayName"] = "20mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [5]
 		[6] = 
@@ -200,7 +200,7 @@ PERRY =
 				["rangeMin"] = 4000,
 				["altMax"] = 24400,
 				["RCS"] = 0.1765999943018,
-				["displayName"] = "RIM-66",
+				["displayName"] = "SM-2",
 				["altMin"] = 10,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -212,7 +212,7 @@ PERRY =
 					["mass"] = 98,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 100000,
-				["typeName"] = "RIM-66",
+				["typeName"] = "SM_2",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [6]
@@ -244,7 +244,7 @@ PERRY =
 				["rangeMin"] = 3000,
 				["altMax"] = 10000,
 				["RCS"] = 0.10580000281334,
-				["displayName"] = "RGM-84D",
+				["displayName"] = "AGM-84S Harpoon",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 4,
@@ -256,7 +256,7 @@ PERRY =
 					["mass"] = 90,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 241401,
-				["typeName"] = "RGM-84D",
+				["typeName"] = "AGM_84S",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [7]
@@ -275,8 +275,6 @@ PERRY =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "76mm HE",
-				["typeName"] = "weapons.shells.MK75_76",
 				["box"] = 
 				{
 					["min"] = 
@@ -292,6 +290,8 @@ PERRY =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.MK75_76",
+				["displayName"] = "76mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [8]
 	}, -- end of ["weapons"]
@@ -334,6 +334,6 @@ PERRY =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "PERRY",
-		["displayName"] = "FFG-7CL Oliver Hazzard Perry",
+		["displayName"] = "Oliver Hazzard Perry class",
 	}, -- end of ["desc"]
 } -- end of PERRY

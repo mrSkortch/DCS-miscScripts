@@ -17,8 +17,6 @@ IFV BTR-80 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "14.5mm AP",
-				["typeName"] = "weapons.shells.KPVT_14_5_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ IFV BTR-80 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.KPVT_14_5_T",
+				["displayName"] = "14.5mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ IFV BTR-80 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ IFV BTR-80 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x54",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]

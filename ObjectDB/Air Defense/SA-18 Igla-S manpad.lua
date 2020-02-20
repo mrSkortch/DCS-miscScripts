@@ -7,33 +7,19 @@ SA-18 Igla-S manpad =
 			["count"] = 3,
 			["desc"] = 
 			{
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.08246985822916,
-						["x"] = -0.83429676294327,
-						["z"] = -0.085273645818233,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.082469865679741,
-						["x"] = 0.82831227779388,
-						["z"] = 0.085273645818233,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
+				["missileCategory"] = 2,
+				["rangeMaxAltMax"] = 4500,
+				["rangeMin"] = 500,
+				["_origin"] = "",
 				["rangeMaxAltMin"] = 4500,
+				["altMax"] = 3500,
+				["RCS"] = 0.0043999999761581,
+				["displayName"] = "Igla-S",
+				["altMin"] = 1,
+				["life"] = 2,
 				["fuseDist"] = 1,
 				["category"] = 1,
 				["guidance"] = 2,
-				["Nmax"] = 16,
-				["rangeMin"] = 500,
-				["altMax"] = 3500,
-				["RCS"] = 0.0043999999761581,
-				["displayName"] = "9M39",
-				["altMin"] = 1,
-				["life"] = 2,
-				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 1.25,
@@ -41,9 +27,8 @@ SA-18 Igla-S manpad =
 					["caliber"] = 72,
 					["mass"] = 1.25,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 4500,
-				["typeName"] = "9M39",
-				["_origin"] = "",
+				["typeName"] = "weapons.missiles.Igla_1E",
+				["Nmax"] = 16,
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

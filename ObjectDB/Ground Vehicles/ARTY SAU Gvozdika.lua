@@ -17,8 +17,6 @@ ARTY SAU Gvozdika =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "122mm HE",
-				["typeName"] = "weapons.shells.2A18_122",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ ARTY SAU Gvozdika =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.2A18_122",
+				["displayName"] = "122mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

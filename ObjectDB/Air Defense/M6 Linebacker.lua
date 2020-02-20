@@ -4,36 +4,22 @@ M6 Linebacker =
 	{
 		[1] = 
 		{
-			["count"] = 10,
+			["count"] = 12,
 			["desc"] = 
 			{
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.08772849291563,
-						["x"] = -0.76689594984055,
-						["z"] = -0.088496953248978,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.087728500366211,
-						["x"] = 0.76825255155563,
-						["z"] = 0.088496953248978,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
+				["missileCategory"] = 2,
+				["rangeMaxAltMax"] = 6000,
+				["rangeMin"] = 200,
+				["_origin"] = "",
 				["rangeMaxAltMin"] = 5000,
+				["altMax"] = 3500,
+				["RCS"] = 0.0043999999761581,
+				["displayName"] = "FIM-92B",
+				["altMin"] = 1,
+				["life"] = 2,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 2,
-				["Nmax"] = 18,
-				["rangeMin"] = 200,
-				["altMax"] = 3500,
-				["RCS"] = 0.0043999999761581,
-				["displayName"] = "FIM-92C",
-				["altMin"] = 1,
-				["life"] = 2,
-				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 3,
@@ -41,9 +27,8 @@ M6 Linebacker =
 					["caliber"] = 70,
 					["mass"] = 3,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 6000,
-				["typeName"] = "FIM-92C",
-				["_origin"] = "",
+				["typeName"] = "weapons.missiles.FIM_92C",
+				["Nmax"] = 18,
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -61,8 +46,6 @@ M6 Linebacker =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "25mm HE",
-				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["box"] = 
 				{
 					["min"] = 
@@ -78,6 +61,8 @@ M6 Linebacker =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M242_25_HE_M792",
+				["displayName"] = "25mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -95,8 +80,6 @@ M6 Linebacker =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "25mm AP",
-				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["box"] = 
 				{
 					["min"] = 
@@ -112,6 +95,8 @@ M6 Linebacker =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M242_25_AP_M791",
+				["displayName"] = "25mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -129,8 +114,6 @@ M6 Linebacker =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
 					["min"] = 
@@ -146,6 +129,8 @@ M6 Linebacker =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x51",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 	}, -- end of ["weapons"]

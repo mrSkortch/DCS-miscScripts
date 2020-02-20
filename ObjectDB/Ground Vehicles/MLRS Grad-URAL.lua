@@ -9,6 +9,9 @@ MLRS Grad-URAL =
 			{
 				["distMax"] = 0,
 				["RCS"] = 0,
+				["displayName"] = "GRAD",
+				["life"] = 2,
+				["category"] = 2,
 				["box"] = 
 				{
 					["min"] = 
@@ -24,9 +27,6 @@ MLRS Grad-URAL =
 						["z"] = 0.21701017022133,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["life"] = 2,
-				["category"] = 2,
-				["displayName"] = "GRAD",
 				["_origin"] = "",
 				["typeName"] = "weapons.nurs.GRAD_9M22U",
 				["distMin"] = 0,

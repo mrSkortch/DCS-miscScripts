@@ -1,5 +1,25 @@
 Hawk = 
 {
+	["countries"] = 
+	{
+		[30] = "Finland",
+		[60] = "Indonesia",
+		[8] = "Canada",
+		[33] = "India",
+		[74] = "United Arab Emirates",
+		[21] = "Australia",
+		[42] = "Saudi Arabia",
+		[22] = "Switzerland",
+		[45] = "South Korea",
+		[65] = "Bahrain",
+		[71] = "Kuwait",
+		[73] = "Oman",
+		[75] = "South Africa",
+		[2] = "USA",
+		[4] = "UK",
+		[57] = "Malaysia",
+		[59] = "Jordan",
+	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 400,

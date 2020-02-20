@@ -4,7 +4,6 @@ Tech combine =
 	["desc"] = 
 	{
 		["life"] = 1000,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Tech combine",
 		["typeName"] = "Tech combine",

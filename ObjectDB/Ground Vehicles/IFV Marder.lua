@@ -17,8 +17,6 @@ IFV Marder =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm HE",
-				["typeName"] = "weapons.shells.Rh202_20_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ IFV Marder =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Rh202_20_HE",
+				["displayName"] = "20mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ IFV Marder =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm AP",
-				["typeName"] = "weapons.shells.Rh202_20_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ IFV Marder =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Rh202_20_AP",
+				["displayName"] = "20mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ IFV Marder =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ IFV Marder =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x51",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]

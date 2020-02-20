@@ -30,7 +30,7 @@ Strela-10M3 =
 				["rangeMin"] = 800,
 				["altMax"] = 3500,
 				["RCS"] = 0.050000000745058,
-				["displayName"] = "9M333",
+				["displayName"] = "9M333 Strela-10 (SA-13 Gopher)",
 				["altMin"] = 25,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@ Strela-10M3 =
 					["mass"] = 3.5,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 5000,
-				["typeName"] = "9M333",
+				["typeName"] = "SA9M333",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
@@ -61,8 +61,6 @@ Strela-10M3 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
 					["min"] = 
@@ -78,6 +76,8 @@ Strela-10M3 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x54",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]

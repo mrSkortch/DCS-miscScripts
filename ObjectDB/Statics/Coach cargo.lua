@@ -4,7 +4,6 @@ Coach cargo =
 	["desc"] = 
 	{
 		["life"] = 12,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Coach for cargo",
 		["typeName"] = "Coach cargo",

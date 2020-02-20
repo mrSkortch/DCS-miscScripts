@@ -17,8 +17,6 @@ flak18 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "Spr.Gr.39",
-				["typeName"] = "weapons.shells.Flak18_Sprgr_39",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ flak18 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Flak18_Sprgr_39",
+				["displayName"] = "Spr.Gr.39",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -80,6 +80,6 @@ flak18 =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "flak18",
-		["displayName"] = "AAA Flak 18",
+		["displayName"] = "AAA 8,8cm Flak 18",
 	}, -- end of ["desc"]
 } -- end of flak18

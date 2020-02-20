@@ -1,5 +1,18 @@
 MiG-29S = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+		[2] = "Ukraine",
+		[3] = "Belarus",
+		[4] = "Hungary",
+		[5] = "Kazakhstan",
+		[6] = "North Korea",
+		[7] = "Serbia",
+		[8] = "Yemen",
+		[9] = "Sudan",
+		[10] = "Algeria",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +30,6 @@ MiG-29S =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.GSH301_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +45,8 @@ MiG-29S =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.GSH301_30_HE",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -83,7 +96,7 @@ MiG-29S =
 	["desc"] = 
 	{
 		["speedMax0"] = 416.70001220703,
-		["massEmpty"] = 11200,
+		["massEmpty"] = 11222,
 		["range"] = 1500,
 		["box"] = 
 		{
@@ -105,7 +118,7 @@ MiG-29S =
 		["_origin"] = "",
 		["speedMax10K"] = 680.59997558594,
 		["NyMin"] = -3,
-		["fuelMassMax"] = 3500,
+		["fuelMassMax"] = 3493,
 		["speedMax"] = 680.59997558594,
 		["NyMax"] = 8,
 		["massMax"] = 19700,

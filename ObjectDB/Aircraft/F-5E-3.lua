@@ -1,5 +1,30 @@
 F-5E-3 = 
 {
+	["countries"] = 
+	{
+		[2] = "USA",
+		[60] = "Indonesia",
+		[61] = "Honduras",
+		[62] = "Ethiopia",
+		[63] = "Chile",
+		[64] = "Brazil",
+		[34] = "Iran",
+		[42] = "Saudi Arabia",
+		[22] = "Switzerland",
+		[23] = "Austria",
+		[65] = "Bahrain",
+		[48] = "Yemen",
+		[49] = "Vietnam",
+		[59] = "Jordan",
+		[51] = "Tunisia",
+		[52] = "Thailand",
+		[53] = "Sudan",
+		[54] = "Philippines",
+		[55] = "Morocco",
+		[56] = "Mexico",
+		[57] = "Malaysia",
+		[45] = "South Korea",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +42,6 @@ F-5E-3 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm HEI",
-				["typeName"] = "weapons.shells.M39_20_HEI",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +57,8 @@ F-5E-3 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M39_20_HEI",
+				["displayName"] = "20mm HEI",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

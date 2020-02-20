@@ -9,7 +9,6 @@ oiltank_cargo =
 		{
 			["Cargos"] = true,
 		}, -- end of ["attributes"]
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Oiltank",
 		["typeName"] = "oiltank_cargo",

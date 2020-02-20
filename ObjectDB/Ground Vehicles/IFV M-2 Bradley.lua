@@ -17,8 +17,6 @@ IFV M-2 Bradley =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "25mm HE",
-				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ IFV M-2 Bradley =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M242_25_HE_M792",
+				["displayName"] = "25mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ IFV M-2 Bradley =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "25mm AP",
-				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ IFV M-2 Bradley =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M242_25_AP_M791",
+				["displayName"] = "25mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ IFV M-2 Bradley =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ IFV M-2 Bradley =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x51",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -132,7 +132,7 @@ IFV M-2 Bradley =
 				["rangeMin"] = 65,
 				["altMax"] = 2000,
 				["RCS"] = 0.065800003707409,
-				["displayName"] = "BGM-71E",
+				["displayName"] = "BGM-71 TOW",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 6,
@@ -146,7 +146,7 @@ IFV M-2 Bradley =
 					["type"] = 2,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 3800,
-				["typeName"] = "BGM-71E",
+				["typeName"] = "weapons.missiles.TOW2",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [4]

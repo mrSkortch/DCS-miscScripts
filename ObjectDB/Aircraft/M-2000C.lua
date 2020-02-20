@@ -1,5 +1,15 @@
 M-2000C = 
 {
+	["countries"] = 
+	{
+		[64] = "Brazil",
+		[31] = "Greece",
+		[72] = "Qatar",
+		[33] = "India",
+		[74] = "United Arab Emirates",
+		[5] = "France",
+		[29] = "Egypt",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -11,7 +21,7 @@ M-2000C =
 				["warhead"] = 
 				{
 					["mass"] = 0.242,
-					["explosiveMass"] = 0.12,
+					["explosiveMass"] = 0.28,
 					["shapedExplosiveArmorThickness"] = 0.05,
 					["shapedExplosiveMass"] = 0.28,
 					["caliber"] = 30,
@@ -19,8 +29,6 @@ M-2000C =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "DEFA554_30_HE",
-				["typeName"] = "weapons.shells.DEFA554_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -36,6 +44,8 @@ M-2000C =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.DEFA554_30_HE",
+				["displayName"] = "DEFA554_30_HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -103,7 +113,7 @@ M-2000C =
 		["speedMax"] = 660,
 		["NyMax"] = 8,
 		["massMax"] = 16500,
-		["RCS"] = 2.5,
+		["RCS"] = 4,
 		["displayName"] = "M-2000C",
 		["life"] = 18,
 		["VyMax"] = 304,

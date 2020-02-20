@@ -17,8 +17,6 @@
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "76mm HE",
-				["typeName"] = "weapons.shells.MK75_76",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.MK75_76",
+				["displayName"] = "76mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -95,8 +95,6 @@
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -112,6 +110,8 @@
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -129,8 +129,6 @@
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -146,6 +144,8 @@
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_HE",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -153,43 +153,30 @@
 			["count"] = 8,
 			["desc"] = 
 			{
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.43460044264793,
-						["x"] = -3.7876484394073,
-						["z"] = -0.43460151553154,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.43460020422935,
-						["x"] = 2.57000041008,
-						["z"] = 0.43460181355476,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["rangeMaxAltMin"] = 180000,
-				["fuseDist"] = 0,
-				["category"] = 1,
-				["guidance"] = 1,
-				["Nmax"] = 6,
+				["missileCategory"] = 5,
+				["rangeMaxAltMax"] = 180000,
 				["rangeMin"] = 12000,
+				["_origin"] = "",
+				["rangeMaxAltMin"] = 180000,
 				["altMax"] = 10000,
 				["RCS"] = 0.12099999934435,
 				["displayName"] = "YJ-83",
 				["altMin"] = -1,
 				["life"] = 2,
-				["missileCategory"] = 5,
+				["fuseDist"] = 0,
+				["category"] = 1,
+				["guidance"] = 1,
 				["warhead"] = 
 				{
+					["mass"] = 165,
 					["explosiveMass"] = 100,
-					["type"] = 1,
-					["caliber"] = 343,
-					["mass"] = 100,
+					["shapedExplosiveArmorThickness"] = 0.60000002384186,
+					["shapedExplosiveMass"] = 500,
+					["caliber"] = 0,
+					["type"] = 2,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 180000,
-				["typeName"] = "YJ-83",
-				["_origin"] = "",
+				["typeName"] = "weapons.missiles.YJ-83",
+				["Nmax"] = 6,
 			}, -- end of ["desc"]
 		}, -- end of [5]
 	}, -- end of ["weapons"]
@@ -232,6 +219,6 @@
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
 		["typeName"] = "054A",
-		["displayName"] = "FFG-538 Yantai",
+		["displayName"] = "Type 054A Frigate",
 	}, -- end of ["desc"]
 } -- end of 054A

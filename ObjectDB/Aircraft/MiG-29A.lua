@@ -1,5 +1,26 @@
 MiG-29A = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+		[2] = "Ukraine",
+		[3] = "Belarus",
+		[4] = "Bulgaria",
+		[5] = "Czech Republic",
+		[6] = "India",
+		[7] = "Iran",
+		[8] = "Iraq",
+		[9] = "Kazakhstan",
+		[10] = "North Korea",
+		[11] = "Poland",
+		[12] = "Romania",
+		[13] = "Serbia",
+		[14] = "Slovakia",
+		[15] = "Syria",
+		[16] = "Yugoslavia",
+		[17] = "USSR",
+		[18] = "Cuba",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +38,6 @@ MiG-29A =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.GSH301_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +53,8 @@ MiG-29A =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.GSH301_30_HE",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -83,7 +104,7 @@ MiG-29A =
 	["desc"] = 
 	{
 		["speedMax0"] = 416.70001220703,
-		["massEmpty"] = 11200,
+		["massEmpty"] = 10922,
 		["range"] = 1500,
 		["box"] = 
 		{
@@ -105,7 +126,7 @@ MiG-29A =
 		["_origin"] = "",
 		["speedMax10K"] = 680.59997558594,
 		["NyMin"] = -3,
-		["fuelMassMax"] = 3380,
+		["fuelMassMax"] = 3376,
 		["speedMax"] = 680.59997558594,
 		["NyMax"] = 8,
 		["massMax"] = 19700,

@@ -1,5 +1,12 @@
 F-15E = 
 {
+	["countries"] = 
+	{
+		[45] = "South Korea",
+		[2] = "USA",
+		[15] = "Israel",
+		[42] = "Saudi Arabia",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +24,6 @@ F-15E =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm HE",
-				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +39,8 @@ F-15E =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M61_20_HE",
+				["displayName"] = "20mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -123,11 +130,13 @@ F-15E =
 		{
 			["Air"] = true,
 			["Fighters"] = true,
-			["NonAndLightArmoredUnits"] = true,
-			["Battle airplanes"] = true,
 			["Refuelable"] = true,
-			["All"] = true,
+			["Link16"] = true,
+			["Battle airplanes"] = true,
+			["NonAndLightArmoredUnits"] = true,
 			["Planes"] = true,
+			["All"] = true,
+			["Datalink"] = true,
 			["NonArmoredUnits"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "F-15E",

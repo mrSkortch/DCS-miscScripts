@@ -30,7 +30,7 @@ Roland ADS =
 				["rangeMin"] = 500,
 				["altMax"] = 6000,
 				["RCS"] = 0.019600000232458,
-				["displayName"] = "MIM-115",
+				["displayName"] = "XMIM-115 Roland",
 				["altMin"] = 10,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@ Roland ADS =
 					["mass"] = 6.5,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 8000,
-				["typeName"] = "MIM-115",
+				["typeName"] = "ROLAND_R",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

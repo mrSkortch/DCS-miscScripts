@@ -4,7 +4,6 @@ FARP CP Blindage =
 	["desc"] = 
 	{
 		["life"] = 400,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "FARP Command Post",
 		["typeName"] = "FARP CP Blindage",

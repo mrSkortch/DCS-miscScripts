@@ -1,5 +1,23 @@
 Su-25 = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+		[2] = "Ukraine",
+		[3] = "Georgia",
+		[4] = "Abkhazia",
+		[5] = "Belarus",
+		[6] = "Bulgaria",
+		[7] = "Czech Republic",
+		[8] = "Iran",
+		[9] = "Iraq",
+		[10] = "Kazakhstan",
+		[11] = "North Korea",
+		[12] = "Slovakia",
+		[13] = "Sudan",
+		[14] = "USSR",
+		[15] = "Algeria",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +35,6 @@ Su-25 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.GSH301_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +50,8 @@ Su-25 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.GSH301_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

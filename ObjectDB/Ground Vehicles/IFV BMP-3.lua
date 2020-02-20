@@ -17,8 +17,6 @@ IFV BMP-3 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ IFV BMP-3 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x54",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ IFV BMP-3 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.2A42_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ IFV BMP-3 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.2A42_30_HE",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ IFV BMP-3 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.2A42_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ IFV BMP-3 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.2A42_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -119,8 +119,6 @@ IFV BMP-3 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "100mm HE",
-				["typeName"] = "weapons.shells.UOF_17_100HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -136,6 +134,8 @@ IFV BMP-3 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.UOF_17_100HE",
+				["displayName"] = "100mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -166,7 +166,7 @@ IFV BMP-3 =
 				["rangeMin"] = 100,
 				["altMax"] = 2000,
 				["RCS"] = 0.032000001519918,
-				["displayName"] = "9M117",
+				["displayName"] = "AT-10 Stabber",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 6,
@@ -180,7 +180,7 @@ IFV BMP-3 =
 					["type"] = 2,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 4000,
-				["typeName"] = "9M117",
+				["typeName"] = "weapons.missiles.P_9M117",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [5]

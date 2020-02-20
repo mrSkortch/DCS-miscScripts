@@ -30,7 +30,7 @@ Kub 2P25 ln =
 				["rangeMin"] = 4000,
 				["altMax"] = 8000,
 				["RCS"] = 0.1059999987483,
-				["displayName"] = "3M9M",
+				["displayName"] = "3M9M Kub (SA-6 Gainful)",
 				["altMin"] = 30,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@ Kub 2P25 ln =
 					["mass"] = 59,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 25000,
-				["typeName"] = "3M9M",
+				["typeName"] = "SA3M9M",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

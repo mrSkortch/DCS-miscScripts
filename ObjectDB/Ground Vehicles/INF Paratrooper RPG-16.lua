@@ -11,7 +11,7 @@ INF Paratrooper RPG-16 =
 				["warhead"] = 
 				{
 					["mass"] = 6,
-					["explosiveMass"] = 0.45,
+					["explosiveMass"] = 2.8,
 					["shapedExplosiveArmorThickness"] = 0.25,
 					["shapedExplosiveMass"] = 2.8,
 					["caliber"] = 73,
@@ -19,8 +19,6 @@ INF Paratrooper RPG-16 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "73mm RPG",
-				["typeName"] = "weapons.shells.2A28_73",
 				["box"] = 
 				{
 					["min"] = 
@@ -36,6 +34,8 @@ INF Paratrooper RPG-16 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.2A28_73",
+				["displayName"] = "73mm RPG",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

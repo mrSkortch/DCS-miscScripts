@@ -17,8 +17,6 @@ MBT M-60 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ MBT M-60 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M2_12_7_T",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ MBT M-60 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "105mm AP",
-				["typeName"] = "weapons.shells.M68_105_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ MBT M-60 =
 						["z"] = 0.10754559934139,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M68_105_AP",
+				["displayName"] = "105mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ MBT M-60 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "105mm HE",
-				["typeName"] = "weapons.shells.M68_105_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ MBT M-60 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M68_105_HE",
+				["displayName"] = "105mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]

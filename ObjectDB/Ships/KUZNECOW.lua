@@ -17,8 +17,6 @@ KUZNECOW =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ KUZNECOW =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ KUZNECOW =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ KUZNECOW =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_HE",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -98,7 +98,7 @@ KUZNECOW =
 				["rangeMin"] = 2000,
 				["altMax"] = 3500,
 				["RCS"] = 0.010200000368059,
-				["displayName"] = "9M311",
+				["displayName"] = "9M311 Tunguska (SA-19 Grison)",
 				["altMin"] = 14.5,
 				["life"] = 2,
 				["missileCategory"] = 6,
@@ -110,7 +110,7 @@ KUZNECOW =
 					["mass"] = 9,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 8000,
-				["typeName"] = "9M311",
+				["typeName"] = "SA9M311",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [3]
@@ -142,7 +142,7 @@ KUZNECOW =
 				["rangeMin"] = 1500,
 				["altMax"] = 6000,
 				["RCS"] = 0.03070000000298,
-				["displayName"] = "9M330",
+				["displayName"] = "9M330 Tor (SA-15 Gauntlet)",
 				["altMin"] = 10,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -154,7 +154,7 @@ KUZNECOW =
 					["mass"] = 14.5,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 12000,
-				["typeName"] = "9M330",
+				["typeName"] = "SA9M330",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [4]
@@ -186,7 +186,7 @@ KUZNECOW =
 				["rangeMin"] = 13000,
 				["altMax"] = 12000,
 				["RCS"] = 0.79000002145767,
-				["displayName"] = "P-700",
+				["displayName"] = "P-700 (SS-N-19 Shipwreck)",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 5,
@@ -198,7 +198,7 @@ KUZNECOW =
 					["mass"] = 400,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 550000,
-				["typeName"] = "P-700",
+				["typeName"] = "P_700",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [5]
@@ -232,14 +232,15 @@ KUZNECOW =
 			["AircraftCarrier"] = true,
 			["Arresting Gear"] = true,
 			["Heavy armed ships"] = true,
-			["Armed ships"] = true,
-			["RADAR_BAND1_FOR_ARM"] = true,
+			["Ships"] = true,
 			["Armed Air Defence"] = true,
+			["RADAR_BAND1_FOR_ARM"] = true,
+			["Armed ships"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
 			["DetectionByAWACS"] = true,
-			["Ships"] = true,
+			["Straight_in_approach_type"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

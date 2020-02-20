@@ -8,7 +8,6 @@
 		{
 			["Buildings"] = true,
 		}, -- end of ["attributes"]
-		["_origin"] = "",
 		["category"] = 4,
 		["typeName"] = ".Ammunition depot",
 		["displayName"] = "",

@@ -17,8 +17,6 @@ MBT Leclerc =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "120mm AP",
-				["typeName"] = "weapons.shells.M256_120_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ MBT Leclerc =
 						["z"] = 0.10754559934139,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M256_120_AP",
+				["displayName"] = "120mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ MBT Leclerc =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "120mm HE",
-				["typeName"] = "weapons.shells.M256_120_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ MBT Leclerc =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M256_120_HE",
+				["displayName"] = "120mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ MBT Leclerc =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ MBT Leclerc =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M2_12_7_T",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]
@@ -135,14 +135,14 @@ MBT Leclerc =
 			["min"] = 
 			{
 				["y"] = -6.6552966018207e-05,
-				["x"] = -3.6328065395355,
-				["z"] = -1.6720614433289,
+				["x"] = -3.5866770744324,
+				["z"] = -1.8085228204727,
 			}, -- end of ["min"]
 			["max"] = 
 			{
 				["y"] = 2.4421927928925,
-				["x"] = 3.4442372322083,
-				["z"] = 1.6720614433289,
+				["x"] = 3.3981077671051,
+				["z"] = 1.8085228204727,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 20,

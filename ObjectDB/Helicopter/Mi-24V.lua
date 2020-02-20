@@ -1,5 +1,27 @@
 Mi-24V = 
 {
+	["countries"] = 
+	{
+		[1] = "Ukraine",
+		[0] = "Russia",
+		[16] = "Georgia",
+		[32] = "Hungary",
+		[33] = "India",
+		[18] = "Abkhazia",
+		[70] = "Algeria",
+		[19] = "South Ossetia",
+		[76] = "Cuba",
+		[44] = "Slovakia",
+		[24] = "Belarus",
+		[48] = "Yemen",
+		[25] = "Bulgaria",
+		[26] = "Czech Republic",
+		[53] = "Sudan",
+		[28] = "Croatia",
+		[37] = "Kazakhstan",
+		[68] = "USSR",
+		[62] = "Ethiopia",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +39,6 @@ Mi-24V =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.YakB_12_7_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +54,8 @@ Mi-24V =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.YakB_12_7_T",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

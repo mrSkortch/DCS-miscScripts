@@ -4,7 +4,6 @@ Shop =
 	["desc"] = 
 	{
 		["life"] = 400,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Shop",
 		["typeName"] = "Shop",

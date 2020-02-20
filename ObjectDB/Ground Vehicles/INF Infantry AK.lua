@@ -17,8 +17,6 @@ INF Infantry AK =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "5.45mm",
-				["typeName"] = "weapons.shells.5_45x39",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ INF Infantry AK =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.5_45x39",
+				["displayName"] = "5.45mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

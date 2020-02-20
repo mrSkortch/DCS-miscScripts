@@ -4,7 +4,6 @@ FARP Tent =
 	["desc"] = 
 	{
 		["life"] = 2,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "FARP Tent",
 		["typeName"] = "FARP Tent",

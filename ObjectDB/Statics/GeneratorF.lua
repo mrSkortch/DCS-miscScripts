@@ -4,7 +4,6 @@ GeneratorF =
 	["desc"] = 
 	{
 		["life"] = 10,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "GeneratorF",
 		["typeName"] = "GeneratorF",

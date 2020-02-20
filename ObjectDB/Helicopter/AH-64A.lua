@@ -1,5 +1,16 @@
 AH-64A = 
 {
+	["countries"] = 
+	{
+		[74] = "United Arab Emirates",
+		[2] = "USA",
+		[15] = "Israel",
+		[10] = "The Netherlands",
+		[29] = "Egypt",
+		[4] = "UK",
+		[42] = "Saudi Arabia",
+		[31] = "Greece",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -11,7 +22,7 @@ AH-64A =
 				["warhead"] = 
 				{
 					["mass"] = 0.242,
-					["explosiveMass"] = 0.242,
+					["explosiveMass"] = 0.28,
 					["shapedExplosiveArmorThickness"] = 0.05,
 					["shapedExplosiveMass"] = 0.28,
 					["caliber"] = 30,
@@ -19,8 +30,6 @@ AH-64A =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.M230_30",
 				["box"] = 
 				{
 					["min"] = 
@@ -36,6 +45,8 @@ AH-64A =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M230_30",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

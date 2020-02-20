@@ -17,8 +17,6 @@ F-86F Sabre =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.M20_50_aero_APIT",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ F-86F Sabre =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M20_50_aero_APIT",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ F-86F Sabre =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.M2_50_aero_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,33 +66,32 @@ F-86F Sabre =
 						["z"] = 0.64480221271515,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M2_50_aero_AP",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]
-	["sensors"] = 
+	["countries"] = 
 	{
-		[1] = 
-		{
-			[1] = 
-			{
-				["detectionDistanceAir"] = 
-				{
-					["upperHemisphere"] = 
-					{
-						["tailOn"] = 22737.171875,
-						["headOn"] = 33437.015625,
-					}, -- end of ["upperHemisphere"]
-					["lowerHemisphere"] = 
-					{
-						["tailOn"] = 12037.326171875,
-						["headOn"] = 33437.015625,
-					}, -- end of ["lowerHemisphere"]
-				}, -- end of ["detectionDistanceAir"]
-				["type"] = 1,
-				["typeName"] = "N-008",
-			}, -- end of [1]
-		}, -- end of [1]
-	}, -- end of ["sensors"]
+		[2] = "USA",
+		[8] = "Canada",
+		[62] = "Ethiopia",
+		[34] = "Iran",
+		[35] = "Iraq",
+		[36] = "Japan",
+		[39] = "Pakistan",
+		[42] = "Saudi Arabia",
+		[3] = "Turkey",
+		[45] = "South Korea",
+		[12] = "Norway",
+		[50] = "Venezuela",
+		[51] = "Tunisia",
+		[52] = "Thailand",
+		[54] = "Philippines",
+		[75] = "South Africa",
+		[13] = "Denmark",
+		[9] = "Spain",
+	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 303,

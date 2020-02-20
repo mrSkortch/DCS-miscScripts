@@ -1,5 +1,14 @@
 SpitfireLFMkIX = 
 {
+	["countries"] = 
+	{
+		[1] = "USA",
+		[2] = "UK",
+		[3] = "France",
+		[4] = "Israel",
+		[5] = "Egypt",
+		[6] = "USSR",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +26,6 @@ SpitfireLFMkIX =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm AP",
-				["typeName"] = "weapons.shells.Hispano_Mk_II_20x80AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +41,8 @@ SpitfireLFMkIX =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Hispano_Mk_II_20x80AP",
+				["displayName"] = "20mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +60,6 @@ SpitfireLFMkIX =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.7mm T",
-				["typeName"] = "weapons.shells.British303_G_Mk4",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +75,8 @@ SpitfireLFMkIX =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.British303_G_Mk4",
+				["displayName"] = "7.7mm T",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +94,6 @@ SpitfireLFMkIX =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.7mm",
-				["typeName"] = "weapons.shells.British303_Ball_Mk7",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +109,8 @@ SpitfireLFMkIX =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.British303_Ball_Mk7",
+				["displayName"] = "7.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -119,8 +128,6 @@ SpitfireLFMkIX =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.7mm AP",
-				["typeName"] = "weapons.shells.British303_W_Mk1z",
 				["box"] = 
 				{
 					["min"] = 
@@ -136,6 +143,8 @@ SpitfireLFMkIX =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.British303_W_Mk1z",
+				["displayName"] = "7.7mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 	}, -- end of ["weapons"]

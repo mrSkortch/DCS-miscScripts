@@ -4,7 +4,6 @@ Black_Tyre =
 	["desc"] = 
 	{
 		["life"] = 3,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Mark Tyre Black",
 		["typeName"] = "Black_Tyre",

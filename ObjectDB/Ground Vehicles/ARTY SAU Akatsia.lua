@@ -17,8 +17,6 @@ ARTY SAU Akatsia =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "152mm HE",
-				["typeName"] = "weapons.shells.2A33_152",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ ARTY SAU Akatsia =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.2A33_152",
+				["displayName"] = "152mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

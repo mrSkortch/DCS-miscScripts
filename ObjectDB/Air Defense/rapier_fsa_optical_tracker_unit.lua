@@ -10,12 +10,6 @@ rapier_fsa_optical_tracker_unit =
 				["typeName"] = "generic SAM search visir",
 				["opticType"] = 0,
 			}, -- end of [1]
-			[2] = 
-			{
-				["type"] = 0,
-				["typeName"] = "generic SAM IR search visir",
-				["opticType"] = 2,
-			}, -- end of [2]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 
@@ -44,17 +38,7 @@ rapier_fsa_optical_tracker_unit =
 		["life"] = 2,
 		["attributes"] = 
 		{
-			["SAM TR"] = true,
-			["Vehicles"] = true,
-			["SAM elements"] = true,
-			["NonArmoredUnits"] = true,
-			["Air Defence"] = true,
-			["Ground vehicles"] = true,
 			["SR SAM"] = true,
-			["NonAndLightArmoredUnits"] = true,
-			["All"] = true,
-			["Ground Units"] = true,
-			["SAM related"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,

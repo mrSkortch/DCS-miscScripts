@@ -1,8 +1,4 @@
 do 
-    local ww2Asset = false
-	if ww2AssetPack then
-		ww2Asset = true
-	end
 	
 	local defaultDir = lfs.writedir()
 	env.info(defaultDir)
@@ -10,11 +6,7 @@ do
         if lfs and io then
             local fdir = lfs.writedir() .. [[Logs\]] .. fname
             if newDir then
-                if ww2Asset == true then
-					fdir = lfs.writedir() .. [[Logs\ObjectDB\WW2 Asset Pack\]] .. newDir .. fname
-				else
-					fdir = lfs.writedir() .. [[Logs\ObjectDB\]] .. newDir .. fname
-				end
+				fdir = lfs.writedir() .. [[Logs\ObjectDB\]] .. newDir .. fname
             end
             local f = io.open(fdir, 'w')
             f:write(fcn(unpack(fcnVars, 1, table.maxn(fcnVars))))
@@ -32,6 +24,49 @@ do
     local exclude = {'%[', '%]', '%{', '%}', [[\]], "/", '%$', '%%', '%?', '%+', '%^'}
 	
 	local static_shapeNames = {}
+    local countryList = {}
+    local unitTypeCountry = {}
+    local objList = {}
+    for i = 0, country.maxIndex do
+        if country.by_idx[i] and country.by_idx[i].Units then
+            local c = {}
+            c.name =  country.by_idx[i].Name
+            c.shortName = country.by_idx[i].ShortName
+            c.id = i
+            c.objects = {}
+            for cat1, cat1Dat in pairs(country.by_idx[i].Units) do -- Heliports
+                if not c[cat1] then
+                    c.objects[cat1] = {}
+                end
+                for _i, _tbl in pairs(cat1Dat) do
+                    for index, objData in pairs(_tbl) do -- Heliport (singlular)
+                        table.insert(c.objects[cat1], objData.Name)
+                        if not unitTypeCountry[objData.Name] then
+                            unitTypeCountry[objData.Name] = {}
+                        end
+                        unitTypeCountry[objData.Name][i] = c.name
+                        local found = false
+                        for j = 1, #objList do
+                            if objList[j].type == objData.Name then
+                                found = true
+                                break
+                            end
+                        end
+                        if found == false then
+                            table.insert(objList, {type = objData.Name, category = cat1})
+                        end
+                    end
+                end
+            end
+            countryList[i] = c
+        end
+    
+    end
+    
+
+    
+
+    
     
     for name, data in pairs(mist.DBs.unitsByName) do
         
@@ -100,21 +135,24 @@ do
 			end
             writeTable.shapeName = data.shape_name
         end
-
         
-       
+        if writeTable.desc and writeTable.desc._origin then
+            if writeTable.desc._origin == "WWII Armour and Technics" then
+                folder = [[WW2 Asset Pack\]] .. folder
+            end
+        end
+
+        if unitTypeCountry[data.type] then
+            writeTable.countries = unitTypeCountry[data.type]
+        end
+		  myWriteData(mist.utils.serialize,{tName, writeTable}, tName .. '.lua', folder)
 		
-		local countryList = {}
-		
-		for id, units in pairs(country.by_idx) do 
-			for cat, catReal in pairs(units) do
-			
-			end
-		end
-		
-		
-		myWriteData(mist.utils.serialize,{tName, writeTable}, tName .. '.lua', folder)
 
 	end
+    -- write countries...
+    for index, countryData in pairs(countryList) do
+        myWriteData(mist.utils.serialize,{countryData.name, countryData}, countryData.name .. '.lua', [[Countries\]])
+    end
+    
 	--mist.debug.writeData(mist.utils.serialize,{tName, static_shapeNames}, 'shapeNames.lua')
 end

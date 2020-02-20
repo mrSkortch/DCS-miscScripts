@@ -13,12 +13,10 @@ VINSON =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm AP",
-				["typeName"] = "weapons.shells.M61_20_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ VINSON =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M61_20_AP",
+				["displayName"] = "20mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -44,15 +44,13 @@ VINSON =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.11,
+					["explosiveMass"] = 0.1,
 					["type"] = 1,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm HE",
-				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ VINSON =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M61_20_HE",
+				["displayName"] = "20mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -75,33 +75,19 @@ VINSON =
 			["count"] = 24,
 			["desc"] = 
 			{
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.37314969301224,
-						["x"] = -1.8222639560699,
-						["z"] = -0.37314969301224,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.37314969301224,
-						["x"] = 1.8222639560699,
-						["z"] = 0.37314969301224,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["rangeMaxAltMin"] = 27000,
-				["fuseDist"] = 10,
-				["category"] = 1,
-				["guidance"] = 4,
-				["Nmax"] = 32,
+				["missileCategory"] = 2,
+				["rangeMaxAltMax"] = 27500,
 				["rangeMin"] = 1500,
+				["_origin"] = "",
+				["rangeMaxAltMin"] = 27000,
 				["altMax"] = 24400,
 				["RCS"] = 0.03660000115633,
 				["displayName"] = "RIM-7",
 				["altMin"] = 1,
 				["life"] = 2,
-				["missileCategory"] = 2,
+				["fuseDist"] = 10,
+				["category"] = 1,
+				["guidance"] = 4,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 39,
@@ -109,9 +95,8 @@ VINSON =
 					["caliber"] = 203,
 					["mass"] = 39,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 27500,
-				["typeName"] = "RIM-7",
-				["_origin"] = "",
+				["typeName"] = "weapons.missiles.SeaSparrow",
+				["Nmax"] = 32,
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]

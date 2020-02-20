@@ -9,6 +9,9 @@ IFV MLRS FDDM =
 			{
 				["distMax"] = 0,
 				["RCS"] = 0,
+				["displayName"] = "M26",
+				["life"] = 2,
+				["category"] = 2,
 				["box"] = 
 				{
 					["min"] = 
@@ -24,9 +27,6 @@ IFV MLRS FDDM =
 						["z"] = 0.15113028883934,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["life"] = 2,
-				["category"] = 2,
-				["displayName"] = "M26",
 				["_origin"] = "",
 				["typeName"] = "weapons.nurs.M26",
 				["distMin"] = 0,
@@ -47,8 +47,6 @@ IFV MLRS FDDM =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -64,6 +62,8 @@ IFV MLRS FDDM =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M2_12_7_T",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]

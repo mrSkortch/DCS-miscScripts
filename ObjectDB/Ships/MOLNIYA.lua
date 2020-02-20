@@ -17,8 +17,6 @@ MOLNIYA =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ MOLNIYA =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ MOLNIYA =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ MOLNIYA =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_HE",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ MOLNIYA =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "76mm HE",
-				["typeName"] = "weapons.shells.AK176_76",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ MOLNIYA =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK176_76",
+				["displayName"] = "76mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -132,10 +132,10 @@ MOLNIYA =
 				["rangeMin"] = 5000,
 				["altMax"] = 12000,
 				["RCS"] = 0.40999999642372,
-				["displayName"] = "KH-41",
+				["displayName"] = "Kh-41 Moskit (ASM-MMS)",
 				["altMin"] = -1,
 				["life"] = 2,
-				["missileCategory"] = 5,
+				["missileCategory"] = 6,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 128,
@@ -144,7 +144,7 @@ MOLNIYA =
 					["mass"] = 128,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 250000,
-				["typeName"] = "KH-41",
+				["typeName"] = "X_41",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [4]

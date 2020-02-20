@@ -17,8 +17,6 @@ ZSU-23-4 Shilka =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "23mm AP",
-				["typeName"] = "weapons.shells.2A7_23_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ ZSU-23-4 Shilka =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.2A7_23_AP",
+				["displayName"] = "23mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ ZSU-23-4 Shilka =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "23mm HE",
-				["typeName"] = "weapons.shells.2A7_23_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ ZSU-23-4 Shilka =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.2A7_23_HE",
+				["displayName"] = "23mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]
@@ -81,13 +81,13 @@ ZSU-23-4 Shilka =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 3343.7016601563,
-						["headOn"] = 3343.7016601563,
+						["tailOn"] = 5015.552734375,
+						["headOn"] = 5015.552734375,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 3343.7016601563,
-						["headOn"] = 3343.7016601563,
+						["tailOn"] = 5015.552734375,
+						["headOn"] = 5015.552734375,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,

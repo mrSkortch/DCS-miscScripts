@@ -4,7 +4,6 @@ Cafe =
 	["desc"] = 
 	{
 		["life"] = 500,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Cafe",
 		["typeName"] = "Cafe",

@@ -1,5 +1,39 @@
 P-51D = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+		[2] = "Ukraine",
+		[3] = "USA",
+		[4] = "Turkey",
+		[5] = "UK",
+		[6] = "France",
+		[7] = "Germany",
+		[8] = "Canada",
+		[9] = "Spain",
+		[10] = "The Netherlands",
+		[11] = "Belgium",
+		[12] = "Norway",
+		[13] = "Denmark",
+		[14] = "Israel",
+		[15] = "Georgia",
+		[16] = "Insurgents",
+		[17] = "Abkhazia",
+		[18] = "Italy",
+		[19] = "Australia",
+		[20] = "Switzerland",
+		[21] = "China",
+		[22] = "Greece",
+		[23] = "Poland",
+		[24] = "South Korea",
+		[25] = "Sweden",
+		[26] = "Philippines",
+		[27] = "Indonesia",
+		[28] = "Chile",
+		[29] = "USSR",
+		[30] = "South Africa",
+		[31] = "Cuba",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -13,12 +47,10 @@ P-51D =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 12.7,
-					["mass"] = 0.046,
+					["mass"] = 0.0458,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.M2_50_aero_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +66,8 @@ P-51D =
 						["z"] = 0.64480221271515,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.50Browning_AP_M2",
+				["displayName"] = "50Browning_AP_M2",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -71,7 +105,7 @@ P-51D =
 		}, -- end of ["box"]
 		["Hmax"] = 13000,
 		["Kmax"] = 0.10000000149012,
-		["_origin"] = "",
+		["_origin"] = "World War II AI Units by Eagle Dynamics",
 		["speedMax10K"] = 212,
 		["NyMin"] = -4,
 		["fuelMassMax"] = 732,
@@ -80,7 +114,7 @@ P-51D =
 		["massMax"] = 4800,
 		["RCS"] = 2.5,
 		["displayName"] = "P-51D",
-		["life"] = 20,
+		["life"] = 18,
 		["VyMax"] = 22,
 		["Kab"] = 0,
 		["attributes"] = 

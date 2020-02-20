@@ -1,5 +1,12 @@
 AH-1W = 
 {
+	["countries"] = 
+	{
+		[3] = "Turkey",
+		[2] = "USA",
+		[15] = "Israel",
+		[34] = "Iran",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +24,6 @@ AH-1W =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm HE",
-				["typeName"] = "weapons.shells.M197_20",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +39,8 @@ AH-1W =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M197_20",
+				["displayName"] = "20mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

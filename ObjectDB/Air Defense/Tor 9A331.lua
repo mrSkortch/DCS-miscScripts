@@ -30,7 +30,7 @@ Tor 9A331 =
 				["rangeMin"] = 1500,
 				["altMax"] = 6000,
 				["RCS"] = 0.03070000000298,
-				["displayName"] = "9M330",
+				["displayName"] = "9M330 Tor (SA-15 Gauntlet)",
 				["altMin"] = 10,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@ Tor 9A331 =
 					["mass"] = 14.5,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 12000,
-				["typeName"] = "9M330",
+				["typeName"] = "SA9M330",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

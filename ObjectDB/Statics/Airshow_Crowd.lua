@@ -4,7 +4,6 @@ Airshow_Crowd =
 	["desc"] = 
 	{
 		["life"] = 10,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Airshow Crowd",
 		["typeName"] = "Airshow_Crowd",

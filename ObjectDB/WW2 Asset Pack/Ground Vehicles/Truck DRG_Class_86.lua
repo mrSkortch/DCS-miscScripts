@@ -17,6 +17,7 @@ Truck DRG_Class_86 =
 		["massEmpty"] = 2100,
 		["riverCrossing"] = true,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -49,7 +50,7 @@ Truck DRG_Class_86 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 22.200000762939,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "DRG_Class_86",
 		["displayName"] = "DRG Class 86",
 	}, -- end of ["desc"]

@@ -13,12 +13,10 @@ IFV Cobra =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 12.7,
-					["mass"] = 0.044,
+					["mass"] = 0.047,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.Utes_12_7x108_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ IFV Cobra =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Utes_12_7x108_T",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

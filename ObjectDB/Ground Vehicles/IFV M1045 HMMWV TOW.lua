@@ -30,7 +30,7 @@ IFV M1045 HMMWV TOW =
 				["rangeMin"] = 65,
 				["altMax"] = 2000,
 				["RCS"] = 0.065800003707409,
-				["displayName"] = "BGM-71E",
+				["displayName"] = "BGM-71 TOW",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 6,
@@ -44,7 +44,7 @@ IFV M1045 HMMWV TOW =
 					["type"] = 2,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 3800,
-				["typeName"] = "BGM-71E",
+				["typeName"] = "weapons.missiles.TOW2",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

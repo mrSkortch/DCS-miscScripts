@@ -1,5 +1,14 @@
 E-2C = 
 {
+	["countries"] = 
+	{
+		[36] = "Japan",
+		[2] = "USA",
+		[15] = "Israel",
+		[29] = "Egypt",
+		[5] = "France",
+		[56] = "Mexico",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 
@@ -42,14 +51,14 @@ E-2C =
 		{
 			["min"] = 
 			{
-				["y"] = -12.530688285828,
+				["y"] = -2.6878979206085,
 				["x"] = -9.7857666015625,
 				["z"] = -13.204429626465,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 7.5383763313293,
-				["x"] = 13.643142700195,
+				["y"] = 4.784604549408,
+				["x"] = 9.606297492981,
 				["z"] = 13.016887664795,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
@@ -70,11 +79,13 @@ E-2C =
 		["attributes"] = 
 		{
 			["AWACS"] = true,
+			["Planes"] = true,
 			["NonAndLightArmoredUnits"] = true,
+			["Air"] = true,
 			["NonArmoredUnits"] = true,
 			["All"] = true,
-			["Planes"] = true,
-			["Air"] = true,
+			["Link16"] = true,
+			["Datalink"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "E-2C",
 		["category"] = 0,

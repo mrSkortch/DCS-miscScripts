@@ -30,7 +30,7 @@ Osa 9A33 ln =
 				["rangeMin"] = 1500,
 				["altMax"] = 5000,
 				["RCS"] = 0.040399998426437,
-				["displayName"] = "9M33",
+				["displayName"] = "9M33 Osa (SA-8 Gecko)",
 				["altMin"] = 25,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@ Osa 9A33 ln =
 					["mass"] = 15,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 10300,
-				["typeName"] = "9M33",
+				["typeName"] = "SA9M33",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

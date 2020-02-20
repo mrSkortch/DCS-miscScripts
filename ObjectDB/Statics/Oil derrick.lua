@@ -4,7 +4,6 @@ Oil derrick =
 	["desc"] = 
 	{
 		["life"] = 300,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Oil derrick",
 		["typeName"] = "Oil derrick",

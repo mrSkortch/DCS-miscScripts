@@ -1,5 +1,28 @@
 UH-60A = 
 {
+	["countries"] = 
+	{
+		[15] = "Israel",
+		[2] = "USA",
+		[63] = "Chile",
+		[64] = "Brazil",
+		[36] = "Japan",
+		[38] = "North Korea",
+		[21] = "Australia",
+		[42] = "Saudi Arabia",
+		[3] = "Turkey",
+		[23] = "Austria",
+		[65] = "Bahrain",
+		[74] = "United Arab Emirates",
+		[59] = "Jordan",
+		[52] = "Thailand",
+		[27] = "China",
+		[57] = "Malaysia",
+		[55] = "Morocco",
+		[56] = "Mexico",
+		[29] = "Egypt",
+		[45] = "South Korea",
+	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["massEmpty"] = 7799,

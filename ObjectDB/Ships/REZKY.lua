@@ -30,7 +30,7 @@ REZKY =
 				["rangeMin"] = 1500,
 				["altMax"] = 5000,
 				["RCS"] = 0.040399998426437,
-				["displayName"] = "9M33",
+				["displayName"] = "9M33 Osa (SA-8 Gecko)",
 				["altMin"] = 25,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@ REZKY =
 					["mass"] = 15,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 10300,
-				["typeName"] = "9M33",
+				["typeName"] = "SA9M33",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
@@ -61,8 +61,6 @@ REZKY =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "100mm HE",
-				["typeName"] = "weapons.shells.AK100_100",
 				["box"] = 
 				{
 					["min"] = 
@@ -78,9 +76,18 @@ REZKY =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK100_100",
+				["displayName"] = "100mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]
+	["countries"] = 
+	{
+		[1] = "Ukraine",
+		[0] = "Russia",
+		[68] = "USSR",
+		[70] = "Algeria",
+	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["massEmpty"] = 3650000,

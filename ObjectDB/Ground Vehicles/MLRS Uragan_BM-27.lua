@@ -9,6 +9,9 @@ MLRS Uragan_BM-27 =
 			{
 				["distMax"] = 0,
 				["RCS"] = 0,
+				["displayName"] = "URAGAN",
+				["life"] = 2,
+				["category"] = 2,
 				["box"] = 
 				{
 					["min"] = 
@@ -24,9 +27,6 @@ MLRS Uragan_BM-27 =
 						["z"] = 0.24881513416767,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["life"] = 2,
-				["category"] = 2,
-				["displayName"] = "URAGAN",
 				["_origin"] = "",
 				["typeName"] = "weapons.nurs.URAGAN_9M27F",
 				["distMin"] = 0,

@@ -30,7 +30,7 @@ S-300PS 5P85D ln =
 				["rangeMin"] = 5000,
 				["altMax"] = 30000,
 				["RCS"] = 0.17800000309944,
-				["displayName"] = "5V55R",
+				["displayName"] = "5V55 S-300PS (SA-10B Grumble)",
 				["altMin"] = 25,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@ S-300PS 5P85D ln =
 					["mass"] = 133,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 75000,
-				["typeName"] = "5V55R",
+				["typeName"] = "SA5B55",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

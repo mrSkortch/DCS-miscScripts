@@ -4,7 +4,6 @@ Garage A =
 	["desc"] = 
 	{
 		["life"] = 400,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Garage A",
 		["typeName"] = "Garage A",

@@ -1,5 +1,9 @@
 KJ-2000 = 
 {
+	["countries"] = 
+	{
+		[1] = "China",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 
@@ -43,13 +47,13 @@ KJ-2000 =
 		{
 			["min"] = 
 			{
-				["y"] = -3.3296191692352,
+				["y"] = -3.1953241825104,
 				["x"] = -27.208490371704,
 				["z"] = -25.9856300354,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 11.86176776886,
+				["y"] = 11.861766815186,
 				["x"] = 19.822910308838,
 				["z"] = 26.033613204956,
 			}, -- end of ["max"]
@@ -72,9 +76,10 @@ KJ-2000 =
 		{
 			["AWACS"] = true,
 			["NonAndLightArmoredUnits"] = true,
+			["Planes"] = true,
 			["NonArmoredUnits"] = true,
 			["All"] = true,
-			["Planes"] = true,
+			["Datalink"] = true,
 			["Air"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "KJ-2000",

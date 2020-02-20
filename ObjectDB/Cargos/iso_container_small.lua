@@ -9,7 +9,6 @@ iso_container_small =
 		{
 			["Cargos"] = true,
 		}, -- end of ["attributes"]
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "ISO container small",
 		["typeName"] = "iso_container_small",

@@ -12,13 +12,11 @@ flak30 =
 				{
 					["explosiveMass"] = 0,
 					["type"] = 0,
-					["caliber"] = 23,
-					["mass"] = 0.189,
+					["caliber"] = 20,
+					["mass"] = 0.147,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "23mm AP",
-				["typeName"] = "weapons.shells.2A7_23_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ flak30 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.20x138B_AP",
+				["displayName"] = "20x138B_AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -44,15 +44,13 @@ flak30 =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.189,
+					["explosiveMass"] = 0.06,
 					["type"] = 1,
-					["caliber"] = 23,
-					["mass"] = 0.189,
+					["caliber"] = 20,
+					["mass"] = 0.134,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "23mm HE",
-				["typeName"] = "weapons.shells.2A7_23_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ flak30 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.20x138B_HE",
+				["displayName"] = "20x138B_HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]
@@ -98,22 +98,23 @@ flak30 =
 		["attributes"] = 
 		{
 			["Rocket Attack Valid AirDefence"] = true,
-			["AA_flak"] = true,
+			["NonArmoredUnits"] = true,
 			["Ground vehicles"] = true,
+			["Vehicles"] = true,
 			["Air Defence"] = true,
 			["AAA"] = true,
-			["Vehicles"] = true,
+			["AA_flak"] = true,
 			["NonAndLightArmoredUnits"] = true,
-			["Armed Air Defence"] = true,
 			["All"] = true,
+			["Armed Air Defence"] = true,
 			["Static AAA"] = true,
 			["Ground Units"] = true,
-			["NonArmoredUnits"] = true,
+			["</WSTYPE>"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "flak30",
-		["displayName"] = "AAA Flak 30",
+		["displayName"] = "AAA Flak 38",
 	}, -- end of ["desc"]
 } -- end of flak30

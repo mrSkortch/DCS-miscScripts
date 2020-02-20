@@ -1,5 +1,12 @@
 C-101CC = 
 {
+	["countries"] = 
+	{
+		[61] = "Honduras",
+		[63] = "Chile",
+		[59] = "Jordan",
+		[9] = "Spain",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 
@@ -38,7 +45,7 @@ C-101CC =
 		["_origin"] = "C-101 Aviojet by AvioDev",
 		["speedMax10K"] = 257,
 		["NyMin"] = -3.9000000953674,
-		["fuelMassMax"] = 2337,
+		["fuelMassMax"] = 1881.5,
 		["speedMax"] = 257,
 		["NyMax"] = 6,
 		["massMax"] = 6300,

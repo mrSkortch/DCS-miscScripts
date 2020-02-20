@@ -4,7 +4,6 @@ Boiler-house A =
 	["desc"] = 
 	{
 		["life"] = 150,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Boiler-house A",
 		["typeName"] = "Boiler-house A",

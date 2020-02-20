@@ -4,7 +4,6 @@ Small house 1C area =
 	["desc"] = 
 	{
 		["life"] = 150,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Small house 1C area",
 		["typeName"] = "Small house 1C area",

@@ -17,8 +17,6 @@ L-39ZA =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "23mm HE",
-				["typeName"] = "weapons.shells.GSH23_23_HE_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,9 +32,28 @@ L-39ZA =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.GSH23_23_HE_T",
+				["displayName"] = "23mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
+	["countries"] = 
+	{
+		[1] = "Ukraine",
+		[2] = "USA",
+		[0] = "Russia",
+		[25] = "Bulgaria",
+		[26] = "Czech Republic",
+		[52] = "Thailand",
+		[41] = "Romania",
+		[16] = "Georgia",
+		[32] = "Hungary",
+		[18] = "Abkhazia",
+		[76] = "Cuba",
+		[70] = "Algeria",
+		[44] = "Slovakia",
+		[47] = "Syria",
+	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 250,

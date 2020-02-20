@@ -23,10 +23,13 @@ SOM =
 		["life"] = 0,
 		["attributes"] = 
 		{
+			["Heavy armed ships"] = true,
+			["Submarines"] = true,
+			["Armed Air Defence"] = true,
 			["HeavyArmoredUnits"] = true,
-			["All"] = true,
-			["Unarmed ships"] = true,
 			["Ships"] = true,
+			["Armed ships"] = true,
+			["All"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

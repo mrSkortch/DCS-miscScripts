@@ -17,8 +17,6 @@ ARTY M-109 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "155mm HE",
-				["typeName"] = "weapons.shells.M185_155",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ ARTY M-109 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M185_155",
+				["displayName"] = "155mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

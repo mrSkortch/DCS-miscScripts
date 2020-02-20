@@ -1,5 +1,9 @@
 Tornado GR4 = 
 {
+	["countries"] = 
+	{
+		[1] = "UK",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +21,6 @@ Tornado GR4 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "27mm HE",
-				["typeName"] = "weapons.shells.BK_27",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +36,8 @@ Tornado GR4 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.BK_27",
+				["displayName"] = "27mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -104,11 +108,13 @@ Tornado GR4 =
 		["attributes"] = 
 		{
 			["Air"] = true,
+			["NonArmoredUnits"] = true,
+			["Link16"] = true,
 			["Battle airplanes"] = true,
 			["NonAndLightArmoredUnits"] = true,
-			["NonArmoredUnits"] = true,
-			["All"] = true,
 			["Planes"] = true,
+			["All"] = true,
+			["Datalink"] = true,
 			["Bombers"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "Tornado GR4",

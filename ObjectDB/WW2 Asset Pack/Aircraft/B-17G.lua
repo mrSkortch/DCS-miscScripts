@@ -17,8 +17,6 @@ B-17G =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.M2_50_aero_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ B-17G =
 						["z"] = 0.64480221271515,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M2_50_aero_AP",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

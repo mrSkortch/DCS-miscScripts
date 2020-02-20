@@ -17,8 +17,6 @@ MBT Merkava_Mk4 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "120mm AP",
-				["typeName"] = "weapons.shells.M256_120_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ MBT Merkava_Mk4 =
 						["z"] = 0.10754559934139,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M256_120_AP",
+				["displayName"] = "120mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ MBT Merkava_Mk4 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "120mm HE",
-				["typeName"] = "weapons.shells.M256_120_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ MBT Merkava_Mk4 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M256_120_HE",
+				["displayName"] = "120mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ MBT Merkava_Mk4 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x51",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ MBT Merkava_Mk4 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x51",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -119,8 +119,6 @@ MBT Merkava_Mk4 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
 					["min"] = 
@@ -136,6 +134,8 @@ MBT Merkava_Mk4 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x54",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 	}, -- end of ["weapons"]

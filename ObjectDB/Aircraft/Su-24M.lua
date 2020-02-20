@@ -1,5 +1,19 @@
 Su-24M = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+		[2] = "Ukraine",
+		[3] = "Belarus",
+		[4] = "Iran",
+		[5] = "Iraq",
+		[6] = "Kazakhstan",
+		[7] = "Syria",
+		[8] = "Sudan",
+		[9] = "Libya",
+		[10] = "USSR",
+		[11] = "Algeria",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +31,6 @@ Su-24M =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "23mm AP",
-				["typeName"] = "weapons.shells.GSH23_23_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +46,8 @@ Su-24M =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.GSH23_23_AP",
+				["displayName"] = "23mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

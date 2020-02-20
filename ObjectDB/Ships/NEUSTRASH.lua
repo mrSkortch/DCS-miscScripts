@@ -17,8 +17,6 @@ NEUSTRASH =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "100mm HE",
-				["typeName"] = "weapons.shells.AK100_100",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ NEUSTRASH =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK100_100",
+				["displayName"] = "100mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -64,7 +64,7 @@ NEUSTRASH =
 				["rangeMin"] = 2000,
 				["altMax"] = 3500,
 				["RCS"] = 0.010200000368059,
-				["displayName"] = "9M311",
+				["displayName"] = "9M311 Tunguska (SA-19 Grison)",
 				["altMin"] = 14.5,
 				["life"] = 2,
 				["missileCategory"] = 6,
@@ -76,7 +76,7 @@ NEUSTRASH =
 					["mass"] = 9,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 8000,
-				["typeName"] = "9M311",
+				["typeName"] = "SA9M311",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [2]
@@ -95,8 +95,6 @@ NEUSTRASH =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -112,6 +110,8 @@ NEUSTRASH =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -129,8 +129,6 @@ NEUSTRASH =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -146,6 +144,8 @@ NEUSTRASH =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_HE",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -176,7 +176,7 @@ NEUSTRASH =
 				["rangeMin"] = 1500,
 				["altMax"] = 6000,
 				["RCS"] = 0.03070000000298,
-				["displayName"] = "9M330",
+				["displayName"] = "9M330 Tor (SA-15 Gauntlet)",
 				["altMin"] = 10,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -188,7 +188,7 @@ NEUSTRASH =
 					["mass"] = 14.5,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 12000,
-				["typeName"] = "9M330",
+				["typeName"] = "SA9M330",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [5]

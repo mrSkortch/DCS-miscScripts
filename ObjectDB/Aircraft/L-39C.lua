@@ -1,5 +1,26 @@
 L-39C = 
 {
+	["countries"] = 
+	{
+		[1] = "Ukraine",
+		[2] = "USA",
+		[24] = "Belarus",
+		[48] = "Yemen",
+		[26] = "Czech Republic",
+		[37] = "Kazakhstan",
+		[18] = "Abkhazia",
+		[70] = "Algeria",
+		[49] = "Vietnam",
+		[16] = "Georgia",
+		[62] = "Ethiopia",
+		[5] = "France",
+		[68] = "USSR",
+		[38] = "North Korea",
+		[76] = "Cuba",
+		[0] = "Russia",
+		[44] = "Slovakia",
+		[35] = "Iraq",
+	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 250,

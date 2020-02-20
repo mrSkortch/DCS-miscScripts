@@ -17,6 +17,7 @@ Truck German_covered_wagon_G10 =
 		["massEmpty"] = 2100,
 		["riverCrossing"] = true,
 		["maxSlopeAngle"] = 0.46999999880791,
+		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -49,7 +50,7 @@ Truck German_covered_wagon_G10 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 22.200000762939,
-		["Kmax"] = 0.050000000745058,
+		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "German_covered_wagon_G10",
 		["displayName"] = "German covered wagon G10",
 	}, -- end of ["desc"]

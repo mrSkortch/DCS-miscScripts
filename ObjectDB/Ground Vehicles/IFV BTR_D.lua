@@ -30,7 +30,7 @@ IFV BTR_D =
 				["rangeMin"] = 75,
 				["altMax"] = 2000,
 				["RCS"] = 0.035000000149012,
-				["displayName"] = "9M113",
+				["displayName"] = "AT-5 Spandrel",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 6,
@@ -44,7 +44,7 @@ IFV BTR_D =
 					["type"] = 2,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 4000,
-				["typeName"] = "9M113",
+				["typeName"] = "weapons.missiles.KONKURS",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
@@ -63,8 +63,6 @@ IFV BTR_D =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
 					["min"] = 
@@ -80,6 +78,8 @@ IFV BTR_D =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x54",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]

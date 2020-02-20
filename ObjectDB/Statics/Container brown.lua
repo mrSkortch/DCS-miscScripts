@@ -4,7 +4,6 @@ Container brown =
 	["desc"] = 
 	{
 		["life"] = 20,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Container brown",
 		["typeName"] = "Container brown",

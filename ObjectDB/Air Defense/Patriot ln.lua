@@ -30,7 +30,7 @@ Patriot ln =
 				["rangeMin"] = 3000,
 				["altMax"] = 24240,
 				["RCS"] = 0.10660000145435,
-				["displayName"] = "MIM-104",
+				["displayName"] = "MIM-104 Patriot",
 				["altMin"] = 45,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@ Patriot ln =
 					["mass"] = 73,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 120000,
-				["typeName"] = "MIM-104",
+				["typeName"] = "MIM_104",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

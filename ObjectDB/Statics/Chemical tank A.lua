@@ -4,7 +4,6 @@ Chemical tank A =
 	["desc"] = 
 	{
 		["life"] = 5,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Chemical tank A",
 		["typeName"] = "Chemical tank A",

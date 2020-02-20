@@ -9,6 +9,9 @@ MLRS Smerch =
 			{
 				["distMax"] = 0,
 				["RCS"] = 0,
+				["displayName"] = "SMERCH",
+				["life"] = 2,
+				["category"] = 2,
 				["box"] = 
 				{
 					["min"] = 
@@ -24,9 +27,6 @@ MLRS Smerch =
 						["z"] = 0.26067706942558,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["life"] = 2,
-				["category"] = 2,
-				["displayName"] = "SMERCH",
 				["_origin"] = "",
 				["typeName"] = "weapons.nurs.SMERCH_9M55K",
 				["distMin"] = 0,

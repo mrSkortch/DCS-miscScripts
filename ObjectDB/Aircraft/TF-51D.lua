@@ -1,5 +1,26 @@
 TF-51D = 
 {
+	["countries"] = 
+	{
+		[1] = "USA",
+		[2] = "UK",
+		[3] = "Canada",
+		[4] = "The Netherlands",
+		[5] = "Israel",
+		[6] = "Abkhazia",
+		[7] = "Italy",
+		[8] = "Australia",
+		[9] = "Switzerland",
+		[10] = "China",
+		[11] = "Poland",
+		[12] = "South Korea",
+		[13] = "Sweden",
+		[14] = "Philippines",
+		[15] = "Indonesia",
+		[16] = "USSR",
+		[17] = "South Africa",
+		[18] = "Cuba",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[0] = 

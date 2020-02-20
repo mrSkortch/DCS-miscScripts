@@ -1,5 +1,11 @@
 Tu-95MS = 
 {
+	["countries"] = 
+	{
+		[1] = "Ukraine",
+		[0] = "Russia",
+		[68] = "USSR",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +23,6 @@ Tu-95MS =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "23mm HE",
-				["typeName"] = "weapons.shells.GSH23_23_HE_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +38,8 @@ Tu-95MS =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.GSH23_23_HE_T",
+				["displayName"] = "23mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

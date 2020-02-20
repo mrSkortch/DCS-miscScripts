@@ -17,8 +17,6 @@
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "100mm HE",
-				["typeName"] = "weapons.shells.AK100_100",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK100_100",
+				["displayName"] = "100mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -95,8 +95,6 @@
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -112,6 +110,8 @@
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -129,8 +129,6 @@
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -146,6 +144,8 @@
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_HE",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -153,43 +153,30 @@
 			["count"] = 8,
 			["desc"] = 
 			{
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.7100048661232,
-						["x"] = -7.8272747993469,
-						["z"] = -1.645259141922,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.74292409420013,
-						["x"] = 3.1386291980743,
-						["z"] = 1.6122717857361,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["rangeMaxAltMin"] = 300000,
-				["fuseDist"] = 0,
-				["category"] = 1,
-				["guidance"] = 1,
-				["Nmax"] = 12,
+				["missileCategory"] = 5,
+				["rangeMaxAltMax"] = 300000,
 				["rangeMin"] = 2000,
+				["_origin"] = "",
+				["rangeMaxAltMin"] = 300000,
 				["altMax"] = 10000,
 				["RCS"] = 0.12099999934435,
 				["displayName"] = "YJ-62",
 				["altMin"] = -1,
 				["life"] = 2,
-				["missileCategory"] = 5,
+				["fuseDist"] = 0,
+				["category"] = 1,
+				["guidance"] = 1,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 192,
-					["type"] = 1,
-					["caliber"] = 343,
-					["mass"] = 192,
+					["mass"] = 350,
+					["explosiveMass"] = 100,
+					["shapedExplosiveArmorThickness"] = 0.60000002384186,
+					["shapedExplosiveMass"] = 500,
+					["caliber"] = 0,
+					["type"] = 2,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 300000,
-				["typeName"] = "YJ-62",
-				["_origin"] = "",
+				["typeName"] = "weapons.missiles.YJ-62",
+				["Nmax"] = 12,
 			}, -- end of ["desc"]
 		}, -- end of [5]
 	}, -- end of ["weapons"]

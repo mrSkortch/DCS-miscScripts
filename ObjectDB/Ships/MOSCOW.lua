@@ -17,8 +17,6 @@ MOSCOW =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ MOSCOW =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ MOSCOW =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ MOSCOW =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_HE",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ MOSCOW =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "130mm HE",
-				["typeName"] = "weapons.shells.A222_130",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ MOSCOW =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.A222_130",
+				["displayName"] = "130mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -132,7 +132,7 @@ MOSCOW =
 				["rangeMin"] = 1500,
 				["altMax"] = 5000,
 				["RCS"] = 0.040399998426437,
-				["displayName"] = "9M33",
+				["displayName"] = "9M33 Osa (SA-8 Gecko)",
 				["altMin"] = 25,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -144,7 +144,7 @@ MOSCOW =
 					["mass"] = 15,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 10300,
-				["typeName"] = "9M33",
+				["typeName"] = "SA9M33",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [4]
@@ -176,7 +176,7 @@ MOSCOW =
 				["rangeMin"] = 13000,
 				["altMax"] = 12000,
 				["RCS"] = 0.75,
-				["displayName"] = "P-500",
+				["displayName"] = "P-500 (SS-N-12 Sandbox)",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 5,
@@ -188,7 +188,7 @@ MOSCOW =
 					["mass"] = 400,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 500000,
-				["typeName"] = "P-500",
+				["typeName"] = "P_500",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [5]
@@ -220,7 +220,7 @@ MOSCOW =
 				["rangeMin"] = 5000,
 				["altMax"] = 30000,
 				["RCS"] = 0.17800000309944,
-				["displayName"] = "5V55R",
+				["displayName"] = "5V55 S-300PS (SA-10B Grumble)",
 				["altMin"] = 25,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -232,7 +232,7 @@ MOSCOW =
 					["mass"] = 133,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 75000,
-				["typeName"] = "5V55R",
+				["typeName"] = "SA5B55",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [6]

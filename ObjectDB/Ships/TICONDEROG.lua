@@ -17,8 +17,6 @@ TICONDEROG =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ TICONDEROG =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M2_12_7_T",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ TICONDEROG =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "25mm HE",
-				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ TICONDEROG =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M242_25_HE_M792",
+				["displayName"] = "25mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ TICONDEROG =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "25mm AP",
-				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ TICONDEROG =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M242_25_AP_M791",
+				["displayName"] = "25mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -115,12 +115,10 @@ TICONDEROG =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm AP",
-				["typeName"] = "weapons.shells.M61_20_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -136,6 +134,8 @@ TICONDEROG =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M61_20_AP",
+				["displayName"] = "20mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -146,15 +146,13 @@ TICONDEROG =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.11,
+					["explosiveMass"] = 0.1,
 					["type"] = 1,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm HE",
-				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -170,6 +168,8 @@ TICONDEROG =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M61_20_HE",
+				["displayName"] = "20mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [5]
 		[6] = 
@@ -187,8 +187,6 @@ TICONDEROG =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "127mm HE",
-				["typeName"] = "weapons.shells.MK45_127",
 				["box"] = 
 				{
 					["min"] = 
@@ -204,6 +202,8 @@ TICONDEROG =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.MK45_127",
+				["displayName"] = "127mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [6]
 		[7] = 
@@ -234,7 +234,7 @@ TICONDEROG =
 				["rangeMin"] = 3000,
 				["altMax"] = 10000,
 				["RCS"] = 0.10580000281334,
-				["displayName"] = "RGM-84D",
+				["displayName"] = "AGM-84S Harpoon",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 4,
@@ -246,7 +246,7 @@ TICONDEROG =
 					["mass"] = 90,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 241401,
-				["typeName"] = "RGM-84D",
+				["typeName"] = "AGM_84S",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [7]
@@ -278,7 +278,7 @@ TICONDEROG =
 				["rangeMin"] = 4000,
 				["altMax"] = 24400,
 				["RCS"] = 0.1765999943018,
-				["displayName"] = "RIM-66",
+				["displayName"] = "SM-2",
 				["altMin"] = 10,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -290,7 +290,7 @@ TICONDEROG =
 					["mass"] = 98,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 100000,
-				["typeName"] = "RIM-66",
+				["typeName"] = "SM_2",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [8]
@@ -303,15 +303,15 @@ TICONDEROG =
 				{
 					["min"] = 
 					{
-						["y"] = -0.42347154021263,
+						["y"] = -0.57852339744568,
 						["x"] = -3.547247171402,
-						["z"] = -1.3377370834351,
+						["z"] = -1.3205659389496,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.51750361919403,
+						["y"] = 0.57852339744568,
 						["x"] = 2.8631827831268,
-						["z"] = 1.3377370834351,
+						["z"] = 1.3205659389496,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["rangeMaxAltMin"] = 460000,
@@ -334,7 +334,7 @@ TICONDEROG =
 					["mass"] = 181.60000610352,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 460000,
-				["typeName"] = "BGM-109B",
+				["typeName"] = "weapons.missiles.BGM_109B",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [9]
@@ -342,20 +342,20 @@ TICONDEROG =
 	["desc"] = 
 	{
 		["massEmpty"] = 9590000,
-		["RCS"] = 5092.3764648438,
+		["RCS"] = 5619.9770507813,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -11.269598007202,
-				["x"] = -86.526756286621,
-				["z"] = -9.5002107620239,
+				["y"] = -12.740219116211,
+				["x"] = -93.27205657959,
+				["z"] = -9.6779766082764,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 43.153717041016,
-				["x"] = 85.822082519531,
-				["z"] = 9.1481647491455,
+				["y"] = 43.341156005859,
+				["x"] = 88.151313781738,
+				["z"] = 9.6779766082764,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 15.433300018311,
@@ -378,6 +378,6 @@ TICONDEROG =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "TICONDEROG",
-		["displayName"] = "CG-60 Normandy",
+		["displayName"] = "Ticonderoga class",
 	}, -- end of ["desc"]
 } -- end of TICONDEROG

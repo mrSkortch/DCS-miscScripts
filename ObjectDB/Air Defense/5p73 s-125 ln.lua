@@ -30,7 +30,7 @@
 				["rangeMin"] = 3500,
 				["altMax"] = 18000,
 				["RCS"] = 0.1676000058651,
-				["displayName"] = "5V27",
+				["displayName"] = "5V27 S-125 Neva (SA-3 Goa)",
 				["altMin"] = 20,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@
 					["mass"] = 60,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 25000,
-				["typeName"] = "5V27",
+				["typeName"] = "SA5B27",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

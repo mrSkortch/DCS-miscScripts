@@ -4,7 +4,6 @@ Locomotive =
 	["desc"] = 
 	{
 		["life"] = 2,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Locomotive",
 		["typeName"] = "Locomotive",

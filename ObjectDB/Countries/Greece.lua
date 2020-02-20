@@ -1,0 +1,233 @@
+Greece = 
+{
+	["id"] = 31,
+	["objects"] = 
+	{
+		["Cargos"] = 
+		{
+			[1] = "uh1h_cargo",
+			[2] = "ammo_cargo",
+			[3] = "barrels_cargo",
+			[4] = "m117_cargo",
+			[5] = "iso_container",
+			[6] = "iso_container_small",
+			[7] = "f_bar_cargo",
+			[8] = "container_cargo",
+			[9] = "tetrapod_cargo",
+			[10] = "fueltank_cargo",
+			[11] = "oiltank_cargo",
+			[12] = "pipes_small_cargo",
+			[13] = "pipes_big_cargo",
+			[14] = "trunks_small_cargo",
+			[15] = "trunks_long_cargo",
+		}, -- end of ["Cargos"]
+		["Heliports"] = 
+		{
+			[1] = "FARP",
+			[2] = "SINGLE_HELIPAD",
+		}, -- end of ["Heliports"]
+		["Ships"] = 
+		{
+			[1] = "speedboat",
+		}, -- end of ["Ships"]
+		["Helicopters"] = 
+		{
+			[1] = "Ka-50",
+			[2] = "AH-64A",
+			[3] = "AH-64D",
+			[4] = "CH-47D",
+			[5] = "UH-1H",
+			[6] = "SH-60B",
+			[7] = "Mi-8MT",
+		}, -- end of ["Helicopters"]
+		["GrassAirfields"] = 
+		{
+			[1] = "GrassAirfield",
+		}, -- end of ["GrassAirfields"]
+		["Fortifications"] = 
+		{
+			[1] = "Locomotive",
+			[2] = "Electric locomotive",
+			[3] = "Coach a tank yellow",
+			[4] = "Coach a tank blue",
+			[5] = "Coach cargo",
+			[6] = "Coach cargo open",
+			[7] = "Coach a platform",
+			[8] = "Coach a passenger",
+			[9] = ".Command Center",
+			[10] = "Hangar A",
+			[11] = "Tech hangar A",
+			[12] = "Farm A",
+			[13] = "Farm B",
+			[14] = "Garage A",
+			[15] = "Boiler-house A",
+			[16] = "Restaurant 1",
+			[17] = "Comms tower M",
+			[18] = "Cafe",
+			[19] = "Workshop A",
+			[20] = "Electric power box",
+			[21] = "Supermarket A",
+			[22] = "Water tower A",
+			[23] = "TV tower",
+			[24] = "Shelter",
+			[25] = "Repair workshop",
+			[26] = "Railway station",
+			[27] = "Railway crossing A",
+			[28] = "Railway crossing B",
+			[29] = "WC",
+			[30] = "Small house 1A area",
+			[31] = "Small house 1A",
+			[32] = "Small house 1B area",
+			[33] = "Small house 1B",
+			[34] = "Small house 1C area",
+			[35] = "Small house 2C",
+			[36] = "Shop",
+			[37] = "Tech combine",
+			[38] = "Chemical tank A",
+			[39] = "Small werehouse 1",
+			[40] = "Small werehouse 2",
+			[41] = "Small werehouse 3",
+			[42] = "Small werehouse 4",
+			[43] = "Garage B",
+			[44] = "Garage small A",
+			[45] = "Garage small B",
+			[46] = "Pump station",
+			[47] = "Oil derrick",
+			[48] = "Container red 1",
+			[49] = "Container red 2",
+			[50] = "Container red 3",
+			[51] = "Container white",
+			[52] = "Container brown",
+			[53] = "Barracks 2",
+			[54] = "Military staff",
+			[55] = "Hangar B",
+			[56] = "Fuel tank",
+			[57] = "Shelter B",
+			[58] = "Oil platform",
+			[59] = "Subsidiary structure 1",
+			[60] = "Subsidiary structure 2",
+			[61] = "Subsidiary structure 3",
+			[62] = "Subsidiary structure A",
+			[63] = "Subsidiary structure B",
+			[64] = "Subsidiary structure C",
+			[65] = "Subsidiary structure D",
+			[66] = "Subsidiary structure E",
+			[67] = "Subsidiary structure F",
+			[68] = "Subsidiary structure G",
+			[69] = "Landmine",
+			[70] = "FARP Ammo Dump Coating",
+			[71] = "FARP Tent",
+			[72] = "FARP CP Blindage",
+			[73] = "FARP Fuel Depot",
+			[74] = "GeneratorF",
+			[75] = "Airshow_Cone",
+			[76] = "Airshow_Crowd",
+			[77] = "Red_Flag",
+			[78] = "White_Flag",
+			[79] = "Black_Tyre",
+			[80] = "White_Tyre",
+			[81] = "Black_Tyre_RF",
+			[82] = "Black_Tyre_WF",
+			[83] = "Windsock",
+		}, -- end of ["Fortifications"]
+		["Effects"] = 
+		{
+			[1] = "big_smoke",
+			[2] = "smoky_marker",
+			[3] = "smoking_line",
+			[4] = "dust_smoke",
+		}, -- end of ["Effects"]
+		["Cars"] = 
+		{
+			[1] = "Bunker",
+			[2] = "Sandbox",
+			[3] = "house1arm",
+			[4] = "house2arm",
+			[5] = "outpost_road",
+			[6] = "outpost",
+			[7] = "houseA_arm",
+			[8] = "TACAN_beacon",
+			[9] = "M-109",
+			[10] = "BMP-1",
+			[11] = "M-113",
+			[12] = "M1043 HMMWV Armament",
+			[13] = "M1045 HMMWV TOW",
+			[14] = "Soldier M4",
+			[15] = "Soldier M249",
+			[16] = "MLRS",
+			[17] = "MLRS FDDM",
+			[18] = "Leopard1A3",
+			[19] = "Leopard-2",
+			[20] = "Hummer",
+			[21] = "M 818",
+			[22] = "Osa 9A33 ln",
+			[23] = "Tor 9A331",
+			[24] = "Soldier stinger",
+			[25] = "Stinger comm",
+			[26] = "ZU-23 Emplacement Closed",
+			[27] = "ZU-23 Emplacement",
+			[28] = "Patriot AMG",
+			[29] = "Patriot ECS",
+			[30] = "Patriot ln",
+			[31] = "Patriot EPP",
+			[32] = "Patriot cp",
+			[33] = "Patriot str",
+			[34] = "Hawk tr",
+			[35] = "Hawk sr",
+			[36] = "Hawk ln",
+			[37] = "Hawk cwar",
+			[38] = "Hawk pcp",
+			[39] = "S-300PS 40B6M tr",
+			[40] = "S-300PS 40B6MD sr",
+			[41] = "S-300PS 64H6E sr",
+			[42] = "S-300PS 5P85C ln",
+			[43] = "S-300PS 5P85D ln",
+			[44] = "S-300PS 54K6 cp",
+			[45] = "M2A1_halftrack",
+			[46] = "Cromwell_IV",
+			[47] = "Centaur_IV",
+			[48] = "M-60",
+			[49] = "Grad-URAL",
+			[50] = "bofors40",
+			[51] = "flak18",
+			[52] = "ZSU-23-4 Shilka",
+			[53] = "HEMTT TFFT",
+			[54] = "M978 HEMTT Tanker",
+			[55] = "Trolley bus",
+		}, -- end of ["Cars"]
+		["Animals"] = 
+		{
+		}, -- end of ["Animals"]
+		["WWIIstructures"] = 
+		{
+		}, -- end of ["WWIIstructures"]
+		["Planes"] = 
+		{
+			[1] = "A-10C",
+			[2] = "C-130",
+			[3] = "F-4E",
+			[4] = "F-16C bl.50",
+			[5] = "F-16C bl.52d",
+			[6] = "Mirage 2000-5",
+			[7] = "Yak-40",
+			[8] = "P-51D",
+			[9] = "C-17A",
+			[10] = "E-3A",
+			[11] = "F-16C_50",
+			[12] = "M-2000C",
+		}, -- end of ["Planes"]
+		["LTAvehicles"] = 
+		{
+		}, -- end of ["LTAvehicles"]
+		["Warehouses"] = 
+		{
+			[1] = "Warehouse",
+			[2] = "Tank",
+			[3] = ".Ammunition depot",
+			[4] = "Tank 2",
+			[5] = "Tank 3",
+		}, -- end of ["Warehouses"]
+	}, -- end of ["objects"]
+	["name"] = "Greece",
+	["shortName"] = "GRC",
+} -- end of Greece

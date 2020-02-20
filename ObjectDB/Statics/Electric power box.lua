@@ -4,7 +4,6 @@ Electric power box =
 	["desc"] = 
 	{
 		["life"] = 150,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Electric power box",
 		["typeName"] = "Electric power box",

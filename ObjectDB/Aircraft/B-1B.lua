@@ -1,5 +1,9 @@
 B-1B = 
 {
+	["countries"] = 
+	{
+		[2] = "USA",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 
@@ -73,14 +77,16 @@ B-1B =
 		["attributes"] = 
 		{
 			["Air"] = true,
-			["NonArmoredUnits"] = true,
+			["Refuelable"] = true,
 			["Strategic bombers"] = true,
+			["Bombers"] = true,
 			["Battle airplanes"] = true,
 			["NonAndLightArmoredUnits"] = true,
-			["Bombers"] = true,
-			["All"] = true,
 			["Planes"] = true,
-			["Refuelable"] = true,
+			["NonArmoredUnits"] = true,
+			["All"] = true,
+			["Datalink"] = true,
+			["Link16"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "B-1B",
 		["category"] = 0,

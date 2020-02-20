@@ -4,7 +4,6 @@ Restaurant 1 =
 	["desc"] = 
 	{
 		["life"] = 640,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Restaurant 1",
 		["typeName"] = "Restaurant 1",

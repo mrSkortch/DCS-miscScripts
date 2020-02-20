@@ -1,5 +1,11 @@
 MiG-31 = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+		[2] = "Kazakhstan",
+		[3] = "USSR",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +23,6 @@ MiG-31 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "23mm AP",
-				["typeName"] = "weapons.shells.GSH23_23_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +38,8 @@ MiG-31 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.GSH23_23_AP",
+				["displayName"] = "23mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

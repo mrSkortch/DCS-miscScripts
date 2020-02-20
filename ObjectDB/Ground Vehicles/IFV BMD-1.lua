@@ -11,7 +11,7 @@ IFV BMD-1 =
 				["warhead"] = 
 				{
 					["mass"] = 6,
-					["explosiveMass"] = 0.45,
+					["explosiveMass"] = 2.8,
 					["shapedExplosiveArmorThickness"] = 0.25,
 					["shapedExplosiveMass"] = 2.8,
 					["caliber"] = 73,
@@ -19,8 +19,6 @@ IFV BMD-1 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "73mm RPG",
-				["typeName"] = "weapons.shells.2A28_73",
 				["box"] = 
 				{
 					["min"] = 
@@ -36,6 +34,8 @@ IFV BMD-1 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.2A28_73",
+				["displayName"] = "73mm RPG",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -66,7 +66,7 @@ IFV BMD-1 =
 				["rangeMin"] = 100,
 				["altMax"] = 2000,
 				["RCS"] = 0.019999999552965,
-				["displayName"] = "9K14",
+				["displayName"] = "AT-3 Sagger",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 6,
@@ -80,7 +80,7 @@ IFV BMD-1 =
 					["type"] = 2,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 3000,
-				["typeName"] = "9K14",
+				["typeName"] = "weapons.missiles.MALUTKA",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [2]
@@ -99,8 +99,6 @@ IFV BMD-1 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
 					["min"] = 
@@ -116,6 +114,8 @@ IFV BMD-1 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x54",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]

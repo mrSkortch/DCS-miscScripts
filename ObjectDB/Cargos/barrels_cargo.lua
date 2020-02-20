@@ -9,7 +9,6 @@ barrels_cargo =
 		{
 			["Cargos"] = true,
 		}, -- end of ["attributes"]
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Barrels",
 		["typeName"] = "barrels_cargo",

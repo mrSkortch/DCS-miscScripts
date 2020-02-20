@@ -10,30 +10,30 @@ FW-190D9 =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.009,
+					["explosiveMass"] = 0.048753,
 					["type"] = 1,
 					["caliber"] = 20,
 					["mass"] = 0.117,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm HEI T",
-				["typeName"] = "weapons.shells.MG_20x82_HEI_T",
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.26943919062614,
-						["x"] = -12.239092826843,
-						["z"] = -0.26788592338562,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.26584181189537,
-						["x"] = 0.0041091442108154,
-						["z"] = 0.26739686727524,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.MG_20x82_HEI_T",
+				["displayName"] = "20mm HEI T",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ FW-190D9 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "13mm APT",
-				["typeName"] = "weapons.shells.MG_13x64_APT",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ FW-190D9 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.MG_13x64_APT",
+				["displayName"] = "13mm APT",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -78,15 +78,13 @@ FW-190D9 =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.007,
+					["explosiveMass"] = 0.034,
 					["type"] = 1,
 					["caliber"] = 13,
 					["mass"] = 0.034,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "13mm HEI",
-				["typeName"] = "weapons.shells.MG_13x64_HEI",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ FW-190D9 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.MG_13x64_HEI",
+				["displayName"] = "13mm HEI",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -112,15 +112,13 @@ FW-190D9 =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.035,
+					["explosiveMass"] = 0.092,
 					["type"] = 1,
 					["caliber"] = 20,
 					["mass"] = 0.092,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm MGsch",
-				["typeName"] = "weapons.shells.MG_20x82_MGsch",
 				["box"] = 
 				{
 					["min"] = 
@@ -136,9 +134,15 @@ FW-190D9 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.MG_20x82_MGsch",
+				["displayName"] = "20mm MGsch",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 	}, -- end of ["weapons"]
+	["countries"] = 
+	{
+		[68] = "USSR",
+	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 208,

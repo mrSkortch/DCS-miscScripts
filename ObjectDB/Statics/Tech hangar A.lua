@@ -4,7 +4,6 @@ Tech hangar A =
 	["desc"] = 
 	{
 		["life"] = 500,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Tech hangar A",
 		["typeName"] = "Tech hangar A",

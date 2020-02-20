@@ -1,5 +1,12 @@
 RQ-1A Predator = 
 {
+	["countries"] = 
+	{
+		[1] = "USA",
+		[2] = "Turkey",
+		[3] = "Italy",
+		[4] = "United Arab Emirates",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[0] = 

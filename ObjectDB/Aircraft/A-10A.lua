@@ -1,5 +1,9 @@
 A-10A = 
 {
+	["countries"] = 
+	{
+		[2] = "USA",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +21,6 @@ A-10A =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.GAU8_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +36,8 @@ A-10A =
 						["z"] = 0.64480221271515,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.GAU8_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -51,7 +55,7 @@ A-10A =
 	["desc"] = 
 	{
 		["speedMax0"] = 236,
-		["massEmpty"] = 11739,
+		["massEmpty"] = 11325,
 		["tankerType"] = 0,
 		["range"] = 1500,
 		["box"] = 

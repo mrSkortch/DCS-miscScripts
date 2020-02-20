@@ -17,8 +17,6 @@ ARTY SpGH_Dana =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "DANA_152",
-				["typeName"] = "weapons.shells.DANA_152",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ ARTY SpGH_Dana =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.DANA_152",
+				["displayName"] = "DANA_152",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

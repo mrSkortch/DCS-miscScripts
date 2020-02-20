@@ -17,8 +17,6 @@ MBT T-55 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "105mm AP",
-				["typeName"] = "weapons.shells.M68_105_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ MBT T-55 =
 						["z"] = 0.10754559934139,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M68_105_AP",
+				["displayName"] = "105mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ MBT T-55 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "100mm HE",
-				["typeName"] = "weapons.shells.UOF_412_100HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ MBT T-55 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.UOF_412_100HE",
+				["displayName"] = "100mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ MBT T-55 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,6 +100,8 @@ MBT T-55 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x54",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -115,12 +115,10 @@ MBT T-55 =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 12.7,
-					["mass"] = 0.044,
+					["mass"] = 0.047,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.Utes_12_7x108_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -136,6 +134,8 @@ MBT T-55 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Utes_12_7x108_T",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 	}, -- end of ["weapons"]

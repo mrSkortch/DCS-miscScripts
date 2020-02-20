@@ -17,8 +17,6 @@ Higgins_boat =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = ".303 British",
-				["typeName"] = "weapons.shells.Br303_tr",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ Higgins_boat =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Br303_tr",
+				["displayName"] = ".303 British",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 

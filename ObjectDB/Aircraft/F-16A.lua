@@ -1,5 +1,21 @@
 F-16A = 
 {
+	["countries"] = 
+	{
+		[13] = "Denmark",
+		[50] = "Venezuela",
+		[52] = "Thailand",
+		[2] = "USA",
+		[29] = "Egypt",
+		[60] = "Indonesia",
+		[59] = "Jordan",
+		[10] = "The Netherlands",
+		[20] = "Italy",
+		[11] = "Belgium",
+		[39] = "Pakistan",
+		[12] = "Norway",
+		[15] = "Israel",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +33,6 @@ F-16A =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "20mm HE",
-				["typeName"] = "weapons.shells.M61_20_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +48,8 @@ F-16A =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M61_20_HE",
+				["displayName"] = "20mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

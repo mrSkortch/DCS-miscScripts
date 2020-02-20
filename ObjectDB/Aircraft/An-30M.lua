@@ -1,5 +1,14 @@
 An-30M = 
 {
+	["countries"] = 
+	{
+		[1] = "Ukraine",
+		[0] = "Russia",
+		[37] = "Kazakhstan",
+		[68] = "USSR",
+		[24] = "Belarus",
+		[27] = "China",
+	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 178,

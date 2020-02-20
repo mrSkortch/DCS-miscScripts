@@ -17,8 +17,6 @@ KDO_Mod40 =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "Spr.Gr.39",
-				["typeName"] = "weapons.shells.Flak18_Sprgr_39",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ KDO_Mod40 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Flak18_Sprgr_39",
+				["displayName"] = "Spr.Gr.39",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -48,15 +48,15 @@ KDO_Mod40 =
 		{
 			["min"] = 
 			{
-				["y"] = 1.4146534204483,
-				["x"] = -0.24531488120556,
-				["z"] = -1.9971641302109,
+				["y"] = -0.041725713759661,
+				["x"] = -2.0718698501587,
+				["z"] = -1.982152223587,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 1.91652572155,
-				["x"] = 0.47399348020554,
-				["z"] = 2.0752851963043,
+				["y"] = 2.1273059844971,
+				["x"] = 2.0718698501587,
+				["z"] = 2.0934839248657,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,

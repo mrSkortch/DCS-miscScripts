@@ -4,7 +4,6 @@ Military staff =
 	["desc"] = 
 	{
 		["life"] = 1200,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Military staff",
 		["typeName"] = "Military staff",

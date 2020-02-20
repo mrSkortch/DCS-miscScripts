@@ -1,5 +1,12 @@
 MiG-27K = 
 {
+	["countries"] = 
+	{
+		[1] = "Ukraine",
+		[0] = "Russia",
+		[68] = "USSR",
+		[70] = "Algeria",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,8 +24,6 @@ MiG-27K =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.GSH301_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +39,8 @@ MiG-27K =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.GSH301_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

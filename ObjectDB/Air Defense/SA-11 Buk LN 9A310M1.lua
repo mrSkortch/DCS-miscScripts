@@ -30,7 +30,7 @@ SA-11 Buk LN 9A310M1 =
 				["rangeMin"] = 3320,
 				["altMax"] = 22000,
 				["RCS"] = 0.09179999679327,
-				["displayName"] = "9M38M1",
+				["displayName"] = "9M38M1 Buk-M1 (SA-11 Gadfly)",
 				["altMin"] = 22,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@ SA-11 Buk LN 9A310M1 =
 					["mass"] = 70,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 35000,
-				["typeName"] = "9M38M1",
+				["typeName"] = "SA9M38M1",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

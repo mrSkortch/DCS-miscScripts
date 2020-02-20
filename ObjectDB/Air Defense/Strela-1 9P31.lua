@@ -30,7 +30,7 @@ Strela-1 9P31 =
 				["rangeMin"] = 800,
 				["altMax"] = 3500,
 				["RCS"] = 0.03999999910593,
-				["displayName"] = "9M31",
+				["displayName"] = "9M31 Strela-1 (SA-9 Gaskin)",
 				["altMin"] = 30,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -42,7 +42,7 @@ Strela-1 9P31 =
 					["mass"] = 2.5999999046326,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 4200,
-				["typeName"] = "9M31",
+				["typeName"] = "SA9M31",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

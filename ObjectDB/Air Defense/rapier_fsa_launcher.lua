@@ -7,43 +7,28 @@ rapier_fsa_launcher =
 			["count"] = 4,
 			["desc"] = 
 			{
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.13611836731434,
-						["x"] = -0.84999942779541,
-						["z"] = -0.1361181885004,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.13611803948879,
-						["x"] = 1.4030002355576,
-						["z"] = 0.13611821830273,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
+				["missileCategory"] = 2,
+				["rangeMaxAltMax"] = 6800,
+				["rangeMin"] = 400,
+				["_origin"] = "",
 				["rangeMaxAltMin"] = 6800,
+				["altMax"] = 3000,
+				["RCS"] = 0.079999998211861,
+				["displayName"] = "Rapier",
+				["altMin"] = 50,
+				["life"] = 2,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 8,
-				["Nmax"] = 14,
-				["rangeMin"] = 400,
-				["altMax"] = 3000,
-				["RCS"] = 0.079999998211861,
-				["displayName"] = "RAPIER",
-				["altMin"] = 50,
-				["life"] = 2,
-				["missileCategory"] = 2,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 1.3999999761581,
 					["type"] = 1,
-					["caliber"] = 113,
-					["mass"] = 5,
+					["caliber"] = 133,
+					["mass"] = 1.3999999761581,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 6800,
-				["typeName"] = "RAPIER",
-				["_origin"] = "",
+				["typeName"] = "weapons.missiles.Rapier",
+				["Nmax"] = 14,
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

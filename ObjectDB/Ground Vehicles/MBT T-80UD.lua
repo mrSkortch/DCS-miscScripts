@@ -17,8 +17,6 @@ MBT T-80UD =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "125mm AP",
-				["typeName"] = "weapons.shells.2A46M_125_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ MBT T-80UD =
 						["z"] = 0.10754559934139,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.2A46M_125_AP",
+				["displayName"] = "125mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ MBT T-80UD =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "125mm HE",
-				["typeName"] = "weapons.shells.2A46M_125_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ MBT T-80UD =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.2A46M_125_HE",
+				["displayName"] = "125mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -75,33 +75,19 @@ MBT T-80UD =
 			["count"] = 7,
 			["desc"] = 
 			{
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.42442858219147,
-						["x"] = -0.39315325021744,
-						["z"] = -0.42946356534958,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.43449848890305,
-						["x"] = 0.4657738506794,
-						["z"] = 0.42946356534958,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
+				["missileCategory"] = 6,
+				["rangeMaxAltMax"] = 5000,
+				["rangeMin"] = 100,
+				["_origin"] = "",
 				["rangeMaxAltMin"] = 5000,
+				["altMax"] = 3000,
+				["RCS"] = 0.032000001519918,
+				["displayName"] = "AT-11 Sniper",
+				["altMin"] = -1,
+				["life"] = 2,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 7,
-				["Nmax"] = 1.2,
-				["rangeMin"] = 100,
-				["altMax"] = 3000,
-				["RCS"] = 0.032000001519918,
-				["displayName"] = "9M119",
-				["altMin"] = -1,
-				["life"] = 2,
-				["missileCategory"] = 6,
 				["warhead"] = 
 				{
 					["mass"] = 4.5,
@@ -111,9 +97,8 @@ MBT T-80UD =
 					["caliber"] = 0,
 					["type"] = 2,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 5000,
-				["typeName"] = "9M119",
-				["_origin"] = "",
+				["typeName"] = "weapons.missiles.REFLEX",
+				["Nmax"] = 1.2,
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -131,8 +116,6 @@ MBT T-80UD =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "7.62mm",
-				["typeName"] = "weapons.shells.7_62x54",
 				["box"] = 
 				{
 					["min"] = 
@@ -148,6 +131,8 @@ MBT T-80UD =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x54",
+				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -161,12 +146,10 @@ MBT T-80UD =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 12.7,
-					["mass"] = 0.044,
+					["mass"] = 0.047,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.Utes_12_7x108_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -182,6 +165,8 @@ MBT T-80UD =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Utes_12_7x108_T",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [5]
 	}, -- end of ["weapons"]

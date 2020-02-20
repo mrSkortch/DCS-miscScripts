@@ -17,8 +17,6 @@ MiG-15bis =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "37mm HEI T",
-				["typeName"] = "weapons.shells.N37_37x155_HEI_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ MiG-15bis =
 						["z"] = 0.26739686727524,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.N37_37x155_HEI_T",
+				["displayName"] = "37mm HEI T",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -51,8 +51,6 @@ MiG-15bis =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "23mm API",
-				["typeName"] = "weapons.shells.NR23_23x115_API",
 				["box"] = 
 				{
 					["min"] = 
@@ -68,6 +66,8 @@ MiG-15bis =
 						["z"] = 0.26739686727524,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.NR23_23x115_API",
+				["displayName"] = "23mm API",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -85,8 +85,6 @@ MiG-15bis =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "23mm HEI T",
-				["typeName"] = "weapons.shells.NR23_23x115_HEI_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -102,9 +100,25 @@ MiG-15bis =
 						["z"] = 0.26739686727524,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.NR23_23x115_HEI_T",
+				["displayName"] = "23mm HEI T",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]
+	["countries"] = 
+	{
+		[25] = "Bulgaria",
+		[27] = "China",
+		[41] = "Romania",
+		[32] = "Hungary",
+		[76] = "Cuba",
+		[68] = "USSR",
+		[70] = "Algeria",
+		[40] = "Poland",
+		[6] = "Germany",
+		[47] = "Syria",
+		[29] = "Egypt",
+	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 294.16665649414,

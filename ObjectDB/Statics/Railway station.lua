@@ -4,7 +4,6 @@ Railway station =
 	["desc"] = 
 	{
 		["life"] = 1600,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Railway station",
 		["typeName"] = "Railway station",

@@ -17,8 +17,6 @@ ARTY SK_C_28_naval_gun =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "15cm HE",
-				["typeName"] = "weapons.shells.RM_15cm_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,6 +32,8 @@ ARTY SK_C_28_naval_gun =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.RM_15cm_HE",
+				["displayName"] = "15cm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

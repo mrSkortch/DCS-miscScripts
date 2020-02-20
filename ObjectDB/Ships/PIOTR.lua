@@ -30,7 +30,7 @@ PIOTR =
 				["rangeMin"] = 2000,
 				["altMax"] = 3500,
 				["RCS"] = 0.010200000368059,
-				["displayName"] = "9M311",
+				["displayName"] = "9M311 Tunguska (SA-19 Grison)",
 				["altMin"] = 14.5,
 				["life"] = 2,
 				["missileCategory"] = 6,
@@ -42,7 +42,7 @@ PIOTR =
 					["mass"] = 9,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 8000,
-				["typeName"] = "9M311",
+				["typeName"] = "SA9M311",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]
@@ -61,8 +61,6 @@ PIOTR =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm AP",
-				["typeName"] = "weapons.shells.AK630_30_AP",
 				["box"] = 
 				{
 					["min"] = 
@@ -78,6 +76,8 @@ PIOTR =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -95,8 +95,6 @@ PIOTR =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "30mm HE",
-				["typeName"] = "weapons.shells.AK630_30_HE",
 				["box"] = 
 				{
 					["min"] = 
@@ -112,6 +110,8 @@ PIOTR =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.AK630_30_HE",
+				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -129,8 +129,6 @@ PIOTR =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "130mm HE",
-				["typeName"] = "weapons.shells.A222_130",
 				["box"] = 
 				{
 					["min"] = 
@@ -146,6 +144,8 @@ PIOTR =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.A222_130",
+				["displayName"] = "130mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -176,7 +176,7 @@ PIOTR =
 				["rangeMin"] = 1500,
 				["altMax"] = 6000,
 				["RCS"] = 0.03070000000298,
-				["displayName"] = "9M330",
+				["displayName"] = "9M330 Tor (SA-15 Gauntlet)",
 				["altMin"] = 10,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -188,7 +188,7 @@ PIOTR =
 					["mass"] = 14.5,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 12000,
-				["typeName"] = "9M330",
+				["typeName"] = "SA9M330",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [5]
@@ -220,7 +220,7 @@ PIOTR =
 				["rangeMin"] = 6000,
 				["altMax"] = 30000,
 				["RCS"] = 0.17800000309944,
-				["displayName"] = "48N6E2 S-300F (SA-N-6 Grumble)",
+				["displayName"] = "48N6 S-300F (SA-N-6 Grumble)",
 				["altMin"] = 10,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -232,7 +232,7 @@ PIOTR =
 					["mass"] = 143,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 150000,
-				["typeName"] = "48N6E2",
+				["typeName"] = "SA48H6E2",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [6]
@@ -264,7 +264,7 @@ PIOTR =
 				["rangeMin"] = 5000,
 				["altMax"] = 30000,
 				["RCS"] = 0.17800000309944,
-				["displayName"] = "5V55R",
+				["displayName"] = "5V55 S-300PS (SA-10B Grumble)",
 				["altMin"] = 25,
 				["life"] = 2,
 				["missileCategory"] = 2,
@@ -276,7 +276,7 @@ PIOTR =
 					["mass"] = 133,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 75000,
-				["typeName"] = "5V55R",
+				["typeName"] = "SA5B55",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [7]
@@ -308,7 +308,7 @@ PIOTR =
 				["rangeMin"] = 13000,
 				["altMax"] = 12000,
 				["RCS"] = 0.79000002145767,
-				["displayName"] = "P-700",
+				["displayName"] = "P-700 (SS-N-19 Shipwreck)",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 5,
@@ -320,7 +320,7 @@ PIOTR =
 					["mass"] = 400,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 550000,
-				["typeName"] = "P-700",
+				["typeName"] = "P_700",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [8]

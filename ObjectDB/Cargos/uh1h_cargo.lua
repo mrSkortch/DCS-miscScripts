@@ -9,7 +9,6 @@ uh1h_cargo =
 		{
 			["Cargos"] = true,
 		}, -- end of ["attributes"]
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "UH-1H cargo",
 		["typeName"] = "uh1h_cargo",

@@ -4,7 +4,6 @@ WC =
 	["desc"] = 
 	{
 		["life"] = 1,
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "WC",
 		["typeName"] = "WC",

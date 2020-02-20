@@ -5,7 +5,6 @@ house2arm =
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
-		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
@@ -37,7 +36,7 @@ house2arm =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["_origin"] = "",
+		["Kmax"] = 0.050000000745058,
 		["typeName"] = "house2arm",
 		["displayName"] = "Watch tower armed",
 	}, -- end of ["desc"]

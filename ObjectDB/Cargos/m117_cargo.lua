@@ -9,7 +9,6 @@ m117_cargo =
 		{
 			["Cargos"] = true,
 		}, -- end of ["attributes"]
-		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "M117 bombs",
 		["typeName"] = "m117_cargo",

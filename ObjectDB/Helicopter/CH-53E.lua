@@ -1,5 +1,9 @@
 CH-53E = 
 {
+	["countries"] = 
+	{
+		[2] = "USA",
+	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["massEmpty"] = 15407,
