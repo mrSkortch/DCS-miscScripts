@@ -4,7 +4,7 @@ MBT Stug_IV =
 	{
 		[1] = 
 		{
-			["count"] = 34,
+			["count"] = 61,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ MBT Stug_IV =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 31,
+			["count"] = 25,
 			["desc"] = 
 			{
 				["life"] = 2,

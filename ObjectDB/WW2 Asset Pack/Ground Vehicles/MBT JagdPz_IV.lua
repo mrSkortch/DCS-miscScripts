@@ -4,7 +4,7 @@ MBT JagdPz_IV =
 	{
 		[1] = 
 		{
-			["count"] = 41,
+			["count"] = 57,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ MBT JagdPz_IV =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 40,
+			["count"] = 24,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -167,6 +167,6 @@ MBT JagdPz_IV =
 		["speedMaxOffRoad"] = 10.560000419617,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "JagdPz_IV",
-		["displayName"] = "Jagdpanzer IV",
+		["displayName"] = "TD Jagdpanzer IV",
 	}, -- end of ["desc"]
 } -- end of MBT JagdPz_IV

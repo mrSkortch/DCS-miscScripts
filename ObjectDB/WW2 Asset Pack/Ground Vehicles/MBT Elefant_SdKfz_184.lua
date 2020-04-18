@@ -1,10 +1,10 @@
-MBT Pz_V_Panther_G = 
+MBT Elefant_SdKfz_184 = 
 {
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 61,
+			["count"] = 39,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -12,8 +12,8 @@ MBT Pz_V_Panther_G =
 				{
 					["explosiveMass"] = 0.059,
 					["type"] = 1,
-					["caliber"] = 75,
-					["mass"] = 6.8,
+					["caliber"] = 88,
+					["mass"] = 10.4,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -32,22 +32,22 @@ MBT Pz_V_Panther_G =
 						["z"] = 0.70802044868469,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.Pzgr_39/42",
-				["displayName"] = "Pz.Gr. 39/42",
+				["typeName"] = "weapons.shells.Pzgr_39/43",
+				["displayName"] = "Pz.Gr. 39/43",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 23,
+			["count"] = 13,
 			["desc"] = 
 			{
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 1.3,
+					["explosiveMass"] = 2,
 					["type"] = 1,
-					["caliber"] = 75,
-					["mass"] = 5.75,
+					["caliber"] = 88,
+					["mass"] = 9.4,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -66,13 +66,13 @@ MBT Pz_V_Panther_G =
 						["z"] = 0.70802044868469,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.Sprgr_34_L70",
-				["displayName"] = "Spr.Gr.34 L/70",
+				["typeName"] = "weapons.shells.Sprgr_43_L71",
+				["displayName"] = "Spr.Gr.43 L/71",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 1222,
+			["count"] = 815,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -106,7 +106,7 @@ MBT Pz_V_Panther_G =
 		}, -- end of [3]
 		[4] = 
 		{
-			["count"] = 3622,
+			["count"] = 2415,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -126,28 +126,28 @@ MBT Pz_V_Panther_G =
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
-		["massEmpty"] = 44800,
+		["massEmpty"] = 56900,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.51999998092651,
+		["maxSlopeAngle"] = 0.38400000333786,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -0.025719093158841,
-				["x"] = -3.7562267780304,
-				["z"] = -1.6614277362823,
+				["y"] = -0.074282199144363,
+				["x"] = -3.8729727268219,
+				["z"] = -1.7166976928711,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 3.0688719749451,
-				["x"] = 2.9957127571106,
-				["z"] = 1.6843656301498,
+				["y"] = 4.4314103126526,
+				["x"] = 4.4549531936646,
+				["z"] = 1.7166948318481,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 12.699999809265,
-		["life"] = 15,
+		["speedMax"] = 5.5599999427795,
+		["life"] = 20,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,
@@ -164,9 +164,9 @@ MBT Pz_V_Panther_G =
 			["Tanks"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
-		["speedMaxOffRoad"] = 12.699999809265,
+		["speedMaxOffRoad"] = 5.5599999427795,
 		["_origin"] = "WWII Armour and Technics",
-		["typeName"] = "Pz_V_Panther_G",
-		["displayName"] = "MT Pz.Kpfw.V Panther Ausf.G",
+		["typeName"] = "Elefant_SdKfz_184",
+		["displayName"] = "Sd.Kfz.184 Elefant",
 	}, -- end of ["desc"]
-} -- end of MBT Pz_V_Panther_G
+} -- end of MBT Elefant_SdKfz_184

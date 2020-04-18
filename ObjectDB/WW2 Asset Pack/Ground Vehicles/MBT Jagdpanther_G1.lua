@@ -4,7 +4,7 @@ MBT Jagdpanther_G1 =
 	{
 		[1] = 
 		{
-			["count"] = 33,
+			["count"] = 43,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ MBT Jagdpanther_G1 =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 26,
+			["count"] = 19,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -167,6 +167,6 @@ MBT Jagdpanther_G1 =
 		["speedMaxOffRoad"] = 12.699999809265,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Jagdpanther_G1",
-		["displayName"] = "Jagdpanther G1",
+		["displayName"] = "TD Jagdpanther G1",
 	}, -- end of ["desc"]
 } -- end of MBT Jagdpanther_G1

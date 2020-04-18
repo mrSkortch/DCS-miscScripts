@@ -1,21 +1,19 @@
-INF Paratrooper RPG-16 = 
+flak41 = 
 {
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 3,
+			["count"] = 200,
 			["desc"] = 
 			{
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["mass"] = 6,
-					["explosiveMass"] = 2.8,
-					["shapedExplosiveArmorThickness"] = 0.25,
-					["shapedExplosiveMass"] = 2.8,
-					["caliber"] = 73,
-					["type"] = 2,
+					["explosiveMass"] = 2,
+					["type"] = 1,
+					["caliber"] = 88,
+					["mass"] = 9,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -34,50 +32,54 @@ INF Paratrooper RPG-16 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.2A28_73",
-				["displayName"] = "73mm RPG",
+				["typeName"] = "weapons.shells.Flak41_Sprgr_39",
+				["displayName"] = "8.8-cm Sprgr.Flak 41",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
-		["massEmpty"] = 90,
+		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 1,
+		["maxSlopeAngle"] = 0,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = 0.0055273994803429,
-				["x"] = -0.85314875841141,
-				["z"] = -0.85314875841141,
+				["y"] = 0.0067287855781615,
+				["x"] = -5.6252255439758,
+				["z"] = -2.337548494339,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 1.7118248939514,
-				["x"] = 0.85314875841141,
-				["z"] = 0.85314881801605,
+				["y"] = 2.3179285526276,
+				["x"] = 5.6252255439758,
+				["z"] = 2.3375482559204,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 4,
-		["life"] = 0.079999998211861,
+		["speedMax"] = 0,
+		["life"] = 1,
 		["attributes"] = 
 		{
-			["NonArmoredUnits"] = true,
-			["Infantry"] = true,
+			["Rocket Attack Valid AirDefence"] = true,
+			["AA_flak"] = true,
+			["Ground vehicles"] = true,
+			["Air Defence"] = true,
+			["AAA"] = true,
+			["Vehicles"] = true,
 			["NonAndLightArmoredUnits"] = true,
-			["Ground Units Non Airdefence"] = true,
-			["Armed ground units"] = true,
+			["Armed Air Defence"] = true,
 			["All"] = true,
-			["CustomAimPoint"] = true,
+			["Static AAA"] = true,
 			["Ground Units"] = true,
+			["NonArmoredUnits"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
-		["speedMaxOffRoad"] = 4,
-		["_origin"] = "",
-		["typeName"] = "Paratrooper RPG-16",
-		["displayName"] = "Paratrooper RPG-16",
+		["speedMaxOffRoad"] = 0,
+		["_origin"] = "WWII Armour and Technics",
+		["typeName"] = "flak41",
+		["displayName"] = "AAA 8,8cm Flak 41",
 	}, -- end of ["desc"]
-} -- end of INF Paratrooper RPG-16
+} -- end of flak41

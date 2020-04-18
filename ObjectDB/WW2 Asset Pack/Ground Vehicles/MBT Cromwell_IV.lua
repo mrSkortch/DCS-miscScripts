@@ -4,7 +4,7 @@ MBT Cromwell_IV =
 	{
 		[1] = 
 		{
-			["count"] = 39,
+			["count"] = 49,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ MBT Cromwell_IV =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 27,
+			["count"] = 17,
 			["desc"] = 
 			{
 				["life"] = 2,

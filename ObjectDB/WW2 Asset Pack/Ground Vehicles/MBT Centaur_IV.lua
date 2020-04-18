@@ -1,19 +1,19 @@
-MBT Pz_V_Panther_G = 
+MBT Centaur_IV = 
 {
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 61,
+			["count"] = 52,
 			["desc"] = 
 			{
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.059,
+					["explosiveMass"] = 4,
 					["type"] = 1,
-					["caliber"] = 75,
-					["mass"] = 6.8,
+					["caliber"] = 95,
+					["mass"] = 11,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -21,58 +21,24 @@ MBT Pz_V_Panther_G =
 				{
 					["min"] = 
 					{
-						["y"] = -0.70802044868469,
-						["x"] = -0.84232467412949,
-						["z"] = -0.70802044868469,
+						["y"] = -0.060612548142672,
+						["x"] = -0.27024647593498,
+						["z"] = -0.060612548142672,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.70802044868469,
-						["x"] = 0.57371598482132,
-						["z"] = 0.70802044868469,
+						["y"] = 0.060612548142672,
+						["x"] = 0.24980916082859,
+						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.Pzgr_39/42",
-				["displayName"] = "Pz.Gr. 39/42",
+				["typeName"] = "weapons.shells.QF95_206R_fixed",
+				["displayName"] = "Fixed QF95 206R",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 23,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 1.3,
-					["type"] = 1,
-					["caliber"] = 75,
-					["mass"] = 5.75,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.70802044868469,
-						["x"] = -0.84232467412949,
-						["z"] = -0.70802044868469,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.70802044868469,
-						["x"] = 0.57371598482132,
-						["z"] = 0.70802044868469,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.Sprgr_34_L70",
-				["displayName"] = "Spr.Gr.34 L/70",
-			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
-		{
-			["count"] = 1222,
+			["count"] = 741,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -100,13 +66,13 @@ MBT Pz_V_Panther_G =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.7_92x57_Smkl",
-				["displayName"] = "7.92x57 S.m.K.L'Spur",
+				["typeName"] = "weapons.shells.Besa7_92x57T",
+				["displayName"] = "Besa 7.92x57T",
 			}, -- end of ["desc"]
-		}, -- end of [3]
-		[4] = 
+		}, -- end of [2]
+		[3] = 
 		{
-			["count"] = 3622,
+			["count"] = 2197,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -119,35 +85,35 @@ MBT Pz_V_Panther_G =
 					["mass"] = 0.0128,
 				}, -- end of ["warhead"]
 				["category"] = 0,
-				["typeName"] = "weapons.shells.7_92x57sS",
-				["displayName"] = "7.92x57 s.S",
+				["typeName"] = "weapons.shells.Besa7_92x57",
+				["displayName"] = "Besa 7.92x57",
 			}, -- end of ["desc"]
-		}, -- end of [4]
+		}, -- end of [3]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
-		["massEmpty"] = 44800,
+		["massEmpty"] = 27970,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.51999998092651,
+		["maxSlopeAngle"] = 0.41999998688698,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -0.025719093158841,
-				["x"] = -3.7562267780304,
-				["z"] = -1.6614277362823,
+				["y"] = -0.018057966604829,
+				["x"] = -3.2313144207001,
+				["z"] = -1.5741859674454,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 3.0688719749451,
-				["x"] = 2.9957127571106,
-				["z"] = 1.6843656301498,
+				["y"] = 2.4656941890717,
+				["x"] = 3.2161526679993,
+				["z"] = 1.5771749019623,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 12.699999809265,
-		["life"] = 15,
+		["speedMax"] = 14.439999580383,
+		["life"] = 12,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,
@@ -164,9 +130,9 @@ MBT Pz_V_Panther_G =
 			["Tanks"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
-		["speedMaxOffRoad"] = 12.699999809265,
+		["speedMaxOffRoad"] = 14.439999580383,
 		["_origin"] = "WWII Armour and Technics",
-		["typeName"] = "Pz_V_Panther_G",
-		["displayName"] = "MT Pz.Kpfw.V Panther Ausf.G",
+		["typeName"] = "Centaur_IV",
+		["displayName"] = "ST Centaur IV",
 	}, -- end of ["desc"]
-} -- end of MBT Pz_V_Panther_G
+} -- end of MBT Centaur_IV

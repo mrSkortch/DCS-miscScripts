@@ -41,7 +41,7 @@ INF Paratrooper AKS-74 =
 	{
 		["massEmpty"] = 90,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.87000000476837,
+		["maxSlopeAngle"] = 1,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 

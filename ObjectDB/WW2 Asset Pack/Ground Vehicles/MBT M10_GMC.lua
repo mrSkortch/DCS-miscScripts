@@ -1,10 +1,10 @@
-MBT M4A4_Sherman_FF = 
+MBT M10_GMC = 
 {
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 59,
+			["count"] = 37,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -12,8 +12,8 @@ MBT M4A4_Sherman_FF =
 				{
 					["explosiveMass"] = 0,
 					["type"] = 0,
-					["caliber"] = 76.2,
-					["mass"] = 7.71,
+					["caliber"] = 76,
+					["mass"] = 7,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -32,22 +32,22 @@ MBT M4A4_Sherman_FF =
 						["z"] = 0.70802044868469,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.APCBC",
-				["displayName"] = "APCBC",
+				["typeName"] = "weapons.shells.M62_APC",
+				["displayName"] = "M62 APC",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 20,
+			["count"] = 19,
 			["desc"] = 
 			{
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.58,
+					["explosiveMass"] = 1.3,
 					["type"] = 1,
-					["caliber"] = 76.2,
-					["mass"] = 7.7,
+					["caliber"] = 76,
+					["mass"] = 5.75,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -66,67 +66,14 @@ MBT M4A4_Sherman_FF =
 						["z"] = 0.70802044868469,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.QF17_HE",
-				["displayName"] = "QF17 HE",
+				["typeName"] = "weapons.shells.M42A1_HE",
+				["displayName"] = "M42A1 HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
-		[3] = 
-		{
-			["count"] = 819,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 7.7,
-					["mass"] = 0.0096,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.Br303_tr",
-				["displayName"] = ".303 British",
-			}, -- end of ["desc"]
-		}, -- end of [3]
-		[4] = 
-		{
-			["count"] = 2443,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["_origin"] = "",
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 7.62,
-					["mass"] = 0.0096,
-				}, -- end of ["warhead"]
-				["category"] = 0,
-				["typeName"] = "weapons.shells.Br303",
-				["displayName"] = ".303 British",
-			}, -- end of ["desc"]
-		}, -- end of [4]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
-		["massEmpty"] = 33000,
+		["massEmpty"] = 29600,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.52359879016876,
 		["Kmax"] = 0.050000000745058,
@@ -135,19 +82,19 @@ MBT M4A4_Sherman_FF =
 		{
 			["min"] = 
 			{
-				["y"] = -0.021063579246402,
-				["x"] = -3.3188021183014,
-				["z"] = -1.3275067806244,
+				["y"] = -0.012046212330461,
+				["x"] = -3.1438632011414,
+				["z"] = -1.5695778131485,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 2.7993648052216,
-				["x"] = 2.8327913284302,
-				["z"] = 1.3273221254349,
+				["y"] = 2.5787327289581,
+				["x"] = 3.7673923969269,
+				["z"] = 1.55630838871,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 11.109999656677,
-		["life"] = 15,
+		["life"] = 10,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,
@@ -166,7 +113,7 @@ MBT M4A4_Sherman_FF =
 		["category"] = 2,
 		["speedMaxOffRoad"] = 11.109999656677,
 		["_origin"] = "WWII Armour and Technics",
-		["typeName"] = "M4A4_Sherman_FF",
-		["displayName"] = "MT M4A4 Sherman Firefly",
+		["typeName"] = "M10_GMC",
+		["displayName"] = "TD M10 GMC",
 	}, -- end of ["desc"]
-} -- end of MBT M4A4_Sherman_FF
+} -- end of MBT M10_GMC

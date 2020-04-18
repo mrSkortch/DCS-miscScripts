@@ -71,7 +71,7 @@ IFV M1045 HMMWV TOW =
 	{
 		["massEmpty"] = 3990,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.27000001072884,
+		["maxSlopeAngle"] = 0.5,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 

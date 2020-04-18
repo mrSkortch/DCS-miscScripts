@@ -4,7 +4,7 @@ MBT Pz_IV_H =
 	{
 		[1] = 
 		{
-			["count"] = 43,
+			["count"] = 61,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ MBT Pz_IV_H =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 41,
+			["count"] = 25,
 			["desc"] = 
 			{
 				["life"] = 2,

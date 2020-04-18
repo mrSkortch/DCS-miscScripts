@@ -4,7 +4,7 @@ MBT M4_Sherman =
 	{
 		[1] = 
 		{
-			["count"] = 52,
+			["count"] = 74,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ MBT M4_Sherman =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 49,
+			["count"] = 25,
 			["desc"] = 
 			{
 				["life"] = 2,

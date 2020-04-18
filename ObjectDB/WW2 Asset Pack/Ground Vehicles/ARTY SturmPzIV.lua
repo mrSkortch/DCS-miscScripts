@@ -4,7 +4,7 @@ ARTY SturmPzIV =
 	{
 		[1] = 
 		{
-			["count"] = 38,
+			["count"] = 39,
 			["desc"] = 
 			{
 				["life"] = 2,

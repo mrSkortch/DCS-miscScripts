@@ -4,7 +4,7 @@ MBT Tiger_I =
 	{
 		[1] = 
 		{
-			["count"] = 47,
+			["count"] = 61,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ MBT Tiger_I =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 47,
+			["count"] = 33,
 			["desc"] = 
 			{
 				["life"] = 2,
