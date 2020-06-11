@@ -75,19 +75,20 @@ JF-17 =
 	{
 		["speedMax0"] = 400,
 		["massEmpty"] = 6586,
+		["tankerType"] = 1,
 		["range"] = 1550,
 		["box"] = 
 		{
 			["min"] = 
 			{
 				["y"] = -1.4204348325729,
-				["x"] = -6.803599357605,
+				["x"] = -17.800804138184,
 				["z"] = -4.4995250701904,
 			}, -- end of ["min"]
 			["max"] = 
 			{
 				["y"] = 3.4204349517822,
-				["x"] = 8.803599357605,
+				["x"] = 9.1184892654419,
 				["z"] = 4.4995255470276,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
@@ -108,14 +109,15 @@ JF-17 =
 		["attributes"] = 
 		{
 			["Air"] = true,
-			["NonArmoredUnits"] = true,
+			["Refuelable"] = true,
 			["Link16"] = true,
 			["Multirole fighters"] = true,
 			["Battle airplanes"] = true,
 			["NonAndLightArmoredUnits"] = true,
+			["Planes"] = true,
 			["All"] = true,
 			["Datalink"] = true,
-			["Planes"] = true,
+			["NonArmoredUnits"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "JF-17",
 		["category"] = 0,

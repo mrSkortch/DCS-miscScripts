@@ -1,29 +1,10 @@
-P-51D-30-NA = 
+P-47D-30 = 
 {
-	["countries"] = 
-	{
-		[1] = "USA",
-		[2] = "UK",
-		[3] = "Canada",
-		[4] = "The Netherlands",
-		[5] = "Israel",
-		[6] = "Italy",
-		[7] = "Australia",
-		[8] = "Switzerland",
-		[9] = "China",
-		[10] = "Poland",
-		[11] = "South Korea",
-		[12] = "Sweden",
-		[13] = "Philippines",
-		[14] = "Indonesia",
-		[15] = "South Africa",
-		[16] = "Cuba",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 270,
+			["count"] = 600,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -57,7 +38,7 @@ P-51D-30-NA =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 270,
+			["count"] = 600,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -91,7 +72,7 @@ P-51D-30-NA =
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 500,
+			["count"] = 300,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -125,7 +106,7 @@ P-51D-30-NA =
 		}, -- end of [3]
 		[4] = 
 		{
-			["count"] = 1040,
+			["count"] = 900,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -172,36 +153,36 @@ P-51D-30-NA =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["speedMax0"] = 250,
-		["massEmpty"] = 3549,
+		["speedMax0"] = 223,
+		["massEmpty"] = 5006,
 		["range"] = 1015,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -1.2021408081055,
-				["x"] = -7.0865588188171,
-				["z"] = -5.5569376945496,
+				["y"] = -2.464501619339,
+				["x"] = -8.2327747344971,
+				["z"] = -6.2447099685669,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 1.7982459068298,
-				["x"] = 2.7609069347382,
-				["z"] = 5.5569376945496,
+				["y"] = 2.0993461608887,
+				["x"] = 2.7813441753387,
+				["z"] = 6.2447419166565,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["Hmax"] = 13000,
+		["Hmax"] = 13500,
 		["Kmax"] = 0.10000000149012,
 		["_origin"] = "World War II AI Units by Eagle Dynamics",
-		["speedMax10K"] = 212,
+		["speedMax10K"] = 230,
 		["NyMin"] = -4,
-		["fuelMassMax"] = 732,
-		["speedMax"] = 250,
+		["fuelMassMax"] = 830,
+		["speedMax"] = 230,
 		["NyMax"] = 8,
-		["massMax"] = 4800,
+		["massMax"] = 7112,
 		["RCS"] = 2.5,
-		["displayName"] = "P-51D-30-NA",
-		["life"] = 18,
+		["displayName"] = "P-47D-30",
+		["life"] = 24,
 		["VyMax"] = 22,
 		["Kab"] = 0,
 		["attributes"] = 
@@ -214,7 +195,7 @@ P-51D-30-NA =
 			["All"] = true,
 			["Planes"] = true,
 		}, -- end of ["attributes"]
-		["typeName"] = "P-51D-30-NA",
+		["typeName"] = "P-47D-30",
 		["category"] = 0,
 	}, -- end of ["desc"]
-} -- end of P-51D-30-NA
+} -- end of P-47D-30

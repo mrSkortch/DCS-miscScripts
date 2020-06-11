@@ -5,9 +5,16 @@ F-16C_50 =
 		[1] = "USA",
 		[2] = "Turkey",
 		[3] = "The Netherlands",
-		[4] = "Greece",
-		[5] = "Chile",
-		[6] = "Oman",
+		[4] = "Israel",
+		[5] = "Greece",
+		[6] = "Iraq",
+		[7] = "Pakistan",
+		[8] = "Poland",
+		[9] = "South Korea",
+		[10] = "Morocco",
+		[11] = "Chile",
+		[12] = "Oman",
+		[13] = "Portugal",
 	}, -- end of ["countries"]
 	["weapons"] = 
 	{

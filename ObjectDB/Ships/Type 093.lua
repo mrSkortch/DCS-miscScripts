@@ -4,18 +4,6 @@ Type 093 =
 	{
 		[1] = 
 		{
-			["count"] = 12,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["_origin"] = "",
-				["category"] = 4,
-				["typeName"] = "weapons.torpedoes.YU-6",
-				["displayName"] = "YU-6",
-			}, -- end of ["desc"]
-		}, -- end of [1]
-		[2] = 
-		{
 			["count"] = 4,
 			["desc"] = 
 			{
@@ -43,6 +31,18 @@ Type 093 =
 				}, -- end of ["warhead"]
 				["typeName"] = "weapons.missiles.YJ-84",
 				["Nmax"] = 6,
+			}, -- end of ["desc"]
+		}, -- end of [1]
+		[2] = 
+		{
+			["count"] = 12,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["category"] = 4,
+				["typeName"] = "weapons.torpedoes.YU-6",
+				["displayName"] = "YU-6",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]

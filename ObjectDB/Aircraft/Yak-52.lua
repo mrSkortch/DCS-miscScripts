@@ -62,13 +62,12 @@ Yak-52 =
 		["Kab"] = 0,
 		["attributes"] = 
 		{
-			["Air"] = true,
-			["Battle airplanes"] = true,
+			["UAVs"] = true,
 			["NonAndLightArmoredUnits"] = true,
-			["Battleplanes"] = true,
 			["NonArmoredUnits"] = true,
 			["All"] = true,
 			["Planes"] = true,
+			["Air"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "Yak-52",
 		["category"] = 0,

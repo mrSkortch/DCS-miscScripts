@@ -22,29 +22,27 @@ ARTY Scud_B =
 						["z"] = 0.64563250541687,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["rangeMaxAltMin"] = 0,
+				["rangeMaxAltMin"] = 320000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 1,
 				["Nmax"] = 17,
-				["rangeMin"] = 0,
-				["altMax"] = 12000,
-				["RCS"] = 0.39669999480247,
-				["displayName"] = "R_17",
+				["rangeMin"] = 58000,
+				["altMax"] = 50000,
+				["RCS"] = 2,
+				["displayName"] = "Scud R-17",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 5,
 				["warhead"] = 
 				{
-					["mass"] = 987,
-					["explosiveMass"] = 700,
-					["shapedExplosiveArmorThickness"] = 0.60000002384186,
-					["shapedExplosiveMass"] = 0,
-					["caliber"] = 0,
-					["type"] = 2,
+					["explosiveMass"] = 395.60000610352,
+					["type"] = 1,
+					["caliber"] = 880,
+					["mass"] = 395.60000610352,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 0,
-				["typeName"] = "R_17",
+				["rangeMaxAltMax"] = 350000,
+				["typeName"] = "weapons.missiles.SCUD_RAKETA",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [1]

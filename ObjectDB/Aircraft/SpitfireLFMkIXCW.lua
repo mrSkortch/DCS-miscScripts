@@ -8,12 +8,13 @@ SpitfireLFMkIXCW =
 		[4] = "Israel",
 		[5] = "Egypt",
 		[6] = "USSR",
+		[7] = "Portugal",
 	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 240,
+			["count"] = 120,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -22,7 +23,7 @@ SpitfireLFMkIXCW =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 20,
-					["mass"] = 0.115,
+					["mass"] = 0.14,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -41,11 +42,45 @@ SpitfireLFMkIXCW =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.Hispano_Mk_II_20x80AP",
-				["displayName"] = "20mm AP",
+				["typeName"] = "weapons.shells.Hispano_Mk_II_AP/T",
+				["displayName"] = "Hispano_Mk_II_AP/T",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
+		{
+			["count"] = 120,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 20,
+					["mass"] = 0.124,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Hispano_Mk_II_Mk_Z_Ball",
+				["displayName"] = "Hispano_Mk_II_Mk_Z_Ball",
+			}, -- end of ["desc"]
+		}, -- end of [2]
+		[3] = 
 		{
 			["count"] = 350,
 			["desc"] = 
@@ -53,8 +88,8 @@ SpitfireLFMkIXCW =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
+					["explosiveMass"] = 0.010834,
+					["type"] = 1,
 					["caliber"] = 7.62,
 					["mass"] = 0.0112750103,
 				}, -- end of ["warhead"]
@@ -75,11 +110,11 @@ SpitfireLFMkIXCW =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.British303_G_Mk4",
-				["displayName"] = "7.7mm T",
+				["typeName"] = "weapons.shells.British303_O_Mk1",
+				["displayName"] = "7.7mm O",
 			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
+		}, -- end of [3]
+		[4] = 
 		{
 			["count"] = 700,
 			["desc"] = 
@@ -87,8 +122,8 @@ SpitfireLFMkIXCW =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
+					["explosiveMass"] = 0.0027085,
+					["type"] = 1,
 					["caliber"] = 7.62,
 					["mass"] = 0.0112750103,
 				}, -- end of ["warhead"]
@@ -109,11 +144,11 @@ SpitfireLFMkIXCW =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.British303_Ball_Mk7",
-				["displayName"] = "7.7mm",
+				["typeName"] = "weapons.shells.British303_B_Mk6z",
+				["displayName"] = "7.7mm I",
 			}, -- end of ["desc"]
-		}, -- end of [3]
-		[4] = 
+		}, -- end of [4]
+		[5] = 
 		{
 			["count"] = 350,
 			["desc"] = 
@@ -146,7 +181,7 @@ SpitfireLFMkIXCW =
 				["typeName"] = "weapons.shells.British303_W_Mk1z",
 				["displayName"] = "7.7mm AP",
 			}, -- end of ["desc"]
-		}, -- end of [4]
+		}, -- end of [5]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{

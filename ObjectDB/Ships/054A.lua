@@ -168,12 +168,10 @@
 				["guidance"] = 1,
 				["warhead"] = 
 				{
-					["mass"] = 165,
 					["explosiveMass"] = 100,
-					["shapedExplosiveArmorThickness"] = 0.60000002384186,
-					["shapedExplosiveMass"] = 500,
-					["caliber"] = 0,
-					["type"] = 2,
+					["type"] = 1,
+					["caliber"] = 360,
+					["mass"] = 165,
 				}, -- end of ["warhead"]
 				["typeName"] = "weapons.missiles.YJ-83",
 				["Nmax"] = 6,
@@ -183,7 +181,7 @@
 	["desc"] = 
 	{
 		["massEmpty"] = 4200000,
-		["RCS"] = 3080.5261230469,
+		["RCS"] = 3080.5266113281,
 		["box"] = 
 		{
 			["min"] = 
@@ -195,7 +193,7 @@
 			["max"] = 
 			{
 				["y"] = 28.341720581055,
-				["x"] = 73.04704284668,
+				["x"] = 73.047050476074,
 				["z"] = 8.707670211792,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
@@ -203,17 +201,19 @@
 		["life"] = 0,
 		["attributes"] = 
 		{
+			["Heavy armed ships"] = true,
+			["HeavyArmoredUnits"] = true,
 			["Ships"] = true,
 			["Frigates"] = true,
-			["Heavy armed ships"] = true,
 			["Armed Air Defence"] = true,
+			["Armed ships"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
 			["HelicopterCarrier"] = true,
 			["Armed Ship"] = true,
-			["HeavyArmoredUnits"] = true,
+			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
 			["DetectionByAWACS"] = true,
-			["Armed ships"] = true,
+			["</WSTYPE>"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

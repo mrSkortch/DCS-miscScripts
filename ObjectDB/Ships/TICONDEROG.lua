@@ -233,7 +233,7 @@ TICONDEROG =
 				["Nmax"] = 18,
 				["rangeMin"] = 3000,
 				["altMax"] = 10000,
-				["RCS"] = 0.10580000281334,
+				["RCS"] = 0.079999998211861,
 				["displayName"] = "AGM-84S Harpoon",
 				["altMin"] = -1,
 				["life"] = 2,
@@ -277,7 +277,7 @@ TICONDEROG =
 				["Nmax"] = 25,
 				["rangeMin"] = 4000,
 				["altMax"] = 24400,
-				["RCS"] = 0.1765999943018,
+				["RCS"] = 0.15000000596046,
 				["displayName"] = "SM-2",
 				["altMin"] = 10,
 				["life"] = 2,
@@ -314,14 +314,14 @@ TICONDEROG =
 						["z"] = 1.3205659389496,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["rangeMaxAltMin"] = 460000,
+				["rangeMaxAltMin"] = 1700000,
 				["fuseDist"] = 0,
 				["category"] = 1,
 				["guidance"] = 1,
 				["Nmax"] = 17,
 				["rangeMin"] = 3000,
 				["altMax"] = 12000,
-				["RCS"] = 0.39669999480247,
+				["RCS"] = 0.15999999642372,
 				["displayName"] = "BGM-109B",
 				["altMin"] = -1,
 				["life"] = 2,
@@ -333,7 +333,7 @@ TICONDEROG =
 					["caliber"] = 520,
 					["mass"] = 181.60000610352,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 460000,
+				["rangeMaxAltMax"] = 1700000,
 				["typeName"] = "weapons.missiles.BGM_109B",
 				["_origin"] = "",
 			}, -- end of ["desc"]

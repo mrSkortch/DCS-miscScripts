@@ -75,6 +75,7 @@ A-10C =
 		[71] = "United Arab Emirates",
 		[72] = "South Africa",
 		[73] = "Cuba",
+		[74] = "Portugal",
 	}, -- end of ["countries"]
 	["weapons"] = 
 	{

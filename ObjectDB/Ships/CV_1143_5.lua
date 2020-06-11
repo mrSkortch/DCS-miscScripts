@@ -1,4 +1,4 @@
-KUZNECOW = 
+CV_1143_5 = 
 {
 	["weapons"] = 
 	{
@@ -206,20 +206,20 @@ KUZNECOW =
 	["desc"] = 
 	{
 		["massEmpty"] = 70500000,
-		["RCS"] = 16337.2421875,
+		["RCS"] = 16993.861328125,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = 0.00033700000494719,
-				["x"] = -120.81300354004,
-				["z"] = -54.040500640869,
+				["y"] = -11.959422111511,
+				["x"] = -123.56636047363,
+				["z"] = -42.952754974365,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 53.249000549316,
-				["x"] = 186.14999389648,
-				["z"] = 40.046398162842,
+				["y"] = 55.552783966064,
+				["x"] = 189.85546875,
+				["z"] = 42.952754974365,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 16.462200164795,
@@ -227,25 +227,26 @@ KUZNECOW =
 		["attributes"] = 
 		{
 			["ski_jump"] = true,
+			["Heavy armed ships"] = true,
 			["Aircraft Carriers"] = true,
-			["AircraftCarrier With Tramplin"] = true,
+			["Straight_in_approach_type"] = true,
 			["AircraftCarrier"] = true,
 			["Arresting Gear"] = true,
-			["Heavy armed ships"] = true,
-			["Ships"] = true,
+			["AircraftCarrier With Tramplin"] = true,
 			["Armed Air Defence"] = true,
-			["RADAR_BAND1_FOR_ARM"] = true,
 			["Armed ships"] = true,
+			["RADAR_BAND1_FOR_ARM"] = true,
+			["Ships"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
 			["DetectionByAWACS"] = true,
-			["Straight_in_approach_type"] = true,
+			["</WSTYPE>"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,
-		["_origin"] = "",
-		["typeName"] = "KUZNECOW",
-		["displayName"] = "CV 1143.5 Admiral Kuznetsov",
+		["_origin"] = "TAVKR 1143 High Detail",
+		["typeName"] = "CV_1143_5",
+		["displayName"] = "CV 1143.5 Admiral Kuznetsov(2017)",
 	}, -- end of ["desc"]
-} -- end of KUZNECOW
+} -- end of CV_1143_5
