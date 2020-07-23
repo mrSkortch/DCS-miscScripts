@@ -1,4 +1,4 @@
-052C = 
+Type_054A = 
 {
 	["weapons"] = 
 	{
@@ -10,10 +10,10 @@
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 15.6,
+					["explosiveMass"] = 6.3,
 					["type"] = 1,
-					["caliber"] = 100,
-					["mass"] = 15.6,
+					["caliber"] = 76,
+					["mass"] = 6.3,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -32,51 +32,51 @@
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.AK100_100",
-				["displayName"] = "100mm HE",
+				["typeName"] = "weapons.shells.MK75_76",
+				["displayName"] = "76mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 48,
+			["count"] = 32,
 			["desc"] = 
 			{
 				["box"] = 
 				{
 					["min"] = 
 					{
-						["y"] = -0.3354577422142,
-						["x"] = -3.3788096904755,
-						["z"] = -0.33545777201653,
+						["y"] = -0.29451015591621,
+						["x"] = -2.5006303787231,
+						["z"] = -0.29451051354408,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.3354577422142,
-						["x"] = 3.2500002384186,
-						["z"] = 0.3354577422142,
+						["y"] = 0.29451015591621,
+						["x"] = 2.5,
+						["z"] = 0.29450979828835,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["rangeMaxAltMin"] = 60000,
-				["fuseDist"] = 20,
+				["rangeMaxAltMin"] = 40000,
+				["fuseDist"] = 15,
 				["category"] = 1,
 				["guidance"] = 4,
-				["Nmax"] = 25,
-				["rangeMin"] = 800,
+				["Nmax"] = 22,
+				["rangeMin"] = 500,
 				["altMax"] = 35000,
-				["RCS"] = 0.17800000309944,
-				["displayName"] = "HHQ-9",
+				["RCS"] = 0.09179999679327,
+				["displayName"] = "HQ-16",
 				["altMin"] = 5,
 				["life"] = 2,
 				["missileCategory"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 150,
+					["explosiveMass"] = 59,
 					["type"] = 1,
-					["caliber"] = 340,
-					["mass"] = 150,
+					["caliber"] = 160,
+					["mass"] = 59,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 100000,
-				["typeName"] = "HHQ-9",
+				["rangeMaxAltMax"] = 50000,
+				["typeName"] = "HQ-16",
 				["_origin"] = "",
 			}, -- end of ["desc"]
 		}, -- end of [2]
@@ -154,13 +154,13 @@
 			["desc"] = 
 			{
 				["missileCategory"] = 5,
-				["rangeMaxAltMax"] = 300000,
-				["rangeMin"] = 2000,
+				["rangeMaxAltMax"] = 180000,
+				["rangeMin"] = 12000,
 				["_origin"] = "",
-				["rangeMaxAltMin"] = 300000,
+				["rangeMaxAltMin"] = 180000,
 				["altMax"] = 10000,
 				["RCS"] = 0.12099999934435,
-				["displayName"] = "YJ-62",
+				["displayName"] = "YJ-83",
 				["altMin"] = -1,
 				["life"] = 2,
 				["fuseDist"] = 0,
@@ -168,57 +168,57 @@
 				["guidance"] = 1,
 				["warhead"] = 
 				{
-					["mass"] = 350,
 					["explosiveMass"] = 100,
-					["shapedExplosiveArmorThickness"] = 0.60000002384186,
-					["shapedExplosiveMass"] = 500,
-					["caliber"] = 0,
-					["type"] = 2,
+					["type"] = 1,
+					["caliber"] = 360,
+					["mass"] = 165,
 				}, -- end of ["warhead"]
-				["typeName"] = "weapons.missiles.YJ-62",
-				["Nmax"] = 12,
+				["typeName"] = "weapons.missiles.YJ-83",
+				["Nmax"] = 6,
 			}, -- end of ["desc"]
 		}, -- end of [5]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
-		["massEmpty"] = 6800000,
-		["RCS"] = 3985.0856933594,
+		["massEmpty"] = 4200000,
+		["RCS"] = 3052.2937011719,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -7.5634407997131,
-				["x"] = -76.877685546875,
-				["z"] = -8.5723819732666,
+				["y"] = -6.6589636802673,
+				["x"] = -62.150291442871,
+				["z"] = -8.376654624939,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 35.973369598389,
-				["x"] = 76.891906738281,
-				["z"] = 8.5943393707275,
+				["y"] = 28.341720581055,
+				["x"] = 73.047050476074,
+				["z"] = 8.4933948516846,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 15.433300018311,
 		["life"] = 0,
 		["attributes"] = 
 		{
-			["Ships"] = true,
 			["Heavy armed ships"] = true,
+			["HeavyArmoredUnits"] = true,
+			["Ships"] = true,
+			["Frigates"] = true,
 			["Armed Air Defence"] = true,
-			["Cruisers"] = true,
+			["Armed ships"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
 			["HelicopterCarrier"] = true,
 			["Armed Ship"] = true,
-			["HeavyArmoredUnits"] = true,
+			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
 			["DetectionByAWACS"] = true,
-			["Armed ships"] = true,
+			["</WSTYPE>"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
-		["typeName"] = "052C",
-		["displayName"] = "Type 052C Destroyer",
+		["typeName"] = "Type_054A",
+		["displayName"] = "Type 054A Frigate",
 	}, -- end of ["desc"]
-} -- end of 052C
+} -- end of Type_054A

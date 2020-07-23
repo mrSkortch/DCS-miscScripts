@@ -1,4 +1,4 @@
-052B = 
+Type_052C = 
 {
 	["weapons"] = 
 	{
@@ -38,37 +38,6 @@
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 16,
-			["desc"] = 
-			{
-				["missileCategory"] = 5,
-				["rangeMaxAltMax"] = 180000,
-				["rangeMin"] = 12000,
-				["_origin"] = "",
-				["rangeMaxAltMin"] = 180000,
-				["altMax"] = 10000,
-				["RCS"] = 0.12099999934435,
-				["displayName"] = "YJ-83",
-				["altMin"] = -1,
-				["life"] = 2,
-				["fuseDist"] = 0,
-				["category"] = 1,
-				["guidance"] = 1,
-				["warhead"] = 
-				{
-					["mass"] = 165,
-					["explosiveMass"] = 100,
-					["shapedExplosiveArmorThickness"] = 0.60000002384186,
-					["shapedExplosiveMass"] = 500,
-					["caliber"] = 0,
-					["type"] = 2,
-				}, -- end of ["warhead"]
-				["typeName"] = "weapons.missiles.YJ-83",
-				["Nmax"] = 6,
-			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
-		{
 			["count"] = 48,
 			["desc"] = 
 			{
@@ -76,42 +45,42 @@
 				{
 					["min"] = 
 					{
-						["y"] = -0.52544873952866,
-						["x"] = -2.1140217781067,
-						["z"] = -0.31168666481972,
+						["y"] = -0.3354577422142,
+						["x"] = -3.3788096904755,
+						["z"] = -0.33545777201653,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.097924433648586,
-						["x"] = 3.3651101589203,
-						["z"] = 0.31168666481972,
+						["y"] = 0.3354577422142,
+						["x"] = 3.2500002384186,
+						["z"] = 0.3354577422142,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["rangeMaxAltMin"] = 30000,
-				["fuseDist"] = 13,
+				["rangeMaxAltMin"] = 60000,
+				["fuseDist"] = 20,
 				["category"] = 1,
 				["guidance"] = 4,
-				["Nmax"] = 19,
-				["rangeMin"] = 500,
-				["altMax"] = 15000,
-				["RCS"] = 0.09179999679327,
-				["displayName"] = "9M317",
+				["Nmax"] = 25,
+				["rangeMin"] = 800,
+				["altMax"] = 35000,
+				["RCS"] = 0.17800000309944,
+				["displayName"] = "HHQ-9",
 				["altMin"] = 5,
 				["life"] = 2,
 				["missileCategory"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 59,
+					["explosiveMass"] = 150,
 					["type"] = 1,
-					["caliber"] = 400,
-					["mass"] = 59,
+					["caliber"] = 340,
+					["mass"] = 150,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 40000,
-				["typeName"] = "9M317",
+				["rangeMaxAltMax"] = 100000,
+				["typeName"] = "HHQ-9",
 				["_origin"] = "",
 			}, -- end of ["desc"]
-		}, -- end of [3]
-		[4] = 
+		}, -- end of [2]
+		[3] = 
 		{
 			["count"] = 2000,
 			["desc"] = 
@@ -144,8 +113,8 @@
 				["typeName"] = "weapons.shells.AK630_30_AP",
 				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
-		}, -- end of [4]
-		[5] = 
+		}, -- end of [3]
+		[4] = 
 		{
 			["count"] = 2000,
 			["desc"] = 
@@ -178,47 +147,90 @@
 				["typeName"] = "weapons.shells.AK630_30_HE",
 				["displayName"] = "30mm HE",
 			}, -- end of ["desc"]
+		}, -- end of [4]
+		[5] = 
+		{
+			["count"] = 8,
+			["desc"] = 
+			{
+				["missileCategory"] = 5,
+				["rangeMaxAltMax"] = 300000,
+				["rangeMin"] = 2000,
+				["_origin"] = "",
+				["rangeMaxAltMin"] = 300000,
+				["altMax"] = 10000,
+				["RCS"] = 0.12099999934435,
+				["displayName"] = "YJ-62",
+				["altMin"] = -1,
+				["life"] = 2,
+				["fuseDist"] = 0,
+				["category"] = 1,
+				["guidance"] = 1,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 230,
+					["type"] = 1,
+					["caliber"] = 540,
+					["mass"] = 350,
+				}, -- end of ["warhead"]
+				["typeName"] = "weapons.missiles.YJ-62",
+				["Nmax"] = 12,
+			}, -- end of ["desc"]
 		}, -- end of [5]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
-		["massEmpty"] = 5850000,
-		["RCS"] = 3926.75,
+		["massEmpty"] = 6800000,
+		["RCS"] = 3981.6801757812,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -7.5165162086487,
-				["x"] = -63.557834625244,
-				["z"] = -8.5776329040527,
+				["y"] = -7.5634407997131,
+				["x"] = -76.877685546875,
+				["z"] = -8.2424974441528,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 27.453767776489,
-				["x"] = 91.167175292969,
-				["z"] = 8.5776109695435,
+				["y"] = 35.973369598389,
+				["x"] = 76.891906738281,
+				["z"] = 8.2687101364136,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 15.433300018311,
 		["life"] = 0,
 		["attributes"] = 
 		{
+			["SAM TR"] = true,
+			["Vehicles"] = true,
+			["SAM elements"] = true,
 			["Ships"] = true,
-			["Heavy armed ships"] = true,
-			["Armed ships"] = true,
-			["Armed Air Defence"] = true,
+			["SAM SR"] = true,
+			["Ground vehicles"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
+			["AA_missile"] = true,
+			["RADAR_BAND2_FOR_ARM"] = true,
+			["DetectionByAWACS"] = true,
+			["</WSTYPE>"] = true,
+			["LR SAM"] = true,
+			["SAM related"] = true,
+			["NonArmoredUnits"] = true,
+			["Armed Air Defence"] = true,
+			["NonAndLightArmoredUnits"] = true,
+			["Air Defence"] = true,
+			["Cruisers"] = true,
+			["Heavy armed ships"] = true,
 			["HelicopterCarrier"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
-			["DetectionByAWACS"] = true,
-			["Destroyers"] = true,
+			["Ground Units"] = true,
+			["Armed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
-		["typeName"] = "052B",
-		["displayName"] = "Type 052B Destroyer",
+		["typeName"] = "Type_052C",
+		["displayName"] = "Type 052C Destroyer",
 	}, -- end of ["desc"]
-} -- end of 052B
+} -- end of Type_052C
