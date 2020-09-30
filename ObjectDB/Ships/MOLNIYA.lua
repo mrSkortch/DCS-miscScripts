@@ -174,6 +174,7 @@ MOLNIYA =
 		{
 			["Ships"] = true,
 			["Heavy armed ships"] = true,
+			["NO_SAM"] = true,
 			["Armed Air Defence"] = true,
 			["Armed ships"] = true,
 			["Armed Ship"] = true,

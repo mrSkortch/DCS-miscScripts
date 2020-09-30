@@ -76,6 +76,11 @@ A-10C =
 		[72] = "South Africa",
 		[73] = "Cuba",
 		[74] = "Portugal",
+		[75] = "GDR",
+		[76] = "Lebanon",
+		[77] = "Combined Joint Task Forces Blue",
+		[78] = "Combined Joint Task Forces Red",
+		[79] = "United Nations Peacekeepers",
 	}, -- end of ["countries"]
 	["weapons"] = 
 	{
@@ -148,8 +153,8 @@ A-10C =
 		}, -- end of ["box"]
 		["Hmax"] = 10000,
 		["Kmax"] = 0.52999997138977,
-		["_origin"] = "",
-		["speedMax10K"] = 134,
+		["_origin"] = "A-10 Warthog",
+		["speedMax10K"] = 200,
 		["NyMin"] = -2,
 		["fuelMassMax"] = 5029,
 		["speedMax"] = 236,

@@ -29,7 +29,7 @@ REZKY =
 				["Nmax"] = 14,
 				["rangeMin"] = 1500,
 				["altMax"] = 5000,
-				["RCS"] = 0.040399998426437,
+				["RCS"] = 0.079999998211861,
 				["displayName"] = "9M33 Osa (SA-8 Gecko)",
 				["altMin"] = 25,
 				["life"] = 2,
@@ -81,13 +81,6 @@ REZKY =
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[0] = "Russia",
-		[68] = "USSR",
-		[70] = "Algeria",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["massEmpty"] = 3650000,

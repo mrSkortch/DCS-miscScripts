@@ -5,6 +5,7 @@ Mirage 2000-5 =
 		[1] = "France",
 		[2] = "Greece",
 		[3] = "Qatar",
+		[4] = "Lebanon",
 	}, -- end of ["countries"]
 	["weapons"] = 
 	{

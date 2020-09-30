@@ -4,6 +4,18 @@ Type_093 =
 	{
 		[1] = 
 		{
+			["count"] = 18,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["category"] = 4,
+				["typeName"] = "weapons.torpedoes.YU-6",
+				["displayName"] = "YU-6",
+			}, -- end of ["desc"]
+		}, -- end of [1]
+		[2] = 
+		{
 			["count"] = 4,
 			["desc"] = 
 			{
@@ -31,18 +43,6 @@ Type_093 =
 				}, -- end of ["warhead"]
 				["typeName"] = "weapons.missiles.YJ-84",
 				["Nmax"] = 6,
-			}, -- end of ["desc"]
-		}, -- end of [1]
-		[2] = 
-		{
-			["count"] = 12,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["_origin"] = "",
-				["category"] = 4,
-				["typeName"] = "weapons.torpedoes.YU-6",
-				["displayName"] = "YU-6",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]
@@ -72,9 +72,10 @@ Type_093 =
 			["Submarines"] = true,
 			["Ships"] = true,
 			["Heavy armed ships"] = true,
-			["Armed ships"] = true,
-			["RADAR_BAND1_FOR_ARM"] = true,
+			["NO_SAM"] = true,
 			["Armed Air Defence"] = true,
+			["RADAR_BAND1_FOR_ARM"] = true,
+			["Armed ships"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,

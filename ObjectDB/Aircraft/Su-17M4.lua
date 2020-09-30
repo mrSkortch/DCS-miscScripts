@@ -10,6 +10,7 @@ Su-17M4 =
 		[6] = "Poland",
 		[7] = "Vietnam",
 		[8] = "USSR",
+		[9] = "GDR",
 	}, -- end of ["countries"]
 	["weapons"] = 
 	{

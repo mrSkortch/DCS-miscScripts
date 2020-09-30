@@ -23,6 +23,7 @@ Yak-40 =
 		[19] = "USSR",
 		[20] = "Algeria",
 		[21] = "Cuba",
+		[22] = "GDR",
 	}, -- end of ["countries"]
 	["desc"] = 
 	{
