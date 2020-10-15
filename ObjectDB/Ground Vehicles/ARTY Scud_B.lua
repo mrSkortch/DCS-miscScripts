@@ -27,7 +27,7 @@ ARTY Scud_B =
 				["category"] = 1,
 				["guidance"] = 1,
 				["Nmax"] = 17,
-				["rangeMin"] = 58000,
+				["rangeMin"] = 50000,
 				["altMax"] = 50000,
 				["RCS"] = 2,
 				["displayName"] = "Scud R-17",
@@ -41,7 +41,7 @@ ARTY Scud_B =
 					["caliber"] = 880,
 					["mass"] = 395.60000610352,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 350000,
+				["rangeMaxAltMax"] = 320000,
 				["typeName"] = "weapons.missiles.SCUD_RAKETA",
 				["_origin"] = "",
 			}, -- end of ["desc"]

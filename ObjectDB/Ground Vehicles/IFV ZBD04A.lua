@@ -207,7 +207,7 @@ IFV ZBD04A =
 	{
 		["massEmpty"] = 21500,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.46999999880791,
+		["maxSlopeAngle"] = 0.69999998807907,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
@@ -229,21 +229,22 @@ IFV ZBD04A =
 		["life"] = 6,
 		["attributes"] = 
 		{
+			["LightArmoredUnits"] = true,
 			["Ground Units Non Airdefence"] = true,
 			["Vehicles"] = true,
-			["LightArmoredUnits"] = true,
+			["NonAndLightArmoredUnits"] = true,
 			["IFV"] = true,
 			["AntiAir Armed Vehicles"] = true,
-			["NonAndLightArmoredUnits"] = true,
 			["Armed vehicles"] = true,
-			["Ground vehicles"] = true,
 			["Armored vehicles"] = true,
-			["ATGM"] = true,
+			["Ground vehicles"] = true,
 			["Ground Units"] = true,
+			["ATGM"] = true,
+			["Infantry carriers"] = true,
 			["Armed ground units"] = true,
 			["All"] = true,
 			["Datalink"] = true,
-			["Infantry carriers"] = true,
+			["</WSTYPE>"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 22.219999313354,
