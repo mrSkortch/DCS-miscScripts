@@ -13,7 +13,7 @@ M1097 Avenger =
 				["_origin"] = "",
 				["rangeMaxAltMin"] = 5000,
 				["altMax"] = 3500,
-				["RCS"] = 0.0043999999761581,
+				["RCS"] = 0.0099999997764826,
 				["displayName"] = "FIM-92B",
 				["altMin"] = 1,
 				["life"] = 2,
@@ -88,7 +88,7 @@ M1097 Avenger =
 	{
 		["massEmpty"] = 3990,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.27000001072884,
+		["maxSlopeAngle"] = 0.5,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 

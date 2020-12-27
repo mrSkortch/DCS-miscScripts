@@ -29,7 +29,7 @@
 				["Nmax"] = 16,
 				["rangeMin"] = 3500,
 				["altMax"] = 18000,
-				["RCS"] = 0.1676000058651,
+				["RCS"] = 0.20000000298023,
 				["displayName"] = "5V27 S-125 Neva (SA-3 Goa)",
 				["altMin"] = 20,
 				["life"] = 2,

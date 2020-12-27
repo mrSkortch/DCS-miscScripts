@@ -1,4 +1,4 @@
-MBT ZTZ96B = 
+MBT T-72B3 = 
 {
 	["weapons"] = 
 	{
@@ -13,7 +13,7 @@ MBT ZTZ96B =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 125,
-					["mass"] = 4.85,
+					["mass"] = 6.8,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -32,8 +32,8 @@ MBT ZTZ96B =
 						["z"] = 0.10754559934139,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.2A46M_125_AP",
-				["displayName"] = "125mm AP",
+				["typeName"] = "weapons.shells.3BM59_125_AP",
+				["displayName"] = "3BM59_125_AP_Svinets_1",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -44,10 +44,10 @@ MBT ZTZ96B =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
+					["explosiveMass"] = 23,
+					["type"] = 1,
 					["caliber"] = 125,
-					["mass"] = 5.35,
+					["mass"] = 23,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -55,19 +55,19 @@ MBT ZTZ96B =
 				{
 					["min"] = 
 					{
-						["y"] = -0.10894741863012,
-						["x"] = -0.23145794868469,
-						["z"] = -0.10864424705505,
+						["y"] = -0.060612548142672,
+						["x"] = -0.27024647593498,
+						["z"] = -0.060612548142672,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.10724244266748,
-						["x"] = 0.26817846298218,
-						["z"] = 0.10754559934139,
+						["y"] = 0.060612548142672,
+						["x"] = 0.24980916082859,
+						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.ZTZ_125_AP",
-				["displayName"] = "125mm AP",
+				["typeName"] = "weapons.shells.2A46M_125_HE",
+				["displayName"] = "125mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -76,10 +76,10 @@ MBT ZTZ96B =
 			["desc"] = 
 			{
 				["missileCategory"] = 6,
-				["rangeMaxAltMax"] = 5000,
+				["rangeMaxAltMax"] = 4000,
 				["rangeMin"] = 100,
 				["_origin"] = "",
-				["rangeMaxAltMin"] = 5000,
+				["rangeMaxAltMin"] = 4000,
 				["altMax"] = 3000,
 				["RCS"] = 0.032000001519918,
 				["displayName"] = "AT-11 Sniper",
@@ -97,7 +97,7 @@ MBT ZTZ96B =
 					["caliber"] = 0,
 					["type"] = 2,
 				}, -- end of ["warhead"]
-				["typeName"] = "weapons.missiles.REFLEX",
+				["typeName"] = "weapons.missiles.SVIR",
 				["Nmax"] = 1.2,
 			}, -- end of ["desc"]
 		}, -- end of [3]
@@ -137,7 +137,7 @@ MBT ZTZ96B =
 		}, -- end of [4]
 		[5] = 
 		{
-			["count"] = 301,
+			["count"] = 305,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -177,40 +177,40 @@ MBT ZTZ96B =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "CITV day",
+				["typeName"] = "TKN-3B day",
 				["opticType"] = 0,
 			}, -- end of [1]
 			[2] = 
 			{
 				["type"] = 0,
-				["typeName"] = "CITV night",
+				["typeName"] = "TKN-3B night",
 				["opticType"] = 2,
 			}, -- end of [2]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 42000,
-		["riverCrossing"] = true,
-		["maxSlopeAngle"] = 0.56000000238419,
+		["massEmpty"] = 46000,
+		["riverCrossing"] = false,
+		["maxSlopeAngle"] = 0.61000001430511,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = 0.034568026661873,
-				["x"] = -3.6318504810333,
-				["z"] = -1.8569040298462,
+				["y"] = 0.00040061617619358,
+				["x"] = -3.9311792850494,
+				["z"] = -1.9485369920731,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 2.7485640048981,
-				["x"] = 3.2895629405975,
-				["z"] = 1.6598302125931,
+				["y"] = 3.0946316719055,
+				["x"] = 5.9006395339966,
+				["z"] = 1.9473538398743,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 18.049999237061,
+		["speedMax"] = 18,
 		["life"] = 25,
 		["attributes"] = 
 		{
@@ -218,20 +218,20 @@ MBT ZTZ96B =
 			["Vehicles"] = true,
 			["Armored vehicles"] = true,
 			["Modern Tanks"] = true,
-			["HeavyArmoredUnits"] = true,
+			["CustomAimPoint"] = true,
 			["Ground vehicles"] = true,
+			["HeavyArmoredUnits"] = true,
 			["AntiAir Armed Vehicles"] = true,
 			["Armed vehicles"] = true,
-			["Tanks"] = true,
 			["Armed ground units"] = true,
 			["All"] = true,
-			["Datalink"] = true,
 			["Ground Units"] = true,
+			["Tanks"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
-		["speedMaxOffRoad"] = 18.049999237061,
-		["_origin"] = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
-		["typeName"] = "ZTZ96B",
-		["displayName"] = "ZTZ-96B",
+		["speedMaxOffRoad"] = 18,
+		["_origin"] = "TechWeaponPack",
+		["typeName"] = "T-72B3",
+		["displayName"] = "MBT T-72B3",
 	}, -- end of ["desc"]
-} -- end of MBT ZTZ96B
+} -- end of MBT T-72B3

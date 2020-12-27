@@ -109,7 +109,7 @@ HQ-7_LN_SP =
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 3.325186252594,
+				["y"] = 3.4094588756561,
 				["x"] = 4.0064511299133,
 				["z"] = 1.3758029937744,
 			}, -- end of ["max"]
@@ -118,22 +118,20 @@ HQ-7_LN_SP =
 		["life"] = 2,
 		["attributes"] = 
 		{
-			["Armed Air Defence"] = true,
 			["SAM TR"] = true,
 			["Vehicles"] = true,
 			["SAM elements"] = true,
 			["NonArmoredUnits"] = true,
-			["SAM related"] = true,
-			["NonAndLightArmoredUnits"] = true,
+			["SAM SR"] = true,
 			["Air Defence"] = true,
 			["Ground vehicles"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
-			["SAM LL"] = true,
-			["SR SAM"] = true,
 			["AA_missile"] = true,
+			["SAM related"] = true,
+			["NonAndLightArmoredUnits"] = true,
 			["All"] = true,
 			["Ground Units"] = true,
-			["</WSTYPE>"] = true,
+			["SR SAM"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 22,

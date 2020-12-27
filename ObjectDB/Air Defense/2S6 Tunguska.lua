@@ -97,7 +97,7 @@
 				["Nmax"] = 18,
 				["rangeMin"] = 2000,
 				["altMax"] = 3500,
-				["RCS"] = 0.010200000368059,
+				["RCS"] = 0.029999999329448,
 				["displayName"] = "9M311 Tunguska (SA-19 Grison)",
 				["altMin"] = 14.5,
 				["life"] = 2,

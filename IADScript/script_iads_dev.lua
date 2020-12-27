@@ -5,11 +5,11 @@ do
 		['linked'] = 'coalition',  -- only valid entries are 'coalition' and 'country'. If links aren't specified for the group it wil use this
 		['level'] = 4, -- this sets the default complexy of system, see level documentation
 		['refreshRate'] = 5, -- This is how many seconds there are between checks for sams with "radarSim" set to false
-		['rearm'] = 'auto', -- auto, sim, virtual. sim relys on placed in game objects/airbase ownership to re-arm sams. auto uses logistics but it will also spawn warehouses to re-arm stuff. Virtual is N/A currently. 
+		['rearm'] = 'auto', -- auto, sim, virtual, infinite. sim relys on placed in game objects/airbase ownership to re-arm sams. auto uses logistics but it will also spawn warehouses to re-arm stuff. Virtual is N/A currently. Infinite, once out of missiles sam will respawn 
 		['radarSim'] = true,  -- Default value for radarSim. If true it checks each sam based on radar rotation speed. 
 		['debug'] = true, -- set to true if you want to display a generic list of what orders the sams have. Some sam commands are displayed on this debug screen when command is assigned.
 		['debugMsgFor'] = {'blue'}, -- Structure of mist message system, can send messages specifically to certain groups. Made to easier segment who gets debug messages.
-		['debugWriteFiles'] = false, -- Writes iads_list.lua and iadTargets.lua periodically if io and lfs are not sanitized
+		['debugWriteFiles'] = true, -- Writes iads_list.lua and iadTargets.lua periodically if io and lfs are not sanitized
 		['timeDelay'] = timer.getTime() + 5, -- let the script run a few times so it can populate children/parents list  ( its whenever the script loads + x)
 		['gameAssets'] = false, -- N/A: When implemented world or static assets can be used as part of SAM infrastructure. Destroying objects will impact IADS scripts
 		['addDuplicate'] = 'replace', -- If set to replace it will remove the old group and replace with the new group. If set to anything else it will fail to add a new group
@@ -18,9 +18,11 @@ do
 	
 	local log = mist.Logger:new('IADS')
 	local slog = mist.Logger:new('IADSL', 0)
+	local bench = mist.Logger:new('IADSB', 0)
 	if iads_settings.logger == 'debug' then
 		log:setLevel('info')
 		slog:setLevel('info')
+		bench:setLevel('info')
 	end
 
 	
@@ -86,12 +88,12 @@ do
 		['launchers'] = {
 			['S-300PS 5P85D ln'] = {
 				['missiles'] = 4,
-				['range'] = 120000,
+				['range'] = 75000,
 				['rearmTime'] = 1800,
 			},
 			['S-300PS 5P85C ln'] = {
 				['missiles'] = 4,
-				['range'] = 120000,
+				['range'] = 75000,
 				['rearmTime'] = 1800,
 			},
 		},
@@ -191,7 +193,7 @@ do
 		},
 		['launchers'] = {
 			['Kub 2P25 ln'] = {
-				['range'] = 35000,
+				['range'] = 25000,
 				['missiles'] = 3,
 				['rearmTime'] = 600,
 			},
@@ -783,7 +785,10 @@ do
 		end
 	end
 	
-
+    local function debugMark(groupId, msg, pos)
+        trigger.action.removeMark(groupId)
+      --  timer.scheduleFunction(trigger.action.markToAll, {groupId, msg, pos, true}, timer.getTime() + 3)
+    end
 	
 	
 	local coroutines = {}
@@ -1003,7 +1008,7 @@ do
 			new.stats.avgSR = {}
 			new.stats.avgLR = {}
 			new.stats.avgPos = {}
-						
+            new.gObject = Group.getByName(new.groupName)
 			iads_list[#iads_list + 1] = new
 		
 			local mt = { __index = iads}
@@ -1734,6 +1739,9 @@ do
 				con:setOption(9, 1) --radar off
 			--print('radar off')
 				iadGroup.ROE = 'dark'
+                if iads_settings.debug == true then 
+                    debugMark(Group.getID(iadGroup.gObject), 'Dark', iadGroup.stats.avgPos)
+                end
 			return
 		end,
 	
@@ -1742,6 +1750,9 @@ do
 				con:setOption(0, 4) -- hold fire
 				con:setOption(9, 2) -- radar on
 				iadGroup.ROE =  'search'
+                if iads_settings.debug == true then 
+                    debugMark(Group.getByName(iadGroup.groupName):getID(), 'Search', iadGroup.stats.avgPos)
+                end
 			return
 		end,
 		
@@ -1751,6 +1762,9 @@ do
 				con:setOption(9, 2) --radar on
 			--print('radar on')
 				iadGroup.ROE =  'fireAtWill'
+                if iads_settings.debug == true then 
+                    debugMark(Group.getByName(iadGroup.groupName):getID(), 'Fire At Will', iadGroup.stats.avgPos)
+                end
 			return
 		end,
 		
@@ -2415,35 +2429,36 @@ do
 		end,
 		
 		updateStats = function(iadData)
-			if iadData.SR then
-				local srUnits = {}
-				for srId, srData in pairs(iadData.SR) do
-					srUnits[#srUnits + 1] = srData.unitName
-				end
-				if #srUnits > 0 then
-					iadData.stats.avgSR = mist.getAvgPos(srUnits)
-				else
-					iadData.stats.avgSR = mist.getLeadPos(iadData.groupName)
-				end
-			end
-			if iadData.LR then
-				local lr = {}
-				for lrId, lrData in pairs(iadData.LR) do
-					lr[#lr + 1] = lrData.unitName
-				end
-				if #lr > 0 then
-					iadData.stats.avgLR = mist.getAvgPos(lr)
-				else
-					iadData.stats.avgLR = mist.getLeadPos(iadData.groupName)	
-				end
-			end
+            
+            if iadData.SR then
+                local srUnits = {}
+                for srId, srData in pairs(iadData.SR) do
+                    srUnits[#srUnits + 1] = srData.unitName
+                end
+                if #srUnits > 1 then
+                    iadData.stats.avgSR = mist.getAvgPos(srUnits)
+                else
+                    iadData.stats.avgSR = mist.getLeadPos(iadData.groupName)
+                end
+            end
+            if iadData.LR then
+                local lr = {}
+                for lrId, lrData in pairs(iadData.LR) do
+                    lr[#lr + 1] = lrData.unitName
+                end
+                if #lr > 1 then
+                    iadData.stats.avgLR = mist.getAvgPos(lr)
+                else
+                    iadData.stats.avgLR = mist.getLeadPos(iadData.groupName)	
+                end
+            end
 			
 			local units = {}
 			for unitId, unitData in pairs(iadData.units) do
 				units[#units + 1] = unitData.unitName
 			end
 			
-			if #units > 0 then
+			if #units > 1 then
 				iadData.stats.avgPos = mist.getAvgPos(units)
 			else
 				iadData.stats.avgPos = mist.getLeadPos(iadData.groupName)	
@@ -2459,13 +2474,8 @@ do
 			local couldRearm = false
 			local couldAutoRearm = false
 			local ammoRatio = 0
+			local availMis = 0
 			if iadGroup.LR then
-				slog:info('checkLR')
-				local nearTarget = iadGroup:findNearestTarget()
-				if Unit.getByName(nearTarget.name) then
-					nearTarget = Unit.getByName(nearTarget.name):getPosition()
-				end
-				slog:info('iterate LRs')
 				for lrId, lrData in pairs(iadGroup.LR) do
 					local rTime = lrData.rearmTime or 1800 
 					if Unit.getByName(lrData.unitName) then -- unit is alive
@@ -2475,9 +2485,12 @@ do
 								couldRearm = true
 							end
 						end
+						if lrData.rearmAt == -1 then
+							availMis = availMis + lrData.missiles
+						end
 						
 						if unitsInRange[lrData.unitName] and lrData.rearmAt == -1 and lrData.missiles > 0 and lrData.missiles ~= lrData.racks then -- unit is not rearming, can still shoot, and can rearm
-							debugMessage(tostring(lrData.unitName .. ' auto rearm possible'))
+							--debugMessage(tostring(lrData.unitName .. ' auto rearm possible'))
 							couldAutoRearm = true
 						end
 						
@@ -2525,19 +2538,113 @@ do
 					end
 				end
 			end
-
-			if iads_settings.rearm == 'auto' then
-				for name, r in pairs(unitsNeedAmmo) do
-					debugMessage(tostring(name .. ' could rearm, would take: ' .. r))
-				end
-				
-				--iadGroup:spawnRearm(unitsNeedAmmo)
+			
+			local shouldRearm = false
+			if couldRearm == true then
+                if iads_settings.rearm == 'auto' then
+                    for name, r in pairs(unitsNeedAmmo) do
+                        debugMessage(tostring(name .. ' could rearm, would take: ' .. r))
+                    end
+                    local nearTarget = iadGroup:findNearestTarget()
+                    local nearPos = {}
+                    if Unit.getByName(nearTarget.name) then
+                        nearPos = Unit.getByName(nearTarget.name):getPosition()
+                    end
+                    
+                    --[[ to decide whether to rearm...
+                    All launchers are empty and not rearming already			
+                    
+                    
+                    ]]
+                    --
+                elseif iads_settings.rearm == 'infinite' then --- infinite sam site, once out of missiles and nothing is near it teleports and re-adds itself to the system
+                    local nearTarget = iadGroup:findNearestTarget()
+                    if nearTarget.distance > 5000 then
+                        mist.scheduleFunction(mist.teleportGroup, {iadGroup.groupName}, timer.getTime() + 1)
+                        mist.scheduleFunction(iads.add, {iadGroup.groupName}, timer.getTime() + 3)
+                        iadGroup:destroy() -- remove from system
+                    end
+                elseif iads_settings.rearm == 'virtual' then -- virtual rearming, after needed rearm time is reached it will teleport the group.
+                -- Simple version is ineffecient. A more complex version could turn unit AI off until it is "ready"
+                end
+            end
+			if shouldRearm == true then
+				iadGroup:spawnRearm(unitsNeedAmmo, {availMis = availMis})
 			end
 			slog:info('endRearmCheck')
 			return
 		end,
 		
-		spawnRearm = function(iadGroup, units) -- spawn a static object, usually a truck
+		spawnRearm = function(iadGroup, units, meta) -- spawn a static object, usually a truck
+			--[[
+            Posible Solution 1:
+           
+            Get AVG pos of units
+            Get heading and dist to AVG pos for each unit
+            For each unit divide circle into same number of segments
+            Iterate headings to see which headings are within the subdivided limit
+            use recipicole heading to spawn rearm
+            
+            
+            -- REMEMBER TURN THE FUCKING SYSTEM OFF IF NEEDED BECAUSE ONCE REARM START YOU CANNOT CHANGE STATE
+            
+            ]]
+                       
+            local rearmPos = {}
+            local center = {x = 0, y = 0, z = 0}
+            local count = 0
+            local clusters = {}
+			local dist = 200
+			for uName, rTime in pairs(units) do -- creates pos data of units to get rearmed
+				if Unit.getByName(uName) and Unit.getByName(uName):getPosition().p then
+					rearmPos[uName] = {p = Unit.getByName(uName):getPosition().p}
+                    count = count + 1
+                    center.x = rearmPos[uName].p.x + center.x
+                    center.y = rearmPos[uName].p.y + center.y
+                    center.z = rearmPos[uName].p.z + center.z
+                end
+			end
+
+            
+			-- now check the coordinates to see if they can be arranged
+			
+            if count > 1 then
+                local div = 360/count
+                center = {x = center.x/count, y = center.y/count, z = center.z/count}
+                for uName, dat in pairs(rearmPos) do
+                    rearmPos[uName].dist = mist.utils.get2DDist(center, data.p)
+                    rearmPos[uName].dir = mist.utils.toDegree(mist.utils.getDir(center, data.p))
+                end
+                -- now we have the data, compare
+                
+                for uName, dat in pairs(rearmPos) do
+                    local found = false
+                    for i = 1, #clusters do -- iterate grouping
+                        
+                        for cName, cData in pairs(clusters[i]) do
+                            if cName ~= uName and math.abs(dat.dir - cData.dir) < div/2  and math.abs(dat.dist - cData.dist) < 200 then
+                                found = true
+                                clusters[i][uName] = dat
+                            end
+
+                        end
+                        if found == false then
+                            
+                        end
+                    end
+                    
+                    if #clusters == 0 then -- create first entry
+                        clusters[#clusters + 1] = {[uName] = rearmPos[uName]}
+                    end
+                    
+                end
+            else
+                -- spawn spawn unit within 200m
+            end
+            
+		
+			
+
 			return
 		end,
 	}
@@ -2604,6 +2711,7 @@ do
 					iads.setNextCheck(liads[i]) -- sets next check time
 					
 					if timer.getTime() > liads[i].stats.updateRelationships then ---- NEED TO CHANGE THIS TO A STATS THING FOR EACH IADS. Update it periodically!
+						local b = timer.getTime()
 						slog:info('Updaterelationships for $1', liads[i].groupName)
 						iads.findParent(liads[i]) -- based on last parent info
 						iads.findChild(liads[i])
@@ -2612,12 +2720,15 @@ do
 						iads.checkRearmState(liads[i])
 						slog:info('NextRelationship check set')
 						liads[i].stats.updateRelationships = timer.getTime() + 60
+						bench:info('$1: statsupdate $2', liads[i].groupName, timer.getTime() - b)
 					end
 					--if liads[i].level >= 4 then -- if its an full blown iads use this
 						--iads_AI.monitorIADS(liads[i])
 					--end
 					if iads_settings.timeDelay + 5 < timer.getTime() then -- need to populate children list first before assigning tasks
-						iads_AI.monitorV1(liads[i]) -- 
+						local b = timer.getTime()
+						iads_AI.monitorV1(liads[i])
+						bench:info('$1: $2', liads[i].groupName, timer.getTime() - b)-- 
 					end
 				end
 				

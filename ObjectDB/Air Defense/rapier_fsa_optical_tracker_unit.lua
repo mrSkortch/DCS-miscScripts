@@ -38,7 +38,17 @@ rapier_fsa_optical_tracker_unit =
 		["life"] = 2,
 		["attributes"] = 
 		{
+			["Vehicles"] = true,
+			["SAM elements"] = true,
+			["NonArmoredUnits"] = true,
+			["SAM SR"] = true,
+			["Air Defence"] = true,
+			["Ground vehicles"] = true,
 			["SR SAM"] = true,
+			["NonAndLightArmoredUnits"] = true,
+			["All"] = true,
+			["Ground Units"] = true,
+			["SAM related"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,

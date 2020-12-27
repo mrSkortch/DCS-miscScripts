@@ -1,4 +1,4 @@
-IFV ZBD04A = 
+IFV BTR-82A = 
 {
 	["weapons"] = 
 	{
@@ -38,7 +38,7 @@ IFV ZBD04A =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 340,
+			["count"] = 180,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -72,7 +72,7 @@ IFV ZBD04A =
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 161,
+			["count"] = 121,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -104,86 +104,6 @@ IFV ZBD04A =
 				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [3]
-		[4] = 
-		{
-			["count"] = 41,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 3.69,
-					["type"] = 1,
-					["caliber"] = 100,
-					["mass"] = 15.6,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.060612548142672,
-						["x"] = -0.27024647593498,
-						["z"] = -0.060612548142672,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.060612548142672,
-						["x"] = 0.24980916082859,
-						["z"] = 0.060612548142672,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.UOF_17_100HE",
-				["displayName"] = "100mm HE",
-			}, -- end of ["desc"]
-		}, -- end of [4]
-		[5] = 
-		{
-			["count"] = 8,
-			["desc"] = 
-			{
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12060818821192,
-						["x"] = -0.52968698740005,
-						["z"] = -0.12166464328766,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.1206081956625,
-						["x"] = 0.53104364871979,
-						["z"] = 0.12166464328766,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["rangeMaxAltMin"] = 4000,
-				["fuseDist"] = 0,
-				["category"] = 1,
-				["guidance"] = 7,
-				["Nmax"] = 1.1,
-				["rangeMin"] = 100,
-				["altMax"] = 2000,
-				["RCS"] = 0.032000001519918,
-				["displayName"] = "AT-10 Stabber",
-				["altMin"] = -1,
-				["life"] = 2,
-				["missileCategory"] = 6,
-				["warhead"] = 
-				{
-					["mass"] = 4.5,
-					["explosiveMass"] = 2.7000000476837,
-					["shapedExplosiveArmorThickness"] = 0.55000001192093,
-					["shapedExplosiveMass"] = 8.1000003814697,
-					["caliber"] = 0,
-					["type"] = 2,
-				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 4000,
-				["typeName"] = "weapons.missiles.P_9M117",
-				["_origin"] = "",
-			}, -- end of ["desc"]
-		}, -- end of [5]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{
@@ -205,50 +125,48 @@ IFV ZBD04A =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 21500,
+		["massEmpty"] = 13600,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.69999998807907,
+		["maxSlopeAngle"] = 0.46999999880791,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -0.023782243952155,
-				["x"] = -3.1553761959076,
-				["z"] = -1.7420201301575,
+				["y"] = -0.00027317853528075,
+				["x"] = -3.595306634903,
+				["z"] = -1.4599190950394,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 3.4032678604126,
-				["x"] = 3.6634192466736,
-				["z"] = 1.722328543663,
+				["y"] = 2.8146631717682,
+				["x"] = 3.925457239151,
+				["z"] = 1.4601538181305,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 22.219999313354,
-		["life"] = 6,
+		["speedMax"] = 25,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,
 			["Vehicles"] = true,
-			["LightArmoredUnits"] = true,
-			["IFV"] = true,
-			["AntiAir Armed Vehicles"] = true,
-			["NonAndLightArmoredUnits"] = true,
-			["Armed vehicles"] = true,
-			["Ground vehicles"] = true,
 			["Armored vehicles"] = true,
-			["ATGM"] = true,
-			["Ground Units"] = true,
+			["AntiAir Armed Vehicles"] = true,
+			["LightArmoredUnits"] = true,
+			["Ground vehicles"] = true,
+			["Armed vehicles"] = true,
+			["NonAndLightArmoredUnits"] = true,
+			["Infantry carriers"] = true,
 			["Armed ground units"] = true,
 			["All"] = true,
-			["Datalink"] = true,
-			["Infantry carriers"] = true,
+			["Ground Units"] = true,
+			["APC"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
-		["speedMaxOffRoad"] = 22.219999313354,
-		["_origin"] = "China Asset Pack by Deka Ironwork Simulations and Eagle Dynamics",
-		["typeName"] = "ZBD04A",
-		["displayName"] = "ZBD-04A",
+		["speedMaxOffRoad"] = 25,
+		["_origin"] = "TechWeaponPack",
+		["typeName"] = "BTR-82A",
+		["displayName"] = "APC BTR-82A",
 	}, -- end of ["desc"]
-} -- end of IFV ZBD04A
+} -- end of IFV BTR-82A
