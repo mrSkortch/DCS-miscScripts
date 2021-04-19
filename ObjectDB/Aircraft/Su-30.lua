@@ -1,18 +1,5 @@
 Su-30 = 
 {
-	["countries"] = 
-	{
-		[1] = "Russia",
-		[2] = "Belarus",
-		[3] = "China",
-		[4] = "India",
-		[5] = "Kazakhstan",
-		[6] = "Vietnam",
-		[7] = "Venezuela",
-		[8] = "Malaysia",
-		[9] = "Indonesia",
-		[10] = "Algeria",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

@@ -91,6 +91,6 @@ ARTY Scud_B =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "Scud_B",
-		["displayName"] = "SRBM SS-1C Scud-B 9K72 LN 9P117M",
+		["displayName"] = "SSM SS-1C Scud-B",
 	}, -- end of ["desc"]
 } -- end of ARTY Scud_B

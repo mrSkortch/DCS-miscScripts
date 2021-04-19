@@ -74,6 +74,6 @@ speedboat =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "speedboat",
-		["displayName"] = "Armed speedboat",
+		["displayName"] = "Boat Armed Hi-speed",
 	}, -- end of ["desc"]
 } -- end of speedboat

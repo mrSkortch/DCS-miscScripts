@@ -114,6 +114,6 @@ Ural-375 ZU-23 Insurgent =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "Ural-375 ZU-23 Insurgent",
-		["displayName"] = "AAA ZU-23 Insurgent on Ural-375",
+		["displayName"] = "SPAAA ZU-23-2 Insurgent Mounted Ural-375",
 	}, -- end of ["desc"]
 } -- end of Ural-375 ZU-23 Insurgent

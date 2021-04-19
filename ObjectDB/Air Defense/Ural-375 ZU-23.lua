@@ -114,6 +114,6 @@ Ural-375 ZU-23 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "Ural-375 ZU-23",
-		["displayName"] = "AAA ZU-23 on Ural-375",
+		["displayName"] = "SPAAA ZU-23-2 Mounted Ural 375",
 	}, -- end of ["desc"]
 } -- end of Ural-375 ZU-23

@@ -231,6 +231,6 @@ NEUSTRASH =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "NEUSTRASH",
-		["displayName"] = "FFG 11540 Neustrashimy",
+		["displayName"] = "Frigate 11540 Neustrashimy",
 	}, -- end of ["desc"]
 } -- end of NEUSTRASH

@@ -1,18 +1,5 @@
 F-4E = 
 {
-	["countries"] = 
-	{
-		[1] = "USA",
-		[2] = "Turkey",
-		[3] = "Germany",
-		[4] = "Spain",
-		[5] = "Israel",
-		[6] = "Australia",
-		[7] = "Egypt",
-		[8] = "Greece",
-		[9] = "Iran",
-		[10] = "South Korea",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

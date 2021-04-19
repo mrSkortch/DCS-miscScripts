@@ -92,6 +92,6 @@ ARTY M-109 =
 		["speedMaxOffRoad"] = 15.638899803162,
 		["_origin"] = "",
 		["typeName"] = "M-109",
-		["displayName"] = "SPH M109 Paladin",
+		["displayName"] = "SPH M109 Paladin 155mm",
 	}, -- end of ["desc"]
 } -- end of ARTY M-109

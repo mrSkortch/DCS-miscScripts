@@ -186,6 +186,6 @@ ALBATROS =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "ALBATROS",
-		["displayName"] = "FFL 1124.4 Grisha",
+		["displayName"] = "Corvette 1124.4 Grisha",
 	}, -- end of ["desc"]
 } -- end of ALBATROS

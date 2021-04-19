@@ -113,6 +113,6 @@ IFV M1045 HMMWV TOW =
 		["speedMaxOffRoad"] = 31.388900756836,
 		["_origin"] = "",
 		["typeName"] = "M1045 HMMWV TOW",
-		["displayName"] = "ATGM M1045 HMMWV TOW",
+		["displayName"] = "ATGM HMMWV",
 	}, -- end of ["desc"]
 } -- end of IFV M1045 HMMWV TOW

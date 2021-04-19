@@ -66,6 +66,6 @@ S-300PS 54K6 cp =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "S-300PS 54K6 cp",
-		["displayName"] = "SAM SA-10 S-300PS CP 54K6",
+		["displayName"] = "SAM SA-10 S-300 \"Grumble\" C2 ",
 	}, -- end of ["desc"]
 } -- end of S-300PS 54K6 cp

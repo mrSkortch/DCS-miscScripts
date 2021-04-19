@@ -125,6 +125,6 @@ Tor 9A331 =
 		["speedMaxOffRoad"] = 18.055599212646,
 		["_origin"] = "",
 		["typeName"] = "Tor 9A331",
-		["displayName"] = "SAM SA-15 Tor 9A331",
+		["displayName"] = "SAM SA-15 Tor \"Gauntlet\"",
 	}, -- end of ["desc"]
 } -- end of Tor 9A331

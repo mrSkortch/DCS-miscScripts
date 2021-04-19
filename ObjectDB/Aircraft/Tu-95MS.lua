@@ -1,11 +1,5 @@
 Tu-95MS = 
 {
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[0] = "Russia",
-		[68] = "USSR",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

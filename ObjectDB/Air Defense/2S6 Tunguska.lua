@@ -210,6 +210,6 @@
 		["speedMaxOffRoad"] = 18.055599212646,
 		["_origin"] = "",
 		["typeName"] = "2S6 Tunguska",
-		["displayName"] = "SAM SA-19 Tunguska 2S6",
+		["displayName"] = "SAM SA-19 Tunguska \"Grison\" ",
 	}, -- end of ["desc"]
 } -- end of 2S6 Tunguska

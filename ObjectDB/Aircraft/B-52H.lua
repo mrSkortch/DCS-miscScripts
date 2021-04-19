@@ -1,9 +1,5 @@
 B-52H = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

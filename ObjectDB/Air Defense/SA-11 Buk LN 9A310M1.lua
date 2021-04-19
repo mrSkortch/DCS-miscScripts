@@ -127,6 +127,6 @@ SA-11 Buk LN 9A310M1 =
 		["speedMaxOffRoad"] = 18.055599212646,
 		["_origin"] = "",
 		["typeName"] = "SA-11 Buk LN 9A310M1",
-		["displayName"] = "SAM SA-11 Buk LN 9A310M1",
+		["displayName"] = "SAM SA-11 Buk \"Gadfly\" Fire Dome TEL",
 	}, -- end of ["desc"]
 } -- end of SA-11 Buk LN 9A310M1

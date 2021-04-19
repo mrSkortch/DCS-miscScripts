@@ -71,27 +71,6 @@ F-86F Sabre =
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]
-	["countries"] = 
-	{
-		[2] = "USA",
-		[8] = "Canada",
-		[62] = "Ethiopia",
-		[34] = "Iran",
-		[35] = "Iraq",
-		[36] = "Japan",
-		[39] = "Pakistan",
-		[42] = "Saudi Arabia",
-		[3] = "Turkey",
-		[45] = "South Korea",
-		[12] = "Norway",
-		[50] = "Venezuela",
-		[51] = "Tunisia",
-		[52] = "Thailand",
-		[54] = "Philippines",
-		[75] = "South Africa",
-		[13] = "Denmark",
-		[9] = "Spain",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 303,
@@ -113,7 +92,7 @@ F-86F Sabre =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["Hmax"] = 15100,
-		["Kmax"] = 0.75999999046326,
+		["Kmax"] = 0.25,
 		["_origin"] = "F-86F Sabre AI by Eagle Dynamics",
 		["speedMax10K"] = 268,
 		["NyMin"] = -3,
@@ -125,7 +104,7 @@ F-86F Sabre =
 		["displayName"] = "F-86F",
 		["life"] = 15,
 		["VyMax"] = 45.720001220703,
-		["Kab"] = 0.75999999046326,
+		["Kab"] = 0.25,
 		["attributes"] = 
 		{
 			["Air"] = true,

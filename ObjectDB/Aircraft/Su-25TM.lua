@@ -1,9 +1,5 @@
 Su-25TM = 
 {
-	["countries"] = 
-	{
-		[1] = "Russia",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

@@ -36,6 +36,6 @@ KILO =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "KILO",
-		["displayName"] = "SSK 877",
+		["displayName"] = "SSK 877V Kilo",
 	}, -- end of ["desc"]
 } -- end of KILO

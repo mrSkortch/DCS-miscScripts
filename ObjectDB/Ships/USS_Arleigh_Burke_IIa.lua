@@ -300,6 +300,6 @@ USS_Arleigh_Burke_IIa =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "USS_Nimitz",
 		["typeName"] = "USS_Arleigh_Burke_IIa",
-		["displayName"] = "USS Arleigh Burke IIa",
+		["displayName"] = "DDG Arleigh Burke IIa",
 	}, -- end of ["desc"]
 } -- end of USS_Arleigh_Burke_IIa

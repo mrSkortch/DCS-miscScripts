@@ -10,40 +10,6 @@ Bf-109K-4 =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.034,
-					["type"] = 1,
-					["caliber"] = 13,
-					["mass"] = 0.034,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.MG_13x64_HEI",
-				["displayName"] = "13mm HEI",
-			}, -- end of ["desc"]
-		}, -- end of [1]
-		[2] = 
-		{
-			["count"] = 300,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 13,
@@ -68,6 +34,40 @@ Bf-109K-4 =
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.MG_13x64_APT",
 				["displayName"] = "13mm APT",
+			}, -- end of ["desc"]
+		}, -- end of [1]
+		[2] = 
+		{
+			["count"] = 300,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0.0097506,
+					["type"] = 1,
+					["caliber"] = 13,
+					["mass"] = 0.034,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.MG_13x64_HE",
+				["displayName"] = "MG_13x64_HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 

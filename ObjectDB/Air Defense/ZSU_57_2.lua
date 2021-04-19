@@ -114,6 +114,6 @@ ZSU_57_2 =
 		["speedMaxOffRoad"] = 12,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "ZSU_57_2",
-		["displayName"] = "AAA ZSU-57-2",
+		["displayName"] = "SPAAA ZSU-57-2",
 	}, -- end of ["desc"]
 } -- end of ZSU_57_2

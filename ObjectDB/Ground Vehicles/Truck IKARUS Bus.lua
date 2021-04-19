@@ -40,6 +40,6 @@ Truck IKARUS Bus =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "IKARUS Bus",
-		["displayName"] = "Transport IKARUS-280",
+		["displayName"] = "Bus IKARUS-280",
 	}, -- end of ["desc"]
 } -- end of Truck IKARUS Bus

@@ -78,6 +78,6 @@ INF Soldier RPG =
 		["speedMaxOffRoad"] = 4,
 		["_origin"] = "",
 		["typeName"] = "Soldier RPG",
-		["displayName"] = "Soldier RPG",
+		["displayName"] = "Infantry RPG",
 	}, -- end of ["desc"]
 } -- end of INF Soldier RPG

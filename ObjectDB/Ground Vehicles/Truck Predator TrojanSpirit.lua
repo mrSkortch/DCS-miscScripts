@@ -40,6 +40,6 @@ Truck Predator TrojanSpirit =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "Predator TrojanSpirit",
-		["displayName"] = "CP Predator TrojanSpirit",
+		["displayName"] = "MCC-COMM Predator UAV CL",
 	}, -- end of ["desc"]
 } -- end of Truck Predator TrojanSpirit

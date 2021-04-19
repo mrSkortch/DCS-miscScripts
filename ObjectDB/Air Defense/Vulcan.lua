@@ -118,6 +118,6 @@ Vulcan =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "Vulcan",
-		["displayName"] = "AAA Vulcan M163",
+		["displayName"] = "SPAAA Vulcan M163",
 	}, -- end of ["desc"]
 } -- end of Vulcan

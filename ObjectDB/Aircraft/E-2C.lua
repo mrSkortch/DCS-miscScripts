@@ -1,14 +1,5 @@
 E-2C = 
 {
-	["countries"] = 
-	{
-		[36] = "Japan",
-		[2] = "USA",
-		[15] = "Israel",
-		[29] = "Egypt",
-		[5] = "France",
-		[56] = "Mexico",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

@@ -10,13 +10,13 @@ p-19 s-125 sr =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 106998.453125,
-						["headOn"] = 106998.453125,
+						["tailOn"] = 53499.2265625,
+						["headOn"] = 53499.2265625,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 106998.453125,
-						["headOn"] = 106998.453125,
+						["tailOn"] = 53499.2265625,
+						["headOn"] = 53499.2265625,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
@@ -68,6 +68,6 @@ p-19 s-125 sr =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "p-19 s-125 sr",
-		["displayName"] = "SAM SR P-19",
+		["displayName"] = "SAM P19 \"Flat Face\" SR (SA-2/3)",
 	}, -- end of ["desc"]
 } -- end of p-19 s-125 sr

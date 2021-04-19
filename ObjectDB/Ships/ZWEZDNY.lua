@@ -33,6 +33,6 @@ ZWEZDNY =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "ZWEZDNY",
-		["displayName"] = "Civil boat Zvezdny",
+		["displayName"] = "Boat Zvezdny type",
 	}, -- end of ["desc"]
 } -- end of ZWEZDNY

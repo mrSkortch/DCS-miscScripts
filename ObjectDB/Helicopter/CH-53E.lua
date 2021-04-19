@@ -1,9 +1,5 @@
 CH-53E = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["massEmpty"] = 15407,
@@ -27,7 +23,7 @@ CH-53E =
 		["Kmax"] = 1,
 		["_origin"] = "",
 		["NyMin"] = 0.5,
-		["fuelMassMax"] = 6940,
+		["fuelMassMax"] = 2880,
 		["speedMax"] = 315,
 		["NyMax"] = 1.7000000476837,
 		["massMax"] = 31630,

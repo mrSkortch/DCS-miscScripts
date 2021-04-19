@@ -1,12 +1,5 @@
 F-15E = 
 {
-	["countries"] = 
-	{
-		[45] = "South Korea",
-		[2] = "USA",
-		[15] = "Israel",
-		[42] = "Saudi Arabia",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,10 +10,10 @@ F-15E =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.11,
+					["explosiveMass"] = 0.1,
 					["type"] = 1,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,

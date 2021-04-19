@@ -1,18 +1,5 @@
 Su-27 = 
 {
-	["countries"] = 
-	{
-		[1] = "Russia",
-		[2] = "Ukraine",
-		[3] = "Belarus",
-		[4] = "China",
-		[5] = "Kazakhstan",
-		[6] = "Vietnam",
-		[7] = "Indonesia",
-		[8] = "Ethiopia",
-		[9] = "USSR",
-		[10] = "Algeria",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

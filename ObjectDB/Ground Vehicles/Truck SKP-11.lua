@@ -40,6 +40,6 @@ Truck SKP-11 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "SKP-11",
-		["displayName"] = "CP SKP-11 ATC Mobile Command Post",
+		["displayName"] = "Truck SKP-11 Mobile ATC",
 	}, -- end of ["desc"]
 } -- end of Truck SKP-11

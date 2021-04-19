@@ -40,6 +40,6 @@ Truck ATMZ-5 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "ATMZ-5",
-		["displayName"] = "Fuel Truck ATMZ-5",
+		["displayName"] = "Refueler ATMZ-5",
 	}, -- end of ["desc"]
 } -- end of Truck ATMZ-5

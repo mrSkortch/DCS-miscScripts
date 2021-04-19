@@ -40,6 +40,6 @@ Truck Willys_MB =
 		["speedMaxOffRoad"] = 29.170000076294,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Willys_MB",
-		["displayName"] = "Willys MB",
+		["displayName"] = "Car Willys Jeep",
 	}, -- end of ["desc"]
 } -- end of Truck Willys_MB

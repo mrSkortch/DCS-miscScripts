@@ -147,6 +147,6 @@ IFV BTR_D =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "BTR_D",
-		["displayName"] = "ARV BTR-RD",
+		["displayName"] = "APC BTR-RD",
 	}, -- end of ["desc"]
 } -- end of IFV BTR_D

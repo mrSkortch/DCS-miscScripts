@@ -80,6 +80,6 @@ Soldier stinger =
 		["speedMaxOffRoad"] = 4,
 		["_origin"] = "",
 		["typeName"] = "Soldier stinger",
-		["displayName"] = "Stinger MANPADS",
+		["displayName"] = "MANPADS Stinger",
 	}, -- end of ["desc"]
 } -- end of Soldier stinger

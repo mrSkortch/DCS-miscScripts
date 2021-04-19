@@ -91,6 +91,6 @@ Patriot ln =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "Patriot ln",
-		["displayName"] = "SAM Patriot LN M901",
+		["displayName"] = "SAM Patriot LN",
 	}, -- end of ["desc"]
 } -- end of Patriot ln

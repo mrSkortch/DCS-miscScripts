@@ -68,6 +68,6 @@ rapier_fsa_blindfire_radar =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "rapier_fsa_blindfire_radar",
-		["displayName"] = "Rapier FSA Blindfire Tracker",
+		["displayName"] = "SAM Rapier Blindfire TR",
 	}, -- end of ["desc"]
 } -- end of rapier_fsa_blindfire_radar

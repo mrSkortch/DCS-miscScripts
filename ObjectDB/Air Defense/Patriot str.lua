@@ -69,6 +69,6 @@ Patriot str =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "Patriot str",
-		["displayName"] = "SAM Patriot STR AN/MPQ-53",
+		["displayName"] = "SAM Patriot STR",
 	}, -- end of ["desc"]
 } -- end of Patriot str

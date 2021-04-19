@@ -1,42 +1,5 @@
 Mi-8MT = 
 {
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[2] = "USA",
-		[3] = "Turkey",
-		[4] = "UK",
-		[5] = "France",
-		[6] = "Germany",
-		[8] = "Canada",
-		[9] = "Spain",
-		[10] = "The Netherlands",
-		[11] = "Belgium",
-		[12] = "Norway",
-		[13] = "Denmark",
-		[15] = "Israel",
-		[16] = "Georgia",
-		[17] = "Insurgents",
-		[18] = "Abkhazia",
-		[19] = "South Ossetia",
-		[20] = "Italy",
-		[24] = "Belarus",
-		[27] = "China",
-		[28] = "Croatia",
-		[31] = "Greece",
-		[0] = "Russia",
-		[33] = "India",
-		[37] = "Kazakhstan",
-		[56] = "Mexico",
-		[43] = "Serbia",
-		[34] = "Iran",
-		[68] = "USSR",
-		[76] = "Cuba",
-		[40] = "Poland",
-		[70] = "Algeria",
-		[63] = "Chile",
-		[41] = "Romania",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["massEmpty"] = 8866.2001953125,

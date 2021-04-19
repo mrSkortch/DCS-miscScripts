@@ -1,27 +1,5 @@
 Mi-24V = 
 {
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[0] = "Russia",
-		[16] = "Georgia",
-		[32] = "Hungary",
-		[33] = "India",
-		[18] = "Abkhazia",
-		[70] = "Algeria",
-		[19] = "South Ossetia",
-		[76] = "Cuba",
-		[44] = "Slovakia",
-		[24] = "Belarus",
-		[48] = "Yemen",
-		[25] = "Bulgaria",
-		[26] = "Czech Republic",
-		[53] = "Sudan",
-		[28] = "Croatia",
-		[37] = "Kazakhstan",
-		[68] = "USSR",
-		[62] = "Ethiopia",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

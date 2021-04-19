@@ -137,6 +137,6 @@ Osa 9A33 ln =
 		["speedMaxOffRoad"] = 22.222200393677,
 		["_origin"] = "",
 		["typeName"] = "Osa 9A33 ln",
-		["displayName"] = "SAM SA-8 Osa 9A33",
+		["displayName"] = "SAM SA-8 Osa \"Gecko\" TEL",
 	}, -- end of ["desc"]
 } -- end of Osa 9A33 ln

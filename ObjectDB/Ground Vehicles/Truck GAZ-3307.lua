@@ -40,6 +40,6 @@ Truck GAZ-3307 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "GAZ-3307",
-		["displayName"] = "Transport GAZ-3307",
+		["displayName"] = "Truck GAZ-3307",
 	}, -- end of ["desc"]
 } -- end of Truck GAZ-3307

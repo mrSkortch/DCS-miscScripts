@@ -1,9 +1,5 @@
 A-10A = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -55,7 +51,7 @@ A-10A =
 	["desc"] = 
 	{
 		["speedMax0"] = 236,
-		["massEmpty"] = 11325,
+		["massEmpty"] = 11625,
 		["tankerType"] = 0,
 		["range"] = 1500,
 		["box"] = 
@@ -70,13 +66,13 @@ A-10A =
 			{
 				["y"] = 2.3696703910828,
 				["x"] = 7.6860585212708,
-				["z"] = 9.4679193496704,
+				["z"] = 9.3263483047485,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["Hmax"] = 10000,
 		["Kmax"] = 0.52999997138977,
-		["_origin"] = "",
-		["speedMax10K"] = 134,
+		["_origin"] = "A-10 Warthog",
+		["speedMax10K"] = 200,
 		["NyMin"] = -2,
 		["fuelMassMax"] = 5029,
 		["speedMax"] = 236,

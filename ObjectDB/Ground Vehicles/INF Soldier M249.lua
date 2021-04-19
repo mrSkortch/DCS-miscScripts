@@ -77,6 +77,6 @@ INF Soldier M249 =
 		["speedMaxOffRoad"] = 4,
 		["_origin"] = "",
 		["typeName"] = "Soldier M249",
-		["displayName"] = "Soldier M249",
+		["displayName"] = "Infantry M249",
 	}, -- end of ["desc"]
 } -- end of INF Soldier M249

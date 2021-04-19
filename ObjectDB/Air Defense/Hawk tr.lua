@@ -68,6 +68,6 @@ Hawk tr =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "Hawk tr",
-		["displayName"] = "SAM Hawk TR AN/MPQ-46",
+		["displayName"] = "SAM Hawk TR (AN/MPQ-46)",
 	}, -- end of ["desc"]
 } -- end of Hawk tr

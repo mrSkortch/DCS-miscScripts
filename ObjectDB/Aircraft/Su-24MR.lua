@@ -1,14 +1,5 @@
 Su-24MR = 
 {
-	["countries"] = 
-	{
-		[1] = "Russia",
-		[2] = "Ukraine",
-		[3] = "Belarus",
-		[4] = "Kazakhstan",
-		[5] = "USSR",
-		[6] = "Algeria",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[3] = 

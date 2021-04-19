@@ -1,11 +1,5 @@
 MiG-29G = 
 {
-	["countries"] = 
-	{
-		[1] = "Germany",
-		[2] = "Poland",
-		[3] = "GDR",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

@@ -132,7 +132,7 @@ MOLNIYA =
 				["rangeMin"] = 5000,
 				["altMax"] = 12000,
 				["RCS"] = 0.80000001192093,
-				["displayName"] = "Kh-41 Moskit (ASM-MMS)",
+				["displayName"] = "Kh-41 (SS-N-22-Sunburn)",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 6,
@@ -187,6 +187,6 @@ MOLNIYA =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "MOLNIYA",
-		["displayName"] = "FSG 1241.1MP Molniya",
+		["displayName"] = "Corvette 1241.1 Molniya",
 	}, -- end of ["desc"]
 } -- end of MOLNIYA

@@ -1,20 +1,14 @@
 do 
-    local ww2Asset = false
-	if ww2AssetPack then
-		ww2Asset = true
-	end
 	
 	local defaultDir = lfs.writedir()
+    local everyObject
+    local log = mist.Logger:new('DB', 'info')
 	env.info(defaultDir)
 	function myWriteData(fcn, fcnVars, fname, newDir)
         if lfs and io then
             local fdir = lfs.writedir() .. [[Logs\]] .. fname
             if newDir then
-                if ww2Asset == true then
-					fdir = lfs.writedir() .. [[Logs\ObjectDB\WW2 Asset Pack\]] .. newDir .. fname
-				else
-					fdir = lfs.writedir() .. [[Logs\ObjectDB\]] .. newDir .. fname
-				end
+                fdir = lfs.writedir() .. [[Logs\ObjectDB\]] .. newDir .. fname
             end
             local f = io.open(fdir, 'w')
             f:write(fcn(unpack(fcnVars, 1, table.maxn(fcnVars))))
@@ -24,7 +18,7 @@ do
             trigger.action.outText(errmsg, 10)
         else
             local errmsg = 'Error: insufficient libraries to run mist.debug.writeData, you must disable the sanitization of the io and lfs libraries in ./Scripts/MissionScripting.lua'
-            --log:alert(errmsg)
+            log:alert(errmsg)
             trigger.action.outText(errmsg, 10)
         end
     end
@@ -32,6 +26,43 @@ do
     local exclude = {'%[', '%]', '%{', '%}', [[\]], "/", '%$', '%%', '%?', '%+', '%^'}
 	
 	local static_shapeNames = {}
+    
+    local main = {}
+    
+    if lfs and io then
+        local everything = io.open(lfs.writedir() .. [[Logs\ObjectDB\everyObject.lua]], 'r')
+        if everything then
+           local eString  = everything:read('*all')
+           local statsFunc, err1 = loadstring(eString)
+           everything:close()
+           if statsFunc then
+                local env = {}
+                setfenv(statsFunc, env)
+                local bool, err2 = pcall(statsFunc)
+                if not bool then
+                     log:warn('unable to load Stats, reason: ' .. tostring(err2))
+
+                else
+                    if env['everyObject'] then
+                        log:warn('using everyObject.lua')
+                        everyObject = env['everyObject']
+                    else
+                        log:warn('no table in file')
+
+                    end
+                end
+            end
+        else
+            log:warn('Unable to open everyObject.lua, gonna make a new file')	
+        end
+        
+        if not everyObject then
+            everyObject = {}
+        end
+    
+    end
+    
+    
     
     for name, data in pairs(mist.DBs.unitsByName) do
         local tName = data.type
@@ -98,7 +129,9 @@ do
             writeTable.shapeName = data.shape_name
         end
 
-        
+        if writeTable.desc._origin == 'WWII Armour and Technics' then
+            folder = [[WW2 Asset Pack\]] .. folder 
+        end
        
 		
 		local countryList = {}
@@ -109,8 +142,16 @@ do
 			end
 		end
 		
+        everyObject[tName] = writeTable
 		mist.debug.writeData(mist.utils.serialize,{tName, static_shapeNames}, 'shapeNames.lua')
 		myWriteData(mist.utils.serialize,{tName, writeTable}, tName .. '.lua', folder)
 
 	end
+    
+     if io and lfs then 
+        local eTable = mist.utils.serialize('everyObject', everyObject)
+        wFile = io.open(lfs.writedir() .. [[Logs\ObjectDB\everyObject.lua]], 'w')
+        wFile:write(eTable)
+        wFile:close()
+     end
 end

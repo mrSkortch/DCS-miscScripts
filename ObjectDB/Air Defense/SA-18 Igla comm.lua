@@ -47,6 +47,6 @@ SA-18 Igla comm =
 		["speedMaxOffRoad"] = 4,
 		["_origin"] = "",
 		["typeName"] = "SA-18 Igla comm",
-		["displayName"] = "SAM SA-18 Igla comm",
+		["displayName"] = "MANPADS SA-18 Igla \"Grouse\" C2",
 	}, -- end of ["desc"]
 } -- end of SA-18 Igla comm

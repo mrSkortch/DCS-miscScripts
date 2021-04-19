@@ -91,6 +91,6 @@ Strela-1 9P31 =
 		["speedMaxOffRoad"] = 27.777799606323,
 		["_origin"] = "",
 		["typeName"] = "Strela-1 9P31",
-		["displayName"] = "SAM SA-9 Strela-1 9P31",
+		["displayName"] = "SAM SA-9 Strela 1 \"Gaskin\" TEL",
 	}, -- end of ["desc"]
 } -- end of Strela-1 9P31

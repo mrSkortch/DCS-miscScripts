@@ -76,6 +76,6 @@ INF Soldier AK =
 		["speedMaxOffRoad"] = 4,
 		["_origin"] = "",
 		["typeName"] = "Soldier AK",
-		["displayName"] = "Soldier AK",
+		["displayName"] = "Infantry AK-74",
 	}, -- end of ["desc"]
 } -- end of INF Soldier AK

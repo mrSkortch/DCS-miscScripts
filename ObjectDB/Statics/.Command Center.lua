@@ -8,6 +8,7 @@
 		{
 			["Buildings"] = true,
 		}, -- end of ["attributes"]
+		["_origin"] = "",
 		["category"] = 4,
 		["typeName"] = ".Command Center",
 		["displayName"] = "",

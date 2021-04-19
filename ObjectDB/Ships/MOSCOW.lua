@@ -276,6 +276,6 @@ MOSCOW =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "MOSCOW",
-		["displayName"] = "CG 1164 Moskva",
+		["displayName"] = "Cruiser 1164 Moskva",
 	}, -- end of ["desc"]
 } -- end of MOSCOW

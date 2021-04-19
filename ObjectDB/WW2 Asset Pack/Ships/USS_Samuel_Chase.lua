@@ -203,8 +203,8 @@ USS_Samuel_Chase =
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["Heavy armed ships"] = true,
+			["NO_SAM"] = true,
 			["All"] = true,
-			["</WSTYPE>"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

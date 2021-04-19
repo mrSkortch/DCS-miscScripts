@@ -4,7 +4,7 @@ Ju-88A4 =
 	{
 		[1] = 
 		{
-			["count"] = 22250,
+			["count"] = 4750,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -13,7 +13,7 @@ Ju-88A4 =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 7.62,
-					["mass"] = 0.00933,
+					["mass"] = 0.0115,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -32,14 +32,14 @@ Ju-88A4 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M134_7_62_T",
-				["displayName"] = "7.62mm",
+				["typeName"] = "weapons.shells.Mauser7.92x57_S.m.K.",
+				["displayName"] = "Mauser7.92x57_S.m.K.",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
-		["speedMax0"] = 120,
+		["speedMax0"] = 187.5,
 		["massEmpty"] = 9860,
 		["range"] = 1015,
 		["box"] = 
@@ -57,13 +57,13 @@ Ju-88A4 =
 				["z"] = 10.227409362793,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["Hmax"] = 8200,
+		["Hmax"] = 10000,
 		["Kmax"] = 0.10000000149012,
 		["_origin"] = "WWII Armour and Technics",
 		["speedMax10K"] = 150,
 		["NyMin"] = -4,
 		["fuelMassMax"] = 2120,
-		["speedMax"] = 150,
+		["speedMax"] = 187.5,
 		["NyMax"] = 4,
 		["massMax"] = 14000,
 		["RCS"] = 100,

@@ -79,6 +79,6 @@ ARTY 2B11 mortar =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "2B11 mortar",
-		["displayName"] = "2B11 mortar",
+		["displayName"] = "Mortar 2B11 120mm",
 	}, -- end of ["desc"]
 } -- end of ARTY 2B11 mortar

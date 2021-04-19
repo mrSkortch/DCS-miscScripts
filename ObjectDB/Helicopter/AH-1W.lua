@@ -1,12 +1,5 @@
 AH-1W = 
 {
-	["countries"] = 
-	{
-		[3] = "Turkey",
-		[2] = "USA",
-		[15] = "Israel",
-		[34] = "Iran",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

@@ -114,6 +114,6 @@ ZU-23 Emplacement Closed =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "ZU-23 Emplacement Closed",
-		["displayName"] = "AAA ZU-23 Closed",
+		["displayName"] = "AAA ZU-23 Closed Emplacement",
 	}, -- end of ["desc"]
 } -- end of ZU-23 Emplacement Closed

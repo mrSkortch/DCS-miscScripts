@@ -1,15 +1,5 @@
 FA-18C = 
 {
-	["countries"] = 
-	{
-		[71] = "Kuwait",
-		[2] = "USA",
-		[21] = "Australia",
-		[22] = "Switzerland",
-		[30] = "Finland",
-		[9] = "Spain",
-		[8] = "Canada",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -20,10 +10,10 @@ FA-18C =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.11,
+					["explosiveMass"] = 0.1,
 					["type"] = 1,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -69,7 +59,7 @@ FA-18C =
 				["type"] = 1,
 				["detectionDistanceRBM"] = 1800,
 				["typeName"] = "AN/APG-73",
-				["detectionDistanceHRM"] = 200,
+				["detectionDistanceHRM"] = 7400,
 			}, -- end of [1]
 		}, -- end of [1]
 		[3] = 
@@ -103,7 +93,7 @@ FA-18C =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["Hmax"] = 15240,
-		["Kmax"] = 0.5799999833107,
+		["Kmax"] = 0.73000001907349,
 		["_origin"] = "",
 		["speedMax10K"] = 541.70001220703,
 		["NyMin"] = -3,
@@ -115,7 +105,7 @@ FA-18C =
 		["displayName"] = "f-18c",
 		["life"] = 20,
 		["VyMax"] = 254,
-		["Kab"] = 2.5,
+		["Kab"] = 4,
 		["attributes"] = 
 		{
 			["Air"] = true,

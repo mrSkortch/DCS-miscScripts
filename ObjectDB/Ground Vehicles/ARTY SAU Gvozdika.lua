@@ -97,6 +97,6 @@ ARTY SAU Gvozdika =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "SAU Gvozdika",
-		["displayName"] = "SPH 2S1 Gvozdika",
+		["displayName"] = "SPH 2S1 Gvozdika 122mm",
 	}, -- end of ["desc"]
 } -- end of ARTY SAU Gvozdika

@@ -47,15 +47,15 @@ IFV BMD-1 =
 				{
 					["min"] = 
 					{
-						["y"] = -0.7027959227562,
-						["x"] = -0.86071503162384,
-						["z"] = -0.70802044868469,
+						["y"] = -0.15078645944595,
+						["x"] = -0.60342621803284,
+						["z"] = -0.1486651301384,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.71324497461319,
-						["x"] = 0.55532562732697,
-						["z"] = 0.70802044868469,
+						["y"] = 0.15078645944595,
+						["x"] = 0.29803684353828,
+						["z"] = 0.1486651301384,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["rangeMaxAltMin"] = 3000,
@@ -165,14 +165,15 @@ IFV BMD-1 =
 		{
 			["Ground Units Non Airdefence"] = true,
 			["Vehicles"] = true,
-			["Armored vehicles"] = true,
-			["AntiAir Armed Vehicles"] = true,
 			["LightArmoredUnits"] = true,
+			["IFV"] = true,
+			["AntiAir Armed Vehicles"] = true,
+			["CustomAimPoint"] = true,
 			["NonAndLightArmoredUnits"] = true,
 			["Ground vehicles"] = true,
 			["Armed vehicles"] = true,
 			["ATGM"] = true,
-			["IFV"] = true,
+			["Armored vehicles"] = true,
 			["Armed ground units"] = true,
 			["All"] = true,
 			["Ground Units"] = true,

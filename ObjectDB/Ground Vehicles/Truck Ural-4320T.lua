@@ -40,6 +40,6 @@ Truck Ural-4320T =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "Ural-4320T",
-		["displayName"] = "Transport Ural-4320T",
+		["displayName"] = "Truck Ural-4320T",
 	}, -- end of ["desc"]
 } -- end of Truck Ural-4320T

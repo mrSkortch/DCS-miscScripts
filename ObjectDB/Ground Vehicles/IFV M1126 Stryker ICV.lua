@@ -100,6 +100,6 @@ IFV M1126 Stryker ICV =
 		["speedMaxOffRoad"] = 20,
 		["_origin"] = "",
 		["typeName"] = "M1126 Stryker ICV",
-		["displayName"] = "APC M1126 Stryker ICV",
+		["displayName"] = "IFV M1126 Stryker ICV",
 	}, -- end of ["desc"]
 } -- end of IFV M1126 Stryker ICV

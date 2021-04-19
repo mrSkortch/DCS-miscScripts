@@ -1,11 +1,5 @@
 Tu-160 = 
 {
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[0] = "Russia",
-		[68] = "USSR",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

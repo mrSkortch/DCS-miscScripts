@@ -40,6 +40,6 @@ VAZ Car =
 		["speedMaxOffRoad"] = 19.444400787354,
 		["_origin"] = "",
 		["typeName"] = "VAZ Car",
-		["displayName"] = "Transport VAZ-2109",
+		["displayName"] = "Car VAZ-2109",
 	}, -- end of ["desc"]
 } -- end of VAZ Car

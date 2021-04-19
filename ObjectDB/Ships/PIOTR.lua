@@ -364,6 +364,6 @@ PIOTR =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "PIOTR",
-		["displayName"] = "CGN 1144.2 Pyotr Velikiy",
+		["displayName"] = "Battlecruiser 1144.2 Pyotr Velikiy",
 	}, -- end of ["desc"]
 } -- end of PIOTR

@@ -4,15 +4,26 @@ houseA_arm =
 	{
 		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
-		["RCS"] = 5,
-		["displayName"] = "Armed house",
 		["maxSlopeAngle"] = 0,
-		["life"] = 50,
 		["Kmax"] = 0.050000000745058,
-		["category"] = 2,
-		["speedMaxOffRoad"] = 0,
+		["RCS"] = 5,
+		["box"] = 
+		{
+			["min"] = 
+			{
+				["y"] = -10,
+				["x"] = -3.7452828884125,
+				["z"] = -7.3363757133484,
+			}, -- end of ["min"]
+			["max"] = 
+			{
+				["y"] = 5.5,
+				["x"] = 3.8547194004059,
+				["z"] = 8.3706321716309,
+			}, -- end of ["max"]
+		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["typeName"] = "houseA_arm",
+		["life"] = 50,
 		["attributes"] = 
 		{
 			["Fortifications"] = true,
@@ -23,5 +34,10 @@ houseA_arm =
 			["Ground Units"] = true,
 			["AntiAir Armed Vehicles"] = true,
 		}, -- end of ["attributes"]
+		["category"] = 2,
+		["speedMaxOffRoad"] = 0,
+		["_origin"] = "",
+		["typeName"] = "houseA_arm",
+		["displayName"] = "Building armed",
 	}, -- end of ["desc"]
 } -- end of houseA_arm

@@ -1,11 +1,5 @@
 Mi-28N = 
 {
-	["countries"] = 
-	{
-		[0] = "Russia",
-		[35] = "Iraq",
-		[70] = "Algeria",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

@@ -40,6 +40,6 @@ Truck CCKW_353 =
 		["speedMaxOffRoad"] = 20,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "CCKW_353",
-		["displayName"] = "CCKW 353",
+		["displayName"] = "Truck GMC \"Jimmy\" 6x6 Truck",
 	}, -- end of ["desc"]
 } -- end of Truck CCKW_353

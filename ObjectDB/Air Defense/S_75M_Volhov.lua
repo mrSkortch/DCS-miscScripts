@@ -91,6 +91,6 @@ S_75M_Volhov =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "S_75M_Volhov",
-		["displayName"] = "SAM SA-2 LN SM-90",
+		["displayName"] = "SAM SA-2 S-75 \"Guideline\" LN",
 	}, -- end of ["desc"]
 } -- end of S_75M_Volhov

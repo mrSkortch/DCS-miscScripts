@@ -4,6 +4,7 @@ Small house 2C =
 	["desc"] = 
 	{
 		["life"] = 150,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Small house 2C",
 		["typeName"] = "Small house 2C",

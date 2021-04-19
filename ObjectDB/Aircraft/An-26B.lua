@@ -1,32 +1,5 @@
 An-26B = 
 {
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[2] = "USA",
-		[0] = "Russia",
-		[16] = "Georgia",
-		[32] = "Hungary",
-		[18] = "Abkhazia",
-		[37] = "Kazakhstan",
-		[39] = "Pakistan",
-		[40] = "Poland",
-		[41] = "Romania",
-		[43] = "Serbia",
-		[44] = "Slovakia",
-		[6] = "Germany",
-		[24] = "Belarus",
-		[48] = "Yemen",
-		[25] = "Bulgaria",
-		[67] = "Yugoslavia",
-		[76] = "Cuba",
-		[27] = "China",
-		[68] = "USSR",
-		[53] = "Sudan",
-		[49] = "Vietnam",
-		[35] = "Iraq",
-		[47] = "Syria",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 178,

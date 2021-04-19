@@ -40,6 +40,6 @@ Truck M978 HEMTT Tanker =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "M978 HEMTT Tanker",
-		["displayName"] = "Tanker M978 HEMTT",
+		["displayName"] = "Refueler M978 HEMTT",
 	}, -- end of ["desc"]
 } -- end of Truck M978 HEMTT Tanker

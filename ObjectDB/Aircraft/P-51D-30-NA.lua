@@ -1,24 +1,5 @@
 P-51D-30-NA = 
 {
-	["countries"] = 
-	{
-		[1] = "USA",
-		[2] = "UK",
-		[3] = "Canada",
-		[4] = "The Netherlands",
-		[5] = "Israel",
-		[6] = "Italy",
-		[7] = "Australia",
-		[8] = "Switzerland",
-		[9] = "China",
-		[10] = "Poland",
-		[11] = "South Korea",
-		[12] = "Sweden",
-		[13] = "Philippines",
-		[14] = "Indonesia",
-		[15] = "South Africa",
-		[16] = "Cuba",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

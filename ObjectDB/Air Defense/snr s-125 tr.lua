@@ -10,13 +10,13 @@ snr s-125 tr =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 60186.62890625,
-						["headOn"] = 60186.62890625,
+						["tailOn"] = 33437.015625,
+						["headOn"] = 33437.015625,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 60186.62890625,
-						["headOn"] = 60186.62890625,
+						["tailOn"] = 33437.015625,
+						["headOn"] = 33437.015625,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
@@ -68,6 +68,6 @@ snr s-125 tr =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "snr s-125 tr",
-		["displayName"] = "SAM SA-3 S-125 TR SNR",
+		["displayName"] = "SAM SA-3 S-125 \"Low Blow\" TR",
 	}, -- end of ["desc"]
 } -- end of snr s-125 tr

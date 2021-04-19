@@ -80,6 +80,6 @@ SA-18 Igla-S manpad =
 		["speedMaxOffRoad"] = 4,
 		["_origin"] = "",
 		["typeName"] = "SA-18 Igla-S manpad",
-		["displayName"] = "SAM SA-18 Igla-S MANPADS",
+		["displayName"] = "MANPADS SA-18 Igla-S \"Grouse\"",
 	}, -- end of ["desc"]
 } -- end of SA-18 Igla-S manpad

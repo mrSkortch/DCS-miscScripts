@@ -1,23 +1,5 @@
 Su-25 = 
 {
-	["countries"] = 
-	{
-		[1] = "Russia",
-		[2] = "Ukraine",
-		[3] = "Georgia",
-		[4] = "Abkhazia",
-		[5] = "Belarus",
-		[6] = "Bulgaria",
-		[7] = "Czech Republic",
-		[8] = "Iran",
-		[9] = "Iraq",
-		[10] = "Kazakhstan",
-		[11] = "North Korea",
-		[12] = "Slovakia",
-		[13] = "Sudan",
-		[14] = "USSR",
-		[15] = "Algeria",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

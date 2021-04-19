@@ -40,6 +40,6 @@ Truck ZIL-131 KUNG =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "ZIL-131 KUNG",
-		["displayName"] = "Transport ZIL-131 KUNG",
+		["displayName"] = "Truck ZIL-131 (C2)",
 	}, -- end of ["desc"]
 } -- end of Truck ZIL-131 KUNG

@@ -91,6 +91,6 @@
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "5p73 s-125 ln",
-		["displayName"] = "SAM SA-3 S-125 LN 5P73",
+		["displayName"] = "SAM SA-3 S-125 \"Goa\" LN",
 	}, -- end of ["desc"]
 } -- end of 5p73 s-125 ln

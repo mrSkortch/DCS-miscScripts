@@ -1,13 +1,5 @@
 KC-135 = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-		[3] = "Turkey",
-		[63] = "Chile",
-		[5] = "France",
-		[42] = "Saudi Arabia",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 280.2799987793,

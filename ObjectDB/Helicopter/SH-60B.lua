@@ -1,10 +1,5 @@
 SH-60B = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-		[31] = "Greece",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

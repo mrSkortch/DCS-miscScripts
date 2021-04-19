@@ -40,6 +40,6 @@ Truck Ural-375 PBU =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "Ural-375 PBU",
-		["displayName"] = "CP Ural-375 PBU",
+		["displayName"] = "Truck Ural-375 Mobile C2",
 	}, -- end of ["desc"]
 } -- end of Truck Ural-375 PBU

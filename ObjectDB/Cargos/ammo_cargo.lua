@@ -9,6 +9,7 @@ ammo_cargo =
 		{
 			["Cargos"] = true,
 		}, -- end of ["attributes"]
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Ammo",
 		["typeName"] = "ammo_cargo",

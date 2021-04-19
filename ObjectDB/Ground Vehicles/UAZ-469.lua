@@ -41,6 +41,6 @@ UAZ-469 =
 		["speedMaxOffRoad"] = 27.777799606323,
 		["_origin"] = "",
 		["typeName"] = "UAZ-469",
-		["displayName"] = "Transport UAZ-469",
+		["displayName"] = "LUV UAZ-469 Jeep",
 	}, -- end of ["desc"]
 } -- end of UAZ-469

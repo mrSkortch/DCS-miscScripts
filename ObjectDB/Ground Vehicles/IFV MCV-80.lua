@@ -167,6 +167,6 @@ IFV MCV-80 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "MCV-80",
-		["displayName"] = "IFV MCV-80",
+		["displayName"] = "IFV Warrior ",
 	}, -- end of ["desc"]
 } -- end of IFV MCV-80

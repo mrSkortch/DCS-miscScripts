@@ -1,33 +1,5 @@
 C-17A = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-		[3] = "Turkey",
-		[4] = "UK",
-		[5] = "France",
-		[6] = "Germany",
-		[8] = "Canada",
-		[9] = "Spain",
-		[10] = "The Netherlands",
-		[11] = "Belgium",
-		[12] = "Norway",
-		[13] = "Denmark",
-		[20] = "Italy",
-		[21] = "Australia",
-		[25] = "Bulgaria",
-		[26] = "Czech Republic",
-		[28] = "Croatia",
-		[31] = "Greece",
-		[32] = "Hungary",
-		[71] = "Kuwait",
-		[44] = "Slovakia",
-		[74] = "United Arab Emirates",
-		[33] = "India",
-		[41] = "Romania",
-		[72] = "Qatar",
-		[40] = "Poland",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 194,

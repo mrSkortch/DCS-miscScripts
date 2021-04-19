@@ -97,6 +97,6 @@ ARTY SAU Akatsia =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "SAU Akatsia",
-		["displayName"] = "SPH 2S3 Akatsia",
+		["displayName"] = "SPH 2S3 Akatsia 152mm",
 	}, -- end of ["desc"]
 } -- end of ARTY SAU Akatsia

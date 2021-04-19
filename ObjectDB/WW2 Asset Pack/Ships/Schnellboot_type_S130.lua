@@ -177,16 +177,16 @@ Schnellboot_type_S130 =
 			["Armed ships"] = true,
 			["Light armed ships"] = true,
 			["NonAndLightArmoredUnits"] = true,
-			["Armed Ship"] = true,
+			["NO_SAM"] = true,
 			["NonArmoredUnits"] = true,
 			["All"] = true,
 			["Ships"] = true,
-			["</WSTYPE>"] = true,
+			["Armed Ship"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Schnellboot_type_S130",
-		["displayName"] = "Schnellboot type S130",
+		["displayName"] = "Boat Schnellboot type S130",
 	}, -- end of ["desc"]
 } -- end of Schnellboot_type_S130

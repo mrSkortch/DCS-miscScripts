@@ -44,6 +44,6 @@ Patriot cp =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "Patriot cp",
-		["displayName"] = "SAM Patriot ICC",
+		["displayName"] = "SAM Patriot C2 ICC",
 	}, -- end of ["desc"]
 } -- end of Patriot cp

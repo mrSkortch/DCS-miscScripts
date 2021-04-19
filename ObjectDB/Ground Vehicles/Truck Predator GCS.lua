@@ -41,6 +41,6 @@ Truck Predator GCS =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "Predator GCS",
-		["displayName"] = "CP Predator GCS",
+		["displayName"] = "MCC Predator UAV CP & GCS",
 	}, -- end of ["desc"]
 } -- end of Truck Predator GCS

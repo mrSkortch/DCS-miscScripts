@@ -130,6 +130,6 @@ M1097 Avenger =
 		["speedMaxOffRoad"] = 31.388900756836,
 		["_origin"] = "",
 		["typeName"] = "M1097 Avenger",
-		["displayName"] = "SAM Avenger M1097",
+		["displayName"] = "SAM Avenger (Stinger)",
 	}, -- end of ["desc"]
 } -- end of M1097 Avenger

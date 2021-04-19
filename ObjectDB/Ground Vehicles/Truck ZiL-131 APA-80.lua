@@ -40,6 +40,6 @@ Truck ZiL-131 APA-80 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "ZiL-131 APA-80",
-		["displayName"] = "GPU APA-80 on ZiL-131",
+		["displayName"] = "GPU APA-80 on ZIL-131",
 	}, -- end of ["desc"]
 } -- end of Truck ZiL-131 APA-80

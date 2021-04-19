@@ -97,6 +97,6 @@ ARTY SAU 2-C9 =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "SAU 2-C9",
-		["displayName"] = "SPH 2S9 Nona",
+		["displayName"] = "SPH 2S9 Nona 120mm M",
 	}, -- end of ["desc"]
 } -- end of ARTY SAU 2-C9

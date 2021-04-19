@@ -1,16 +1,5 @@
 MQ-9 Reaper = 
 {
-	["countries"] = 
-	{
-		[20] = "Italy",
-		[2] = "USA",
-		[21] = "Australia",
-		[10] = "The Netherlands",
-		[33] = "India",
-		[4] = "UK",
-		[9] = "Spain",
-		[5] = "France",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

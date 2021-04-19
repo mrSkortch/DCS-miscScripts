@@ -67,6 +67,6 @@ SA-11 Buk SR 9S18M1 =
 		["speedMaxOffRoad"] = 18.055599212646,
 		["_origin"] = "",
 		["typeName"] = "SA-11 Buk SR 9S18M1",
-		["displayName"] = "SAM SA-11 Buk SR 9S18M1",
+		["displayName"] = "SAM SA-11 Buk \"Gadfly\" Snow Drift SR",
 	}, -- end of ["desc"]
 } -- end of SA-11 Buk SR 9S18M1

@@ -1,12 +1,5 @@
 A-50 = 
 {
-	["countries"] = 
-	{
-		[0] = "Russia",
-		[33] = "India",
-		[68] = "USSR",
-		[34] = "Iran",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

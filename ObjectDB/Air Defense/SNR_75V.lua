@@ -10,13 +10,13 @@ SNR_75V =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 60186.62890625,
-						["headOn"] = 60186.62890625,
+						["tailOn"] = 33437.015625,
+						["headOn"] = 33437.015625,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 60186.62890625,
-						["headOn"] = 60186.62890625,
+						["tailOn"] = 33437.015625,
+						["headOn"] = 33437.015625,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
@@ -68,6 +68,6 @@ SNR_75V =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "SNR_75V",
-		["displayName"] = "SAM SA-2 TR SNR-75 Fan Song",
+		["displayName"] = "SAM SA-2 S-75 \"Fan Song\" TR",
 	}, -- end of ["desc"]
 } -- end of SNR_75V

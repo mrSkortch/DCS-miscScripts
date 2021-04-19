@@ -129,21 +129,20 @@ Type_071 =
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,
-			["HeavyArmoredUnits"] = true,
 			["Aircraft Carriers"] = true,
 			["Straight_in_approach_type"] = true,
 			["AircraftCarrier"] = true,
 			["Ships"] = true,
+			["HeavyArmoredUnits"] = true,
 			["Armed Air Defence"] = true,
 			["Armed ships"] = true,
-			["Armed Ship"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
 			["AircraftCarrier With Tramplin"] = true,
 			["NO_SAM"] = true,
 			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
 			["DetectionByAWACS"] = true,
-			["</WSTYPE>"] = true,
+			["Armed Ship"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

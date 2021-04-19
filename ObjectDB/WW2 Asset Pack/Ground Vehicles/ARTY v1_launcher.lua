@@ -90,6 +90,6 @@ ARTY v1_launcher =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "v1_launcher",
-		["displayName"] = "V-1 ramp",
+		["displayName"] = "SSM V-1 Launcher",
 	}, -- end of ["desc"]
 } -- end of ARTY v1_launcher

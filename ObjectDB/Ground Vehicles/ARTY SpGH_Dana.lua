@@ -97,6 +97,6 @@ ARTY SpGH_Dana =
 		["speedMaxOffRoad"] = 22.219999313354,
 		["_origin"] = "",
 		["typeName"] = "SpGH_Dana",
-		["displayName"] = "SpGH Dana",
+		["displayName"] = "SPH Dana vz77 152mm",
 	}, -- end of ["desc"]
 } -- end of ARTY SpGH_Dana

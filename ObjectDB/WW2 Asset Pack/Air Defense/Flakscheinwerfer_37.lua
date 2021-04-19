@@ -28,21 +28,20 @@ Flakscheinwerfer_37 =
 		{
 			["Rocket Attack Valid AirDefence"] = true,
 			["NonArmoredUnits"] = true,
-			["Ground vehicles"] = true,
 			["Air Defence"] = true,
 			["AAA"] = true,
-			["Vehicles"] = true,
+			["Ground vehicles"] = true,
 			["NonAndLightArmoredUnits"] = true,
-			["Armed Air Defence"] = true,
+			["Vehicles"] = true,
 			["All"] = true,
-			["Static AAA"] = true,
+			["Armed Air Defence"] = true,
 			["Ground Units"] = true,
-			["</WSTYPE>"] = true,
+			["Static AAA"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Flakscheinwerfer_37",
-		["displayName"] = "Flak Searchlight 37",
+		["displayName"] = "SL Flakscheinwerfer 37",
 	}, -- end of ["desc"]
 } -- end of Flakscheinwerfer_37

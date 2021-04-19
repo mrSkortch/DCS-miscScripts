@@ -40,6 +40,6 @@ Truck Ural ATsP-6 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "Ural ATsP-6",
-		["displayName"] = "Transport fire-engine Ural ATsP-6",
+		["displayName"] = "Truck Ural ATsP-6 Firefighter",
 	}, -- end of ["desc"]
 } -- end of Truck Ural ATsP-6

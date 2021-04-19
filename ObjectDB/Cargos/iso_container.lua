@@ -9,6 +9,7 @@ iso_container =
 		{
 			["Cargos"] = true,
 		}, -- end of ["attributes"]
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "ISO container",
 		["typeName"] = "iso_container",

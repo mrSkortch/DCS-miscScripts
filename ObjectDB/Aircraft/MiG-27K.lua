@@ -1,12 +1,5 @@
 MiG-27K = 
 {
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[0] = "Russia",
-		[68] = "USSR",
-		[70] = "Algeria",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

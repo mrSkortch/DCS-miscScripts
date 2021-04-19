@@ -104,6 +104,6 @@ rapier_fsa_launcher =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "rapier_fsa_launcher",
-		["displayName"] = "Rapier FSA Launcher",
+		["displayName"] = "SAM Rapier LN",
 	}, -- end of ["desc"]
 } -- end of rapier_fsa_launcher

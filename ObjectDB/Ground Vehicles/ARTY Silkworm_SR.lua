@@ -55,6 +55,6 @@ ARTY Silkworm_SR =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "Silkworm_SR",
-		["displayName"] = "Silkworm Radar",
+		["displayName"] = "AShM Silkworm SR",
 	}, -- end of ["desc"]
 } -- end of ARTY Silkworm_SR

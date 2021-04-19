@@ -76,6 +76,6 @@ MLRS Smerch =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "Smerch",
-		["displayName"] = "MLRS 9A52 Smerch",
+		["displayName"] = "MLRS 9A52 Smerch CM 300mm",
 	}, -- end of ["desc"]
 } -- end of MLRS Smerch

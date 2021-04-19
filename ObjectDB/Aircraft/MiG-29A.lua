@@ -1,26 +1,5 @@
 MiG-29A = 
 {
-	["countries"] = 
-	{
-		[1] = "Russia",
-		[2] = "Ukraine",
-		[3] = "Belarus",
-		[4] = "Bulgaria",
-		[5] = "Czech Republic",
-		[6] = "India",
-		[7] = "Iran",
-		[8] = "Iraq",
-		[9] = "Kazakhstan",
-		[10] = "North Korea",
-		[11] = "Poland",
-		[12] = "Romania",
-		[13] = "Serbia",
-		[14] = "Slovakia",
-		[15] = "Syria",
-		[16] = "Yugoslavia",
-		[17] = "USSR",
-		[18] = "Cuba",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

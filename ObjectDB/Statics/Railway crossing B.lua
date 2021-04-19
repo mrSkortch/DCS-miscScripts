@@ -4,6 +4,7 @@ Railway crossing B =
 	["desc"] = 
 	{
 		["life"] = 150,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Railway crossing B",
 		["typeName"] = "Railway crossing B",

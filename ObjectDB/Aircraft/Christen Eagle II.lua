@@ -1,9 +1,5 @@
 Christen Eagle II = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 93.599998474121,

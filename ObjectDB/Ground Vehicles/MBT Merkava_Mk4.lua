@@ -201,6 +201,6 @@ MBT Merkava_Mk4 =
 		["speedMaxOffRoad"] = 18.055599212646,
 		["_origin"] = "",
 		["typeName"] = "Merkava_Mk4",
-		["displayName"] = "MBT Merkava Mk. 4",
+		["displayName"] = "MBT Merkava IV",
 	}, -- end of ["desc"]
 } -- end of MBT Merkava_Mk4

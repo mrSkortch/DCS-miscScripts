@@ -17,8 +17,6 @@ IFV M30_CC =
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
-				["displayName"] = "12.7mm",
-				["typeName"] = "weapons.shells.M2_12_7_T",
 				["box"] = 
 				{
 					["min"] = 
@@ -34,27 +32,11 @@ IFV M30_CC =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M2_12_7_T",
+				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
-	["sensors"] = 
-	{
-		[0] = 
-		{
-			[1] = 
-			{
-				["type"] = 0,
-				["typeName"] = "TRP-2A day",
-				["opticType"] = 0,
-			}, -- end of [1]
-			[2] = 
-			{
-				["type"] = 0,
-				["typeName"] = "TRP-2A night",
-				["opticType"] = 1,
-			}, -- end of [2]
-		}, -- end of [0]
-	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 24700,
@@ -99,6 +81,6 @@ IFV M30_CC =
 		["speedMaxOffRoad"] = 11.109999656677,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "M30_CC",
-		["displayName"] = "M30 Cargo Carrier",
+		["displayName"] = "Carrier M30 Cargo",
 	}, -- end of ["desc"]
 } -- end of IFV M30_CC

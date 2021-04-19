@@ -1,19 +1,5 @@
 Mi-26 = 
 {
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[24] = "Belarus",
-		[33] = "India",
-		[50] = "Venezuela",
-		[27] = "China",
-		[56] = "Mexico",
-		[68] = "USSR",
-		[70] = "Algeria",
-		[0] = "Russia",
-		[59] = "Jordan",
-		[37] = "Kazakhstan",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["massEmpty"] = 28890,

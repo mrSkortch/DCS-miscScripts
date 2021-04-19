@@ -1,13 +1,5 @@
 MiG-25RBT = 
 {
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[0] = "Russia",
-		[25] = "Bulgaria",
-		[70] = "Algeria",
-		[68] = "USSR",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[3] = 

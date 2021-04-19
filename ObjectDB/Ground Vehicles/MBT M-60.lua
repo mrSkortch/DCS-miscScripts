@@ -4,40 +4,6 @@ MBT M-60 =
 	{
 		[1] = 
 		{
-			["count"] = 504,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 12.7,
-					["mass"] = 0.046,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M2_12_7_T",
-				["displayName"] = "12.7mm",
-			}, -- end of ["desc"]
-		}, -- end of [1]
-		[2] = 
-		{
 			["count"] = 33,
 			["desc"] = 
 			{
@@ -69,8 +35,8 @@ MBT M-60 =
 				["typeName"] = "weapons.shells.M68_105_AP",
 				["displayName"] = "105mm AP",
 			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
+		}, -- end of [1]
+		[2] = 
 		{
 			["count"] = 24,
 			["desc"] = 
@@ -103,6 +69,40 @@ MBT M-60 =
 				["typeName"] = "weapons.shells.M68_105_HE",
 				["displayName"] = "105mm HE",
 			}, -- end of ["desc"]
+		}, -- end of [2]
+		[3] = 
+		{
+			["count"] = 504,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 12.7,
+					["mass"] = 0.046,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M2_12_7_T",
+				["displayName"] = "12.7mm",
+			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]
 	["sensors"] = 
@@ -134,15 +134,15 @@ MBT M-60 =
 		{
 			["min"] = 
 			{
-				["y"] = 0.020640999078751,
-				["x"] = -3.6538898944855,
-				["z"] = -1.815269947052,
+				["y"] = -0.011150588281453,
+				["x"] = -3.8016750812531,
+				["z"] = 1.088174700737,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 3,
-				["x"] = 5.5964298248291,
-				["z"] = 1.815269947052,
+				["y"] = 3.4909431934357,
+				["x"] = 5.6383156776428,
+				["z"] = 4.8338861465454,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 13.333299636841,

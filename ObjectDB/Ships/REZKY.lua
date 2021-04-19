@@ -118,6 +118,6 @@ REZKY =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "REZKY",
-		["displayName"] = "FF 1135M Rezky",
+		["displayName"] = "Frigate 1135M Rezky",
 	}, -- end of ["desc"]
 } -- end of REZKY

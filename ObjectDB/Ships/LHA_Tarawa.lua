@@ -72,31 +72,31 @@ LHA_Tarawa =
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 16,
+			["count"] = 42,
 			["desc"] = 
 			{
 				["missileCategory"] = 2,
-				["rangeMaxAltMax"] = 27500,
-				["rangeMin"] = 1500,
+				["rangeMaxAltMax"] = 10000,
+				["rangeMin"] = 500,
 				["_origin"] = "",
-				["rangeMaxAltMin"] = 27000,
-				["altMax"] = 24400,
-				["RCS"] = 0.050000000745058,
-				["displayName"] = "RIM-7",
-				["altMin"] = 1,
+				["rangeMaxAltMin"] = 10000,
+				["altMax"] = 4000,
+				["RCS"] = 0.018200000748038,
+				["displayName"] = "RIM-116A",
+				["altMin"] = -1,
 				["life"] = 2,
-				["fuseDist"] = 10,
+				["fuseDist"] = 5,
 				["category"] = 1,
-				["guidance"] = 4,
+				["guidance"] = 5,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 39,
+					["explosiveMass"] = 10,
 					["type"] = 1,
-					["caliber"] = 203,
-					["mass"] = 39,
+					["caliber"] = 127,
+					["mass"] = 10,
 				}, -- end of ["warhead"]
-				["typeName"] = "weapons.missiles.SeaSparrow",
-				["Nmax"] = 32,
+				["typeName"] = "weapons.missiles.RIM_116A",
+				["Nmax"] = 20,
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]
@@ -130,14 +130,13 @@ LHA_Tarawa =
 			["Ships"] = true,
 			["Heavy armed ships"] = true,
 			["HeavyArmoredUnits"] = true,
-			["Armed Air Defence"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
-			["Armed ships"] = true,
+			["Armed Air Defence"] = true,
 			["Armed Ship"] = true,
 			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
 			["DetectionByAWACS"] = true,
-			["</WSTYPE>"] = true,
+			["Armed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

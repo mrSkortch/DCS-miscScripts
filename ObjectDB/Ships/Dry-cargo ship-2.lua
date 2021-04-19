@@ -32,6 +32,6 @@ Dry-cargo ship-2 =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "Dry-cargo ship-2",
-		["displayName"] = "Dry cargo ship Ivanov",
+		["displayName"] = "Cargo Ivanov",
 	}, -- end of ["desc"]
 } -- end of Dry-cargo ship-2

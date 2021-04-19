@@ -13,40 +13,6 @@ MBT ZTZ96B =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 125,
-					["mass"] = 4.85,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.10894741863012,
-						["x"] = -0.23145794868469,
-						["z"] = -0.10864424705505,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.10724244266748,
-						["x"] = 0.26817846298218,
-						["z"] = 0.10754559934139,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.2A46M_125_AP",
-				["displayName"] = "125mm AP",
-			}, -- end of ["desc"]
-		}, -- end of [1]
-		[2] = 
-		{
-			["count"] = 18,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 125,
 					["mass"] = 5.35,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
@@ -68,6 +34,40 @@ MBT ZTZ96B =
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.ZTZ_125_AP",
 				["displayName"] = "125mm AP",
+			}, -- end of ["desc"]
+		}, -- end of [1]
+		[2] = 
+		{
+			["count"] = 18,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 23,
+					["type"] = 1,
+					["caliber"] = 125,
+					["mass"] = 23,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.060612548142672,
+						["x"] = -0.27024647593498,
+						["z"] = -0.060612548142672,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.060612548142672,
+						["x"] = 0.24980916082859,
+						["z"] = 0.060612548142672,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.ZTZ_125_HE",
+				["displayName"] = "125mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 

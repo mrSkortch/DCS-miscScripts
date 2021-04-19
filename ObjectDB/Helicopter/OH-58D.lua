@@ -1,12 +1,5 @@
 OH-58D = 
 {
-	["countries"] = 
-	{
-		[34] = "Iran",
-		[28] = "Croatia",
-		[42] = "Saudi Arabia",
-		[2] = "USA",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[0] = 

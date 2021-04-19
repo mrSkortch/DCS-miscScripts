@@ -37,19 +37,6 @@ IL-76MD =
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[24] = "Belarus",
-		[33] = "India",
-		[27] = "China",
-		[34] = "Iran",
-		[68] = "USSR",
-		[76] = "Cuba",
-		[0] = "Russia",
-		[70] = "Algeria",
-		[37] = "Kazakhstan",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 167,

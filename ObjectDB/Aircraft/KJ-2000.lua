@@ -1,9 +1,5 @@
 KJ-2000 = 
 {
-	["countries"] = 
-	{
-		[1] = "China",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 
@@ -75,12 +71,13 @@ KJ-2000 =
 		["attributes"] = 
 		{
 			["AWACS"] = true,
-			["NonAndLightArmoredUnits"] = true,
 			["Planes"] = true,
+			["NonAndLightArmoredUnits"] = true,
+			["Air"] = true,
 			["NonArmoredUnits"] = true,
 			["All"] = true,
+			["Link16"] = true,
 			["Datalink"] = true,
-			["Air"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "KJ-2000",
 		["category"] = 0,

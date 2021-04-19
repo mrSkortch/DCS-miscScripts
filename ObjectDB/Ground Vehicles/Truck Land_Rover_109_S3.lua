@@ -40,6 +40,6 @@ Truck Land_Rover_109_S3 =
 		["speedMaxOffRoad"] = 34.700000762939,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "Land_Rover_109_S3",
-		["displayName"] = "Land Rover 109 S3",
+		["displayName"] = "LUV Land Rover 109",
 	}, -- end of ["desc"]
 } -- end of Truck Land_Rover_109_S3

@@ -114,6 +114,6 @@ MBT Stug_III =
 		["speedMaxOffRoad"] = 11.109999656677,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Stug_III",
-		["displayName"] = "StuG III Ausf. G",
+		["displayName"] = "SPG StuG III Ausf. G",
 	}, -- end of ["desc"]
 } -- end of MBT Stug_III

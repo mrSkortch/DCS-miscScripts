@@ -1,15 +1,5 @@
 M-2000C = 
 {
-	["countries"] = 
-	{
-		[64] = "Brazil",
-		[31] = "Greece",
-		[72] = "Qatar",
-		[33] = "India",
-		[74] = "United Arab Emirates",
-		[5] = "France",
-		[29] = "Egypt",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

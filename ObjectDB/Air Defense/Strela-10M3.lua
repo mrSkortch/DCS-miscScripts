@@ -127,6 +127,6 @@ Strela-10M3 =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "Strela-10M3",
-		["displayName"] = "SAM SA-13 Strela-10M3 9A35M3",
+		["displayName"] = "SAM SA-13 Strela 10M3 \"Gopher\" TEL",
 	}, -- end of ["desc"]
 } -- end of Strela-10M3

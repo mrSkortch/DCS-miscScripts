@@ -133,6 +133,6 @@ IFV BRDM-2 =
 		["speedMaxOffRoad"] = 27.777799606323,
 		["_origin"] = "",
 		["typeName"] = "BRDM-2",
-		["displayName"] = "ARV BRDM-2",
+		["displayName"] = "IFV BRDM-2",
 	}, -- end of ["desc"]
 } -- end of IFV BRDM-2

@@ -76,6 +76,6 @@ Dog Ear radar =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "Dog Ear radar",
-		["displayName"] = "CP 9S80M1 Sborka",
+		["displayName"] = "MCC-SR Sborka \"Dog Ear\" SR",
 	}, -- end of ["desc"]
 } -- end of Dog Ear radar

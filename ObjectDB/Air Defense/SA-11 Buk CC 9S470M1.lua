@@ -41,6 +41,6 @@ SA-11 Buk CC 9S470M1 =
 		["speedMaxOffRoad"] = 18.055599212646,
 		["_origin"] = "",
 		["typeName"] = "SA-11 Buk CC 9S470M1",
-		["displayName"] = "SAM SA-11 Buk CC 9S470M1",
+		["displayName"] = "SAM SA-11 Buk \"Gadfly\" C2 ",
 	}, -- end of ["desc"]
 } -- end of SA-11 Buk CC 9S470M1

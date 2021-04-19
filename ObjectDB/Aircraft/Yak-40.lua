@@ -1,30 +1,5 @@
 Yak-40 = 
 {
-	["countries"] = 
-	{
-		[1] = "Russia",
-		[2] = "Ukraine",
-		[3] = "Germany",
-		[4] = "Georgia",
-		[5] = "Italy",
-		[6] = "Belarus",
-		[7] = "Bulgaria",
-		[8] = "Czech Republic",
-		[9] = "Greece",
-		[10] = "Hungary",
-		[11] = "Kazakhstan",
-		[12] = "Poland",
-		[13] = "Serbia",
-		[14] = "Syria",
-		[15] = "Yemen",
-		[16] = "Vietnam",
-		[17] = "Ethiopia",
-		[18] = "Yugoslavia",
-		[19] = "USSR",
-		[20] = "Algeria",
-		[21] = "Cuba",
-		[22] = "GDR",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 140,

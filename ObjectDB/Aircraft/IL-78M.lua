@@ -1,17 +1,5 @@
 IL-78M = 
 {
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[2] = "USA",
-		[0] = "Russia",
-		[58] = "Libya",
-		[68] = "USSR",
-		[39] = "Pakistan",
-		[33] = "India",
-		[70] = "Algeria",
-		[27] = "China",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 167,

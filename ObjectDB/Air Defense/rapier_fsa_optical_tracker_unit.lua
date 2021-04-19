@@ -54,6 +54,6 @@ rapier_fsa_optical_tracker_unit =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "rapier_fsa_optical_tracker_unit",
-		["displayName"] = "Rapier FSA Optical Tracker",
+		["displayName"] = "SAM Rapier Tracker",
 	}, -- end of ["desc"]
 } -- end of rapier_fsa_optical_tracker_unit

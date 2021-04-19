@@ -9,6 +9,7 @@ container_cargo =
 		{
 			["Cargos"] = true,
 		}, -- end of ["attributes"]
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Container",
 		["typeName"] = "container_cargo",

@@ -78,7 +78,7 @@ FW-190D9 =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.034,
+					["explosiveMass"] = 0.0097506,
 					["type"] = 1,
 					["caliber"] = 13,
 					["mass"] = 0.034,
@@ -100,8 +100,8 @@ FW-190D9 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.MG_13x64_HEI",
-				["displayName"] = "13mm HEI",
+				["typeName"] = "weapons.shells.MG_13x64_HE",
+				["displayName"] = "MG_13x64_HE",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -139,10 +139,6 @@ FW-190D9 =
 			}, -- end of ["desc"]
 		}, -- end of [4]
 	}, -- end of ["weapons"]
-	["countries"] = 
-	{
-		[68] = "USSR",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 208,

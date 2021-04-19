@@ -166,6 +166,6 @@ MBT Leopard-2 =
 		["speedMaxOffRoad"] = 20,
 		["_origin"] = "",
 		["typeName"] = "Leopard-2",
-		["displayName"] = "MBT Leopard-2",
+		["displayName"] = "MBT Leopard 2",
 	}, -- end of ["desc"]
 } -- end of MBT Leopard-2

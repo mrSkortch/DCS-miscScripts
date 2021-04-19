@@ -90,6 +90,6 @@ ARTY hy_launcher =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "hy_launcher",
-		["displayName"] = "SS-N-2 Silkworm",
+		["displayName"] = "AShM SS-N-2 Silkworm",
 	}, -- end of ["desc"]
 } -- end of ARTY hy_launcher

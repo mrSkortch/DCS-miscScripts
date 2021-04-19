@@ -39,7 +39,7 @@ B-17G =
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
-		["speedMax0"] = 208,
+		["speedMax0"] = 136,
 		["massEmpty"] = 16391,
 		["range"] = 1015,
 		["box"] = 
@@ -60,16 +60,16 @@ B-17G =
 		["Hmax"] = 10000,
 		["Kmax"] = 0.10000000149012,
 		["_origin"] = "WWII Armour and Technics",
-		["speedMax10K"] = 230,
+		["speedMax10K"] = 145,
 		["NyMin"] = -4,
 		["fuelMassMax"] = 7600,
-		["speedMax"] = 230,
+		["speedMax"] = 145,
 		["NyMax"] = 3,
 		["massMax"] = 29710,
 		["RCS"] = 100,
 		["displayName"] = "B-17G",
 		["life"] = 18,
-		["VyMax"] = 22,
+		["VyMax"] = 10,
 		["Kab"] = 0,
 		["attributes"] = 
 		{

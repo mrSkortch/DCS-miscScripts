@@ -1,10 +1,5 @@
 F-14A = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-		[34] = "Iran",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -15,10 +10,10 @@ F-14A =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.11,
+					["explosiveMass"] = 0.1,
 					["type"] = 1,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,

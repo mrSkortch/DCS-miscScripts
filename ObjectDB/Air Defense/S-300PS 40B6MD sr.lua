@@ -68,6 +68,6 @@ S-300PS 40B6MD sr =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "S-300PS 40B6MD sr",
-		["displayName"] = "SAM SA-10 S-300PS SR 5N66M",
+		["displayName"] = "SAM SA-10 S-300 \"Grumble\" Clam Shell SR",
 	}, -- end of ["desc"]
 } -- end of S-300PS 40B6MD sr

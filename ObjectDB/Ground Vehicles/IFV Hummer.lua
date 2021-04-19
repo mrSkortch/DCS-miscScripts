@@ -46,6 +46,6 @@ IFV Hummer =
 		["speedMaxOffRoad"] = 31.388900756836,
 		["_origin"] = "",
 		["typeName"] = "Hummer",
-		["displayName"] = "APC M1025 HMMWV",
+		["displayName"] = "APC HMMWV Jeep",
 	}, -- end of ["desc"]
 } -- end of IFV Hummer

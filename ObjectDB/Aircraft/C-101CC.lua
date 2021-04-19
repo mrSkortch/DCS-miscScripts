@@ -1,12 +1,5 @@
 C-101CC = 
 {
-	["countries"] = 
-	{
-		[61] = "Honduras",
-		[63] = "Chile",
-		[59] = "Jordan",
-		[9] = "Spain",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 
@@ -23,7 +16,7 @@ C-101CC =
 	["desc"] = 
 	{
 		["speedMax0"] = 205,
-		["massEmpty"] = 3560,
+		["massEmpty"] = 3635,
 		["range"] = 1015,
 		["box"] = 
 		{
@@ -31,13 +24,13 @@ C-101CC =
 			{
 				["y"] = -2.0559206008911,
 				["x"] = -6.0715231895447,
-				["z"] = -5.3563561439514,
+				["z"] = -5.3563566207886,
 			}, -- end of ["min"]
 			["max"] = 
 			{
 				["y"] = 3.0657634735107,
 				["x"] = 6.7703795433044,
-				["z"] = 5.4268088340759,
+				["z"] = 5.4268093109131,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["Hmax"] = 11000,
@@ -45,7 +38,7 @@ C-101CC =
 		["_origin"] = "C-101 Aviojet by AvioDev",
 		["speedMax10K"] = 257,
 		["NyMin"] = -3.9000000953674,
-		["fuelMassMax"] = 1881.5,
+		["fuelMassMax"] = 1796,
 		["speedMax"] = 257,
 		["NyMax"] = 6,
 		["massMax"] = 6300,

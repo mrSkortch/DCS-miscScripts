@@ -44,6 +44,6 @@ Patriot AMG =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "Patriot AMG",
-		["displayName"] = "SAM Patriot AMG AN/MRC-137",
+		["displayName"] = "SAM Patriot CR (AMG AN/MRC-137)",
 	}, -- end of ["desc"]
 } -- end of Patriot AMG

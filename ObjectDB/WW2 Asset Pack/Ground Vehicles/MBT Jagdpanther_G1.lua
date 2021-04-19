@@ -13,7 +13,7 @@ MBT Jagdpanther_G1 =
 					["explosiveMass"] = 0.059,
 					["type"] = 1,
 					["caliber"] = 88,
-					["mass"] = 10.4,
+					["mass"] = 10.2,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -167,6 +167,6 @@ MBT Jagdpanther_G1 =
 		["speedMaxOffRoad"] = 12.699999809265,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Jagdpanther_G1",
-		["displayName"] = "TD Jagdpanther G1",
+		["displayName"] = "SPG Jagdpanther G1",
 	}, -- end of ["desc"]
 } -- end of MBT Jagdpanther_G1

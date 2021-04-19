@@ -113,6 +113,6 @@ fire_control =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "fire_control",
-		["displayName"] = "Fire control bunker",
+		["displayName"] = "Bunker with Fire Control Center",
 	}, -- end of ["desc"]
 } -- end of fire_control

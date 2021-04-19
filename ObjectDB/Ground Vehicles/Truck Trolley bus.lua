@@ -40,6 +40,6 @@ Truck Trolley bus =
 		["speedMaxOffRoad"] = 19.444400787354,
 		["_origin"] = "",
 		["typeName"] = "Trolley bus",
-		["displayName"] = "Transport ZIU-9",
+		["displayName"] = "Bus ZIU-9 Trolley",
 	}, -- end of ["desc"]
 } -- end of Truck Trolley bus

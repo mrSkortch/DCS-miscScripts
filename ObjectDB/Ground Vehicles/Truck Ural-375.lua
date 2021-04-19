@@ -40,6 +40,6 @@ Truck Ural-375 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "Ural-375",
-		["displayName"] = "Transport Ural-375",
+		["displayName"] = "Truck Ural-375",
 	}, -- end of ["desc"]
 } -- end of Truck Ural-375

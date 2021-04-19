@@ -47,6 +47,6 @@ Stinger comm =
 		["speedMaxOffRoad"] = 4,
 		["_origin"] = "",
 		["typeName"] = "Stinger comm",
-		["displayName"] = "SAM Stinger comm",
+		["displayName"] = "MANPADS Stinger C2",
 	}, -- end of ["desc"]
 } -- end of Stinger comm

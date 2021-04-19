@@ -1,21 +1,5 @@
 SA342M = 
 {
-	["countries"] = 
-	{
-		[35] = "Iraq",
-		[27] = "China",
-		[74] = "United Arab Emirates",
-		[4] = "UK",
-		[43] = "Serbia",
-		[71] = "Kuwait",
-		[47] = "Syria",
-		[5] = "France",
-		[51] = "Tunisia",
-		[72] = "Qatar",
-		[55] = "Morocco",
-		[67] = "Yugoslavia",
-		[29] = "Egypt",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[0] = 

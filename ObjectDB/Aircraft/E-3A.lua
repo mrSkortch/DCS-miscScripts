@@ -1,29 +1,5 @@
 E-3A = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-		[3] = "Turkey",
-		[4] = "UK",
-		[5] = "France",
-		[6] = "Germany",
-		[8] = "Canada",
-		[9] = "Spain",
-		[10] = "The Netherlands",
-		[11] = "Belgium",
-		[12] = "Norway",
-		[13] = "Denmark",
-		[20] = "Italy",
-		[25] = "Bulgaria",
-		[26] = "Czech Republic",
-		[28] = "Croatia",
-		[31] = "Greece",
-		[32] = "Hungary",
-		[40] = "Poland",
-		[42] = "Saudi Arabia",
-		[41] = "Romania",
-		[44] = "Slovakia",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

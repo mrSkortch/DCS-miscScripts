@@ -1,14 +1,5 @@
 Su-25T = 
 {
-	["countries"] = 
-	{
-		[1] = "Russia",
-		[2] = "Georgia",
-		[3] = "Iran",
-		[4] = "Ethiopia",
-		[5] = "USSR",
-		[6] = "Algeria",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

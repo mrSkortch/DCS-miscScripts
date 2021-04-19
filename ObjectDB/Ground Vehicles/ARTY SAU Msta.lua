@@ -131,6 +131,6 @@ ARTY SAU Msta =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "SAU Msta",
-		["displayName"] = "SPH 2S19 Msta",
+		["displayName"] = "SPH 2S19 Msta 152mm",
 	}, -- end of ["desc"]
 } -- end of ARTY SAU Msta

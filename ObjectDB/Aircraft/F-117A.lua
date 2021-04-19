@@ -1,9 +1,46 @@
 F-117A = 
 {
-	["countries"] = 
+	["weapons"] = 
 	{
-		[1] = "USA",
-	}, -- end of ["countries"]
+		[1] = 
+		{
+			["count"] = 2,
+			["desc"] = 
+			{
+				["altMax"] = 15000,
+				["RCS"] = 0,
+				["displayName"] = "GBU-31(V)1/B",
+				["altMin"] = 400,
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 340,
+					["type"] = 1,
+					["caliber"] = 457,
+					["mass"] = 340,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["guidance"] = 1,
+				["category"] = 3,
+				["typeName"] = "weapons.bombs.GBU_31",
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.28504949808121,
+						["x"] = -2.0307881832123,
+						["z"] = -0.28504967689514,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.28504949808121,
+						["x"] = 2.0307881832123,
+						["z"] = 0.28504967689514,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+			}, -- end of ["desc"]
+		}, -- end of [1]
+	}, -- end of ["weapons"]
 	["sensors"] = 
 	{
 		[0] = 
@@ -50,7 +87,7 @@ F-117A =
 		["_origin"] = "",
 		["speedMax10K"] = 289,
 		["NyMin"] = -1,
-		["fuelMassMax"] = 3840,
+		["fuelMassMax"] = 8255,
 		["speedMax"] = 292,
 		["NyMax"] = 4.5,
 		["massMax"] = 23810,

@@ -205,6 +205,6 @@ MBT M1128 Stryker MGS =
 		["speedMaxOffRoad"] = 20,
 		["_origin"] = "",
 		["typeName"] = "M1128 Stryker MGS",
-		["displayName"] = "SPG M1128 Stryker MGS",
+		["displayName"] = "SPG Stryker MGS",
 	}, -- end of ["desc"]
 } -- end of MBT M1128 Stryker MGS

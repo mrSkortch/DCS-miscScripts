@@ -40,6 +40,6 @@ Truck Land_Rover_101_FC =
 		["speedMaxOffRoad"] = 34.700000762939,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "Land_Rover_101_FC",
-		["displayName"] = "Land Rover 101 FC",
+		["displayName"] = "Truck Land Rover 101 FC",
 	}, -- end of ["desc"]
 } -- end of Truck Land_Rover_101_FC

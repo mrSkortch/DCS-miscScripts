@@ -36,6 +36,6 @@ SOM =
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "SOM",
-		["displayName"] = "SSK 641B",
+		["displayName"] = "SSK 641B Tango",
 	}, -- end of ["desc"]
 } -- end of SOM

@@ -133,6 +133,6 @@ MBT Centaur_IV =
 		["speedMaxOffRoad"] = 14.439999580383,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Centaur_IV",
-		["displayName"] = "ST Centaur IV",
+		["displayName"] = "CT Centaur IV",
 	}, -- end of ["desc"]
 } -- end of MBT Centaur_IV

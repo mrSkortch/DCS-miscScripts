@@ -105,20 +105,6 @@ MiG-15bis =
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]
-	["countries"] = 
-	{
-		[25] = "Bulgaria",
-		[27] = "China",
-		[41] = "Romania",
-		[32] = "Hungary",
-		[76] = "Cuba",
-		[68] = "USSR",
-		[70] = "Algeria",
-		[40] = "Poland",
-		[6] = "Germany",
-		[47] = "Syria",
-		[29] = "Egypt",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 294.16665649414,
@@ -140,7 +126,7 @@ MiG-15bis =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["Hmax"] = 15100,
-		["Kmax"] = 0.75999999046326,
+		["Kmax"] = 0.25999999046326,
 		["_origin"] = "MiG-15bis AI by Eagle Dynamics",
 		["speedMax10K"] = 275.55554199219,
 		["NyMin"] = -3,
@@ -152,7 +138,7 @@ MiG-15bis =
 		["displayName"] = "MiG-15bis",
 		["life"] = 15,
 		["VyMax"] = 51,
-		["Kab"] = 0.75999999046326,
+		["Kab"] = 0.25999999046326,
 		["attributes"] = 
 		{
 			["Air"] = true,

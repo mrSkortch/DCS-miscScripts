@@ -1,12 +1,5 @@
 F-15C = 
 {
-	["countries"] = 
-	{
-		[42] = "Saudi Arabia",
-		[2] = "USA",
-		[15] = "Israel",
-		[36] = "Japan",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -17,10 +10,10 @@ F-15C =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.11,
+					["explosiveMass"] = 0.1,
 					["type"] = 1,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -98,7 +91,7 @@ F-15C =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["Hmax"] = 18300,
-		["Kmax"] = 0.91000002622604,
+		["Kmax"] = 0.85000002384186,
 		["_origin"] = "",
 		["speedMax10K"] = 736.10998535156,
 		["NyMin"] = -3,
@@ -110,7 +103,7 @@ F-15C =
 		["displayName"] = "F-15C",
 		["life"] = 20,
 		["VyMax"] = 275,
-		["Kab"] = 4,
+		["Kab"] = 4.25,
 		["attributes"] = 
 		{
 			["Air"] = true,

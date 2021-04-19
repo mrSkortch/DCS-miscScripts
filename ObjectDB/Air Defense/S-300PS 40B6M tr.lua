@@ -68,6 +68,6 @@ S-300PS 40B6M tr =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "S-300PS 40B6M tr",
-		["displayName"] = "SAM SA-10 S-300PS TR 30N6",
+		["displayName"] = "SAM SA-10 S-300 \"Grumble\" Flap Lid TR ",
 	}, -- end of ["desc"]
 } -- end of S-300PS 40B6M tr

@@ -91,7 +91,7 @@ F-14B =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["Hmax"] = 17000,
-		["Kmax"] = 0.60000002384186,
+		["Kmax"] = 0.89999997615814,
 		["_origin"] = "F-14B AI by Heatblur Simulations",
 		["speedMax10K"] = 700,
 		["NyMin"] = -4,
@@ -103,7 +103,7 @@ F-14B =
 		["displayName"] = "F-14B",
 		["life"] = 20,
 		["VyMax"] = 230,
-		["Kab"] = 2.5,
+		["Kab"] = 4.75,
 		["attributes"] = 
 		{
 			["Air"] = true,

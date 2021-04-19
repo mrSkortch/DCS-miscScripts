@@ -40,6 +40,6 @@ Truck KAMAZ Truck =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "KAMAZ Truck",
-		["displayName"] = "Transport KAMAZ-43101",
+		["displayName"] = "Truck KAMAZ 43101",
 	}, -- end of ["desc"]
 } -- end of Truck KAMAZ Truck

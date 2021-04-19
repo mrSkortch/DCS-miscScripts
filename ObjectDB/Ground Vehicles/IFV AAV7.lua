@@ -129,6 +129,6 @@ IFV AAV7 =
 		["speedMaxOffRoad"] = 20,
 		["_origin"] = "",
 		["typeName"] = "AAV7",
-		["displayName"] = "APC AAV-7",
+		["displayName"] = "APC AAV-7 Amphibious",
 	}, -- end of ["desc"]
 } -- end of IFV AAV7

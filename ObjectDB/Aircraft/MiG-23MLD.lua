@@ -1,15 +1,5 @@
 MiG-23MLD = 
 {
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[0] = "Russia",
-		[68] = "USSR",
-		[25] = "Bulgaria",
-		[47] = "Syria",
-		[76] = "Cuba",
-		[70] = "Algeria",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

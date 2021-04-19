@@ -68,6 +68,6 @@ Patriot ECS =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "Patriot ECS",
-		["displayName"] = "SAM Patriot ECS AN/MSQ-104",
+		["displayName"] = "SAM Patriot ECS",
 	}, -- end of ["desc"]
 } -- end of Patriot ECS

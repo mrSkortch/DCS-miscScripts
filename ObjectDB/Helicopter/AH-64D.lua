@@ -1,18 +1,5 @@
 AH-64D = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-		[4] = "UK",
-		[31] = "Greece",
-		[74] = "United Arab Emirates",
-		[10] = "The Netherlands",
-		[71] = "Kuwait",
-		[36] = "Japan",
-		[42] = "Saudi Arabia",
-		[15] = "Israel",
-		[29] = "Egypt",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

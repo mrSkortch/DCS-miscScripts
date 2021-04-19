@@ -40,6 +40,6 @@ Truck ATZ-10 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "ATZ-10",
-		["displayName"] = "Fuel Truck ATZ-10",
+		["displayName"] = "Refueler ATZ-10",
 	}, -- end of ["desc"]
 } -- end of Truck ATZ-10

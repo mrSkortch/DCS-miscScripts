@@ -1,20 +1,5 @@
 F-16A MLU = 
 {
-	["countries"] = 
-	{
-		[13] = "Denmark",
-		[52] = "Thailand",
-		[39] = "Pakistan",
-		[41] = "Romania",
-		[60] = "Indonesia",
-		[63] = "Chile",
-		[10] = "The Netherlands",
-		[20] = "Italy",
-		[11] = "Belgium",
-		[59] = "Jordan",
-		[12] = "Norway",
-		[2] = "USA",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -25,10 +10,10 @@ F-16A MLU =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.11,
+					["explosiveMass"] = 0.1,
 					["type"] = 1,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,

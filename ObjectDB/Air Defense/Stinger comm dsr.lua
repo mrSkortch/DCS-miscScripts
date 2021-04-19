@@ -47,6 +47,6 @@ Stinger comm dsr =
 		["speedMaxOffRoad"] = 4,
 		["_origin"] = "",
 		["typeName"] = "Stinger comm dsr",
-		["displayName"] = "SAM Stinger comm dsr",
+		["displayName"] = "MANPADS Stinger C2 Desert",
 	}, -- end of ["desc"]
 } -- end of Stinger comm dsr

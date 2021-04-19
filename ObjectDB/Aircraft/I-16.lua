@@ -1,14 +1,5 @@
 I-16 = 
 {
-	["countries"] = 
-	{
-		[1] = "Spain",
-		[2] = "China",
-		[3] = "Finland",
-		[4] = "Poland",
-		[5] = "Romania",
-		[6] = "USSR",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

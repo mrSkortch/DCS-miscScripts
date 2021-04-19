@@ -4,6 +4,7 @@ Container white =
 	["desc"] = 
 	{
 		["life"] = 20,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Container white",
 		["typeName"] = "Container white",

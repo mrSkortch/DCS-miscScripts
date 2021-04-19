@@ -40,6 +40,6 @@ Truck GAZ-66 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "GAZ-66",
-		["displayName"] = "Transport GAZ-66",
+		["displayName"] = "Truck GAZ-66",
 	}, -- end of ["desc"]
 } -- end of Truck GAZ-66

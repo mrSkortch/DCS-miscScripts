@@ -10,7 +10,7 @@ IFV Sd_Kfz_234_2_Puma =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.35,
+					["explosiveMass"] = 0.029,
 					["type"] = 1,
 					["caliber"] = 50,
 					["mass"] = 2.06,

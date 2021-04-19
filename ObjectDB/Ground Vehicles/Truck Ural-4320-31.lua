@@ -40,6 +40,6 @@ Truck Ural-4320-31 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "Ural-4320-31",
-		["displayName"] = "Transport Ural-4320-31 Armored",
+		["displayName"] = "Truck Ural-4320-31 Arm'd",
 	}, -- end of ["desc"]
 } -- end of Truck Ural-4320-31

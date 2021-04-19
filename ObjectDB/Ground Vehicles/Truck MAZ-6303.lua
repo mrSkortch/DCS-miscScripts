@@ -40,6 +40,6 @@ Truck MAZ-6303 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "MAZ-6303",
-		["displayName"] = "Transport MAZ-6303",
+		["displayName"] = "Truck MAZ-6303",
 	}, -- end of ["desc"]
 } -- end of Truck MAZ-6303

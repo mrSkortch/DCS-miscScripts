@@ -21,15 +21,15 @@ ARTY SK_C_28_naval_gun =
 				{
 					["min"] = 
 					{
-						["y"] = -0.060612548142672,
-						["x"] = -0.27024647593498,
-						["z"] = -0.060612548142672,
+						["y"] = -0.084222868084908,
+						["x"] = -0.33004048466682,
+						["z"] = -0.077278509736061,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.060612548142672,
-						["x"] = 0.24980916082859,
-						["z"] = 0.060612548142672,
+						["y"] = 0.084222868084908,
+						["x"] = 0.33004048466682,
+						["z"] = 0.077278509736061,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.RM_15cm_HE",
@@ -100,6 +100,6 @@ ARTY SK_C_28_naval_gun =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "SK_C_28_naval_gun",
-		["displayName"] = "Bunker with SK C/28 15cm naval gun",
+		["displayName"] = "Gun 15cm SK C/28 Naval in Bunker",
 	}, -- end of ["desc"]
 } -- end of ARTY SK_C_28_naval_gun

@@ -69,6 +69,6 @@ Hawk sr =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "Hawk sr",
-		["displayName"] = "SAM Hawk SR AN/MPQ-50",
+		["displayName"] = "SAM Hawk SR (AN/MPQ-50)",
 	}, -- end of ["desc"]
 } -- end of Hawk sr

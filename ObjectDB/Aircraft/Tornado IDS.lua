@@ -1,11 +1,5 @@
 Tornado IDS = 
 {
-	["countries"] = 
-	{
-		[1] = "Germany",
-		[2] = "Italy",
-		[3] = "Saudi Arabia",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

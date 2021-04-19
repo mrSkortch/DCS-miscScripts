@@ -147,6 +147,6 @@ IFV M1134 Stryker ATGM =
 		["speedMaxOffRoad"] = 20,
 		["_origin"] = "",
 		["typeName"] = "M1134 Stryker ATGM",
-		["displayName"] = "ATGM M1134 Stryker",
+		["displayName"] = "ATGM Stryker",
 	}, -- end of ["desc"]
 } -- end of IFV M1134 Stryker ATGM

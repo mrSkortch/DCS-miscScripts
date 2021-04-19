@@ -4,6 +4,7 @@ TV tower =
 	["desc"] = 
 	{
 		["life"] = 150,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "TV tower",
 		["typeName"] = "TV tower",

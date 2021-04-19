@@ -41,6 +41,6 @@ Truck M 818 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "M 818",
-		["displayName"] = "Transport M818",
+		["displayName"] = "Truck M818 6x6",
 	}, -- end of ["desc"]
 } -- end of Truck M 818

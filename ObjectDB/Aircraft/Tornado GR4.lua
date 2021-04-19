@@ -1,9 +1,5 @@
 Tornado GR4 = 
 {
-	["countries"] = 
-	{
-		[1] = "UK",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -75,6 +71,7 @@ Tornado GR4 =
 	{
 		["speedMax0"] = 306,
 		["massEmpty"] = 14090,
+		["tankerType"] = 1,
 		["range"] = 2780,
 		["box"] = 
 		{
@@ -108,11 +105,12 @@ Tornado GR4 =
 		["attributes"] = 
 		{
 			["Air"] = true,
-			["NonArmoredUnits"] = true,
+			["Refuelable"] = true,
 			["Link16"] = true,
 			["Battle airplanes"] = true,
 			["NonAndLightArmoredUnits"] = true,
 			["Planes"] = true,
+			["NonArmoredUnits"] = true,
 			["All"] = true,
 			["Datalink"] = true,
 			["Bombers"] = true,

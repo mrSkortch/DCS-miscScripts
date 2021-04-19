@@ -1,15 +1,5 @@
 SpitfireLFMkIXCW = 
 {
-	["countries"] = 
-	{
-		[1] = "USA",
-		[2] = "UK",
-		[3] = "France",
-		[4] = "Israel",
-		[5] = "Egypt",
-		[6] = "USSR",
-		[7] = "Portugal",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

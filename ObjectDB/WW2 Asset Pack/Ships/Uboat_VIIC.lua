@@ -182,13 +182,13 @@ Uboat_VIIC =
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
+			["NO_SAM"] = true,
 			["Armed ships"] = true,
-			["</WSTYPE>"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Uboat_VIIC",
-		["displayName"] = "Uboat VIIC U-flak",
+		["displayName"] = "U-boat VIIC U-flak",
 	}, -- end of ["desc"]
 } -- end of Uboat_VIIC

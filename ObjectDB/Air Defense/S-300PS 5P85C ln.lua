@@ -90,6 +90,6 @@ S-300PS 5P85C ln =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "S-300PS 5P85C ln",
-		["displayName"] = "SAM SA-10 S-300PS LN 5P85C",
+		["displayName"] = "SAM SA-10 S-300 \"Grumble\" TEL D",
 	}, -- end of ["desc"]
 } -- end of S-300PS 5P85C ln

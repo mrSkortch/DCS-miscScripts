@@ -21,15 +21,15 @@ ARTY SturmPzIV =
 				{
 					["min"] = 
 					{
-						["y"] = -0.060612548142672,
-						["x"] = -0.27024647593498,
-						["z"] = -0.060612548142672,
+						["y"] = -0.084222868084908,
+						["x"] = -0.33004048466682,
+						["z"] = -0.077278509736061,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.060612548142672,
-						["x"] = 0.24980916082859,
-						["z"] = 0.060612548142672,
+						["y"] = 0.084222868084908,
+						["x"] = 0.33004048466682,
+						["z"] = 0.077278509736061,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.I_Gr_33",
@@ -150,6 +150,6 @@ ARTY SturmPzIV =
 		["speedMaxOffRoad"] = 10.560000419617,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "SturmPzIV",
-		["displayName"] = "Sturmpanzer IV Brummbär",
+		["displayName"] = "SPG Sturmpanzer IV Brummbar",
 	}, -- end of ["desc"]
 } -- end of ARTY SturmPzIV

@@ -1,28 +1,5 @@
 MiG-21Bis = 
 {
-	["countries"] = 
-	{
-		[15] = "Israel",
-		[30] = "Finland",
-		[62] = "Ethiopia",
-		[32] = "Hungary",
-		[33] = "India",
-		[34] = "Iran",
-		[35] = "Iraq",
-		[70] = "Algeria",
-		[38] = "North Korea",
-		[76] = "Cuba",
-		[40] = "Poland",
-		[43] = "Serbia",
-		[6] = "Germany",
-		[47] = "Syria",
-		[25] = "Bulgaria",
-		[67] = "Yugoslavia",
-		[28] = "Croatia",
-		[68] = "USSR",
-		[58] = "Libya",
-		[49] = "Vietnam",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -44,15 +21,15 @@ MiG-21Bis =
 				{
 					["min"] = 
 					{
-						["y"] = -0.24863448739052,
-						["x"] = -12.059624671936,
-						["z"] = -0.24868926405907,
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.24863448739052,
-						["x"] = 0.054827813059092,
-						["z"] = 0.24857969582081,
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.GSH_23_HE",
@@ -134,7 +111,7 @@ MiG-21Bis =
 		["displayName"] = "MiG-21Bis",
 		["life"] = 20,
 		["VyMax"] = 200,
-		["Kab"] = 2,
+		["Kab"] = 2.4000000953674,
 		["attributes"] = 
 		{
 			["Air"] = true,

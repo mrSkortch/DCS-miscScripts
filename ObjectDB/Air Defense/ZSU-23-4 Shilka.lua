@@ -142,6 +142,6 @@ ZSU-23-4 Shilka =
 		["speedMaxOffRoad"] = 12.222200393677,
 		["_origin"] = "",
 		["typeName"] = "ZSU-23-4 Shilka",
-		["displayName"] = "SPAAA ZSU-23-4 Shilka",
+		["displayName"] = "SPAAA ZSU-23-4 Shilka \"Gun Dish\"",
 	}, -- end of ["desc"]
 } -- end of ZSU-23-4 Shilka

@@ -56,7 +56,7 @@ Type_052B =
 				["guidance"] = 1,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 100,
+					["explosiveMass"] = 165,
 					["type"] = 1,
 					["caliber"] = 360,
 					["mass"] = 165,
@@ -202,18 +202,17 @@ Type_052B =
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,
-			["HeavyArmoredUnits"] = true,
 			["Ships"] = true,
+			["HeavyArmoredUnits"] = true,
 			["Armed Air Defence"] = true,
 			["Armed ships"] = true,
-			["HelicopterCarrier"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
-			["Destroyers"] = true,
+			["HelicopterCarrier"] = true,
 			["Armed Ship"] = true,
 			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
 			["DetectionByAWACS"] = true,
-			["</WSTYPE>"] = true,
+			["Destroyers"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

@@ -1,25 +1,5 @@
 CH-47D = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-		[3] = "Turkey",
-		[4] = "UK",
-		[55] = "Morocco",
-		[27] = "China",
-		[74] = "United Arab Emirates",
-		[29] = "Egypt",
-		[8] = "Canada",
-		[31] = "Greece",
-		[9] = "Spain",
-		[34] = "Iran",
-		[10] = "The Netherlands",
-		[20] = "Italy",
-		[21] = "Australia",
-		[42] = "Saudi Arabia",
-		[52] = "Thailand",
-		[36] = "Japan",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["massEmpty"] = 15329,

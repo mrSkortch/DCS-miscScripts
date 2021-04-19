@@ -1,9 +1,5 @@
 FA-18C_hornet = 
 {
-	["countries"] = 
-	{
-		[1] = "USA",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -63,7 +59,7 @@ FA-18C_hornet =
 				["type"] = 1,
 				["detectionDistanceRBM"] = 1800,
 				["typeName"] = "AN/APG-73",
-				["detectionDistanceHRM"] = 200,
+				["detectionDistanceHRM"] = 7400,
 			}, -- end of [1]
 		}, -- end of [1]
 		[3] = 
@@ -78,7 +74,7 @@ FA-18C_hornet =
 	["desc"] = 
 	{
 		["speedMax0"] = 361.10000610352,
-		["massEmpty"] = 11631,
+		["massEmpty"] = 11382,
 		["tankerType"] = 1,
 		["range"] = 1520,
 		["box"] = 

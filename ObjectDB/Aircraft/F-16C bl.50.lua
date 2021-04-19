@@ -1,15 +1,5 @@
 F-16C bl.50 = 
 {
-	["countries"] = 
-	{
-		[31] = "Greece",
-		[73] = "Oman",
-		[10] = "The Netherlands",
-		[40] = "Poland",
-		[3] = "Turkey",
-		[63] = "Chile",
-		[2] = "USA",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -20,10 +10,10 @@ F-16C bl.50 =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.11,
+					["explosiveMass"] = 0.1,
 					["type"] = 1,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,

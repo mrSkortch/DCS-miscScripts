@@ -41,6 +41,6 @@ Hawk pcp =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "Hawk pcp",
-		["displayName"] = "SAM Hawk PCP",
+		["displayName"] = "SAM Hawk Generator (PCP)",
 	}, -- end of ["desc"]
 } -- end of Hawk pcp

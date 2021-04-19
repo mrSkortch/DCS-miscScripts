@@ -40,6 +40,6 @@ Truck ZIL-4331 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "ZIL-4331",
-		["displayName"] = "Transport ZIL-4331",
+		["displayName"] = "Truck ZIL-4331",
 	}, -- end of ["desc"]
 } -- end of Truck ZIL-4331

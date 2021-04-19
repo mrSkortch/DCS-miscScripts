@@ -13,7 +13,7 @@ MBT Elefant_SdKfz_184 =
 					["explosiveMass"] = 0.059,
 					["type"] = 1,
 					["caliber"] = 88,
-					["mass"] = 10.4,
+					["mass"] = 10.2,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -167,6 +167,6 @@ MBT Elefant_SdKfz_184 =
 		["speedMaxOffRoad"] = 5.5599999427795,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Elefant_SdKfz_184",
-		["displayName"] = "Sd.Kfz.184 Elefant",
+		["displayName"] = "SPG Sd.Kfz.184 Elefant",
 	}, -- end of ["desc"]
 } -- end of MBT Elefant_SdKfz_184

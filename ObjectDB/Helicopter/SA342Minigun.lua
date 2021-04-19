@@ -1,21 +1,5 @@
 SA342Minigun = 
 {
-	["countries"] = 
-	{
-		[35] = "Iraq",
-		[27] = "China",
-		[74] = "United Arab Emirates",
-		[4] = "UK",
-		[43] = "Serbia",
-		[71] = "Kuwait",
-		[47] = "Syria",
-		[5] = "France",
-		[51] = "Tunisia",
-		[72] = "Qatar",
-		[55] = "Morocco",
-		[67] = "Yugoslavia",
-		[29] = "Egypt",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -29,7 +13,7 @@ SA342Minigun =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 7.62,
-					["mass"] = 0.0296,
+					["mass"] = 0.00933,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,

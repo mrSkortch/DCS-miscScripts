@@ -1,30 +1,5 @@
 F-5E-3 = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-		[60] = "Indonesia",
-		[61] = "Honduras",
-		[62] = "Ethiopia",
-		[63] = "Chile",
-		[64] = "Brazil",
-		[34] = "Iran",
-		[42] = "Saudi Arabia",
-		[22] = "Switzerland",
-		[23] = "Austria",
-		[65] = "Bahrain",
-		[48] = "Yemen",
-		[49] = "Vietnam",
-		[59] = "Jordan",
-		[51] = "Tunisia",
-		[52] = "Thailand",
-		[53] = "Sudan",
-		[54] = "Philippines",
-		[55] = "Morocco",
-		[56] = "Mexico",
-		[57] = "Malaysia",
-		[45] = "South Korea",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -35,10 +10,10 @@ F-5E-3 =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.102,
+					["explosiveMass"] = 0.1,
 					["type"] = 1,
 					["caliber"] = 20,
-					["mass"] = 0.102,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -123,7 +98,7 @@ F-5E-3 =
 		["speedMax"] = 484,
 		["NyMax"] = 7.5,
 		["massMax"] = 11187,
-		["RCS"] = 5,
+		["RCS"] = 3,
 		["displayName"] = "F-5E-3",
 		["life"] = 16,
 		["VyMax"] = 200,

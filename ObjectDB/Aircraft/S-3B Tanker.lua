@@ -1,9 +1,5 @@
 S-3B Tanker = 
 {
-	["countries"] = 
-	{
-		[1] = "USA",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

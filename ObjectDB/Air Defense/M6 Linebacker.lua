@@ -198,6 +198,6 @@ M6 Linebacker =
 		["speedMaxOffRoad"] = 18.333299636841,
 		["_origin"] = "",
 		["typeName"] = "M6 Linebacker",
-		["displayName"] = "SAM Linebacker M6",
+		["displayName"] = "SAM Linebacker - Bradley M6",
 	}, -- end of ["desc"]
 } -- end of M6 Linebacker

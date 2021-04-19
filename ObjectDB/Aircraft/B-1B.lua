@@ -1,9 +1,5 @@
 B-1B = 
 {
-	["countries"] = 
-	{
-		[2] = "USA",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

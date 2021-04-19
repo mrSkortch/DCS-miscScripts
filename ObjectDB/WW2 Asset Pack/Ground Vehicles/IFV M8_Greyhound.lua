@@ -202,6 +202,6 @@ IFV M8_Greyhound =
 		["speedMaxOffRoad"] = 24.700000762939,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "M8_Greyhound",
-		["displayName"] = "LAC M8 Greyhound",
+		["displayName"] = "Car M8 Greyhound Armored",
 	}, -- end of ["desc"]
 } -- end of IFV M8_Greyhound

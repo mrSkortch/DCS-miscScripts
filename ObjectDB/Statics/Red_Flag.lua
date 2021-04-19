@@ -4,6 +4,7 @@ Red_Flag =
 	["desc"] = 
 	{
 		["life"] = 3,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Mark Flag Red",
 		["typeName"] = "Red_Flag",

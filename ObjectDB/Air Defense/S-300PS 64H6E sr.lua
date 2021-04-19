@@ -68,6 +68,6 @@ S-300PS 64H6E sr =
 		["speedMaxOffRoad"] = 16.666700363159,
 		["_origin"] = "",
 		["typeName"] = "S-300PS 64H6E sr",
-		["displayName"] = "SAM SA-10 S-300PS SR 64H6E",
+		["displayName"] = "SAM SA-10 S-300 \"Grumble\" Big Bird SR ",
 	}, -- end of ["desc"]
 } -- end of S-300PS 64H6E sr

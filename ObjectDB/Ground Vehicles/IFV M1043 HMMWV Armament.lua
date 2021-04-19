@@ -82,6 +82,6 @@ IFV M1043 HMMWV Armament =
 		["speedMaxOffRoad"] = 31.388900756836,
 		["_origin"] = "",
 		["typeName"] = "M1043 HMMWV Armament",
-		["displayName"] = "APC M1043 HMMWV Armament",
+		["displayName"] = "APC HMMWV (Scout)",
 	}, -- end of ["desc"]
 } -- end of IFV M1043 HMMWV Armament

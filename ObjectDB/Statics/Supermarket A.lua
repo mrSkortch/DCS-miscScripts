@@ -4,6 +4,7 @@ Supermarket A =
 	["desc"] = 
 	{
 		["life"] = 800,
+		["_origin"] = "",
 		["category"] = 4,
 		["displayName"] = "Supermarket A",
 		["typeName"] = "Supermarket A",

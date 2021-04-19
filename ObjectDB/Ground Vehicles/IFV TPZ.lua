@@ -81,6 +81,6 @@ IFV TPZ =
 		["speedMaxOffRoad"] = 29.166700363159,
 		["_origin"] = "",
 		["typeName"] = "TPZ",
-		["displayName"] = "TPz Fuchs",
+		["displayName"] = "APC TPz Fuchs ",
 	}, -- end of ["desc"]
 } -- end of IFV TPZ

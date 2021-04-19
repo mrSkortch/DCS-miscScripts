@@ -1,19 +1,5 @@
 Yak-52 = 
 {
-	["countries"] = 
-	{
-		[1] = "Russia",
-		[2] = "Ukraine",
-		[3] = "Germany",
-		[4] = "Georgia",
-		[5] = "Abkhazia",
-		[6] = "Belarus",
-		[7] = "Bulgaria",
-		[8] = "Hungary",
-		[9] = "Romania",
-		[10] = "Vietnam",
-		[11] = "USSR",
-	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[0] = 

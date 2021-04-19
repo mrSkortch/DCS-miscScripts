@@ -13,7 +13,7 @@ MBT Tiger_II_H =
 					["explosiveMass"] = 0.059,
 					["type"] = 1,
 					["caliber"] = 88,
-					["mass"] = 10.4,
+					["mass"] = 10.2,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -167,6 +167,6 @@ MBT Tiger_II_H =
 		["speedMaxOffRoad"] = 10.550000190735,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Tiger_II_H",
-		["displayName"] = "HT Pz.Kpfw.VI Ausf. B 'Tiger II'",
+		["displayName"] = "HT Pz.Kpfw.VI Ausf. B Tiger II",
 	}, -- end of ["desc"]
 } -- end of MBT Tiger_II_H

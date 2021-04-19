@@ -1,21 +1,5 @@
 F-16A = 
 {
-	["countries"] = 
-	{
-		[13] = "Denmark",
-		[50] = "Venezuela",
-		[52] = "Thailand",
-		[2] = "USA",
-		[29] = "Egypt",
-		[60] = "Indonesia",
-		[59] = "Jordan",
-		[10] = "The Netherlands",
-		[20] = "Italy",
-		[11] = "Belgium",
-		[39] = "Pakistan",
-		[12] = "Norway",
-		[15] = "Israel",
-	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -26,10 +10,10 @@ F-16A =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.11,
+					["explosiveMass"] = 0.1,
 					["type"] = 1,
 					["caliber"] = 20,
-					["mass"] = 0.11,
+					["mass"] = 0.1,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,

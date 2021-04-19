@@ -37,23 +37,6 @@ L-39ZA =
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
-	["countries"] = 
-	{
-		[1] = "Ukraine",
-		[2] = "USA",
-		[0] = "Russia",
-		[25] = "Bulgaria",
-		[26] = "Czech Republic",
-		[52] = "Thailand",
-		[41] = "Romania",
-		[16] = "Georgia",
-		[32] = "Hungary",
-		[18] = "Abkhazia",
-		[76] = "Cuba",
-		[70] = "Algeria",
-		[44] = "Slovakia",
-		[47] = "Syria",
-	}, -- end of ["countries"]
 	["desc"] = 
 	{
 		["speedMax0"] = 250,
