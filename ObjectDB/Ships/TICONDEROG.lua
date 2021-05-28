@@ -240,10 +240,12 @@ TICONDEROG =
 				["missileCategory"] = 4,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 90,
-					["type"] = 1,
-					["caliber"] = 343,
 					["mass"] = 90,
+					["explosiveMass"] = 90,
+					["shapedExplosiveArmorThickness"] = 0.10000000149012,
+					["shapedExplosiveMass"] = 180,
+					["caliber"] = 0,
+					["type"] = 2,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 241401,
 				["typeName"] = "AGM_84S",

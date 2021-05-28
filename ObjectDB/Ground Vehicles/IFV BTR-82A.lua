@@ -167,6 +167,6 @@ IFV BTR-82A =
 		["speedMaxOffRoad"] = 25,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "BTR-82A",
-		["displayName"] = "APC BTR-82A",
+		["displayName"] = "IFV BTR-82A",
 	}, -- end of ["desc"]
 } -- end of IFV BTR-82A

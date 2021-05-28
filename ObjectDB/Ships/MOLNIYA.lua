@@ -138,10 +138,12 @@ MOLNIYA =
 				["missileCategory"] = 6,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 128,
-					["type"] = 1,
-					["caliber"] = 760,
 					["mass"] = 128,
+					["explosiveMass"] = 128,
+					["shapedExplosiveArmorThickness"] = 0.10000000149012,
+					["shapedExplosiveMass"] = 256,
+					["caliber"] = 0,
+					["type"] = 2,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 250000,
 				["typeName"] = "X_41",

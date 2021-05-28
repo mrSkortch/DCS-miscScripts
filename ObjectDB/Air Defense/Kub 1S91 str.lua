@@ -69,6 +69,6 @@ Kub 1S91 str =
 		["speedMaxOffRoad"] = 12.222200393677,
 		["_origin"] = "",
 		["typeName"] = "Kub 1S91 str",
-		["displayName"] = "SAM SA-6 Kub \"Long Track\" STR",
+		["displayName"] = "SAM SA-6 Kub \"Straight Flush\" STR",
 	}, -- end of ["desc"]
 } -- end of Kub 1S91 str

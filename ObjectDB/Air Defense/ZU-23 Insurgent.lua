@@ -114,6 +114,6 @@ ZU-23 Insurgent =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "ZU-23 Insurgent",
-		["displayName"] = "AAA ZU-23 Insurgent",
+		["displayName"] = "AAA ZU-23 Insurgent Emplacement",
 	}, -- end of ["desc"]
 } -- end of ZU-23 Insurgent

@@ -112,6 +112,6 @@ IFV MLRS FDDM =
 		["speedMaxOffRoad"] = 31.388900756836,
 		["_origin"] = "",
 		["typeName"] = "MLRS FDDM",
-		["displayName"] = "HUMVEE JTAC",
+		["displayName"] = "MRLS FDDM (FC)",
 	}, -- end of ["desc"]
 } -- end of IFV MLRS FDDM

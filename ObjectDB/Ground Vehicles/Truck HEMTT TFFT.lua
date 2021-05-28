@@ -40,6 +40,6 @@ Truck HEMTT TFFT =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "HEMTT TFFT",
-		["displayName"] = "Truck HEMMT TFFT Fire",
+		["displayName"] = "Firefighter HEMMT TFFT",
 	}, -- end of ["desc"]
 } -- end of Truck HEMTT TFFT

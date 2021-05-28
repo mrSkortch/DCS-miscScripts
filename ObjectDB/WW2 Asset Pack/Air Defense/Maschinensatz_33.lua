@@ -26,14 +26,15 @@ Maschinensatz_33 =
 		["life"] = 1,
 		["attributes"] = 
 		{
-			["Ground vehicles"] = true,
 			["Vehicles"] = true,
-			["NonAndLightArmoredUnits"] = true,
-			["Air Defence vehicles"] = true,
+			["AD Auxillary Equipment"] = true,
 			["NonArmoredUnits"] = true,
+			["Air Defence"] = true,
+			["Ground vehicles"] = true,
+			["NonAndLightArmoredUnits"] = true,
 			["All"] = true,
 			["Ground Units"] = true,
-			["Air Defence"] = true,
+			["Air Defence vehicles"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,

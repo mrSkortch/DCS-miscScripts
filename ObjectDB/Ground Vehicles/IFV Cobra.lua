@@ -81,6 +81,6 @@ IFV Cobra =
 		["speedMaxOffRoad"] = 32,
 		["_origin"] = "",
 		["typeName"] = "Cobra",
-		["displayName"] = "APC Cobra (Scout)",
+		["displayName"] = "Scout Cobra",
 	}, -- end of ["desc"]
 } -- end of IFV Cobra

@@ -36,10 +36,12 @@ ARTY hy_launcher =
 				["missileCategory"] = 5,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 196,
-					["type"] = 1,
-					["caliber"] = 470,
 					["mass"] = 196,
+					["explosiveMass"] = 196,
+					["shapedExplosiveArmorThickness"] = 0.10000000149012,
+					["shapedExplosiveMass"] = 392,
+					["caliber"] = 0,
+					["type"] = 2,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 100000,
 				["typeName"] = "HY-2",

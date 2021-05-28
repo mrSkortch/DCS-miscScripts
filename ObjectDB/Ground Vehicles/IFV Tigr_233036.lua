@@ -45,6 +45,6 @@ IFV Tigr_233036 =
 		["speedMaxOffRoad"] = 40,
 		["_origin"] = "",
 		["typeName"] = "Tigr_233036",
-		["displayName"] = "APC Tigr",
+		["displayName"] = "LUV Tigr",
 	}, -- end of ["desc"]
 } -- end of IFV Tigr_233036

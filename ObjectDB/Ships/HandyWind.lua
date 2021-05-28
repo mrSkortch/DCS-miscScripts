@@ -23,15 +23,12 @@ HandyWind =
 		["life"] = 0,
 		["attributes"] = 
 		{
-			["Aircraft Carriers"] = true,
-			["Ships"] = true,
-			["Unarmed ships"] = true,
 			["HelicopterCarrier"] = true,
-			["Heavy armed ships"] = true,
+			["Side approach departure"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
-			["Armed Air Defence"] = true,
-			["Armed ships"] = true,
+			["Unarmed ships"] = true,
+			["Ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

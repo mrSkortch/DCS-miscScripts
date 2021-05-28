@@ -182,10 +182,12 @@ MOSCOW =
 				["missileCategory"] = 5,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 400,
-					["type"] = 1,
-					["caliber"] = 950,
 					["mass"] = 400,
+					["explosiveMass"] = 400,
+					["shapedExplosiveArmorThickness"] = 0.10000000149012,
+					["shapedExplosiveMass"] = 800,
+					["caliber"] = 0,
+					["type"] = 2,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 500000,
 				["typeName"] = "P_500",

@@ -114,6 +114,6 @@ ZU-23 Closed Insurgent =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "ZU-23 Closed Insurgent",
-		["displayName"] = "AAA ZU-23 Closed Emplacement Insurgent",
+		["displayName"] = "AAA ZU-23 Insurgent Closed Emplacement",
 	}, -- end of ["desc"]
 } -- end of ZU-23 Closed Insurgent

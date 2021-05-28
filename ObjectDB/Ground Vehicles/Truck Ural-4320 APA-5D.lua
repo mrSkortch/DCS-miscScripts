@@ -40,6 +40,6 @@ Truck Ural-4320 APA-5D =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "",
 		["typeName"] = "Ural-4320 APA-5D",
-		["displayName"] = "GPU APA-5D",
+		["displayName"] = "GPU APA-5D on Ural 4320",
 	}, -- end of ["desc"]
 } -- end of Truck Ural-4320 APA-5D

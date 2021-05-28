@@ -76,6 +76,6 @@ MLRS Uragan_BM-27 =
 		["speedMaxOffRoad"] = 18,
 		["_origin"] = "",
 		["typeName"] = "Uragan_BM-27",
-		["displayName"] = "MLRS BM-27 Uragan 220mm",
+		["displayName"] = "MLRS 9K57 Uragan BM-27 220mm",
 	}, -- end of ["desc"]
 } -- end of MLRS Uragan_BM-27

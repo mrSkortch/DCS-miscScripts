@@ -32,7 +32,7 @@ MBT Leopard-2 =
 						["z"] = 0.10754559934139,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M256_120_AP",
+				["typeName"] = "weapons.shells.M256_120_AP_L55",
 				["displayName"] = "120mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
@@ -66,13 +66,13 @@ MBT Leopard-2 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M256_120_HE",
+				["typeName"] = "weapons.shells.M256_120_HE_L55",
 				["displayName"] = "120mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 1004,
+			["count"] = 4018,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -134,15 +134,15 @@ MBT Leopard-2 =
 		{
 			["min"] = 
 			{
-				["y"] = 0.034268405288458,
-				["x"] = -4.4972658157349,
-				["z"] = -2.411857843399,
+				["y"] = -0.0044129253365099,
+				["x"] = -3.930445432663,
+				["z"] = -1.8934679031372,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 2.9615399837494,
-				["x"] = 4.1361041069031,
-				["z"] = 2.411857843399,
+				["y"] = 2.4862921237946,
+				["x"] = 3.781986951828,
+				["z"] = 1.8934679031372,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 20,
@@ -164,8 +164,8 @@ MBT Leopard-2 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 20,
-		["_origin"] = "",
+		["_origin"] = "TechWeaponPack",
 		["typeName"] = "Leopard-2",
-		["displayName"] = "MBT Leopard 2",
+		["displayName"] = "MBT Leopard-2A6M",
 	}, -- end of ["desc"]
 } -- end of MBT Leopard-2
