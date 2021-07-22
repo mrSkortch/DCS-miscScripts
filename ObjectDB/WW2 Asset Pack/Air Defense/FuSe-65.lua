@@ -1,5 +1,29 @@
 FuSe-65 = 
 {
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 40124.421875,
+						["headOn"] = 40124.421875,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 40124.421875,
+						["headOn"] = 40124.421875,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "FuSe-65",
+			}, -- end of [1]
+		}, -- end of [1]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 5000,

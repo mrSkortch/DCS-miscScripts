@@ -118,7 +118,7 @@ ZSU-23-4 Shilka =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 12.222200393677,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["SAM related"] = true,

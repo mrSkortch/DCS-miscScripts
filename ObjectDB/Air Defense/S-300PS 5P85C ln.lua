@@ -70,7 +70,7 @@ S-300PS 5P85C ln =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 16.666700363159,
-		["life"] = 2,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Vehicles"] = true,

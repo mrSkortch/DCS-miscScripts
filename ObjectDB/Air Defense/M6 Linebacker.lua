@@ -175,7 +175,7 @@ M6 Linebacker =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 18.333299636841,
-		["life"] = 5,
+		["life"] = 6,
 		["attributes"] = 
 		{
 			["SAM"] = true,

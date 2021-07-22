@@ -48,7 +48,7 @@ ALBATROS =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 1000,
+			["count"] = 10009,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -82,7 +82,7 @@ ALBATROS =
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 1000,
+			["count"] = 10009,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -176,10 +176,11 @@ ALBATROS =
 			["Frigates"] = true,
 			["Heavy armed ships"] = true,
 			["HeavyArmoredUnits"] = true,
+			["Armed Air Defence"] = true,
 			["Armed Ship"] = true,
 			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
-			["Armed Air Defence"] = true,
+			["Naval"] = true,
 			["Armed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,

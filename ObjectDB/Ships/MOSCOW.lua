@@ -4,7 +4,7 @@ MOSCOW =
 	{
 		[1] = 
 		{
-			["count"] = 6000,
+			["count"] = 60054,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ MOSCOW =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 6000,
+			["count"] = 60054,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -262,8 +262,9 @@ MOSCOW =
 		["life"] = 0,
 		["attributes"] = 
 		{
-			["Ships"] = true,
 			["Heavy armed ships"] = true,
+			["Ships"] = true,
+			["Armed ships"] = true,
 			["Armed Air Defence"] = true,
 			["Cruisers"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
@@ -271,8 +272,8 @@ MOSCOW =
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
+			["Naval"] = true,
 			["DetectionByAWACS"] = true,
-			["Armed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

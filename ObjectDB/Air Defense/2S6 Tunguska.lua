@@ -183,7 +183,7 @@
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 18.055599212646,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["SAM TR"] = true,

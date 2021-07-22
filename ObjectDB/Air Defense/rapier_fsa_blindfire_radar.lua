@@ -47,7 +47,7 @@ rapier_fsa_blindfire_radar =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["SAM TR"] = true,

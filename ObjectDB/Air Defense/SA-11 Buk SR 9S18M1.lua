@@ -47,7 +47,7 @@ SA-11 Buk SR 9S18M1 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 18.055599212646,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Vehicles"] = true,

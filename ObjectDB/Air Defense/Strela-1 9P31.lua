@@ -70,7 +70,7 @@ Strela-1 9P31 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 27.777799606323,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["SAM"] = true,

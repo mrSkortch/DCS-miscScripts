@@ -82,7 +82,7 @@ Type_054A =
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 2000,
+			["count"] = 20018,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -116,7 +116,7 @@ Type_054A =
 		}, -- end of [3]
 		[4] = 
 		{
-			["count"] = 2000,
+			["count"] = 20018,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -202,17 +202,18 @@ Type_054A =
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,
+			["HeavyArmoredUnits"] = true,
 			["Ships"] = true,
 			["Frigates"] = true,
-			["HeavyArmoredUnits"] = true,
 			["Armed Air Defence"] = true,
+			["Armed ships"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
 			["HelicopterCarrier"] = true,
 			["Armed Ship"] = true,
 			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
 			["DetectionByAWACS"] = true,
-			["Armed ships"] = true,
+			["Naval"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

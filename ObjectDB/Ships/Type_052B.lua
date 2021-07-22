@@ -111,7 +111,7 @@ Type_052B =
 		}, -- end of [3]
 		[4] = 
 		{
-			["count"] = 2000,
+			["count"] = 20018,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -145,7 +145,7 @@ Type_052B =
 		}, -- end of [4]
 		[5] = 
 		{
-			["count"] = 2000,
+			["count"] = 20018,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -202,10 +202,11 @@ Type_052B =
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,
-			["Ships"] = true,
 			["HeavyArmoredUnits"] = true,
+			["Ships"] = true,
 			["Armed Air Defence"] = true,
 			["Armed ships"] = true,
+			["Naval"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
 			["HelicopterCarrier"] = true,
 			["Armed Ship"] = true,

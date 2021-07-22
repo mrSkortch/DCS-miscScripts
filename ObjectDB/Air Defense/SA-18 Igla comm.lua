@@ -23,7 +23,7 @@ SA-18 Igla comm =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 4,
-		["life"] = 0.079999998211861,
+		["life"] = 1.0800000429153,
 		["attributes"] = 
 		{
 			["MANPADS AUX"] = true,

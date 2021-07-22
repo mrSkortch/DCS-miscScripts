@@ -23,6 +23,7 @@ ZWEZDNY =
 		["life"] = 0,
 		["attributes"] = 
 		{
+			["Naval"] = true,
 			["Ships"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,

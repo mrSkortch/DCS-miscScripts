@@ -106,7 +106,7 @@ PERRY =
 		}, -- end of [3]
 		[4] = 
 		{
-			["count"] = 775,
+			["count"] = 7759,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -140,7 +140,7 @@ PERRY =
 		}, -- end of [4]
 		[5] = 
 		{
-			["count"] = 775,
+			["count"] = 7759,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -243,7 +243,7 @@ PERRY =
 				["Nmax"] = 18,
 				["rangeMin"] = 3000,
 				["altMax"] = 10000,
-				["RCS"] = 0.079999998211861,
+				["RCS"] = 0.10000000149012,
 				["displayName"] = "AGM-84S Harpoon",
 				["altMin"] = -1,
 				["life"] = 2,
@@ -320,9 +320,10 @@ PERRY =
 		["life"] = 0,
 		["attributes"] = 
 		{
+			["Heavy armed ships"] = true,
 			["Ships"] = true,
 			["Frigates"] = true,
-			["Heavy armed ships"] = true,
+			["Armed ships"] = true,
 			["Armed Air Defence"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
 			["HelicopterCarrier"] = true,
@@ -330,12 +331,12 @@ PERRY =
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
 			["DetectionByAWACS"] = true,
-			["Armed ships"] = true,
+			["Naval"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,
 		["_origin"] = "",
 		["typeName"] = "PERRY",
-		["displayName"] = "FFG Oliver Hazzard Perry",
+		["displayName"] = "FFG Oliver Hazard Perry",
 	}, -- end of ["desc"]
 } -- end of PERRY

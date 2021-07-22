@@ -4,7 +4,7 @@ MOLNIYA =
 	{
 		[1] = 
 		{
-			["count"] = 2000,
+			["count"] = 20018,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ MOLNIYA =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 2000,
+			["count"] = 20018,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -131,7 +131,7 @@ MOLNIYA =
 				["Nmax"] = 16,
 				["rangeMin"] = 5000,
 				["altMax"] = 12000,
-				["RCS"] = 0.80000001192093,
+				["RCS"] = 0.89999997615814,
 				["displayName"] = "Kh-41 (SS-N-22-Sunburn)",
 				["altMin"] = -1,
 				["life"] = 2,
@@ -176,10 +176,11 @@ MOLNIYA =
 		{
 			["Ships"] = true,
 			["Heavy armed ships"] = true,
-			["NO_SAM"] = true,
+			["Naval"] = true,
 			["Armed Air Defence"] = true,
 			["Armed ships"] = true,
 			["Armed Ship"] = true,
+			["NO_SAM"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
 			["Corvettes"] = true,

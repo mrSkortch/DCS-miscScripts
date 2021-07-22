@@ -4,7 +4,7 @@ KUZNECOW =
 	{
 		[1] = 
 		{
-			["count"] = 10008,
+			["count"] = 100206,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ KUZNECOW =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 10008,
+			["count"] = 100206,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -228,21 +228,23 @@ KUZNECOW =
 		["life"] = 0,
 		["attributes"] = 
 		{
-			["ski_jump"] = true,
 			["Aircraft Carriers"] = true,
-			["AircraftCarrier With Tramplin"] = true,
+			["Straight_in_approach_type"] = true,
 			["AircraftCarrier"] = true,
-			["Arresting Gear"] = true,
-			["Heavy armed ships"] = true,
 			["Ships"] = true,
-			["Armed Air Defence"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
+			["DetectionByAWACS"] = true,
+			["ski_jump"] = true,
+			["Heavy armed ships"] = true,
 			["Armed ships"] = true,
+			["AircraftCarrier With Tramplin"] = true,
+			["Arresting Gear"] = true,
+			["Armed Air Defence"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
-			["DetectionByAWACS"] = true,
-			["Straight_in_approach_type"] = true,
+			["Naval"] = true,
+			["AircraftCarrier With Arresting Gear"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

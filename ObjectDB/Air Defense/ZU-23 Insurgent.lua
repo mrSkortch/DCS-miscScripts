@@ -94,7 +94,7 @@ ZU-23 Insurgent =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 0.10000000149012,
+		["life"] = 1.2000000476837,
 		["attributes"] = 
 		{
 			["Rocket Attack Valid AirDefence"] = true,

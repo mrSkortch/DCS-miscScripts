@@ -23,12 +23,13 @@ Seawise_Giant =
 		["life"] = 0,
 		["attributes"] = 
 		{
+			["Ships"] = true,
 			["HelicopterCarrier"] = true,
 			["Side approach departure"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
 			["Unarmed ships"] = true,
-			["Ships"] = true,
+			["Naval"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

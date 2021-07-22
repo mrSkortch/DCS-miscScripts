@@ -107,7 +107,7 @@ M1097 Avenger =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 31.388900756836,
-		["life"] = 1.5,
+		["life"] = 2.5,
 		["attributes"] = 
 		{
 			["SAM"] = true,

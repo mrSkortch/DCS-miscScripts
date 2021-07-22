@@ -96,13 +96,14 @@ LST_Mk2 =
 		{
 			["Ships"] = true,
 			["Landing Ships"] = true,
-			["Armed ships"] = true,
+			["All"] = true,
 			["Armed Air Defence"] = true,
+			["Armed ships"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["Heavy armed ships"] = true,
+			["Naval"] = true,
 			["NO_SAM"] = true,
-			["All"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

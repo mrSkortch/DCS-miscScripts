@@ -1,17 +1,17 @@
-Ka-50 = 
+Mi-24P = 
 {
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 240,
+			["count"] = 250,
 			["desc"] = 
 			{
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.39,
-					["type"] = 1,
+					["explosiveMass"] = 0,
+					["type"] = 0,
 					["caliber"] = 30,
 					["mass"] = 0.39,
 				}, -- end of ["warhead"]
@@ -32,8 +32,8 @@ Ka-50 =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.2A42_30_HE",
-				["displayName"] = "30mm HE",
+				["typeName"] = "weapons.shells.GSH301_30_AP",
+				["displayName"] = "30mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
@@ -44,43 +44,51 @@ Ka-50 =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "Shkval",
+				["typeName"] = "Raduga-Sh",
 				["opticType"] = 0,
 			}, -- end of [1]
 		}, -- end of [0]
+		[3] = 
+		{
+			[1] = 
+			{
+				["typeName"] = "Abstract RWR",
+				["type"] = 3,
+			}, -- end of [1]
+		}, -- end of [3]
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 8030,
-		["range"] = 450,
+		["massEmpty"] = 8891,
+		["range"] = 500,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -1.1678450107574,
-				["x"] = -8.1102180480957,
-				["z"] = -6.7696857452393,
+				["y"] = -1.1877337694168,
+				["x"] = -12.528847694397,
+				["z"] = -1.5087124109268,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 3.6971831321716,
-				["x"] = 8.1102180480957,
-				["z"] = 6.7696857452393,
+				["y"] = 3.0699999332428,
+				["x"] = 6.5412120819092,
+				["z"] = 1.6343108415604,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["Hmax"] = 6400,
-		["Kmax"] = 0.30000001192093,
-		["_origin"] = "",
+		["Hmax"] = 4500,
+		["Kmax"] = 0.5,
+		["_origin"] = "Mi-24P AI by Eagle Dynamics",
 		["NyMin"] = 0.5,
-		["fuelMassMax"] = 1450,
-		["speedMax"] = 350,
-		["NyMax"] = 3.5,
-		["massMax"] = 11900,
-		["RCS"] = 5,
-		["displayName"] = "ka-50",
-		["life"] = 15,
-		["HmaxStat"] = 4000,
-		["VyMax"] = 14.60000038147,
+		["fuelMassMax"] = 1701,
+		["speedMax"] = 330,
+		["NyMax"] = 2.5,
+		["massMax"] = 11500,
+		["RCS"] = 12,
+		["displayName"] = "Mi-24P",
+		["life"] = 20,
+		["HmaxStat"] = 2200,
+		["VyMax"] = 12.5,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -90,7 +98,7 @@ Ka-50 =
 			["Helicopters"] = true,
 			["Attack helicopters"] = true,
 		}, -- end of ["attributes"]
-		["typeName"] = "Ka-50",
+		["typeName"] = "Mi-24P",
 		["category"] = 1,
 	}, -- end of ["desc"]
-} -- end of Ka-50
+} -- end of Mi-24P

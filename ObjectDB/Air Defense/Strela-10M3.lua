@@ -104,7 +104,7 @@ Strela-10M3 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 16.666700363159,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["SAM TR"] = true,

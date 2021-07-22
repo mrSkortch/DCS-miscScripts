@@ -72,7 +72,7 @@ USS_Arleigh_Burke_IIa =
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 1550,
+			["count"] = 15518,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -106,7 +106,7 @@ USS_Arleigh_Burke_IIa =
 		}, -- end of [3]
 		[4] = 
 		{
-			["count"] = 1550,
+			["count"] = 15518,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -284,8 +284,9 @@ USS_Arleigh_Burke_IIa =
 		["life"] = 0,
 		["attributes"] = 
 		{
-			["Ships"] = true,
 			["Heavy armed ships"] = true,
+			["Ships"] = true,
+			["Armed ships"] = true,
 			["Armed Air Defence"] = true,
 			["Cruisers"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
@@ -293,8 +294,8 @@ USS_Arleigh_Burke_IIa =
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
+			["Naval"] = true,
 			["DetectionByAWACS"] = true,
-			["Armed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

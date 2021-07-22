@@ -94,7 +94,7 @@ ZU-23 Emplacement Closed =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Rocket Attack Valid AirDefence"] = true,

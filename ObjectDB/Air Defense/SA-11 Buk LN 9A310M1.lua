@@ -103,7 +103,7 @@ SA-11 Buk LN 9A310M1 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 18.055599212646,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Armed Air Defence"] = true,

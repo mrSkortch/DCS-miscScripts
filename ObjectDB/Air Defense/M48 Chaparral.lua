@@ -70,7 +70,7 @@ M48 Chaparral =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 16.666700363159,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["SAM"] = true,

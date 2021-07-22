@@ -1,8 +1,8 @@
-generator_5i57 = 
+NASAMS_Command_Post = 
 {
 	["desc"] = 
 	{
-		["massEmpty"] = 4000,
+		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0,
 		["Kmax"] = 0.050000000745058,
@@ -11,35 +11,39 @@ generator_5i57 =
 		{
 			["min"] = 
 			{
-				["y"] = -0.15787601470947,
-				["x"] = -5.3701276779175,
-				["z"] = -1.7480192184448,
+				["y"] = 0.0029211665969342,
+				["x"] = -2.8203701972961,
+				["z"] = -1.0025469064713,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 3.5345053672791,
-				["x"] = 6.6875929832458,
-				["z"] = 1.5455844402313,
+				["y"] = 2.9099013805389,
+				["x"] = 2.6493990421295,
+				["z"] = 1.0025469064713,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 3,
+		["life"] = 2,
 		["attributes"] = 
 		{
+			["Ground Units Non Airdefence"] = true,
 			["Vehicles"] = true,
-			["AD Auxillary Equipment"] = true,
+			["SAM elements"] = true,
 			["NonArmoredUnits"] = true,
-			["Air Defence"] = true,
+			["Trucks"] = true,
 			["Ground vehicles"] = true,
+			["SAM related"] = true,
 			["NonAndLightArmoredUnits"] = true,
+			["Air Defence"] = true,
+			["Unarmed vehicles"] = true,
 			["All"] = true,
 			["Ground Units"] = true,
-			["Air Defence vehicles"] = true,
+			["SAM CC"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "TechWeaponPack",
-		["typeName"] = "generator_5i57",
-		["displayName"] = "Gen Diesel Power Station 5157A",
+		["typeName"] = "NASAMS_Command_Post",
+		["displayName"] = "SAM NASAMS C2",
 	}, -- end of ["desc"]
-} -- end of generator_5i57
+} -- end of NASAMS_Command_Post

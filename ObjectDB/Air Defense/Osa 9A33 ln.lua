@@ -115,7 +115,7 @@ Osa 9A33 ln =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 22.222200393677,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["SAM TR"] = true,

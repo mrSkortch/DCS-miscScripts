@@ -1,5 +1,29 @@
 Flakscheinwerfer_37 = 
 {
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 18861.501953125,
+						["headOn"] = 18861.501953125,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 18861.501953125,
+						["headOn"] = 18861.501953125,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "VIRTUAL_AUDIO_SENSOR",
+			}, -- end of [1]
+		}, -- end of [1]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 2000,
@@ -23,7 +47,7 @@ Flakscheinwerfer_37 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Rocket Attack Valid AirDefence"] = true,

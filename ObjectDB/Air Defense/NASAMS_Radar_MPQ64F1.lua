@@ -1,4 +1,4 @@
-Patriot ECS = 
+NASAMS_Radar_MPQ64F1 = 
 {
 	["sensors"] = 
 	{
@@ -10,64 +10,65 @@ Patriot ECS =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 173872.484375,
-						["headOn"] = 173872.484375,
+						["tailOn"] = 26749.61328125,
+						["headOn"] = 26749.61328125,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 173872.484375,
-						["headOn"] = 173872.484375,
+						["tailOn"] = 26749.61328125,
+						["headOn"] = 26749.61328125,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
-				["typeName"] = "Patriot str",
+				["typeName"] = "NASAMS_Radar_MPQ64F1",
 			}, -- end of [1]
 		}, -- end of [1]
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 8000,
+		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.46999999880791,
+		["maxSlopeAngle"] = 0,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = 0.004102177452296,
-				["x"] = -6.394223690033,
-				["z"] = -1.8842309713364,
+				["y"] = -0.046189188957214,
+				["x"] = -2.3985950946808,
+				["z"] = -1.0018867254257,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 7.8501229286194,
-				["x"] = 6.1144690513611,
-				["z"] = 1.4669210910797,
+				["y"] = 2.6605818271637,
+				["x"] = 2.5809121131897,
+				["z"] = 1.0018867254257,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 20.833299636841,
+		["speedMax"] = 0,
 		["life"] = 2,
 		["attributes"] = 
 		{
-			["Ground Units Non Airdefence"] = true,
 			["Vehicles"] = true,
-			["SAM elements"] = true,
+			["MR SAM"] = true,
 			["NonArmoredUnits"] = true,
-			["Trucks"] = true,
-			["Ground vehicles"] = true,
-			["SAM related"] = true,
-			["NonAndLightArmoredUnits"] = true,
+			["SAM elements"] = true,
+			["SAM SR"] = true,
 			["Air Defence"] = true,
-			["Unarmed vehicles"] = true,
+			["Ground vehicles"] = true,
+			["RADAR_BAND1_FOR_ARM"] = true,
+			["NonAndLightArmoredUnits"] = true,
+			["SAM related"] = true,
+			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
+			["Datalink"] = true,
 			["Ground Units"] = true,
-			["SAM CC"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
-		["speedMaxOffRoad"] = 20.833299636841,
-		["_origin"] = "",
-		["typeName"] = "Patriot ECS",
-		["displayName"] = "SAM Patriot ECS",
+		["speedMaxOffRoad"] = 0,
+		["_origin"] = "TechWeaponPack",
+		["typeName"] = "NASAMS_Radar_MPQ64F1",
+		["displayName"] = "SAM NASAMS SR MPQ64F1",
 	}, -- end of ["desc"]
-} -- end of Patriot ECS
+} -- end of NASAMS_Radar_MPQ64F1

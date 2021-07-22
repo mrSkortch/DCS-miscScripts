@@ -46,8 +46,8 @@ I-16 =
 				{
 					["explosiveMass"] = 0,
 					["type"] = 0,
-					["caliber"] = 12.7,
-					["mass"] = 0.048,
+					["caliber"] = 7.62,
+					["mass"] = 0.0119,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,

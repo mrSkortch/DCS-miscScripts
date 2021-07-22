@@ -1,5 +1,29 @@
 FuMG-401 = 
 {
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 106998.453125,
+						["headOn"] = 106998.453125,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 106998.453125,
+						["headOn"] = 106998.453125,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "FuMG-401",
+			}, -- end of [1]
+		}, -- end of [1]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 5000,

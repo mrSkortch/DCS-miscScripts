@@ -20,7 +20,7 @@ Mi-8MT =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["Hmax"] = 6000,
-		["Kmax"] = 0.5,
+		["Kmax"] = 0.60000002384186,
 		["_origin"] = "",
 		["NyMin"] = 0.5,
 		["fuelMassMax"] = 1929,

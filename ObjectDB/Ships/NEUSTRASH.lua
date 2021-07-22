@@ -82,7 +82,7 @@ NEUSTRASH =
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 1002,
+			["count"] = 10038,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -116,7 +116,7 @@ NEUSTRASH =
 		}, -- end of [3]
 		[4] = 
 		{
-			["count"] = 1002,
+			["count"] = 10038,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -219,12 +219,13 @@ NEUSTRASH =
 			["Ships"] = true,
 			["Frigates"] = true,
 			["Heavy armed ships"] = true,
+			["Armed Air Defence"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
 			["HelicopterCarrier"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
-			["Armed Air Defence"] = true,
+			["Naval"] = true,
 			["Armed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,

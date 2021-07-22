@@ -94,7 +94,7 @@ Ural-375 ZU-23 Insurgent =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 20.833299636841,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Rocket Attack Valid AirDefence"] = true,

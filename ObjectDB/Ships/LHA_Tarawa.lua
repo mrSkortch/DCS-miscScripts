@@ -4,7 +4,7 @@ LHA_Tarawa =
 	{
 		[1] = 
 		{
-			["count"] = 1550,
+			["count"] = 15518,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ LHA_Tarawa =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 1550,
+			["count"] = 15518,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -130,13 +130,14 @@ LHA_Tarawa =
 			["Ships"] = true,
 			["Heavy armed ships"] = true,
 			["HeavyArmoredUnits"] = true,
-			["RADAR_BAND1_FOR_ARM"] = true,
 			["Armed Air Defence"] = true,
+			["RADAR_BAND1_FOR_ARM"] = true,
+			["Armed ships"] = true,
 			["Armed Ship"] = true,
 			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
 			["DetectionByAWACS"] = true,
-			["Armed ships"] = true,
+			["Naval"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

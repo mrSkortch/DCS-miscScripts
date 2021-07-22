@@ -47,7 +47,7 @@ Patriot str =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["LR SAM"] = true,

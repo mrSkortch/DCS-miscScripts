@@ -79,7 +79,7 @@ rapier_fsa_launcher =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["SAM TR"] = true,

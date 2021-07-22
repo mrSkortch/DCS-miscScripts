@@ -41,7 +41,7 @@ AV8BNA =
 				["z"] = 4.5801057815552,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["Hmax"] = 16764,
+		["Hmax"] = 13716,
 		["Kmax"] = 0.69999998807907,
 		["_origin"] = "AV-8B N/A AI by RAZBAM Sims",
 		["speedMax10K"] = 275,

@@ -47,7 +47,7 @@ p-19 s-125 sr =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Vehicles"] = true,
@@ -68,6 +68,6 @@ p-19 s-125 sr =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "",
 		["typeName"] = "p-19 s-125 sr",
-		["displayName"] = "SAM P19 \"Flat Face\" SR (SA-2/3)",
+		["displayName"] = "SAM SA-2/3/5 P19 \"Flat Face\" SR ",
 	}, -- end of ["desc"]
 } -- end of p-19 s-125 sr

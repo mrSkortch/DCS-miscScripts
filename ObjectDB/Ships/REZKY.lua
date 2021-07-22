@@ -108,10 +108,11 @@ REZKY =
 			["Frigates"] = true,
 			["Heavy armed ships"] = true,
 			["HeavyArmoredUnits"] = true,
+			["Armed Air Defence"] = true,
 			["Armed Ship"] = true,
 			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
-			["Armed Air Defence"] = true,
+			["Naval"] = true,
 			["Armed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,

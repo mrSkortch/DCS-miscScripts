@@ -23,14 +23,15 @@ KILO =
 		["life"] = 0,
 		["attributes"] = 
 		{
-			["Heavy armed ships"] = true,
-			["Armed Air Defence"] = true,
 			["Submarines"] = true,
+			["Ships"] = true,
+			["Heavy armed ships"] = true,
+			["Armed ships"] = true,
 			["NO_SAM"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
-			["Armed ships"] = true,
-			["Ships"] = true,
+			["Naval"] = true,
+			["Armed Air Defence"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

@@ -106,7 +106,7 @@ TICONDEROG =
 		}, -- end of [3]
 		[4] = 
 		{
-			["count"] = 1550,
+			["count"] = 15518,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -140,7 +140,7 @@ TICONDEROG =
 		}, -- end of [4]
 		[5] = 
 		{
-			["count"] = 1550,
+			["count"] = 15518,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -233,7 +233,7 @@ TICONDEROG =
 				["Nmax"] = 18,
 				["rangeMin"] = 3000,
 				["altMax"] = 10000,
-				["RCS"] = 0.079999998211861,
+				["RCS"] = 0.10000000149012,
 				["displayName"] = "AGM-84S Harpoon",
 				["altMin"] = -1,
 				["life"] = 2,
@@ -364,8 +364,9 @@ TICONDEROG =
 		["life"] = 0,
 		["attributes"] = 
 		{
-			["Ships"] = true,
 			["Heavy armed ships"] = true,
+			["Ships"] = true,
+			["Armed ships"] = true,
 			["Armed Air Defence"] = true,
 			["Cruisers"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
@@ -373,8 +374,8 @@ TICONDEROG =
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
+			["Naval"] = true,
 			["DetectionByAWACS"] = true,
-			["Armed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

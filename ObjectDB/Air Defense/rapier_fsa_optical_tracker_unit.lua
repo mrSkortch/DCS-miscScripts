@@ -35,7 +35,7 @@ rapier_fsa_optical_tracker_unit =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["Vehicles"] = true,

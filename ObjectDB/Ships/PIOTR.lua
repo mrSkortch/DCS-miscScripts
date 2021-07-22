@@ -48,7 +48,7 @@ PIOTR =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 3006,
+			["count"] = 30114,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -82,7 +82,7 @@ PIOTR =
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 3006,
+			["count"] = 30114,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -350,8 +350,9 @@ PIOTR =
 		["life"] = 0,
 		["attributes"] = 
 		{
-			["Ships"] = true,
 			["Heavy armed ships"] = true,
+			["Ships"] = true,
+			["Armed ships"] = true,
 			["Armed Air Defence"] = true,
 			["Cruisers"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
@@ -359,8 +360,8 @@ PIOTR =
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
+			["Naval"] = true,
 			["DetectionByAWACS"] = true,
-			["Armed ships"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

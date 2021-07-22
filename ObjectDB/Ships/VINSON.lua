@@ -4,7 +4,7 @@ VINSON =
 	{
 		[1] = 
 		{
-			["count"] = 3100,
+			["count"] = 31036,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ VINSON =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 3100,
+			["count"] = 31036,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -81,7 +81,7 @@ VINSON =
 				["_origin"] = "",
 				["rangeMaxAltMin"] = 14000,
 				["altMax"] = 24400,
-				["RCS"] = 0.059999998658895,
+				["RCS"] = 0.079999998211861,
 				["displayName"] = "RIM-7",
 				["altMin"] = 1,
 				["life"] = 2,
@@ -123,15 +123,17 @@ VINSON =
 		["life"] = 0,
 		["attributes"] = 
 		{
-			["Aircraft Carriers"] = true,
 			["Heavy armed ships"] = true,
+			["HeavyArmoredUnits"] = true,
+			["Aircraft Carriers"] = true,
+			["Armed Air Defence"] = true,
 			["AircraftCarrier"] = true,
 			["Arresting Gear"] = true,
-			["HeavyArmoredUnits"] = true,
-			["Armed Air Defence"] = true,
 			["Armed ships"] = true,
-			["RADAR_BAND1_FOR_ARM"] = true,
 			["Ships"] = true,
+			["AircraftCarrier With Arresting Gear"] = true,
+			["RADAR_BAND1_FOR_ARM"] = true,
+			["Naval"] = true,
 			["Armed Ship"] = true,
 			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
