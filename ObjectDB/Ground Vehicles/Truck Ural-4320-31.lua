@@ -23,7 +23,7 @@ Truck Ural-4320-31 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 20.833299636841,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

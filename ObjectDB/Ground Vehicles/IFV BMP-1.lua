@@ -160,7 +160,7 @@ IFV BMP-1 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 18.055599212646,
-		["life"] = 4,
+		["life"] = 5,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

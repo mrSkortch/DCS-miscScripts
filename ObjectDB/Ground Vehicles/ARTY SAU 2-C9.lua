@@ -78,7 +78,7 @@ ARTY SAU 2-C9 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 16.666700363159,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Artillery"] = true,

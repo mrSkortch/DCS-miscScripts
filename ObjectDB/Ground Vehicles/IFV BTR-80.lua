@@ -112,7 +112,7 @@ IFV BTR-80 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 25,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

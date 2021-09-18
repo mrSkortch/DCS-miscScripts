@@ -60,7 +60,7 @@ IFV TPZ =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 29.166700363159,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

@@ -56,7 +56,7 @@ MLRS MLRS =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 17.777799606323,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["Artillery"] = true,

@@ -23,7 +23,7 @@ Truck LAZ Bus =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 27.777799606323,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

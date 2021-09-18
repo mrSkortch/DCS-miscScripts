@@ -140,7 +140,7 @@ IFV Marder =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 20.833299636841,
-		["life"] = 4,
+		["life"] = 5,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

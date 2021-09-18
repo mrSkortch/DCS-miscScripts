@@ -60,7 +60,7 @@ IFV Cobra =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 32,
-		["life"] = 1.7999999523163,
+		["life"] = 2.7999999523163,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

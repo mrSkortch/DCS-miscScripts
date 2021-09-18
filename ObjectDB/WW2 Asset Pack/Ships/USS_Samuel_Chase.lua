@@ -175,7 +175,7 @@ USS_Samuel_Chase =
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
-		["massEmpty"] = 1625000,
+		["massEmpty"] = 16250000,
 		["RCS"] = 3989.9689941406,
 		["box"] = 
 		{

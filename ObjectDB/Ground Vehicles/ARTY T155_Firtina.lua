@@ -106,7 +106,7 @@ ARTY T155_Firtina =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 18.049999237061,
-		["life"] = 3,
+		["life"] = 5,
 		["attributes"] = 
 		{
 			["Artillery"] = true,

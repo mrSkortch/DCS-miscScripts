@@ -180,7 +180,7 @@ MBT M1128 Stryker MGS =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 20,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Vehicles"] = true,

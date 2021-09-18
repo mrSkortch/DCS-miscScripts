@@ -23,7 +23,7 @@ Truck Ural-4320 APA-5D =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 20.833299636841,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

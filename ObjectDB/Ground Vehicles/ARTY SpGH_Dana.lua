@@ -78,7 +78,7 @@ ARTY SpGH_Dana =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 22.219999313354,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["Artillery"] = true,

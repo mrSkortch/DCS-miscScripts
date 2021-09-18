@@ -1,10 +1,78 @@
-IFV BTR-82A = 
+MosquitoFBMkVI = 
 {
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 2000,
+			["count"] = 600,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0.05417,
+					["type"] = 1,
+					["caliber"] = 20,
+					["mass"] = 0.129,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.Hispano_Mk_II_MKI_HE/I",
+				["displayName"] = "Hispano_Mk_II_MKI_HE/I",
+			}, -- end of ["desc"]
+		}, -- end of [1]
+		[2] = 
+		{
+			["count"] = 1500,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0.0027085,
+					["type"] = 1,
+					["caliber"] = 7.62,
+					["mass"] = 0.0112750103,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.British303_B_Mk6z",
+				["displayName"] = "7.7mm I",
+			}, -- end of ["desc"]
+		}, -- end of [2]
+		[3] = 
+		{
+			["count"] = 1500,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -13,7 +81,7 @@ IFV BTR-82A =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 7.62,
-					["mass"] = 0.0119,
+					["mass"] = 0.0112750103,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -32,76 +100,8 @@ IFV BTR-82A =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.7_62x54",
-				["displayName"] = "7.62mm",
-			}, -- end of ["desc"]
-		}, -- end of [1]
-		[2] = 
-		{
-			["count"] = 180,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0.39,
-					["type"] = 1,
-					["caliber"] = 30,
-					["mass"] = 0.39,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.2A42_30_HE",
-				["displayName"] = "30mm HE",
-			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
-		{
-			["count"] = 121,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 30,
-					["mass"] = 0.39,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.2A42_30_AP",
-				["displayName"] = "30mm AP",
+				["typeName"] = "weapons.shells.British303_W_Mk1z",
+				["displayName"] = "7.7mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]
@@ -112,61 +112,56 @@ IFV BTR-82A =
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "TKN-3B day",
-				["opticType"] = 0,
+				["typeName"] = "Merkury LLTV",
+				["opticType"] = 1,
 			}, -- end of [1]
-			[2] = 
-			{
-				["type"] = 0,
-				["typeName"] = "TKN-3B night",
-				["opticType"] = 2,
-			}, -- end of [2]
 		}, -- end of [0]
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 13600,
-		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.46999999880791,
-		["Kmax"] = 0.050000000745058,
-		["RCS"] = 5,
+		["speedMax0"] = 208,
+		["massEmpty"] = 6506,
+		["range"] = 1015,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -0.00027317853528075,
-				["x"] = -3.595306634903,
-				["z"] = -1.4599190950394,
+				["y"] = -2.3750510215759,
+				["x"] = -9.5014486312866,
+				["z"] = -8.3876123428345,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 2.8146631717682,
-				["x"] = 3.925457239151,
-				["z"] = 1.4601538181305,
+				["y"] = 3.1556799411774,
+				["x"] = 3.0971341133118,
+				["z"] = 8.3876123428345,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 25,
-		["life"] = 3,
+		["Hmax"] = 11500,
+		["Kmax"] = 0.10000000149012,
+		["_origin"] = "World War II AI Units by Eagle Dynamics",
+		["speedMax10K"] = 180,
+		["NyMin"] = -4,
+		["fuelMassMax"] = 1483.0999755859,
+		["speedMax"] = 208,
+		["NyMax"] = 8,
+		["massMax"] = 11000,
+		["RCS"] = 2.5,
+		["displayName"] = "MosquitoFBMkVI",
+		["life"] = 48,
+		["VyMax"] = 15,
+		["Kab"] = 0,
 		["attributes"] = 
 		{
-			["Ground Units Non Airdefence"] = true,
-			["Vehicles"] = true,
-			["Armored vehicles"] = true,
-			["AntiAir Armed Vehicles"] = true,
-			["LightArmoredUnits"] = true,
-			["Ground vehicles"] = true,
-			["Armed vehicles"] = true,
+			["Air"] = true,
+			["Battle airplanes"] = true,
 			["NonAndLightArmoredUnits"] = true,
-			["Infantry carriers"] = true,
-			["Armed ground units"] = true,
+			["Battleplanes"] = true,
+			["NonArmoredUnits"] = true,
 			["All"] = true,
-			["Ground Units"] = true,
-			["APC"] = true,
+			["Planes"] = true,
 		}, -- end of ["attributes"]
-		["category"] = 2,
-		["speedMaxOffRoad"] = 25,
-		["_origin"] = "TechWeaponPack",
-		["typeName"] = "BTR-82A",
-		["displayName"] = "IFV BTR-82A",
+		["typeName"] = "MosquitoFBMkVI",
+		["category"] = 0,
 	}, -- end of ["desc"]
-} -- end of IFV BTR-82A
+} -- end of MosquitoFBMkVI

@@ -72,7 +72,7 @@ ARTY hy_launcher =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Artillery"] = true,

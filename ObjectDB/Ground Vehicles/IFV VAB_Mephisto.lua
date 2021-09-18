@@ -27,7 +27,7 @@ IFV VAB_Mephisto =
 				["category"] = 1,
 				["guidance"] = 8,
 				["Nmax"] = 10,
-				["rangeMin"] = 300,
+				["rangeMin"] = 100,
 				["altMax"] = 18000,
 				["RCS"] = 0.018200000748038,
 				["displayName"] = "HOT2",
@@ -36,10 +36,10 @@ IFV VAB_Mephisto =
 				["missileCategory"] = 6,
 				["warhead"] = 
 				{
-					["mass"] = 2,
-					["explosiveMass"] = 2,
-					["shapedExplosiveArmorThickness"] = 0.20000000298023,
-					["shapedExplosiveMass"] = 6,
+					["mass"] = 5,
+					["explosiveMass"] = 4.0999999046326,
+					["shapedExplosiveArmorThickness"] = 0.89999997615814,
+					["shapedExplosiveMass"] = 12.299999237061,
 					["caliber"] = 0,
 					["type"] = 2,
 				}, -- end of ["warhead"]
@@ -90,7 +90,7 @@ IFV VAB_Mephisto =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 25,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

@@ -23,7 +23,7 @@ Truck AA8 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 20.833299636841,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,
@@ -40,6 +40,6 @@ Truck AA8 =
 		["speedMaxOffRoad"] = 20.833299636841,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "AA8",
-		["displayName"] = "Fire Fight Vehicle AA-7.2/60",
+		["displayName"] = "Firefighter Vehicle AA-7.2/60",
 	}, -- end of ["desc"]
 } -- end of Truck AA8

@@ -60,7 +60,7 @@ ARTY 2B11 mortar =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 0.10000000149012,
+		["life"] = 1.1000000238419,
 		["attributes"] = 
 		{
 			["Artillery"] = true,

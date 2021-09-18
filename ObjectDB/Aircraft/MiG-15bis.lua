@@ -46,7 +46,7 @@ MiG-15bis =
 				{
 					["explosiveMass"] = 0,
 					["type"] = 0,
-					["caliber"] = 37,
+					["caliber"] = 23,
 					["mass"] = 0.199,
 				}, -- end of ["warhead"]
 				["_origin"] = "",

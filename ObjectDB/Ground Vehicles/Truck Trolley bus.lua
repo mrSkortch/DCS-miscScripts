@@ -23,7 +23,7 @@ Truck Trolley bus =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 19.444400787354,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

@@ -40,6 +40,6 @@ generator_5i57 =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "TechWeaponPack",
 		["typeName"] = "generator_5i57",
-		["displayName"] = "Gen Diesel Power Station 5157A",
+		["displayName"] = "Diesel Power Station 5I57A",
 	}, -- end of ["desc"]
 } -- end of generator_5i57

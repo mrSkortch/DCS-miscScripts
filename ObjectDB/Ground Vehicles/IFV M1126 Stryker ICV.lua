@@ -78,7 +78,7 @@ IFV M1126 Stryker ICV =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 20,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

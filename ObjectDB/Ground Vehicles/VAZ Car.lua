@@ -23,7 +23,7 @@ VAZ Car =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 19.444400787354,
-		["life"] = 1,
+		["life"] = 1.2000000476837,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

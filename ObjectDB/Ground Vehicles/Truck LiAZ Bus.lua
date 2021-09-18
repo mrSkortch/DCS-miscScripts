@@ -23,7 +23,7 @@ Truck LiAZ Bus =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 70,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

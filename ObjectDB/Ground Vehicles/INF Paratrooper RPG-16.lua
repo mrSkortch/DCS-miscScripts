@@ -62,7 +62,7 @@ INF Paratrooper RPG-16 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 4,
-		["life"] = 0.079999998211861,
+		["life"] = 1.0800000429153,
 		["attributes"] = 
 		{
 			["NonArmoredUnits"] = true,

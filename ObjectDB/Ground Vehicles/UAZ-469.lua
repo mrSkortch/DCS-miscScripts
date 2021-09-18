@@ -23,7 +23,7 @@ UAZ-469 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 27.777799606323,
-		["life"] = 1,
+		["life"] = 1.7999999523163,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

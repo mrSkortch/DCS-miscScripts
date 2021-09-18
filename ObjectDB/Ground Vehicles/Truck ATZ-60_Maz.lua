@@ -1,29 +1,29 @@
-Truck ZiL-131 APA-80 = 
+Truck ATZ-60_Maz = 
 {
 	["desc"] = 
 	{
-		["massEmpty"] = 15000,
+		["massEmpty"] = 9000,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.46999999880791,
+		["maxSlopeAngle"] = 0.5,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = 0.00041893325396813,
-				["x"] = -3.3103933334351,
-				["z"] = -1.1540613174438,
+				["y"] = -0.075529932975769,
+				["x"] = -4.8434805870056,
+				["z"] = -1.7161865234375,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 2.4435229301453,
-				["x"] = 3.2942571640015,
-				["z"] = 1.1540610790253,
+				["y"] = 3.0209538936615,
+				["x"] = 5.7321209907532,
+				["z"] = 1.7161866426468,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 20.833299636841,
-		["life"] = 2,
+		["speedMax"] = 15,
+		["life"] = 5,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,
@@ -37,9 +37,9 @@ Truck ZiL-131 APA-80 =
 			["Unarmed vehicles"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
-		["speedMaxOffRoad"] = 20.833299636841,
-		["_origin"] = "",
-		["typeName"] = "ZiL-131 APA-80",
-		["displayName"] = "GPU APA-80 on ZIL-131",
+		["speedMaxOffRoad"] = 15,
+		["_origin"] = "TechWeaponPack",
+		["typeName"] = "ATZ-60_Maz",
+		["displayName"] = "Refueler ATZ-60 Tractor",
 	}, -- end of ["desc"]
-} -- end of Truck ZiL-131 APA-80
+} -- end of Truck ATZ-60_Maz
