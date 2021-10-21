@@ -38,7 +38,7 @@ Type_071 =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 4000,
+			["count"] = 40036,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -72,7 +72,7 @@ Type_071 =
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 4000,
+			["count"] = 40036,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -129,15 +129,16 @@ Type_071 =
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,
+			["HeavyArmoredUnits"] = true,
 			["Aircraft Carriers"] = true,
 			["Straight_in_approach_type"] = true,
 			["AircraftCarrier"] = true,
 			["Ships"] = true,
-			["HeavyArmoredUnits"] = true,
 			["Armed Air Defence"] = true,
 			["Armed ships"] = true,
-			["RADAR_BAND1_FOR_ARM"] = true,
 			["AircraftCarrier With Tramplin"] = true,
+			["RADAR_BAND1_FOR_ARM"] = true,
+			["Naval"] = true,
 			["NO_SAM"] = true,
 			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,

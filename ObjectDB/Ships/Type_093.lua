@@ -19,7 +19,7 @@ Type_093 =
 			["count"] = 4,
 			["desc"] = 
 			{
-				["missileCategory"] = 5,
+				["missileCategory"] = 6,
 				["rangeMaxAltMax"] = 180000,
 				["rangeMin"] = 12000,
 				["_origin"] = "",
@@ -34,12 +34,10 @@ Type_093 =
 				["guidance"] = 1,
 				["warhead"] = 
 				{
+					["explosiveMass"] = 165,
+					["type"] = 1,
+					["caliber"] = 360,
 					["mass"] = 165,
-					["explosiveMass"] = 100,
-					["shapedExplosiveArmorThickness"] = 0.60000002384186,
-					["shapedExplosiveMass"] = 500,
-					["caliber"] = 0,
-					["type"] = 2,
 				}, -- end of ["warhead"]
 				["typeName"] = "weapons.missiles.YJ-84",
 				["Nmax"] = 6,
@@ -72,14 +70,15 @@ Type_093 =
 			["Submarines"] = true,
 			["Ships"] = true,
 			["Heavy armed ships"] = true,
-			["Armed ships"] = true,
-			["RADAR_BAND1_FOR_ARM"] = true,
+			["NO_SAM"] = true,
 			["Armed Air Defence"] = true,
+			["RADAR_BAND1_FOR_ARM"] = true,
+			["Armed ships"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
 			["DetectionByAWACS"] = true,
-			["NO_SAM"] = true,
+			["Naval"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,
