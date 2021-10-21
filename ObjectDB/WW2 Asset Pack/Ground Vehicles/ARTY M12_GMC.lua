@@ -97,6 +97,6 @@ ARTY M12_GMC =
 		["speedMaxOffRoad"] = 11.109999656677,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "M12_GMC",
-		["displayName"] = "SPG M12 GMC 155mm",
+		["displayName"] = "SPH M12 GMC 155mm",
 	}, -- end of ["desc"]
 } -- end of ARTY M12_GMC

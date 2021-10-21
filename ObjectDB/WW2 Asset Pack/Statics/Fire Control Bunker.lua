@@ -3,7 +3,7 @@ Fire Control Bunker =
 	["shapeName"] = "fire_control",
 	["desc"] = 
 	{
-		["life"] = 5,
+		["life"] = 6,
 		["_origin"] = "WWII Armour and Technics",
 		["category"] = 4,
 		["displayName"] = "Fire control bunker",

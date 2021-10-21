@@ -33,7 +33,7 @@ S-60_Type59_Artillery =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.53-UOR-281U",
-				["displayName"] = "57mm HE-T",
+				["displayName"] = "UOR-281 (57mm HE-T)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -67,7 +67,7 @@ S-60_Type59_Artillery =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.53-UBR-281U",
-				["displayName"] = "57mm APCBC-HE-T",
+				["displayName"] = "UBR-281 (57mm APCBC-HE-T)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]

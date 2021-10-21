@@ -167,6 +167,6 @@ MBT Churchill_VII =
 		["speedMaxOffRoad"] = 5.5500001907349,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Churchill_VII",
-		["displayName"] = "HIT Churchill VII",
+		["displayName"] = "Tk Churchill VII",
 	}, -- end of ["desc"]
 } -- end of MBT Churchill_VII

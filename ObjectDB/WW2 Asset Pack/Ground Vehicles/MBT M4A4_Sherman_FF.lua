@@ -167,6 +167,6 @@ MBT M4A4_Sherman_FF =
 		["speedMaxOffRoad"] = 11.109999656677,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "M4A4_Sherman_FF",
-		["displayName"] = "MT M4A4 Sherman Firefly",
+		["displayName"] = "Tk M4A4 Sherman Firefly",
 	}, -- end of ["desc"]
 } -- end of MBT M4A4_Sherman_FF

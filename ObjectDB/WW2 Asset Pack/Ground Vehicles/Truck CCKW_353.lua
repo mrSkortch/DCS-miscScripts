@@ -23,7 +23,7 @@ Truck CCKW_353 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 20,
-		["life"] = 2,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,
@@ -40,6 +40,6 @@ Truck CCKW_353 =
 		["speedMaxOffRoad"] = 20,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "CCKW_353",
-		["displayName"] = "Truck GMC \"Jimmy\" 6x6 Truck",
+		["displayName"] = "Truck GMC \"Jimmy\" 6x6",
 	}, -- end of ["desc"]
 } -- end of Truck CCKW_353

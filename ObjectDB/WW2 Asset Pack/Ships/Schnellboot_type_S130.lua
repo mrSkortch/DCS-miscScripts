@@ -174,14 +174,15 @@ Schnellboot_type_S130 =
 		["life"] = 0,
 		["attributes"] = 
 		{
-			["Armed ships"] = true,
 			["Light armed ships"] = true,
-			["NonAndLightArmoredUnits"] = true,
-			["NO_SAM"] = true,
 			["NonArmoredUnits"] = true,
-			["All"] = true,
 			["Ships"] = true,
+			["NonAndLightArmoredUnits"] = true,
 			["Armed Ship"] = true,
+			["Armed ships"] = true,
+			["All"] = true,
+			["Naval"] = true,
+			["NO_SAM"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

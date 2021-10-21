@@ -167,6 +167,6 @@ MBT Cromwell_IV =
 		["speedMaxOffRoad"] = 14.439999580383,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Cromwell_IV",
-		["displayName"] = "CT Cromwell IV",
+		["displayName"] = "Tk Cromwell IV",
 	}, -- end of ["desc"]
 } -- end of MBT Cromwell_IV

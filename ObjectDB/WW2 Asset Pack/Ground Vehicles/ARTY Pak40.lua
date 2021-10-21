@@ -1,10 +1,10 @@
-MBT Stug_III = 
+ARTY Pak40 = 
 {
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 34,
+			["count"] = 50,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ MBT Stug_III =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 22,
+			["count"] = 25,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -73,47 +73,46 @@ MBT Stug_III =
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
-		["massEmpty"] = 23400,
+		["massEmpty"] = 5000,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.51999998092651,
+		["maxSlopeAngle"] = 0,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -0.010605848394334,
-				["x"] = -3.0478043556213,
-				["z"] = -1.6520504951477,
+				["y"] = -0.010437678545713,
+				["x"] = -4.1690292358398,
+				["z"] = -1.1175647974014,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 2.250904083252,
-				["x"] = 3.95920586586,
-				["z"] = 1.6590610742569,
+				["y"] = 2.392972946167,
+				["x"] = 3.1002380847931,
+				["z"] = 1.1175649166107,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 11.109999656677,
-		["life"] = 10,
+		["speedMax"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
+			["Artillery"] = true,
 			["Ground Units Non Airdefence"] = true,
 			["Vehicles"] = true,
-			["Armored vehicles"] = true,
-			["AntiAir Armed Vehicles"] = true,
-			["Old Tanks"] = true,
-			["Ground vehicles"] = true,
-			["HeavyArmoredUnits"] = true,
 			["Armed vehicles"] = true,
+			["LightArmoredUnits"] = true,
+			["Ground vehicles"] = true,
+			["NonAndLightArmoredUnits"] = true,
 			["Armed ground units"] = true,
 			["All"] = true,
 			["Ground Units"] = true,
-			["Tanks"] = true,
+			["Indirect fire"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
-		["speedMaxOffRoad"] = 11.109999656677,
+		["speedMaxOffRoad"] = 1,
 		["_origin"] = "WWII Armour and Technics",
-		["typeName"] = "Stug_III",
-		["displayName"] = "SPG StuG III G AG",
+		["typeName"] = "Pak40",
+		["displayName"] = "FH Pak 40 75mm",
 	}, -- end of ["desc"]
-} -- end of MBT Stug_III
+} -- end of ARTY Pak40

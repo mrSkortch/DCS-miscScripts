@@ -60,7 +60,7 @@ QF_37_AA =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Rocket Attack Valid AirDefence"] = true,
@@ -80,6 +80,6 @@ QF_37_AA =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "QF_37_AA",
-		["displayName"] = "AAA QF 3,7\"",
+		["displayName"] = "AAA QF 3.7\"",
 	}, -- end of ["desc"]
 } -- end of QF_37_AA

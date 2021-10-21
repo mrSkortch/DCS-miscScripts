@@ -23,7 +23,7 @@ Maschinensatz_33 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Vehicles"] = true,
@@ -40,6 +40,6 @@ Maschinensatz_33 =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Maschinensatz_33",
-		["displayName"] = "PU Maschinensatz_33",
+		["displayName"] = "Maschinensatz 33 Gen",
 	}, -- end of ["desc"]
 } -- end of Maschinensatz_33

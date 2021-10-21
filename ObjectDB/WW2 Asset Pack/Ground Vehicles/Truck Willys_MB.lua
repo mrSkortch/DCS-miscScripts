@@ -23,7 +23,7 @@ Truck Willys_MB =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 29.170000076294,
-		["life"] = 1,
+		["life"] = 2,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

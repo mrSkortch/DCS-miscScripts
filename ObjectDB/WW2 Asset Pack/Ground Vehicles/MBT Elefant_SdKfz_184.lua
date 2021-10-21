@@ -167,6 +167,6 @@ MBT Elefant_SdKfz_184 =
 		["speedMaxOffRoad"] = 5.5599999427795,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Elefant_SdKfz_184",
-		["displayName"] = "SPG Sd.Kfz.184 Elefant",
+		["displayName"] = "SPG Elefant TD",
 	}, -- end of ["desc"]
 } -- end of MBT Elefant_SdKfz_184

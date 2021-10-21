@@ -81,6 +81,6 @@ IFV M30_CC =
 		["speedMaxOffRoad"] = 11.109999656677,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "M30_CC",
-		["displayName"] = "Carrier M30 Cargo",
+		["displayName"] = "Ammo M30 Cargo Carrier",
 	}, -- end of ["desc"]
 } -- end of IFV M30_CC

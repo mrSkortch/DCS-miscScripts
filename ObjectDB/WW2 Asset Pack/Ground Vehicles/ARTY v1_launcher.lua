@@ -72,7 +72,7 @@ ARTY v1_launcher =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Artillery"] = true,
@@ -92,6 +92,6 @@ ARTY v1_launcher =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "v1_launcher",
-		["displayName"] = "SSM V-1 Launcher",
+		["displayName"] = "V-1 Launch Ramp",
 	}, -- end of ["desc"]
 } -- end of ARTY v1_launcher

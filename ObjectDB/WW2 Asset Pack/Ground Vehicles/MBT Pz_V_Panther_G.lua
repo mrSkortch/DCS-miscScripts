@@ -167,6 +167,6 @@ MBT Pz_V_Panther_G =
 		["speedMaxOffRoad"] = 12.699999809265,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Pz_V_Panther_G",
-		["displayName"] = "MT Pz.Kpfw.V Panther Ausf.G",
+		["displayName"] = "Tk Panther G (Pz V)",
 	}, -- end of ["desc"]
 } -- end of MBT Pz_V_Panther_G

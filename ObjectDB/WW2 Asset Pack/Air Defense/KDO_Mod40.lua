@@ -94,7 +94,7 @@ KDO_Mod40 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 0.5,
+		["life"] = 1.5,
 		["attributes"] = 
 		{
 			["Rocket Attack Valid AirDefence"] = true,
@@ -113,6 +113,6 @@ KDO_Mod40 =
 		["speedMaxOffRoad"] = 0,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "KDO_Mod40",
-		["displayName"] = "AAA SP Kdo.G.40",
+		["displayName"] = "AAA Kdo.G.40",
 	}, -- end of ["desc"]
 } -- end of KDO_Mod40

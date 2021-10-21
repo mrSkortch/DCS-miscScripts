@@ -167,6 +167,6 @@ MBT Tiger_II_H =
 		["speedMaxOffRoad"] = 10.550000190735,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Tiger_II_H",
-		["displayName"] = "HT Pz.Kpfw.VI Ausf. B Tiger II",
+		["displayName"] = "Tk Tiger II",
 	}, -- end of ["desc"]
 } -- end of MBT Tiger_II_H

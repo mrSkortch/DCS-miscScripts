@@ -94,7 +94,7 @@ flak30 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 0.5,
+		["life"] = 1.5,
 		["attributes"] = 
 		{
 			["Rocket Attack Valid AirDefence"] = true,

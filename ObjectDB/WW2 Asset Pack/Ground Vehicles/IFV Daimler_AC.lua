@@ -147,7 +147,7 @@ IFV Daimler_AC =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 22.219999313354,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

@@ -62,7 +62,7 @@ M6 Linebacker =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.M242_25_HE_M792",
-				["displayName"] = "25mm HE",
+				["displayName"] = "M792 (25mm HEI-T)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -96,7 +96,7 @@ M6 Linebacker =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.M242_25_AP_M791",
-				["displayName"] = "25mm AP",
+				["displayName"] = "M791 (25mm APDS-T)",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 

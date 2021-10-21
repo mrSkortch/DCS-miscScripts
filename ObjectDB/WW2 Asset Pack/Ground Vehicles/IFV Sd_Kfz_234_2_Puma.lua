@@ -168,6 +168,6 @@ IFV Sd_Kfz_234_2_Puma =
 		["speedMaxOffRoad"] = 25,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Sd_Kfz_234_2_Puma",
-		["displayName"] = "IFV Sd.Kfz.234/2 Puma",
+		["displayName"] = "Scout Puma AC",
 	}, -- end of ["desc"]
 } -- end of IFV Sd_Kfz_234_2_Puma

@@ -10,13 +10,13 @@
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 80248.84375,
-						["headOn"] = 80248.84375,
+						["tailOn"] = 200622.09375,
+						["headOn"] = 200622.09375,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 80248.84375,
-						["headOn"] = 80248.84375,
+						["tailOn"] = 200622.09375,
+						["headOn"] = 200622.09375,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,

@@ -114,6 +114,6 @@ MBT M10_GMC =
 		["speedMaxOffRoad"] = 11.109999656677,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "M10_GMC",
-		["displayName"] = "SPG M10 GMC",
+		["displayName"] = "SPG M10 GMC TD",
 	}, -- end of ["desc"]
 } -- end of MBT M10_GMC

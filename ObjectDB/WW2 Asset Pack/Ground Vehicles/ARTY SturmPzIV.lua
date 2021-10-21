@@ -150,6 +150,6 @@ ARTY SturmPzIV =
 		["speedMaxOffRoad"] = 10.560000419617,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "SturmPzIV",
-		["displayName"] = "SPG Sturmpanzer IV Brummbar",
+		["displayName"] = "SPG Brummbaer AG",
 	}, -- end of ["desc"]
 } -- end of ARTY SturmPzIV

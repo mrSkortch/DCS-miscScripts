@@ -147,7 +147,7 @@ IFV Tetrarch =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 22.219999313354,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,
@@ -168,6 +168,6 @@ IFV Tetrarch =
 		["speedMaxOffRoad"] = 22.219999313354,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Tetrarch",
-		["displayName"] = "LT Mk VII Tetrarch",
+		["displayName"] = "Tk Tetrach",
 	}, -- end of ["desc"]
 } -- end of IFV Tetrarch

@@ -181,7 +181,7 @@ IFV M8_Greyhound =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 24.700000762939,
-		["life"] = 3,
+		["life"] = 4,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,
@@ -202,6 +202,6 @@ IFV M8_Greyhound =
 		["speedMaxOffRoad"] = 24.700000762939,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "M8_Greyhound",
-		["displayName"] = "Car M8 Greyhound Armored",
+		["displayName"] = "Scout M8 Greyhound AC",
 	}, -- end of ["desc"]
 } -- end of IFV M8_Greyhound

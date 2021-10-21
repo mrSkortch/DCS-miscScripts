@@ -167,6 +167,6 @@ MBT Jagdpanther_G1 =
 		["speedMaxOffRoad"] = 12.699999809265,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "Jagdpanther_G1",
-		["displayName"] = "SPG Jagdpanther G1",
+		["displayName"] = "SPG Jagdpanther TD",
 	}, -- end of ["desc"]
 } -- end of MBT Jagdpanther_G1

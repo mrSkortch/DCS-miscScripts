@@ -167,6 +167,6 @@ MBT JagdPz_IV =
 		["speedMaxOffRoad"] = 10.560000419617,
 		["_origin"] = "WWII Armour and Technics",
 		["typeName"] = "JagdPz_IV",
-		["displayName"] = "SPG Jagdpanzer IV",
+		["displayName"] = "SPG Jagdpanzer IV TD",
 	}, -- end of ["desc"]
 } -- end of MBT JagdPz_IV

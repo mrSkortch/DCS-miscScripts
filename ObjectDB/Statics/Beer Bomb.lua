@@ -6,7 +6,7 @@ Beer Bomb =
 		["life"] = 5,
 		["_origin"] = "World War II AI Units by Eagle Dynamics",
 		["category"] = 4,
-		["displayName"] = "\"Beer Bomb\"",
+		["displayName"] = "Barrel",
 		["typeName"] = "Beer Bomb",
 		["box"] = 
 		{
