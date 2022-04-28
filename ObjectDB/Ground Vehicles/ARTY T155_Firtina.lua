@@ -33,7 +33,7 @@ ARTY T155_Firtina =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.K307_155HE",
-				["displayName"] = "K307_155_HE",
+				["displayName"] = "K307 (155mm HE)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 

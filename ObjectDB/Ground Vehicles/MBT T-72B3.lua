@@ -67,7 +67,7 @@ MBT T-72B3 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A46M_125_HE",
-				["displayName"] = "125mm HE",
+				["displayName"] = "3OF26 (125mm HE)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 

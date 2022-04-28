@@ -225,7 +225,7 @@ CV_1143_5 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 16.462200164795,
-		["life"] = 0,
+		["life"] = 7000,
 		["attributes"] = 
 		{
 			["Aircraft Carriers"] = true,

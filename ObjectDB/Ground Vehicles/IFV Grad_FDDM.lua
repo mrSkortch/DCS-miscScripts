@@ -9,7 +9,7 @@ IFV Grad_FDDM =
 			{
 				["distMax"] = 0,
 				["RCS"] = 0,
-				["displayName"] = "GRAD",
+				["displayName"] = "9M22U (122mm HE)",
 				["life"] = 2,
 				["category"] = 2,
 				["box"] = 

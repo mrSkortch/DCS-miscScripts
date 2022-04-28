@@ -33,7 +33,7 @@ ARTY SAU Gvozdika =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A18_122",
-				["displayName"] = "122mm HE",
+				["displayName"] = "3OF56 (122mm HE)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

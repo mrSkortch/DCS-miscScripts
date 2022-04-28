@@ -120,7 +120,7 @@ Forrestal =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 18.433300018311,
-		["life"] = 0,
+		["life"] = 7300,
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,

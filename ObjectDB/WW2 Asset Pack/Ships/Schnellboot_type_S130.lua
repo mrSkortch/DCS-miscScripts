@@ -171,7 +171,7 @@ Schnellboot_type_S130 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 22.520000457764,
-		["life"] = 0,
+		["life"] = 50,
 		["attributes"] = 
 		{
 			["Light armed ships"] = true,

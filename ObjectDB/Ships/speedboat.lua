@@ -57,7 +57,7 @@ speedboat =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 30,
-		["life"] = 0,
+		["life"] = 1.6000000238419,
 		["attributes"] = 
 		{
 			["Light armed ships"] = true,

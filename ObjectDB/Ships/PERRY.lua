@@ -317,7 +317,7 @@ PERRY =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 14.918899536133,
-		["life"] = 0,
+		["life"] = 2100,
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,

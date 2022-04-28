@@ -91,7 +91,7 @@ LST_Mk2 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 6,
-		["life"] = 0,
+		["life"] = 2100,
 		["attributes"] = 
 		{
 			["Ships"] = true,

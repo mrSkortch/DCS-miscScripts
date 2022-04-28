@@ -64,7 +64,7 @@ Type_093 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 14.89999961853,
-		["life"] = 0,
+		["life"] = 1500,
 		["attributes"] = 
 		{
 			["Submarines"] = true,

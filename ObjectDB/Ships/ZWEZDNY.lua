@@ -20,7 +20,7 @@ ZWEZDNY =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 7.3051099777222,
-		["life"] = 0,
+		["life"] = 20,
 		["attributes"] = 
 		{
 			["Naval"] = true,

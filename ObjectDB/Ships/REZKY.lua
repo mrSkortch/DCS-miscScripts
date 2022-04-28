@@ -101,7 +101,7 @@ REZKY =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 16.462200164795,
-		["life"] = 0,
+		["life"] = 1800,
 		["attributes"] = 
 		{
 			["Ships"] = true,

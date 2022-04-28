@@ -13,7 +13,7 @@ MBT M-60 =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 105,
-					["mass"] = 2.73,
+					["mass"] = 3.73,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -33,7 +33,7 @@ MBT M-60 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.M68_105_AP",
-				["displayName"] = "105mm AP",
+				["displayName"] = "M833 (105mm APFSDS-T)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -67,7 +67,7 @@ MBT M-60 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.M68_105_HE",
-				["displayName"] = "105mm HE",
+				["displayName"] = "M393 (105mm HEP)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 

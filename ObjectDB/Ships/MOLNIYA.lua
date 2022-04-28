@@ -171,7 +171,7 @@ MOLNIYA =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 18.520000457764,
-		["life"] = 0,
+		["life"] = 700,
 		["attributes"] = 
 		{
 			["Ships"] = true,

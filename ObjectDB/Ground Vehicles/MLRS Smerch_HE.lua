@@ -9,7 +9,7 @@ MLRS Smerch_HE =
 			{
 				["distMax"] = 0,
 				["RCS"] = 0,
-				["displayName"] = "SMERCH HE",
+				["displayName"] = "9M55F (300mm HE)",
 				["life"] = 2,
 				["category"] = 2,
 				["box"] = 

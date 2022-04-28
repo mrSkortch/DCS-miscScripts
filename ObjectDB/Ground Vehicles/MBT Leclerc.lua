@@ -13,7 +13,7 @@ MBT Leclerc =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 120,
-					["mass"] = 4.6,
+					["mass"] = 4.9,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -33,7 +33,7 @@ MBT Leclerc =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.M256_120_AP",
-				["displayName"] = "120mm AP",
+				["displayName"] = "M829A2 (120mm APFSDS-T)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -67,7 +67,7 @@ MBT Leclerc =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.M256_120_HE",
-				["displayName"] = "120mm HE",
+				["displayName"] = "M830 (120mm HEAT-MP-T)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 

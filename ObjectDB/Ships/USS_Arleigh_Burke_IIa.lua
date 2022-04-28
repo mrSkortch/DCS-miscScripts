@@ -281,7 +281,7 @@ USS_Arleigh_Burke_IIa =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 15.550000190735,
-		["life"] = 0,
+		["life"] = 2100,
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,

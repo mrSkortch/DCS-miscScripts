@@ -67,7 +67,7 @@ IFV ZBD04A =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A42_30_HE",
-				["displayName"] = "30mm HE",
+				["displayName"] = "3UOF8 (30mm HE-T)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -101,7 +101,7 @@ IFV ZBD04A =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A42_30_AP",
-				["displayName"] = "30mm AP",
+				["displayName"] = "3UBR6 (30mm APBC-T)",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -135,7 +135,7 @@ IFV ZBD04A =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.UOF_17_100HE",
-				["displayName"] = "100mm HE",
+				["displayName"] = "3UOF17 (100mm HE)",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -206,7 +206,7 @@ IFV ZBD04A =
 	["desc"] = 
 	{
 		["massEmpty"] = 21500,
-		["riverCrossing"] = false,
+		["riverCrossing"] = true,
 		["maxSlopeAngle"] = 0.69999998807907,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,

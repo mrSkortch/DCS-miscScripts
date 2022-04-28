@@ -193,7 +193,7 @@ USS_Samuel_Chase =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 9.1999998092651,
-		["life"] = 0,
+		["life"] = 2100,
 		["attributes"] = 
 		{
 			["Ships"] = true,

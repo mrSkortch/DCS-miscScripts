@@ -33,7 +33,7 @@ ARTY SAU 2-C9 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A60_120",
-				["displayName"] = "120mm HE",
+				["displayName"] = "3OF49 (120mm HE)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

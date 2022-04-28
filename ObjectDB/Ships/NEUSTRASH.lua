@@ -213,7 +213,7 @@ NEUSTRASH =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 16.462200164795,
-		["life"] = 0,
+		["life"] = 2180,
 		["attributes"] = 
 		{
 			["Ships"] = true,

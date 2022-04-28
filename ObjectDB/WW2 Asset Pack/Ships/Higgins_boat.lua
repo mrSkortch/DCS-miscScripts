@@ -76,7 +76,7 @@ Higgins_boat =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 6.1100001335144,
-		["life"] = 0,
+		["life"] = 4.5999999046326,
 		["attributes"] = 
 		{
 			["Light armed ships"] = true,

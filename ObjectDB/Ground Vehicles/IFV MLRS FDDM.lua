@@ -9,7 +9,7 @@ IFV MLRS FDDM =
 			{
 				["distMax"] = 0,
 				["RCS"] = 0,
-				["displayName"] = "M26",
+				["displayName"] = "M26 (270mm DPICM)",
 				["life"] = 2,
 				["category"] = 2,
 				["box"] = 

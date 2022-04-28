@@ -20,7 +20,7 @@ ELNYA =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 7.2022199630737,
-		["life"] = 0,
+		["life"] = 400,
 		["attributes"] = 
 		{
 			["Ships"] = true,

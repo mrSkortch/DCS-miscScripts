@@ -120,7 +120,7 @@ VINSON =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 15.433300018311,
-		["life"] = 0,
+		["life"] = 7300,
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,

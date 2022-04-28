@@ -171,7 +171,7 @@ Uboat_VIIC =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 9.1099996566772,
-		["life"] = 0,
+		["life"] = 800,
 		["attributes"] = 
 		{
 			["Submarines"] = true,

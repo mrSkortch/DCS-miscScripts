@@ -33,7 +33,7 @@ ARTY SAU Msta =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A64_152",
-				["displayName"] = "152mm HE",
+				["displayName"] = "3OF45 (152mm HE)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 

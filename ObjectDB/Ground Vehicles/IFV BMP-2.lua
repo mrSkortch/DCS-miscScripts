@@ -33,7 +33,7 @@ IFV BMP-2 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A42_30_HE",
-				["displayName"] = "30mm HE",
+				["displayName"] = "3UOF8 (30mm HE-T)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -67,7 +67,7 @@ IFV BMP-2 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A42_30_AP",
-				["displayName"] = "30mm AP",
+				["displayName"] = "3UBR6 (30mm APBC-T)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 

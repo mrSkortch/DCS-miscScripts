@@ -9,7 +9,7 @@ MLRS Smerch =
 			{
 				["distMax"] = 0,
 				["RCS"] = 0,
-				["displayName"] = "SMERCH",
+				["displayName"] = "9M55K (300mm CM-AP)",
 				["life"] = 2,
 				["category"] = 2,
 				["box"] = 

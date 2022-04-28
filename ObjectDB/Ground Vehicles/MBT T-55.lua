@@ -13,7 +13,7 @@ MBT T-55 =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 105,
-					["mass"] = 2.73,
+					["mass"] = 5.02,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -32,8 +32,8 @@ MBT T-55 =
 						["z"] = 0.10754559934139,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M68_105_AP",
-				["displayName"] = "105mm AP",
+				["typeName"] = "weapons.shells.3UBM11_100mm_AP",
+				["displayName"] = "3UBM11 (100mm APFSDS-T)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -66,8 +66,8 @@ MBT T-55 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.UOF_412_100HE",
-				["displayName"] = "100mm HE",
+				["typeName"] = "weapons.shells.UOF412_100HE",
+				["displayName"] = "UOF412 (100mm HE)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 

@@ -125,7 +125,7 @@ Type_071 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 12.777700424194,
-		["life"] = 0,
+		["life"] = 7300,
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,

@@ -35,7 +35,7 @@ INF Paratrooper RPG-16 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A28_73",
-				["displayName"] = "73mm RPG",
+				["displayName"] = "PG-15 (73mm HEAT)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

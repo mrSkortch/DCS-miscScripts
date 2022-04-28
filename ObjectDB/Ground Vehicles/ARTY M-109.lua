@@ -33,7 +33,7 @@ ARTY M-109 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.M185_155",
-				["displayName"] = "155mm HE",
+				["displayName"] = "M795 (155mm HE)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

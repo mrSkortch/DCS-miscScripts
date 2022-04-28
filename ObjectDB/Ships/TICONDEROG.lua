@@ -361,7 +361,7 @@ TICONDEROG =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 15.433300018311,
-		["life"] = 0,
+		["life"] = 2700,
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,

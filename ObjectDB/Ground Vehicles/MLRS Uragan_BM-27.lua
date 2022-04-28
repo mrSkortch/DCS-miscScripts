@@ -9,7 +9,7 @@ MLRS Uragan_BM-27 =
 			{
 				["distMax"] = 0,
 				["RCS"] = 0,
-				["displayName"] = "URAGAN",
+				["displayName"] = "9M27F (220mm HE)",
 				["life"] = 2,
 				["category"] = 2,
 				["box"] = 

@@ -20,7 +20,7 @@ Dry-cargo ship-1 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 7.2022199630737,
-		["life"] = 0,
+		["life"] = 200,
 		["attributes"] = 
 		{
 			["Ships"] = true,

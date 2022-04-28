@@ -36,10 +36,10 @@ Strela-1 9P31 =
 				["missileCategory"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 2.5999999046326,
+					["explosiveMass"] = 3,
 					["type"] = 1,
 					["caliber"] = 120,
-					["mass"] = 2.5999999046326,
+					["mass"] = 3,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 4200,
 				["typeName"] = "SA9M31",

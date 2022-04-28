@@ -137,7 +137,7 @@ La_Combattante_II =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 18.610000610352,
-		["life"] = 0,
+		["life"] = 750,
 		["attributes"] = 
 		{
 			["Ships"] = true,

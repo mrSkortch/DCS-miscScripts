@@ -33,7 +33,7 @@ ARTY SpGH_Dana =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.DANA_152",
-				["displayName"] = "DANA_152",
+				["displayName"] = "152-EOF (152mm HE)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

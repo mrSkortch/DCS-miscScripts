@@ -67,7 +67,7 @@ IFV BMP-3 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A42_30_HE",
-				["displayName"] = "30mm HE",
+				["displayName"] = "3UOF8 (30mm HE-T)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
@@ -101,7 +101,7 @@ IFV BMP-3 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A42_30_AP",
-				["displayName"] = "30mm AP",
+				["displayName"] = "3UBR6 (30mm APBC-T)",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -135,7 +135,7 @@ IFV BMP-3 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.UOF_17_100HE",
-				["displayName"] = "100mm HE",
+				["displayName"] = "3UOF17 (100mm HE)",
 			}, -- end of ["desc"]
 		}, -- end of [4]
 		[5] = 
@@ -231,14 +231,15 @@ IFV BMP-3 =
 		{
 			["Ground Units Non Airdefence"] = true,
 			["Vehicles"] = true,
-			["Armored vehicles"] = true,
-			["AntiAir Armed Vehicles"] = true,
 			["LightArmoredUnits"] = true,
+			["IFV"] = true,
+			["AntiAir Armed Vehicles"] = true,
+			["CustomAimPoint"] = true,
 			["NonAndLightArmoredUnits"] = true,
 			["Ground vehicles"] = true,
 			["Armed vehicles"] = true,
 			["ATGM"] = true,
-			["IFV"] = true,
+			["Armored vehicles"] = true,
 			["Armed ground units"] = true,
 			["All"] = true,
 			["Ground Units"] = true,

@@ -20,7 +20,7 @@ KILO =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 8.7455596923828,
-		["life"] = 0,
+		["life"] = 300,
 		["attributes"] = 
 		{
 			["Submarines"] = true,

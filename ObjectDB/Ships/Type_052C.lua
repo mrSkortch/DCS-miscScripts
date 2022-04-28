@@ -38,7 +38,7 @@ Type_052C =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 24,
+			["count"] = 48,
 			["desc"] = 
 			{
 				["box"] = 
@@ -198,7 +198,7 @@ Type_052C =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 15.433300018311,
-		["life"] = 0,
+		["life"] = 3200,
 		["attributes"] = 
 		{
 			["Heavy armed ships"] = true,

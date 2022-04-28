@@ -23,12 +23,12 @@ S-300PS 5P85D ln =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["rangeMaxAltMin"] = 40000,
-				["fuseDist"] = 20,
+				["fuseDist"] = 30,
 				["category"] = 1,
 				["guidance"] = 4,
-				["Nmax"] = 25,
+				["Nmax"] = 16,
 				["rangeMin"] = 5000,
-				["altMax"] = 30000,
+				["altMax"] = 25000,
 				["RCS"] = 0.20000000298023,
 				["displayName"] = "5V55 S-300PS (SA-10B Grumble)",
 				["altMin"] = 25,
