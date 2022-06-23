@@ -1,37 +1,36 @@
-IFV Tigr_233036 = 
+IFV LARC-V = 
 {
 	["desc"] = 
 	{
-		["massEmpty"] = 7000,
+		["massEmpty"] = 13600,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.40000000596046,
+		["maxSlopeAngle"] = 0.46999999880791,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -0.015026027336717,
-				["x"] = -2.8946268558502,
-				["z"] = -1.5251200199127,
+				["y"] = -0.70390963554382,
+				["x"] = -7.4618420600891,
+				["z"] = -1.8189203739166,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 2.4772720336914,
-				["x"] = 2.8923156261444,
-				["z"] = 1.5251200199127,
+				["y"] = 3.9283223152161,
+				["x"] = 5.7759408950806,
+				["z"] = 2.4319906234741,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 40,
-		["life"] = 2.5,
+		["speedMax"] = 25,
+		["life"] = 3,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,
-			["human_vehicle"] = true,
+			["Vehicles"] = true,
 			["Armored vehicles"] = true,
 			["AntiAir Armed Vehicles"] = true,
 			["LightArmoredUnits"] = true,
-			["Vehicles"] = true,
 			["Ground vehicles"] = true,
 			["Armed vehicles"] = true,
 			["NonAndLightArmoredUnits"] = true,
@@ -42,9 +41,9 @@ IFV Tigr_233036 =
 			["APC"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
-		["speedMaxOffRoad"] = 40,
-		["_origin"] = "",
-		["typeName"] = "Tigr_233036",
-		["displayName"] = "LUV Tigr",
+		["speedMaxOffRoad"] = 25,
+		["_origin"] = "South_Atlantic_Assets",
+		["typeName"] = "LARC-V",
+		["displayName"] = "LARC-V",
 	}, -- end of ["desc"]
-} -- end of IFV Tigr_233036
+} -- end of IFV LARC-V

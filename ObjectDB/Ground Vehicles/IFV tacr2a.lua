@@ -1,37 +1,36 @@
-IFV Tigr_233036 = 
+IFV tacr2a = 
 {
 	["desc"] = 
 	{
-		["massEmpty"] = 7000,
+		["massEmpty"] = 3990,
 		["riverCrossing"] = false,
-		["maxSlopeAngle"] = 0.40000000596046,
+		["maxSlopeAngle"] = 0.5,
 		["Kmax"] = 0.050000000745058,
 		["RCS"] = 5,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -0.015026027336717,
-				["x"] = -2.8946268558502,
-				["z"] = -1.5251200199127,
+				["y"] = 0.0049523673951626,
+				["x"] = -2.9892179965973,
+				["z"] = -0.96958607435226,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 2.4772720336914,
-				["x"] = 2.8923156261444,
-				["z"] = 1.5251200199127,
+				["y"] = 2.6832530498505,
+				["x"] = 3.1214175224304,
+				["z"] = 1.2884074449539,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 40,
+		["speedMax"] = 31.388900756836,
 		["life"] = 2.5,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,
-			["human_vehicle"] = true,
+			["Vehicles"] = true,
 			["Armored vehicles"] = true,
 			["AntiAir Armed Vehicles"] = true,
 			["LightArmoredUnits"] = true,
-			["Vehicles"] = true,
 			["Ground vehicles"] = true,
 			["Armed vehicles"] = true,
 			["NonAndLightArmoredUnits"] = true,
@@ -42,9 +41,9 @@ IFV Tigr_233036 =
 			["APC"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
-		["speedMaxOffRoad"] = 40,
-		["_origin"] = "",
-		["typeName"] = "Tigr_233036",
-		["displayName"] = "LUV Tigr",
+		["speedMaxOffRoad"] = 31.388900756836,
+		["_origin"] = "South_Atlantic_Assets",
+		["typeName"] = "tacr2a",
+		["displayName"] = "RAF Rescue",
 	}, -- end of ["desc"]
-} -- end of IFV Tigr_233036
+} -- end of IFV tacr2a

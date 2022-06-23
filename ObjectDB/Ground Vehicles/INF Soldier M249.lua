@@ -60,7 +60,7 @@ INF Soldier M249 =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 4,
-		["life"] = 1.0800000429153,
+		["life"] = 1.039999961853,
 		["attributes"] = 
 		{
 			["Ground Units Non Airdefence"] = true,

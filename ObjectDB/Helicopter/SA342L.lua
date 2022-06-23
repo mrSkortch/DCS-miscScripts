@@ -50,7 +50,7 @@ SA342L =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 1582.5,
+		["massEmpty"] = 1494.5,
 		["range"] = 735,
 		["box"] = 
 		{

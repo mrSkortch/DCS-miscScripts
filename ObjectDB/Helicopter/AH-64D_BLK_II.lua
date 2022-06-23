@@ -1,19 +1,21 @@
-Mi-24P = 
+AH-64D_BLK_II = 
 {
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 250,
+			["count"] = 300,
 			["desc"] = 
 			{
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 0.387,
-					["type"] = 1,
+					["mass"] = 0.234,
+					["explosiveMass"] = 0.234,
+					["shapedExplosiveArmorThickness"] = 0.05,
+					["shapedExplosiveMass"] = 0.234,
 					["caliber"] = 30,
-					["mass"] = 0.387,
+					["type"] = 2,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -32,21 +34,37 @@ Mi-24P =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.GSh_30_2K_HE",
-				["displayName"] = "GSh-30-2K HE",
+				["typeName"] = "weapons.shells.M230_HEDP M789",
+				["displayName"] = "M230_HEDP M789",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceHRM"] = 3000,
+				["type"] = 1,
+				["typeName"] = "AN/APG-78",
+				["detectionDistanceRBM"] = 2000,
+			}, -- end of [1]
+		}, -- end of [1]
 		[0] = 
 		{
 			[1] = 
 			{
 				["type"] = 0,
-				["typeName"] = "Raduga-Sh",
+				["typeName"] = "TADS DTV",
 				["opticType"] = 0,
 			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "TADS FLIR",
+				["opticType"] = 2,
+			}, -- end of [2]
 		}, -- end of [0]
 		[3] = 
 		{
@@ -59,36 +77,37 @@ Mi-24P =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 8891,
-		["range"] = 500,
+		["massEmpty"] = 6035.5,
+		["tankerType"] = 1,
+		["range"] = 480,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -1.1877337694168,
-				["x"] = -12.528847694397,
-				["z"] = -1.5087124109268,
+				["y"] = -2.4747226238251,
+				["x"] = -10.941561698914,
+				["z"] = -8.0605554580688,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 3.0699999332428,
-				["x"] = 6.5412120819092,
-				["z"] = 1.6343108415604,
+				["y"] = 4.8646383285522,
+				["x"] = 8.9926300048828,
+				["z"] = 8.0605554580688,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["Hmax"] = 4500,
-		["Kmax"] = 0.5,
-		["_origin"] = "Mi-24P AI by Eagle Dynamics",
+		["Hmax"] = 6400,
+		["Kmax"] = 0.20000000298023,
+		["_origin"] = "AH-64D BLK.II AI",
 		["NyMin"] = 0.5,
-		["fuelMassMax"] = 1701,
-		["speedMax"] = 330,
-		["NyMax"] = 2.5,
-		["massMax"] = 11500,
-		["RCS"] = 12,
-		["displayName"] = "Mi-24P",
+		["fuelMassMax"] = 1438,
+		["speedMax"] = 365,
+		["NyMax"] = 3.5,
+		["massMax"] = 10432.599609375,
+		["RCS"] = 5,
+		["displayName"] = "AH-64D_BLK_II",
 		["life"] = 20,
-		["HmaxStat"] = 2200,
-		["VyMax"] = 12.5,
+		["HmaxStat"] = 3505,
+		["VyMax"] = 12.699999809265,
 		["attributes"] = 
 		{
 			["Air"] = true,
@@ -98,7 +117,7 @@ Mi-24P =
 			["Helicopters"] = true,
 			["Attack helicopters"] = true,
 		}, -- end of ["attributes"]
-		["typeName"] = "Mi-24P",
+		["typeName"] = "AH-64D_BLK_II",
 		["category"] = 1,
 	}, -- end of ["desc"]
-} -- end of Mi-24P
+} -- end of AH-64D_BLK_II

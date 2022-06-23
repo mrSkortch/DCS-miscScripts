@@ -33,7 +33,7 @@ Ka-50 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A42_30_HE",
-				["displayName"] = "30mm HE",
+				["displayName"] = "3UOF8 (30mm HE-T)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]

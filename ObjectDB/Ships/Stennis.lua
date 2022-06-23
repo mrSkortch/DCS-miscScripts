@@ -99,24 +99,53 @@ Stennis =
 				["Nmax"] = 32,
 			}, -- end of ["desc"]
 		}, -- end of [3]
+		[4] = 
+		{
+			["count"] = 42,
+			["desc"] = 
+			{
+				["missileCategory"] = 2,
+				["rangeMaxAltMax"] = 10000,
+				["rangeMin"] = 500,
+				["_origin"] = "",
+				["rangeMaxAltMin"] = 10000,
+				["altMax"] = 4000,
+				["RCS"] = 0.018200000748038,
+				["displayName"] = "RIM-116A",
+				["altMin"] = -1,
+				["life"] = 2,
+				["fuseDist"] = 5,
+				["category"] = 1,
+				["guidance"] = 5,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 10,
+					["type"] = 1,
+					["caliber"] = 127,
+					["mass"] = 10,
+				}, -- end of ["warhead"]
+				["typeName"] = "weapons.missiles.RIM_116A",
+				["Nmax"] = 20,
+			}, -- end of ["desc"]
+		}, -- end of [4]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{
 		["massEmpty"] = 72916000,
-		["RCS"] = 17754.01953125,
+		["RCS"] = 20059.416015625,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -10.132601737976,
-				["x"] = -159.36015319824,
-				["z"] = -45.033771514893,
+				["y"] = -12.130121231079,
+				["x"] = -171.06927490234,
+				["z"] = -46.412311553955,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 57.859607696533,
-				["x"] = 159.16284179688,
-				["z"] = 49.935443878174,
+				["y"] = 65.324577331543,
+				["x"] = 169.96752929688,
+				["z"] = 41.562206268311,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 15.433300018311,
@@ -145,7 +174,7 @@ Stennis =
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,
-		["_origin"] = "USS John C Stennis",
+		["_origin"] = "USS_Nimitz",
 		["typeName"] = "Stennis",
 		["displayName"] = "CVN-74 John C. Stennis",
 	}, -- end of ["desc"]
