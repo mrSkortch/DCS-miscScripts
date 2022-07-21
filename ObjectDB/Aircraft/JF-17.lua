@@ -1,5 +1,10 @@
 JF-17 = 
 {
+	["countries"] = 
+	{
+		[1] = "Pakistan",
+		[2] = "Nigeria",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -48,7 +53,7 @@ JF-17 =
 					["upperHemisphere"] = 
 					{
 						["tailOn"] = 30762.0546875,
-						["headOn"] = 50824.265625,
+						["headOn"] = 59517.890625,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
@@ -57,7 +62,7 @@ JF-17 =
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
-				["detectionDistanceRBM"] = 1800,
+				["detectionDistanceRBM"] = 1500,
 				["typeName"] = "KLJ-7",
 				["detectionDistanceHRM"] = 200,
 			}, -- end of [1]

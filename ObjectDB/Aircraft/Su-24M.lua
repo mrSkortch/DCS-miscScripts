@@ -1,5 +1,19 @@
 Su-24M = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+		[2] = "Ukraine",
+		[3] = "Belarus",
+		[4] = "Iran",
+		[5] = "Iraq",
+		[6] = "Kazakhstan",
+		[7] = "Syria",
+		[8] = "Sudan",
+		[9] = "Libya",
+		[10] = "USSR",
+		[11] = "Algeria",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

@@ -13,7 +13,7 @@ MBT Merkava_Mk4 =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 120,
-					["mass"] = 4.9,
+					["mass"] = 5.6,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -32,8 +32,8 @@ MBT Merkava_Mk4 =
 						["z"] = 0.10754559934139,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M256_120_AP",
-				["displayName"] = "M829A2 (120mm APFSDS-T)",
+				["typeName"] = "weapons.shells.M322_120_AP",
+				["displayName"] = "M322 (120mm APFSDS-T)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -44,10 +44,10 @@ MBT Merkava_Mk4 =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 14.3,
+					["explosiveMass"] = 13.3,
 					["type"] = 1,
 					["caliber"] = 120,
-					["mass"] = 14.3,
+					["mass"] = 13.5,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -66,13 +66,47 @@ MBT Merkava_Mk4 =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M256_120_HE",
-				["displayName"] = "M830 (120mm HEAT-MP-T)",
+				["typeName"] = "weapons.shells.M339_120mm_HEAT_MP_T",
+				["displayName"] = "M339 (120mm HEAT-MP-T)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 5024,
+			["count"] = 1024,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 7.62,
+					["mass"] = 0.00933,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.7_62x51tr",
+				["displayName"] = "7.62mm",
+			}, -- end of ["desc"]
+		}, -- end of [3]
+		[4] = 
+		{
+			["count"] = 4024,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -88,8 +122,8 @@ MBT Merkava_Mk4 =
 				["typeName"] = "weapons.shells.7_62x51",
 				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
-		}, -- end of [3]
-		[4] = 
+		}, -- end of [4]
+		[5] = 
 		{
 			["count"] = 5024,
 			["desc"] = 
@@ -122,7 +156,7 @@ MBT Merkava_Mk4 =
 				["typeName"] = "weapons.shells.7_62x54",
 				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
-		}, -- end of [4]
+		}, -- end of [5]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{

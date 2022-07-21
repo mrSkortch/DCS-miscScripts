@@ -4,7 +4,7 @@ TICONDEROG =
 	{
 		[1] = 
 		{
-			["count"] = 1512,
+			["count"] = 312,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -32,11 +32,30 @@ TICONDEROG =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M2_12_7_T",
+				["typeName"] = "weapons.shells.M2_12_7_TR",
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
+		{
+			["count"] = 1212,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 12.7,
+					["mass"] = 0.046,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.M2_12_7",
+				["displayName"] = "12.7mm",
+			}, -- end of ["desc"]
+		}, -- end of [2]
+		[3] = 
 		{
 			["count"] = 460,
 			["desc"] = 
@@ -69,8 +88,8 @@ TICONDEROG =
 				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["displayName"] = "M792 (25mm HEI-T)",
 			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
+		}, -- end of [3]
+		[4] = 
 		{
 			["count"] = 142,
 			["desc"] = 
@@ -103,8 +122,8 @@ TICONDEROG =
 				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["displayName"] = "M791 (25mm APDS-T)",
 			}, -- end of ["desc"]
-		}, -- end of [3]
-		[4] = 
+		}, -- end of [4]
+		[5] = 
 		{
 			["count"] = 15518,
 			["desc"] = 
@@ -137,8 +156,8 @@ TICONDEROG =
 				["typeName"] = "weapons.shells.M61_20_AP",
 				["displayName"] = "20mm AP",
 			}, -- end of ["desc"]
-		}, -- end of [4]
-		[5] = 
+		}, -- end of [5]
+		[6] = 
 		{
 			["count"] = 15518,
 			["desc"] = 
@@ -171,8 +190,8 @@ TICONDEROG =
 				["typeName"] = "weapons.shells.M61_20_HE",
 				["displayName"] = "20mm HE",
 			}, -- end of ["desc"]
-		}, -- end of [5]
-		[6] = 
+		}, -- end of [6]
+		[7] = 
 		{
 			["count"] = 360,
 			["desc"] = 
@@ -205,8 +224,8 @@ TICONDEROG =
 				["typeName"] = "weapons.shells.MK45_127",
 				["displayName"] = "127mm HE",
 			}, -- end of ["desc"]
-		}, -- end of [6]
-		[7] = 
+		}, -- end of [7]
+		[8] = 
 		{
 			["count"] = 8,
 			["desc"] = 
@@ -251,8 +270,8 @@ TICONDEROG =
 				["typeName"] = "AGM_84S",
 				["_origin"] = "",
 			}, -- end of ["desc"]
-		}, -- end of [7]
-		[8] = 
+		}, -- end of [8]
+		[9] = 
 		{
 			["count"] = 90,
 			["desc"] = 
@@ -295,8 +314,8 @@ TICONDEROG =
 				["typeName"] = "SM_2",
 				["_origin"] = "",
 			}, -- end of ["desc"]
-		}, -- end of [8]
-		[9] = 
+		}, -- end of [9]
+		[10] = 
 		{
 			["count"] = 32,
 			["desc"] = 
@@ -339,7 +358,7 @@ TICONDEROG =
 				["typeName"] = "weapons.missiles.BGM_109B",
 				["_origin"] = "",
 			}, -- end of ["desc"]
-		}, -- end of [9]
+		}, -- end of [10]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{

@@ -4,7 +4,7 @@ IFV BRDM-2 =
 	{
 		[1] = 
 		{
-			["count"] = 509,
+			["count"] = 109,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,6 +38,40 @@ IFV BRDM-2 =
 		}, -- end of [1]
 		[2] = 
 		{
+			["count"] = 409,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 14.5,
+					["mass"] = 0.064,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.12504199147224,
+						["x"] = -6.61008644104,
+						["z"] = -0.12113920599222,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.12504191696644,
+						["x"] = 2.2344591617584,
+						["z"] = 0.12113922089338,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.KPVT_14_5",
+				["displayName"] = "KPVT_14_5",
+			}, -- end of ["desc"]
+		}, -- end of [2]
+		[3] = 
+		{
 			["count"] = 2007,
 			["desc"] = 
 			{
@@ -69,7 +103,7 @@ IFV BRDM-2 =
 				["typeName"] = "weapons.shells.7_62x54",
 				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
-		}, -- end of [2]
+		}, -- end of [3]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{

@@ -1,5 +1,14 @@
 WingLoong-I = 
 {
+	["countries"] = 
+	{
+		[1] = "Egypt",
+		[2] = "Kazakhstan",
+		[3] = "Pakistan",
+		[4] = "Saudi Arabia",
+		[5] = "Algeria",
+		[6] = "United Arab Emirates",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[0] = 
@@ -20,7 +29,7 @@ WingLoong-I =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["speedMax0"] = 55.555557250977,
+		["speedMax0"] = 77.777778625488,
 		["massEmpty"] = 550,
 		["range"] = 4000,
 		["box"] = 
@@ -50,7 +59,7 @@ WingLoong-I =
 		["RCS"] = 0.55000001192093,
 		["displayName"] = "WingLoong-I",
 		["life"] = 18,
-		["VyMax"] = 2,
+		["VyMax"] = 5,
 		["Kab"] = 0,
 		["attributes"] = 
 		{

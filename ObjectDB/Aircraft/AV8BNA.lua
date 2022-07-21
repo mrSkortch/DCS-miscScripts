@@ -1,5 +1,12 @@
 AV8BNA = 
 {
+	["countries"] = 
+	{
+		[1] = "USA",
+		[2] = "UK",
+		[3] = "Spain",
+		[4] = "Italy",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[0] = 

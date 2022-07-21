@@ -1,5 +1,12 @@
 KC135MPRS = 
 {
+	["countries"] = 
+	{
+		[1] = "USA",
+		[2] = "Turkey",
+		[3] = "France",
+		[4] = "Chile",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[3] = 

@@ -1,5 +1,9 @@
 AJS37 = 
 {
+	["countries"] = 
+	{
+		[1] = "Sweden",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

@@ -1,5 +1,9 @@
 FA-18C_hornet = 
 {
+	["countries"] = 
+	{
+		[1] = "USA",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -108,13 +112,15 @@ FA-18C_hornet =
 		["Kab"] = 4,
 		["attributes"] = 
 		{
-			["Air"] = true,
+			["Link4"] = true,
 			["Refuelable"] = true,
+			["ACLS"] = true,
 			["Link16"] = true,
 			["Multirole fighters"] = true,
 			["Battle airplanes"] = true,
 			["NonAndLightArmoredUnits"] = true,
 			["Planes"] = true,
+			["Air"] = true,
 			["All"] = true,
 			["Datalink"] = true,
 			["NonArmoredUnits"] = true,

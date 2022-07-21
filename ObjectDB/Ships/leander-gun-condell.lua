@@ -244,16 +244,16 @@ leander-gun-condell =
 		{
 			["Heavy armed ships"] = true,
 			["Ships"] = true,
+			["Frigates"] = true,
 			["Armed ships"] = true,
 			["Armed Air Defence"] = true,
-			["Cruisers"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
 			["HelicopterCarrier"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
-			["Naval"] = true,
 			["DetectionByAWACS"] = true,
+			["Naval"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

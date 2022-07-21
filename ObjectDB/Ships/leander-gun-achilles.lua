@@ -116,7 +116,7 @@ leander-gun-achilles =
 				["rangeMaxAltMin"] = 6500,
 				["altMax"] = 1000,
 				["RCS"] = 0.018200000748038,
-				["displayName"] = "Sea Cat",
+				["displayName"] = "GWS-20 Mod. 1 Sea Cat",
 				["altMin"] = 50,
 				["life"] = 2,
 				["fuseDist"] = 5,
@@ -137,20 +137,20 @@ leander-gun-achilles =
 	["desc"] = 
 	{
 		["massEmpty"] = 3200000,
-		["RCS"] = 2275.9594726563,
+		["RCS"] = 1156.875,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -5.1030974388123,
-				["x"] = -57.327835083008,
-				["z"] = -7.7185621261597,
+				["y"] = -25,
+				["x"] = -25,
+				["z"] = -25,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 32.034683227539,
-				["x"] = 57.327835083008,
-				["z"] = 7.4427938461304,
+				["y"] = 25,
+				["x"] = 25,
+				["z"] = 25,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 14.39999961853,
@@ -159,16 +159,16 @@ leander-gun-achilles =
 		{
 			["Heavy armed ships"] = true,
 			["Ships"] = true,
+			["Frigates"] = true,
 			["Armed ships"] = true,
 			["Armed Air Defence"] = true,
-			["Cruisers"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,
 			["HelicopterCarrier"] = true,
 			["Armed Ship"] = true,
 			["HeavyArmoredUnits"] = true,
 			["All"] = true,
-			["Naval"] = true,
 			["DetectionByAWACS"] = true,
+			["Naval"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 3,
 		["Kmax"] = 0.050000000745058,

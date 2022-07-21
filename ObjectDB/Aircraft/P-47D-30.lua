@@ -1,5 +1,9 @@
 P-47D-30 = 
 {
+	["countries"] = 
+	{
+		[1] = "USA",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -176,7 +180,7 @@ P-47D-30 =
 		["_origin"] = "World War II AI Units by Eagle Dynamics",
 		["speedMax10K"] = 230,
 		["NyMin"] = -4,
-		["fuelMassMax"] = 830,
+		["fuelMassMax"] = 1007,
 		["speedMax"] = 230,
 		["NyMax"] = 8,
 		["massMax"] = 7112,

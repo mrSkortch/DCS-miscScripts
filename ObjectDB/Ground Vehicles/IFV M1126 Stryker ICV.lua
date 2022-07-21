@@ -4,7 +4,7 @@ IFV M1126 Stryker ICV =
 	{
 		[1] = 
 		{
-			["count"] = 1004,
+			["count"] = 204,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -32,10 +32,29 @@ IFV M1126 Stryker ICV =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M2_12_7_T",
+				["typeName"] = "weapons.shells.M2_12_7_TR",
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
+		[2] = 
+		{
+			["count"] = 804,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 12.7,
+					["mass"] = 0.046,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.M2_12_7",
+				["displayName"] = "12.7mm",
+			}, -- end of ["desc"]
+		}, -- end of [2]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{

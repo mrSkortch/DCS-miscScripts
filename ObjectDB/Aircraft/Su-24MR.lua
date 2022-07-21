@@ -1,7 +1,34 @@
 Su-24MR = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+		[2] = "Ukraine",
+		[3] = "Belarus",
+		[4] = "Kazakhstan",
+		[5] = "USSR",
+		[6] = "Algeria",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["type"] = 1,
+				["typeName"] = "Orion-A",
+				["detectionDistanceRBM"] = 1800,
+			}, -- end of [1]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "Kaira-1",
+				["opticType"] = 0,
+			}, -- end of [1]
+		}, -- end of [0]
 		[3] = 
 		{
 			[1] = 

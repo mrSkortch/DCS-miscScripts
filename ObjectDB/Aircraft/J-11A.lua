@@ -1,5 +1,9 @@
 J-11A = 
 {
+	["countries"] = 
+	{
+		[1] = "China",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

@@ -13,7 +13,7 @@ MBT Leclerc =
 					["explosiveMass"] = 0,
 					["type"] = 0,
 					["caliber"] = 120,
-					["mass"] = 4.9,
+					["mass"] = 3.8,
 				}, -- end of ["warhead"]
 				["_origin"] = "",
 				["category"] = 0,
@@ -32,8 +32,8 @@ MBT Leclerc =
 						["z"] = 0.10754559934139,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M256_120_AP",
-				["displayName"] = "M829A2 (120mm APFSDS-T)",
+				["typeName"] = "weapons.shells.OFL_120F2_AP",
+				["displayName"] = "OFL 120F2 (120mm APFSDS-T)",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
@@ -66,13 +66,13 @@ MBT Leclerc =
 						["z"] = 0.060612548142672,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M256_120_HE",
-				["displayName"] = "M830 (120mm HEAT-MP-T)",
+				["typeName"] = "weapons.shells.120_EXPL_F1_120mm_HE",
+				["displayName"] = "120 EXPL F1 (120mm HE)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 504,
+			["count"] = 104,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -100,10 +100,29 @@ MBT Leclerc =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M2_12_7_T",
+				["typeName"] = "weapons.shells.M2_12_7_TR",
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [3]
+		[4] = 
+		{
+			["count"] = 404,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 12.7,
+					["mass"] = 0.046,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.M2_12_7",
+				["displayName"] = "12.7mm",
+			}, -- end of ["desc"]
+		}, -- end of [4]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{

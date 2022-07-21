@@ -1,5 +1,18 @@
 Su-17M4 = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+		[2] = "Ukraine",
+		[3] = "Germany",
+		[4] = "Bulgaria",
+		[5] = "Czech Republic",
+		[6] = "Poland",
+		[7] = "Vietnam",
+		[8] = "USSR",
+		[9] = "GDR",
+		[10] = "Peru",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

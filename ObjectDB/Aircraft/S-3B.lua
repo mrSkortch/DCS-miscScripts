@@ -1,5 +1,9 @@
 S-3B = 
 {
+	["countries"] = 
+	{
+		[1] = "USA",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

@@ -4,7 +4,7 @@ PERRY =
 	{
 		[1] = 
 		{
-			["count"] = 2016,
+			["count"] = 416,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -32,11 +32,30 @@ PERRY =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M2_12_7_T",
+				["typeName"] = "weapons.shells.M2_12_7_TR",
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
 		[2] = 
+		{
+			["count"] = 1616,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 12.7,
+					["mass"] = 0.046,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.M2_12_7",
+				["displayName"] = "12.7mm",
+			}, -- end of ["desc"]
+		}, -- end of [2]
+		[3] = 
 		{
 			["count"] = 460,
 			["desc"] = 
@@ -69,8 +88,8 @@ PERRY =
 				["typeName"] = "weapons.shells.M242_25_HE_M792",
 				["displayName"] = "M792 (25mm HEI-T)",
 			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
+		}, -- end of [3]
+		[4] = 
 		{
 			["count"] = 142,
 			["desc"] = 
@@ -103,8 +122,8 @@ PERRY =
 				["typeName"] = "weapons.shells.M242_25_AP_M791",
 				["displayName"] = "M791 (25mm APDS-T)",
 			}, -- end of ["desc"]
-		}, -- end of [3]
-		[4] = 
+		}, -- end of [4]
+		[5] = 
 		{
 			["count"] = 7759,
 			["desc"] = 
@@ -137,8 +156,8 @@ PERRY =
 				["typeName"] = "weapons.shells.M61_20_AP",
 				["displayName"] = "20mm AP",
 			}, -- end of ["desc"]
-		}, -- end of [4]
-		[5] = 
+		}, -- end of [5]
+		[6] = 
 		{
 			["count"] = 7759,
 			["desc"] = 
@@ -171,8 +190,8 @@ PERRY =
 				["typeName"] = "weapons.shells.M61_20_HE",
 				["displayName"] = "20mm HE",
 			}, -- end of ["desc"]
-		}, -- end of [5]
-		[6] = 
+		}, -- end of [6]
+		[7] = 
 		{
 			["count"] = 24,
 			["desc"] = 
@@ -215,8 +234,8 @@ PERRY =
 				["typeName"] = "SM_2",
 				["_origin"] = "",
 			}, -- end of ["desc"]
-		}, -- end of [6]
-		[7] = 
+		}, -- end of [7]
+		[8] = 
 		{
 			["count"] = 16,
 			["desc"] = 
@@ -261,8 +280,8 @@ PERRY =
 				["typeName"] = "AGM_84S",
 				["_origin"] = "",
 			}, -- end of ["desc"]
-		}, -- end of [7]
-		[8] = 
+		}, -- end of [8]
+		[9] = 
 		{
 			["count"] = 180,
 			["desc"] = 
@@ -295,7 +314,7 @@ PERRY =
 				["typeName"] = "weapons.shells.MK75_76",
 				["displayName"] = "76mm HE",
 			}, -- end of ["desc"]
-		}, -- end of [8]
+		}, -- end of [9]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{

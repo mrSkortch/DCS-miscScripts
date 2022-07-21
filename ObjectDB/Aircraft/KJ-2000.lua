@@ -1,5 +1,9 @@
 KJ-2000 = 
 {
+	["countries"] = 
+	{
+		[1] = "China",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

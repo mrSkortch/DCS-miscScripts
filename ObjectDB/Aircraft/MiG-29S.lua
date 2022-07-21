@@ -1,5 +1,18 @@
 MiG-29S = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+		[2] = "Ukraine",
+		[3] = "Belarus",
+		[4] = "Kazakhstan",
+		[5] = "North Korea",
+		[6] = "Serbia",
+		[7] = "Yemen",
+		[8] = "Sudan",
+		[9] = "Algeria",
+		[10] = "Peru",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

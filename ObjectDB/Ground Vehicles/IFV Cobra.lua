@@ -4,7 +4,7 @@ IFV Cobra =
 	{
 		[1] = 
 		{
-			["count"] = 555,
+			["count"] = 115,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -36,6 +36,25 @@ IFV Cobra =
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
+		[2] = 
+		{
+			["count"] = 445,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 12.7,
+					["mass"] = 0.047,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.Utes_12_7x108",
+				["displayName"] = "12.7mm",
+			}, -- end of ["desc"]
+		}, -- end of [2]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{

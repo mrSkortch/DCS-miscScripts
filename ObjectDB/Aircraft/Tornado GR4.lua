@@ -1,5 +1,9 @@
 Tornado GR4 = 
 {
+	["countries"] = 
+	{
+		[1] = "UK",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 

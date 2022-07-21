@@ -1,5 +1,9 @@
 Su-34 = 
 {
+	["countries"] = 
+	{
+		[1] = "Russia",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[1] = 

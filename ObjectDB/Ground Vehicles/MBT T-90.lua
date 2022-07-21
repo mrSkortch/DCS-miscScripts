@@ -137,7 +137,7 @@ MBT T-90 =
 		}, -- end of [4]
 		[5] = 
 		{
-			["count"] = 301,
+			["count"] = 61,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -169,6 +169,25 @@ MBT T-90 =
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [5]
+		[6] = 
+		{
+			["count"] = 241,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 12.7,
+					["mass"] = 0.047,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.Utes_12_7x108",
+				["displayName"] = "12.7mm",
+			}, -- end of ["desc"]
+		}, -- end of [6]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{

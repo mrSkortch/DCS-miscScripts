@@ -1,5 +1,9 @@
 A-10C_2 = 
 {
+	["countries"] = 
+	{
+		[1] = "USA",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -51,7 +55,7 @@ A-10C_2 =
 	["desc"] = 
 	{
 		["speedMax0"] = 236,
-		["massEmpty"] = 11325,
+		["massEmpty"] = 11625,
 		["tankerType"] = 0,
 		["range"] = 1500,
 		["box"] = 

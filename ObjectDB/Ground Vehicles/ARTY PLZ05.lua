@@ -38,7 +38,7 @@ ARTY PLZ05 =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 305,
+			["count"] = 65,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -70,6 +70,25 @@ ARTY PLZ05 =
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [2]
+		[3] = 
+		{
+			["count"] = 245,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 12.7,
+					["mass"] = 0.047,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.Utes_12_7x108",
+				["displayName"] = "12.7mm",
+			}, -- end of ["desc"]
+		}, -- end of [3]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{

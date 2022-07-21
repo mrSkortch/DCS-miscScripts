@@ -1,5 +1,11 @@
 Tornado IDS = 
 {
+	["countries"] = 
+	{
+		[1] = "Germany",
+		[2] = "Italy",
+		[3] = "Saudi Arabia",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
@@ -62,6 +68,7 @@ Tornado IDS =
 	{
 		["speedMax0"] = 306,
 		["massEmpty"] = 14090,
+		["tankerType"] = 1,
 		["range"] = 2780,
 		["box"] = 
 		{
@@ -95,11 +102,12 @@ Tornado IDS =
 		["attributes"] = 
 		{
 			["Air"] = true,
-			["NonArmoredUnits"] = true,
+			["Refuelable"] = true,
 			["Link16"] = true,
 			["Battle airplanes"] = true,
 			["NonAndLightArmoredUnits"] = true,
 			["Planes"] = true,
+			["NonArmoredUnits"] = true,
 			["All"] = true,
 			["Datalink"] = true,
 			["Bombers"] = true,

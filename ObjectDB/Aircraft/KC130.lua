@@ -1,5 +1,25 @@
 KC130 = 
 {
+	["countries"] = 
+	{
+		[1] = "USA",
+		[2] = "France",
+		[3] = "Canada",
+		[4] = "Spain",
+		[5] = "Israel",
+		[6] = "Italy",
+		[7] = "Japan",
+		[8] = "Saudi Arabia",
+		[9] = "Sweden",
+		[10] = "Morocco",
+		[11] = "Malaysia",
+		[12] = "Libya",
+		[13] = "Indonesia",
+		[14] = "Brazil",
+		[15] = "Kuwait",
+		[16] = "Argentina",
+		[17] = "Peru",
+	}, -- end of ["countries"]
 	["sensors"] = 
 	{
 		[3] = 
