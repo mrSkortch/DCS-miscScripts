@@ -18,12 +18,12 @@ Sandbox =
 			["max"] = 
 			{
 				["y"] = 5.0143957138062,
-				["x"] = 11.670043945313,
+				["x"] = 11.670043945312,
 				["z"] = 14.472208023071,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 40,
+		["life"] = 130,
 		["attributes"] = 
 		{
 			["Fortifications"] = true,

@@ -88,7 +88,7 @@ MiG-31 =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["speedMax0"] = 300,
+		["speedMax0"] = 416,
 		["massEmpty"] = 21820,
 		["tankerType"] = 1,
 		["range"] = 2400,

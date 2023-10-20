@@ -38,41 +38,7 @@ leander-gun-lynch =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 8984,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 20,
-					["mass"] = 0.1,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M61_20_AP",
-				["displayName"] = "20mm AP",
-			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
-		{
-			["count"] = 8984,
+			["count"] = 13467,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -100,8 +66,27 @@ leander-gun-lynch =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M61_20_HE",
+				["typeName"] = "weapons.shells.M61_20_HE_gr",
 				["displayName"] = "20mm HE",
+			}, -- end of ["desc"]
+		}, -- end of [2]
+		[3] = 
+		{
+			["count"] = 4492,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 20,
+					["mass"] = 0.1,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.M61_20_AP_gr",
+				["displayName"] = "20mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [3]
 		[4] = 
@@ -219,10 +204,61 @@ leander-gun-lynch =
 			}, -- end of ["desc"]
 		}, -- end of [6]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["type"] = 1,
+				["typeName"] = "ticonderoga search radar",
+				["detectionDistanceRBM"] = 350,
+			}, -- end of [1]
+			[2] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 173872.484375,
+						["headOn"] = 173872.484375,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 173872.484375,
+						["headOn"] = 173872.484375,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "Patriot str",
+			}, -- end of [2]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval LLTV",
+				["opticType"] = 1,
+			}, -- end of [2]
+			[3] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval FLIR",
+				["opticType"] = 2,
+			}, -- end of [3]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 3200000,
-		["RCS"] = 2275.9594726563,
+		["RCS"] = 2275.9594726562,
 		["box"] = 
 		{
 			["min"] = 

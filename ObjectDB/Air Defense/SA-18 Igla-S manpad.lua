@@ -14,7 +14,7 @@ SA-18 Igla-S manpad =
 				["rangeMaxAltMin"] = 4500,
 				["altMax"] = 3500,
 				["RCS"] = 0.0099999997764826,
-				["displayName"] = "Igla-S",
+				["displayName"] = "9M39 Igla",
 				["altMin"] = 1,
 				["life"] = 2,
 				["fuseDist"] = 1,
@@ -22,10 +22,10 @@ SA-18 Igla-S manpad =
 				["guidance"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 1.25,
+					["explosiveMass"] = 0.40000000596046,
 					["type"] = 1,
 					["caliber"] = 72,
-					["mass"] = 1.25,
+					["mass"] = 1.2699999809265,
 				}, -- end of ["warhead"]
 				["typeName"] = "weapons.missiles.Igla_1E",
 				["Nmax"] = 16,
@@ -55,7 +55,7 @@ SA-18 Igla-S manpad =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 4,
-		["life"] = 1.0800000429153,
+		["life"] = 1.039999961853,
 		["attributes"] = 
 		{
 			["Vehicles"] = true,

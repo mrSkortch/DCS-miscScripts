@@ -35,15 +35,15 @@ S-300PS 40B6M tr =
 		{
 			["min"] = 
 			{
-				["y"] = -0.027472998946905,
-				["x"] = -5.5045394897461,
-				["z"] = -9.1425142288208,
+				["y"] = -0.065537177026272,
+				["x"] = -2.6055164337158,
+				["z"] = -1.7639969587326,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 27.884525299072,
-				["x"] = 15.098142623901,
-				["z"] = 9.1425170898438,
+				["y"] = 25.246202468872,
+				["x"] = 2.2088811397552,
+				["z"] = 1.7765719890594,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
@@ -66,8 +66,8 @@ S-300PS 40B6M tr =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,
-		["_origin"] = "",
+		["_origin"] = "HeavyMetalCore",
 		["typeName"] = "S-300PS 40B6M tr",
-		["displayName"] = "SAM SA-10 S-300 \"Grumble\" Flap Lid TR ",
+		["displayName"] = "SAM SA-10 S-300 \"Grumble\" Flap Lid-A TR",
 	}, -- end of ["desc"]
 } -- end of S-300PS 40B6M tr

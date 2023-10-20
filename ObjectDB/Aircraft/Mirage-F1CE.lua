@@ -1,10 +1,14 @@
 Mirage-F1CE = 
 {
+	["countries"] = 
+	{
+		[1] = "Ecuador",
+	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 250,
+			["count"] = 270,
 			["desc"] = 
 			{
 				["life"] = 2,

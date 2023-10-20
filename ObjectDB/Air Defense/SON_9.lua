@@ -77,9 +77,21 @@ SON_9 =
 		{
 			[1] = 
 			{
-				["type"] = 0,
-				["typeName"] = "long-range air defence optics",
-				["opticType"] = 0,
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 9362.3642578125,
+						["headOn"] = 9362.3642578125,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 9362.3642578125,
+						["headOn"] = 9362.3642578125,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "son-9 tr",
 			}, -- end of [1]
 		}, -- end of [1]
 	}, -- end of ["sensors"]
@@ -109,13 +121,19 @@ SON_9 =
 		["life"] = 2,
 		["attributes"] = 
 		{
-			["AAA"] = true,
-			["Optical Tracker"] = true,
-			["NonAndLightArmoredUnits"] = true,
+			["SAM TR"] = true,
+			["Vehicles"] = true,
+			["SAM elements"] = true,
 			["NonArmoredUnits"] = true,
-			["Armed Air Defence"] = true,
-			["Rocket Attack Valid AirDefence"] = true,
 			["Air Defence"] = true,
+			["Ground vehicles"] = true,
+			["Rocket Attack Valid AirDefence"] = true,
+			["NonAndLightArmoredUnits"] = true,
+			["Armed Air Defence"] = true,
+			["SAM related"] = true,
+			["All"] = true,
+			["Ground Units"] = true,
+			["AAA"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 0,

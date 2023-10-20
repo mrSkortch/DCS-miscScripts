@@ -48,7 +48,7 @@ Strela-10M3 =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 1009,
+			["count"] = 209,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -80,6 +80,25 @@ Strela-10M3 =
 				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [2]
+		[3] = 
+		{
+			["count"] = 809,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 7.62,
+					["mass"] = 0.0119,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.7_62x54_NOTRACER",
+				["displayName"] = "7.62mm",
+			}, -- end of ["desc"]
+		}, -- end of [3]
 	}, -- end of ["weapons"]
 	["desc"] = 
 	{

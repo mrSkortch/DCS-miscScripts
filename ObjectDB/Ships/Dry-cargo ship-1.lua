@@ -1,5 +1,44 @@
 Dry-cargo ship-1 = 
 {
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "Osa 9A33 ln",
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 1,
+				["typeName"] = "albatros search radar",
+				["detectionDistanceRBM"] = 300,
+			}, -- end of [2]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 7250000,
@@ -15,7 +54,7 @@ Dry-cargo ship-1 =
 			["max"] = 
 			{
 				["y"] = 24.622611999512,
-				["x"] = 42.796020507813,
+				["x"] = 42.796020507812,
 				["z"] = 11.057329177856,
 			}, -- end of ["max"]
 		}, -- end of ["box"]

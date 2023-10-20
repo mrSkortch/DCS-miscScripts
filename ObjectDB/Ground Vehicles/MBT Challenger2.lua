@@ -150,7 +150,7 @@ MBT Challenger2 =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 55150,
+		["massEmpty"] = 62000,
 		["riverCrossing"] = false,
 		["maxSlopeAngle"] = 0.61000001430511,
 		["Kmax"] = 0.050000000745058,

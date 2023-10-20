@@ -55,15 +55,15 @@ MBT T-80UD =
 				{
 					["min"] = 
 					{
-						["y"] = -0.060612548142672,
-						["x"] = -0.27024647593498,
-						["z"] = -0.060612548142672,
+						["y"] = -0.18220865726471,
+						["x"] = -0.34719300270081,
+						["z"] = -0.18220859766006,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.060612548142672,
-						["x"] = 0.24980916082859,
-						["z"] = 0.060612548142672,
+						["y"] = 0.18220865726471,
+						["x"] = 0.37857496738434,
+						["z"] = 0.18220859766006,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.2A46M_125_HE",
@@ -103,7 +103,7 @@ MBT T-80UD =
 		}, -- end of [3]
 		[4] = 
 		{
-			["count"] = 1254,
+			["count"] = 254,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -137,6 +137,25 @@ MBT T-80UD =
 		}, -- end of [4]
 		[5] = 
 		{
+			["count"] = 1004,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 7.62,
+					["mass"] = 0.0119,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.7_62x54_NOTRACER",
+				["displayName"] = "7.62mm",
+			}, -- end of ["desc"]
+		}, -- end of [5]
+		[6] = 
+		{
 			["count"] = 98,
 			["desc"] = 
 			{
@@ -168,8 +187,8 @@ MBT T-80UD =
 				["typeName"] = "weapons.shells.Utes_12_7x108_T",
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
-		}, -- end of [5]
-		[6] = 
+		}, -- end of [6]
+		[7] = 
 		{
 			["count"] = 368,
 			["desc"] = 
@@ -187,7 +206,7 @@ MBT T-80UD =
 				["typeName"] = "weapons.shells.Utes_12_7x108",
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
-		}, -- end of [6]
+		}, -- end of [7]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{

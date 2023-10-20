@@ -79,15 +79,15 @@ KUZNECOW =
 				{
 					["min"] = 
 					{
-						["y"] = -0.17448772490025,
+						["y"] = -0.17448770999908,
 						["x"] = -1.6664316654205,
-						["z"] = -0.17395660281181,
+						["z"] = -0.17395658791065,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.17448772490025,
+						["y"] = 0.17448770999908,
 						["x"] = 0.97372031211853,
-						["z"] = 0.17395660281181,
+						["z"] = 0.17395658791065,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["rangeMaxAltMin"] = 8000,
@@ -104,9 +104,9 @@ KUZNECOW =
 				["missileCategory"] = 6,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 9,
+					["explosiveMass"] = 3.5,
 					["type"] = 1,
-					["caliber"] = 100,
+					["caliber"] = 152,
 					["mass"] = 9,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 8000,
@@ -123,15 +123,15 @@ KUZNECOW =
 				{
 					["min"] = 
 					{
-						["y"] = -0.22015202045441,
-						["x"] = -1.357297539711,
-						["z"] = -0.21932363510132,
+						["y"] = -0.26701140403748,
+						["x"] = -1.678077340126,
+						["z"] = -0.26600670814514,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.22015203535557,
-						["x"] = 1.5321007966995,
-						["z"] = 0.2193236798048,
+						["y"] = 0.26701140403748,
+						["x"] = 1.8263295888901,
+						["z"] = 0.26600670814514,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["rangeMaxAltMin"] = 12000,
@@ -205,6 +205,45 @@ KUZNECOW =
 			}, -- end of ["desc"]
 		}, -- end of [5]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "Osa 9A33 ln",
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 1,
+				["typeName"] = "albatros search radar",
+				["detectionDistanceRBM"] = 300,
+			}, -- end of [2]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 70500000,

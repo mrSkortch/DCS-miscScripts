@@ -117,6 +117,46 @@ La_Combattante_II =
 			}, -- end of ["desc"]
 		}, -- end of [3]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 12037.326171875,
+						["headOn"] = 19012.287109375,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 12037.326171875,
+						["headOn"] = 19012.287109375,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "molniya search radar",
+				["detectionDistanceRBM"] = 284.29998779297,
+			}, -- end of [1]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval LLTV",
+				["opticType"] = 1,
+			}, -- end of [2]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 265000,

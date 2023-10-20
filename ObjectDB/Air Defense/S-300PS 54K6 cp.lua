@@ -1,29 +1,5 @@
 S-300PS 54K6 cp = 
 {
-	["sensors"] = 
-	{
-		[1] = 
-		{
-			[1] = 
-			{
-				["detectionDistanceAir"] = 
-				{
-					["upperHemisphere"] = 
-					{
-						["tailOn"] = 106998.453125,
-						["headOn"] = 106998.453125,
-					}, -- end of ["upperHemisphere"]
-					["lowerHemisphere"] = 
-					{
-						["tailOn"] = 106998.453125,
-						["headOn"] = 106998.453125,
-					}, -- end of ["lowerHemisphere"]
-				}, -- end of ["detectionDistanceAir"]
-				["type"] = 1,
-				["typeName"] = "S-300PS 40B6M tr",
-			}, -- end of [1]
-		}, -- end of [1]
-	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 42150,
@@ -35,15 +11,15 @@ S-300PS 54K6 cp =
 		{
 			["min"] = 
 			{
-				["y"] = 0.00075839832425117,
-				["x"] = -6.9090003967285,
-				["z"] = -1.6193325519562,
+				["y"] = -0.0058360090479255,
+				["x"] = -8.5924549102783,
+				["z"] = -1.9333039522171,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 10.15506362915,
-				["x"] = 6.9515609741211,
-				["z"] = 1.6195338964462,
+				["y"] = 3.9929451942444,
+				["x"] = 6.2735576629639,
+				["z"] = 1.9333039522171,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 16.666700363159,
@@ -64,8 +40,8 @@ S-300PS 54K6 cp =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["_origin"] = "",
+		["_origin"] = "HeavyMetalCore",
 		["typeName"] = "S-300PS 54K6 cp",
-		["displayName"] = "SAM SA-10 S-300 \"Grumble\" C2 ",
+		["displayName"] = "SAM SA-10 S-300 \"Grumble\" C2",
 	}, -- end of ["desc"]
 } -- end of S-300PS 54K6 cp

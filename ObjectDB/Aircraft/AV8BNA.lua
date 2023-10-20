@@ -30,7 +30,7 @@ AV8BNA =
 	["desc"] = 
 	{
 		["speedMax0"] = 300,
-		["massEmpty"] = 6715,
+		["massEmpty"] = 7015.259765625,
 		["tankerType"] = 1,
 		["range"] = 2200,
 		["box"] = 

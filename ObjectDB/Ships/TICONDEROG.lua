@@ -32,7 +32,7 @@ TICONDEROG =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M2_12_7_TR",
+				["typeName"] = "weapons.shells.M2_12_7_T",
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
@@ -125,41 +125,7 @@ TICONDEROG =
 		}, -- end of [4]
 		[5] = 
 		{
-			["count"] = 15518,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 20,
-					["mass"] = 0.1,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M61_20_AP",
-				["displayName"] = "20mm AP",
-			}, -- end of ["desc"]
-		}, -- end of [5]
-		[6] = 
-		{
-			["count"] = 15518,
+			["count"] = 23258,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -187,8 +153,27 @@ TICONDEROG =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M61_20_HE",
+				["typeName"] = "weapons.shells.M61_20_HE_gr",
 				["displayName"] = "20mm HE",
+			}, -- end of ["desc"]
+		}, -- end of [5]
+		[6] = 
+		{
+			["count"] = 7760,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 20,
+					["mass"] = 0.1,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.M61_20_AP_gr",
+				["displayName"] = "20mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [6]
 		[7] = 
@@ -343,16 +328,18 @@ TICONDEROG =
 				["rangeMin"] = 3000,
 				["altMax"] = 12000,
 				["RCS"] = 0.15999999642372,
-				["displayName"] = "BGM-109B",
+				["displayName"] = "BGM-109C Tomahawk",
 				["altMin"] = -1,
 				["life"] = 2,
 				["missileCategory"] = 5,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 181.60000610352,
-					["type"] = 1,
-					["caliber"] = 520,
-					["mass"] = 181.60000610352,
+					["mass"] = 125.19999694824,
+					["explosiveMass"] = 125.19999694824,
+					["shapedExplosiveArmorThickness"] = 0.10000000149012,
+					["shapedExplosiveMass"] = 250.39999389648,
+					["caliber"] = 0,
+					["type"] = 2,
 				}, -- end of ["warhead"]
 				["rangeMaxAltMax"] = 1700000,
 				["typeName"] = "weapons.missiles.BGM_109B",
@@ -360,10 +347,55 @@ TICONDEROG =
 			}, -- end of ["desc"]
 		}, -- end of [10]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "seasparrow tr",
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 1,
+				["typeName"] = "carrier search radar",
+				["detectionDistanceRBM"] = 390,
+			}, -- end of [2]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval LLTV",
+				["opticType"] = 1,
+			}, -- end of [2]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 9590000,
-		["RCS"] = 5619.9770507813,
+		["RCS"] = 5619.9770507812,
 		["box"] = 
 		{
 			["min"] = 

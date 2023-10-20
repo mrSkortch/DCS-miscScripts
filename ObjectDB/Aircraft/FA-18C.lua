@@ -94,7 +94,7 @@ FA-18C =
 		}, -- end of ["box"]
 		["Hmax"] = 15240,
 		["Kmax"] = 0.73000001907349,
-		["_origin"] = "",
+		["_origin"] = "F/A-18C AI",
 		["speedMax10K"] = 541.70001220703,
 		["NyMin"] = -3,
 		["fuelMassMax"] = 4900,

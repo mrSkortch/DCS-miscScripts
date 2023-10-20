@@ -34,20 +34,20 @@ S-3B =
 		{
 			["min"] = 
 			{
-				["y"] = -1.4795199632645,
-				["x"] = -9.9239196777344,
-				["z"] = -10.920999526978,
+				["y"] = -2.2547795772552,
+				["x"] = -9.4711360931396,
+				["z"] = -10.517284393311,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 5.9472398757935,
-				["x"] = 6.0797801017761,
-				["z"] = 10.922499656677,
+				["y"] = 5.2647070884705,
+				["x"] = 6.8365559577942,
+				["z"] = 10.517285346985,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["Hmax"] = 7500,
 		["Kmax"] = 0.52999997138977,
-		["_origin"] = "",
+		["_origin"] = "HeavyMetalCore",
 		["speedMax10K"] = 231.69999694824,
 		["NyMin"] = -1,
 		["fuelMassMax"] = 5500,
@@ -63,9 +63,10 @@ S-3B =
 		{
 			["Air"] = true,
 			["NonAndLightArmoredUnits"] = true,
-			["NonArmoredUnits"] = true,
-			["All"] = true,
 			["Planes"] = true,
+			["Refuelable"] = true,
+			["All"] = true,
+			["NonArmoredUnits"] = true,
 			["Aux"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "S-3B",

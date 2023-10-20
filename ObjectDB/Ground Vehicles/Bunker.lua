@@ -23,7 +23,7 @@ Bunker =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 0,
-		["life"] = 50,
+		["life"] = 110,
 		["attributes"] = 
 		{
 			["Fortifications"] = true,

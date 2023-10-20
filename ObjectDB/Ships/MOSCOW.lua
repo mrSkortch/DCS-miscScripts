@@ -113,15 +113,15 @@ MOSCOW =
 				{
 					["min"] = 
 					{
-						["y"] = -0.23437385261059,
+						["y"] = -0.23437383770943,
 						["x"] = -1.5615640878677,
-						["z"] = -0.23642687499523,
+						["z"] = -0.23642686009407,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.23437386751175,
+						["y"] = 0.23437385261059,
 						["x"] = 1.5629206895828,
-						["z"] = 0.23642687499523,
+						["z"] = 0.23642686009407,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["rangeMaxAltMin"] = 8500,
@@ -203,19 +203,19 @@ MOSCOW =
 				{
 					["min"] = 
 					{
-						["y"] = -0.80982387065887,
-						["x"] = -3.6131811141968,
-						["z"] = -0.81062549352646,
+						["y"] = -0.43708276748657,
+						["x"] = -3.6610360145569,
+						["z"] = -0.43628931045532,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.81190091371536,
-						["x"] = 3.6516976356506,
-						["z"] = 0.81109911203384,
+						["y"] = 0.43699449300766,
+						["x"] = 3.6610360145569,
+						["z"] = 0.43778795003891,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["rangeMaxAltMin"] = 40000,
-				["fuseDist"] = 30,
+				["fuseDist"] = 25,
 				["category"] = 1,
 				["guidance"] = 4,
 				["Nmax"] = 16,
@@ -239,6 +239,45 @@ MOSCOW =
 			}, -- end of ["desc"]
 		}, -- end of [6]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "Osa 9A33 ln",
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 1,
+				["typeName"] = "albatros search radar",
+				["detectionDistanceRBM"] = 300,
+			}, -- end of [2]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 11280000,
@@ -248,7 +287,7 @@ MOSCOW =
 			["min"] = 
 			{
 				["y"] = -7.8283529281616,
-				["x"] = -89.538696289063,
+				["x"] = -89.538696289062,
 				["z"] = -10.336764335632,
 			}, -- end of ["min"]
 			["max"] = 

@@ -100,6 +100,7 @@ ZU-23 Emplacement Closed =
 			["Rocket Attack Valid AirDefence"] = true,
 			["AA_flak"] = true,
 			["Ground vehicles"] = true,
+			["CustomAimPoint"] = true,
 			["Air Defence"] = true,
 			["AAA"] = true,
 			["Vehicles"] = true,

@@ -14,7 +14,7 @@ Soldier stinger =
 				["rangeMaxAltMin"] = 5000,
 				["altMax"] = 3500,
 				["RCS"] = 0.0099999997764826,
-				["displayName"] = "FIM-92B",
+				["displayName"] = "FIM-92C Stinger",
 				["altMin"] = 1,
 				["life"] = 2,
 				["fuseDist"] = 0,
@@ -22,7 +22,7 @@ Soldier stinger =
 				["guidance"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 3,
+					["explosiveMass"] = 1.0199999809265,
 					["type"] = 1,
 					["caliber"] = 70,
 					["mass"] = 3,
@@ -55,7 +55,7 @@ Soldier stinger =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 4,
-		["life"] = 1.0800000429153,
+		["life"] = 1.039999961853,
 		["attributes"] = 
 		{
 			["Vehicles"] = true,

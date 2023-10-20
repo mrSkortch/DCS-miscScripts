@@ -124,6 +124,18 @@ CastleClass_01 =
 			}, -- end of ["desc"]
 		}, -- end of [4]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 1427,

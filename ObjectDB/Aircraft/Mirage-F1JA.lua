@@ -4,7 +4,7 @@ Mirage-F1JA =
 	{
 		[1] = 
 		{
-			["count"] = 250,
+			["count"] = 270,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -76,6 +76,21 @@ Mirage-F1JA =
 		["speedMax0"] = 360,
 		["massEmpty"] = 7887,
 		["range"] = 3300,
+		["box"] = 
+		{
+			["min"] = 
+			{
+				["y"] = -2.2153527736664,
+				["x"] = -7.7775344848633,
+				["z"] = -4.3469882011414,
+			}, -- end of ["min"]
+			["max"] = 
+			{
+				["y"] = 2.7003180980682,
+				["x"] = 7.7122116088867,
+				["z"] = 4.3469882011414,
+			}, -- end of ["max"]
+		}, -- end of ["box"]
 		["Hmax"] = 15240,
 		["Kmax"] = 0.80000001192093,
 		["_origin"] = "Mirage F1 Assets by Aerges",
@@ -86,10 +101,10 @@ Mirage-F1JA =
 		["NyMax"] = 7.1999998092651,
 		["massMax"] = 16200,
 		["RCS"] = 5,
-		["Kab"] = 3,
-		["life"] = 0,
+		["displayName"] = "Mirage-F1JA",
+		["life"] = 18,
 		["VyMax"] = 243,
-		["displayName"] = "",
+		["Kab"] = 3,
 		["attributes"] = 
 		{
 			["Air"] = true,

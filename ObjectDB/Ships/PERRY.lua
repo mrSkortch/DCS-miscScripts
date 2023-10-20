@@ -32,7 +32,7 @@ PERRY =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M2_12_7_TR",
+				["typeName"] = "weapons.shells.M2_12_7_T",
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [1]
@@ -125,41 +125,7 @@ PERRY =
 		}, -- end of [4]
 		[5] = 
 		{
-			["count"] = 7759,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 20,
-					["mass"] = 0.1,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M61_20_AP",
-				["displayName"] = "20mm AP",
-			}, -- end of ["desc"]
-		}, -- end of [5]
-		[6] = 
-		{
-			["count"] = 7759,
+			["count"] = 11629,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -187,8 +153,27 @@ PERRY =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M61_20_HE",
+				["typeName"] = "weapons.shells.M61_20_HE_gr",
 				["displayName"] = "20mm HE",
+			}, -- end of ["desc"]
+		}, -- end of [5]
+		[6] = 
+		{
+			["count"] = 3880,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 20,
+					["mass"] = 0.1,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.M61_20_AP_gr",
+				["displayName"] = "20mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [6]
 		[7] = 
@@ -316,6 +301,51 @@ PERRY =
 			}, -- end of ["desc"]
 		}, -- end of [9]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "seasparrow tr",
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 1,
+				["typeName"] = "carrier search radar",
+				["detectionDistanceRBM"] = 390,
+			}, -- end of [2]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval LLTV",
+				["opticType"] = 1,
+			}, -- end of [2]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 4100000,

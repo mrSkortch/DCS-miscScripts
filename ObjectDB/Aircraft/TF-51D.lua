@@ -56,7 +56,7 @@ TF-51D =
 		}, -- end of ["box"]
 		["Hmax"] = 13000,
 		["Kmax"] = 0.10000000149012,
-		["_origin"] = "TF-51D Mustang by Eagle Dynamics",
+		["_origin"] = "TF-51D Mustang AI by Eagle Dynamics",
 		["speedMax10K"] = 212,
 		["NyMin"] = -4,
 		["fuelMassMax"] = 501,

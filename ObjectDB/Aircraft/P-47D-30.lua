@@ -3,46 +3,13 @@ P-47D-30 =
 	["countries"] = 
 	{
 		[1] = "USA",
+		[2] = "Ecuador",
 	}, -- end of ["countries"]
 	["weapons"] = 
 	{
 		[1] = 
 		{
-			["count"] = 600,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 12.7,
-					["mass"] = 0.046,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.16146284341812,
-						["x"] = -44.163108825684,
-						["z"] = -0.64507895708084,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.15063416957855,
-						["x"] = 0.025108814239502,
-						["z"] = 0.64480221271515,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.50Browning_Ball_M2",
-				["displayName"] = "50Browning_Ball_M2",
-			}, -- end of ["desc"]
-		}, -- end of [1]
-		[2] = 
-		{
-			["count"] = 600,
+			["count"] = 2400,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -73,75 +40,7 @@ P-47D-30 =
 				["typeName"] = "weapons.shells.50Browning_API_M8",
 				["displayName"] = "50Browning_API_M8",
 			}, -- end of ["desc"]
-		}, -- end of [2]
-		[3] = 
-		{
-			["count"] = 300,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0.0092089,
-					["type"] = 1,
-					["caliber"] = 12.7,
-					["mass"] = 0.041,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.50Browning_APIT_M20",
-				["displayName"] = "50Browning_APIT_M20",
-			}, -- end of ["desc"]
-		}, -- end of [3]
-		[4] = 
-		{
-			["count"] = 900,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 12.7,
-					["mass"] = 0.0458,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.16146284341812,
-						["x"] = -44.163108825684,
-						["z"] = -0.64507895708084,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.15063416957855,
-						["x"] = 0.025108814239502,
-						["z"] = 0.64480221271515,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.50Browning_AP_M2",
-				["displayName"] = "50Browning_AP_M2",
-			}, -- end of ["desc"]
-		}, -- end of [4]
+		}, -- end of [1]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{

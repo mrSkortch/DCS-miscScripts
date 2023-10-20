@@ -6,7 +6,7 @@ offshore WindTurbine2 =
 		["life"] = 100,
 		["_origin"] = "South_Atlantic_Assets",
 		["category"] = 4,
-		["displayName"] = "offshore Wind Turbine2",
+		["displayName"] = "Offshore Wind Turbine 2",
 		["typeName"] = "offshore WindTurbine2",
 		["box"] = 
 		{

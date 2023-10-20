@@ -6,7 +6,7 @@ WindTurbine_11 =
 		["life"] = 100,
 		["_origin"] = "South_Atlantic_Assets",
 		["category"] = 4,
-		["displayName"] = "Wind Turbine 11",
+		["displayName"] = "Wind Turbine 2",
 		["typeName"] = "WindTurbine_11",
 		["box"] = 
 		{

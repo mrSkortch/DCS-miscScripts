@@ -38,31 +38,44 @@ Mirage-F1B =
 	{
 		["speedMax0"] = 400,
 		["massEmpty"] = 8000,
-		["tankerType"] = 1,
 		["range"] = 3300,
-		["Hmax"] = 21000,
+		["box"] = 
+		{
+			["min"] = 
+			{
+				["y"] = -2.2153537273407,
+				["x"] = -7.7775197029114,
+				["z"] = -4.346962928772,
+			}, -- end of ["min"]
+			["max"] = 
+			{
+				["y"] = 2.7003190517426,
+				["x"] = 7.7121968269348,
+				["z"] = 4.346962928772,
+			}, -- end of ["max"]
+		}, -- end of ["box"]
+		["Hmax"] = 15240,
 		["Kmax"] = 0.80000001192093,
 		["_origin"] = "Mirage F1 Assets by Aerges",
 		["speedMax10K"] = 649,
 		["NyMin"] = -3,
-		["fuelMassMax"] = 4000,
+		["fuelMassMax"] = 3045,
 		["speedMax"] = 649,
-		["NyMax"] = 7.5,
+		["NyMax"] = 7.1999998092651,
 		["massMax"] = 17000,
 		["RCS"] = 5,
-		["Kab"] = 3,
-		["life"] = 0,
+		["displayName"] = "Mirage-F1B",
+		["life"] = 18,
 		["VyMax"] = 243,
-		["displayName"] = "",
+		["Kab"] = 3,
 		["attributes"] = 
 		{
 			["Air"] = true,
 			["Battle airplanes"] = true,
 			["NonAndLightArmoredUnits"] = true,
-			["Planes"] = true,
-			["Refuelable"] = true,
-			["All"] = true,
 			["NonArmoredUnits"] = true,
+			["All"] = true,
+			["Planes"] = true,
 			["Multirole fighters"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "Mirage-F1B",

@@ -10,17 +10,17 @@ S-300PS 64H6E sr =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 133748.0625,
-						["headOn"] = 133748.0625,
+						["tailOn"] = 80248.84375,
+						["headOn"] = 80248.84375,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 133748.0625,
-						["headOn"] = 133748.0625,
+						["tailOn"] = 80248.84375,
+						["headOn"] = 80248.84375,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
-				["typeName"] = "S-300PS 64H6E sr",
+				["typeName"] = "S-300PS 40B6MD sr",
 			}, -- end of [1]
 		}, -- end of [1]
 	}, -- end of ["sensors"]
@@ -35,15 +35,15 @@ S-300PS 64H6E sr =
 		{
 			["min"] = 
 			{
-				["y"] = -1.3736806181441e-07,
-				["x"] = -10.106389045715,
-				["z"] = -2.8535988330841,
+				["y"] = 0.1414777636528,
+				["x"] = -7.0508770942688,
+				["z"] = -1.9824234247208,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 8.4673957824707,
-				["x"] = 10.114303588867,
-				["z"] = 2.8535964488983,
+				["y"] = 4.3068518638611,
+				["x"] = 8.1317892074585,
+				["z"] = 1.9907690286636,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 16.666700363159,
@@ -66,8 +66,8 @@ S-300PS 64H6E sr =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 16.666700363159,
-		["_origin"] = "",
+		["_origin"] = "HeavyMetalCore",
 		["typeName"] = "S-300PS 64H6E sr",
-		["displayName"] = "SAM SA-10 S-300 \"Grumble\" Big Bird SR ",
+		["displayName"] = "SAM SA-10 S-300 \"Grumble\" Big Bird SR",
 	}, -- end of ["desc"]
 } -- end of S-300PS 64H6E sr

@@ -2,6 +2,24 @@ MiG-25RBT =
 {
 	["sensors"] = 
 	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["type"] = 1,
+				["typeName"] = "Orion-A",
+				["detectionDistanceRBM"] = 1800,
+			}, -- end of [1]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "Kaira-1",
+				["opticType"] = 0,
+			}, -- end of [1]
+		}, -- end of [0]
 		[3] = 
 		{
 			[1] = 

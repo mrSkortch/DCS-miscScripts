@@ -73,7 +73,7 @@ AH-64A =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 5345,
+		["massEmpty"] = 4881,
 		["range"] = 480,
 		["box"] = 
 		{
@@ -97,7 +97,7 @@ AH-64A =
 		["fuelMassMax"] = 1157,
 		["speedMax"] = 365,
 		["NyMax"] = 3.5,
-		["massMax"] = 9225,
+		["massMax"] = 9525,
 		["RCS"] = 5,
 		["displayName"] = "ah-64a apache",
 		["life"] = 14,

@@ -8,6 +8,7 @@ Vulcan =
 			["desc"] = 
 			{
 				["life"] = 2,
+				["_origin"] = "",
 				["warhead"] = 
 				{
 					["explosiveMass"] = 0,
@@ -15,24 +16,8 @@ Vulcan =
 					["caliber"] = 20,
 					["mass"] = 0.1,
 				}, -- end of ["warhead"]
-				["_origin"] = "",
 				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M61_20_AP",
+				["typeName"] = "weapons.shells.M61_20_AP_gr",
 				["displayName"] = "20mm AP",
 			}, -- end of ["desc"]
 		}, -- end of [1]
@@ -66,7 +51,7 @@ Vulcan =
 						["z"] = 0.12113922089338,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.M61_20_HE",
+				["typeName"] = "weapons.shells.M61_20_HE_gr",
 				["displayName"] = "20mm HE",
 			}, -- end of ["desc"]
 		}, -- end of [2]

@@ -142,7 +142,7 @@ IFV M1134 Stryker ATGM =
 				["z"] = 1.5686666965485,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
-		["speedMax"] = 20,
+		["speedMax"] = 26.89999961853,
 		["life"] = 4,
 		["attributes"] = 
 		{
@@ -163,7 +163,7 @@ IFV M1134 Stryker ATGM =
 			["Infantry carriers"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
-		["speedMaxOffRoad"] = 20,
+		["speedMaxOffRoad"] = 26.89999961853,
 		["_origin"] = "",
 		["typeName"] = "M1134 Stryker ATGM",
 		["displayName"] = "ATGM Stryker",

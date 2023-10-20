@@ -14,7 +14,7 @@ M1097 Avenger =
 				["rangeMaxAltMin"] = 5000,
 				["altMax"] = 3500,
 				["RCS"] = 0.0099999997764826,
-				["displayName"] = "FIM-92B",
+				["displayName"] = "FIM-92C Stinger",
 				["altMin"] = 1,
 				["life"] = 2,
 				["fuseDist"] = 0,
@@ -22,7 +22,7 @@ M1097 Avenger =
 				["guidance"] = 2,
 				["warhead"] = 
 				{
-					["explosiveMass"] = 3,
+					["explosiveMass"] = 1.0199999809265,
 					["type"] = 1,
 					["caliber"] = 70,
 					["mass"] = 3,
@@ -33,7 +33,7 @@ M1097 Avenger =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 200,
+			["count"] = 40,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -65,6 +65,25 @@ M1097 Avenger =
 				["displayName"] = "12.7mm",
 			}, -- end of ["desc"]
 		}, -- end of [2]
+		[3] = 
+		{
+			["count"] = 160,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 12.7,
+					["mass"] = 0.046,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.M2_12_7",
+				["displayName"] = "12.7mm",
+			}, -- end of ["desc"]
+		}, -- end of [3]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{

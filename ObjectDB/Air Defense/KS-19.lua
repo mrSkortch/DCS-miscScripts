@@ -67,7 +67,7 @@ KS-19 =
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["typeName"] = "weapons.shells.KS19_100AP",
-				["displayName"] = "UBR412_100AP",
+				["displayName"] = "UBR412 (100mm AP)",
 			}, -- end of ["desc"]
 		}, -- end of [2]
 	}, -- end of ["weapons"]

@@ -134,23 +134,68 @@ leander-gun-achilles =
 			}, -- end of ["desc"]
 		}, -- end of [4]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 173872.484375,
+						["headOn"] = 173872.484375,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 173872.484375,
+						["headOn"] = 173872.484375,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "Patriot str",
+			}, -- end of [1]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval LLTV",
+				["opticType"] = 1,
+			}, -- end of [2]
+			[3] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval FLIR",
+				["opticType"] = 2,
+			}, -- end of [3]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 3200000,
-		["RCS"] = 1156.875,
+		["RCS"] = 2275.9594726562,
 		["box"] = 
 		{
 			["min"] = 
 			{
-				["y"] = -25,
-				["x"] = -25,
-				["z"] = -25,
+				["y"] = -5.1030974388123,
+				["x"] = -57.327835083008,
+				["z"] = -7.7185621261597,
 			}, -- end of ["min"]
 			["max"] = 
 			{
-				["y"] = 25,
-				["x"] = 25,
-				["z"] = 25,
+				["y"] = 32.034683227539,
+				["x"] = 57.327835083008,
+				["z"] = 7.4427938461304,
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 14.39999961853,

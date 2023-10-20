@@ -10,7 +10,7 @@ M-2000C =
 				["life"] = 2,
 				["warhead"] = 
 				{
-					["mass"] = 0.242,
+					["mass"] = 0.245,
 					["explosiveMass"] = 0.28,
 					["shapedExplosiveArmorThickness"] = 0.05,
 					["shapedExplosiveMass"] = 0.28,

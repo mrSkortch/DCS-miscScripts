@@ -11,15 +11,15 @@ ALBATROS =
 				{
 					["min"] = 
 					{
-						["y"] = -0.23437385261059,
+						["y"] = -0.23437383770943,
 						["x"] = -1.5615640878677,
-						["z"] = -0.23642687499523,
+						["z"] = -0.23642686009407,
 					}, -- end of ["min"]
 					["max"] = 
 					{
-						["y"] = 0.23437386751175,
+						["y"] = 0.23437385261059,
 						["x"] = 1.5629206895828,
-						["z"] = 0.23642687499523,
+						["z"] = 0.23642686009407,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
 				["rangeMaxAltMin"] = 8500,
@@ -149,6 +149,45 @@ ALBATROS =
 			}, -- end of ["desc"]
 		}, -- end of [4]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 20062.2109375,
+						["headOn"] = 20062.2109375,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "Osa 9A33 ln",
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 1,
+				["typeName"] = "albatros search radar",
+				["detectionDistanceRBM"] = 300,
+			}, -- end of [2]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 1120000,

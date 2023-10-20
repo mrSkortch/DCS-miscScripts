@@ -72,7 +72,7 @@ IFV BTR-80 =
 		}, -- end of [2]
 		[3] = 
 		{
-			["count"] = 2007,
+			["count"] = 407,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -104,6 +104,25 @@ IFV BTR-80 =
 				["displayName"] = "7.62mm",
 			}, -- end of ["desc"]
 		}, -- end of [3]
+		[4] = 
+		{
+			["count"] = 1607,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 7.62,
+					["mass"] = 0.0119,
+				}, -- end of ["warhead"]
+				["category"] = 0,
+				["typeName"] = "weapons.shells.7_62x54_NOTRACER",
+				["displayName"] = "7.62mm",
+			}, -- end of ["desc"]
+		}, -- end of [4]
 	}, -- end of ["weapons"]
 	["sensors"] = 
 	{
@@ -165,7 +184,7 @@ IFV BTR-80 =
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 25,
-		["_origin"] = "",
+		["_origin"] = "TechWeaponPack",
 		["typeName"] = "BTR-80",
 		["displayName"] = "APC BTR-80",
 	}, -- end of ["desc"]

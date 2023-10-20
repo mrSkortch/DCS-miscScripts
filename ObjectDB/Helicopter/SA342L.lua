@@ -1,42 +1,5 @@
 SA342L = 
 {
-	["weapons"] = 
-	{
-		[1] = 
-		{
-			["count"] = 240,
-			["desc"] = 
-			{
-				["life"] = 2,
-				["warhead"] = 
-				{
-					["explosiveMass"] = 0,
-					["type"] = 0,
-					["caliber"] = 20,
-					["mass"] = 0.1,
-				}, -- end of ["warhead"]
-				["_origin"] = "",
-				["category"] = 0,
-				["box"] = 
-				{
-					["min"] = 
-					{
-						["y"] = -0.12504199147224,
-						["x"] = -6.61008644104,
-						["z"] = -0.12113920599222,
-					}, -- end of ["min"]
-					["max"] = 
-					{
-						["y"] = 0.12504191696644,
-						["x"] = 2.2344591617584,
-						["z"] = 0.12113922089338,
-					}, -- end of ["max"]
-				}, -- end of ["box"]
-				["typeName"] = "weapons.shells.20mm_M53_API",
-				["displayName"] = "20mm_M53_API",
-			}, -- end of ["desc"]
-		}, -- end of [1]
-	}, -- end of ["weapons"]
 	["sensors"] = 
 	{
 		[3] = 
@@ -50,7 +13,7 @@ SA342L =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 1494.5,
+		["massEmpty"] = 1177,
 		["range"] = 735,
 		["box"] = 
 		{
@@ -74,7 +37,7 @@ SA342L =
 		["fuelMassMax"] = 416.32998657227,
 		["speedMax"] = 240,
 		["NyMax"] = 3.5,
-		["massMax"] = 2100,
+		["massMax"] = 1800,
 		["RCS"] = 3,
 		["displayName"] = "SA342",
 		["life"] = 18,

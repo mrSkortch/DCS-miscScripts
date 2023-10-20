@@ -56,13 +56,13 @@ Type_054A =
 						["z"] = 0.29450979828835,
 					}, -- end of ["max"]
 				}, -- end of ["box"]
-				["rangeMaxAltMin"] = 40000,
+				["rangeMaxAltMin"] = 42000,
 				["fuseDist"] = 15,
 				["category"] = 1,
 				["guidance"] = 4,
 				["Nmax"] = 22,
-				["rangeMin"] = 500,
-				["altMax"] = 35000,
+				["rangeMin"] = 3000,
+				["altMax"] = 18000,
 				["RCS"] = 0.09179999679327,
 				["displayName"] = "HQ-16",
 				["altMin"] = 5,
@@ -72,10 +72,10 @@ Type_054A =
 				{
 					["explosiveMass"] = 59,
 					["type"] = 1,
-					["caliber"] = 160,
+					["caliber"] = 340,
 					["mass"] = 59,
 				}, -- end of ["warhead"]
-				["rangeMaxAltMax"] = 50000,
+				["rangeMaxAltMax"] = 45000,
 				["typeName"] = "HQ-16",
 				["_origin"] = "",
 			}, -- end of ["desc"]
@@ -178,6 +178,75 @@ Type_054A =
 			}, -- end of ["desc"]
 		}, -- end of [5]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["type"] = 1,
+				["typeName"] = "PLAN Search Radar B",
+				["detectionDistanceRBM"] = 340,
+			}, -- end of [1]
+			[2] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 66874.03125,
+						["headOn"] = 66874.03125,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 66874.03125,
+						["headOn"] = 66874.03125,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "052B SAM SR",
+			}, -- end of [2]
+			[3] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 40124.421875,
+						["headOn"] = 40124.421875,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 40124.421875,
+						["headOn"] = 40124.421875,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "052B SAM TR",
+			}, -- end of [3]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval LLTV",
+				["opticType"] = 1,
+			}, -- end of [2]
+			[3] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval FLIR",
+				["opticType"] = 2,
+			}, -- end of [3]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 4200000,

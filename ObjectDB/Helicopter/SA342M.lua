@@ -22,7 +22,7 @@ SA342M =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 1680,
+		["massEmpty"] = 1541,
 		["range"] = 735,
 		["box"] = 
 		{
@@ -46,7 +46,7 @@ SA342M =
 		["fuelMassMax"] = 416.32998657227,
 		["speedMax"] = 240,
 		["NyMax"] = 3.5,
-		["massMax"] = 2100,
+		["massMax"] = 2085.330078125,
 		["RCS"] = 3,
 		["displayName"] = "SA342",
 		["life"] = 18,

@@ -50,7 +50,7 @@ SA342Minigun =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 1528,
+		["massEmpty"] = 1177,
 		["range"] = 735,
 		["box"] = 
 		{
@@ -74,7 +74,7 @@ SA342Minigun =
 		["fuelMassMax"] = 416.32998657227,
 		["speedMax"] = 240,
 		["NyMax"] = 3.5,
-		["massMax"] = 2100,
+		["massMax"] = 1800,
 		["RCS"] = 3,
 		["displayName"] = "SA342",
 		["life"] = 18,

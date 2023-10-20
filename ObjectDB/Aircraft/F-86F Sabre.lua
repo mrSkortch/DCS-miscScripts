@@ -4,7 +4,7 @@ F-86F Sabre =
 	{
 		[1] = 
 		{
-			["count"] = 267,
+			["count"] = 300,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -38,7 +38,7 @@ F-86F Sabre =
 		}, -- end of [1]
 		[2] = 
 		{
-			["count"] = 1335,
+			["count"] = 1500,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -74,7 +74,7 @@ F-86F Sabre =
 	["desc"] = 
 	{
 		["speedMax0"] = 303,
-		["massEmpty"] = 5046,
+		["massEmpty"] = 5355.7998046875,
 		["range"] = 1210,
 		["box"] = 
 		{

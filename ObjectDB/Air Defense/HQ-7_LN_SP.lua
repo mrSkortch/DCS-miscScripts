@@ -25,7 +25,7 @@ HQ-7_LN_SP =
 				["rangeMaxAltMin"] = 12000,
 				["fuseDist"] = 7,
 				["category"] = 1,
-				["guidance"] = 4,
+				["guidance"] = 8,
 				["Nmax"] = 18,
 				["rangeMin"] = 500,
 				["altMax"] = 5500,
@@ -33,7 +33,7 @@ HQ-7_LN_SP =
 				["displayName"] = "HQ-7",
 				["altMin"] = 14.5,
 				["life"] = 2,
-				["missileCategory"] = 2,
+				["missileCategory"] = 5,
 				["warhead"] = 
 				{
 					["explosiveMass"] = 15,
@@ -57,13 +57,13 @@ HQ-7_LN_SP =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 6727.1713867188,
-						["headOn"] = 8408.9638671875,
+						["tailOn"] = 12613.446289062,
+						["headOn"] = 12613.446289062,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 6727.1713867188,
-						["headOn"] = 10090.756835938,
+						["tailOn"] = 12613.446289062,
+						["headOn"] = 12613.446289062,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
@@ -118,20 +118,22 @@ HQ-7_LN_SP =
 		["life"] = 2,
 		["attributes"] = 
 		{
+			["Armed Air Defence"] = true,
 			["SAM TR"] = true,
 			["Vehicles"] = true,
 			["SAM elements"] = true,
 			["NonArmoredUnits"] = true,
-			["SAM SR"] = true,
-			["Air Defence"] = true,
-			["Ground vehicles"] = true,
-			["RADAR_BAND1_FOR_ARM"] = true,
-			["AA_missile"] = true,
 			["SAM related"] = true,
 			["NonAndLightArmoredUnits"] = true,
+			["Air Defence"] = true,
+			["Ground vehicles"] = true,
+			["SR SAM"] = true,
+			["AA_missile"] = true,
+			["SAM LL"] = true,
+			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
 			["Ground Units"] = true,
-			["SR SAM"] = true,
+			["RADAR_BAND1_FOR_ARM"] = true,
 		}, -- end of ["attributes"]
 		["category"] = 2,
 		["speedMaxOffRoad"] = 22,

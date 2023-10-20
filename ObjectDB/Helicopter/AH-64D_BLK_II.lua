@@ -4,7 +4,7 @@ AH-64D_BLK_II =
 	{
 		[1] = 
 		{
-			["count"] = 300,
+			["count"] = 1200,
 			["desc"] = 
 			{
 				["life"] = 2,
@@ -77,7 +77,7 @@ AH-64D_BLK_II =
 	}, -- end of ["sensors"]
 	["desc"] = 
 	{
-		["massEmpty"] = 6035.5,
+		["massEmpty"] = 6167.7001953125,
 		["tankerType"] = 1,
 		["range"] = 480,
 		["box"] = 
@@ -99,7 +99,7 @@ AH-64D_BLK_II =
 		["Kmax"] = 0.20000000298023,
 		["_origin"] = "AH-64D BLK.II AI",
 		["NyMin"] = 0.5,
-		["fuelMassMax"] = 1438,
+		["fuelMassMax"] = 1140,
 		["speedMax"] = 365,
 		["NyMax"] = 3.5,
 		["massMax"] = 10432.599609375,
@@ -111,10 +111,13 @@ AH-64D_BLK_II =
 		["attributes"] = 
 		{
 			["Air"] = true,
+			["Refuelable"] = true,
+			["Helicopters"] = true,
 			["NonAndLightArmoredUnits"] = true,
+			["AFAPD"] = true,
 			["NonArmoredUnits"] = true,
 			["All"] = true,
-			["Helicopters"] = true,
+			["Datalink"] = true,
 			["Attack helicopters"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "AH-64D_BLK_II",

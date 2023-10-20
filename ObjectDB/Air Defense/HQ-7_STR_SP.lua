@@ -10,17 +10,17 @@ HQ-7_STR_SP =
 				{
 					["upperHemisphere"] = 
 					{
-						["tailOn"] = 16817.927734375,
+						["tailOn"] = 25226.892578125,
 						["headOn"] = 25226.892578125,
 					}, -- end of ["upperHemisphere"]
 					["lowerHemisphere"] = 
 					{
-						["tailOn"] = 16817.927734375,
+						["tailOn"] = 25226.892578125,
 						["headOn"] = 25226.892578125,
 					}, -- end of ["lowerHemisphere"]
 				}, -- end of ["detectionDistanceAir"]
 				["type"] = 1,
-				["typeName"] = "HQ-7 STR",
+				["typeName"] = "HQ-7 SR",
 			}, -- end of [1]
 		}, -- end of [1]
 	}, -- end of ["sensors"]
@@ -50,7 +50,6 @@ HQ-7_STR_SP =
 		["life"] = 2,
 		["attributes"] = 
 		{
-			["SAM TR"] = true,
 			["Vehicles"] = true,
 			["SAM elements"] = true,
 			["NonArmoredUnits"] = true,
@@ -60,7 +59,6 @@ HQ-7_STR_SP =
 			["SR SAM"] = true,
 			["NonAndLightArmoredUnits"] = true,
 			["SAM related"] = true,
-			["RADAR_BAND2_FOR_ARM"] = true,
 			["All"] = true,
 			["Ground Units"] = true,
 			["RADAR_BAND1_FOR_ARM"] = true,

@@ -56,10 +56,12 @@ KC135MPRS =
 		{
 			["Air"] = true,
 			["Tankers"] = true,
-			["NonAndLightArmoredUnits"] = true,
 			["Refuelable"] = true,
-			["All"] = true,
+			["Link16"] = true,
+			["NonAndLightArmoredUnits"] = true,
 			["Planes"] = true,
+			["All"] = true,
+			["Datalink"] = true,
 			["NonArmoredUnits"] = true,
 		}, -- end of ["attributes"]
 		["typeName"] = "KC135MPRS",

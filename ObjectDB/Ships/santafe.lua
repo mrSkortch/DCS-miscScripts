@@ -15,6 +15,57 @@ santafe =
 			}, -- end of ["desc"]
 		}, -- end of [1]
 	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["type"] = 1,
+				["typeName"] = "PLAN Search Radar B",
+				["detectionDistanceRBM"] = 340,
+			}, -- end of [1]
+			[2] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 40124.421875,
+						["headOn"] = 40124.421875,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 40124.421875,
+						["headOn"] = 40124.421875,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "052B SAM TR",
+			}, -- end of [2]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval LLTV",
+				["opticType"] = 1,
+			}, -- end of [2]
+			[3] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval FLIR",
+				["opticType"] = 2,
+			}, -- end of [3]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
 	["desc"] = 
 	{
 		["massEmpty"] = 5300000,
@@ -35,7 +86,7 @@ santafe =
 			}, -- end of ["max"]
 		}, -- end of ["box"]
 		["speedMax"] = 14.89999961853,
-		["life"] = 3,
+		["life"] = 100,
 		["attributes"] = 
 		{
 			["Submarines"] = true,
