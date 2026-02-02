@@ -1,0 +1,85 @@
+Igla manpad INS = 
+{
+	["weapons"] = 
+	{
+		[1] = 
+		{
+			["count"] = 3,
+			["desc"] = 
+			{
+				["missileCategory"] = 2,
+				["rangeMaxAltMax"] = 4500,
+				["rangeMin"] = 500,
+				["_origin"] = "",
+				["rangeMaxAltMin"] = 4500,
+				["altMax"] = 3500,
+				["RCS"] = 0.01,
+				["displayName"] = "9M39 Igla",
+				["altMin"] = 1,
+				["life"] = 2,
+				["fuseDist"] = 1,
+				["category"] = 1,
+				["guidance"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0.4,
+					["type"] = 1,
+					["caliber"] = 72,
+					["mass"] = 1.2699999809265,
+				}, -- end of ["warhead"]
+				["typeName"] = "weapons.missiles.Igla_1E",
+				["Nmax"] = 16,
+			}, -- end of ["desc"]
+		}, -- end of [1]
+	}, -- end of ["weapons"]
+	["desc"] = 
+	{
+		["massEmpty"] = 90,
+		["riverCrossing"] = false,
+		["maxSlopeAngle"] = 1,
+		["Kmax"] = 0.05,
+		["RCS"] = 5,
+		["box"] = 
+		{
+			["min"] = 
+			{
+				["y"] = 0,
+				["x"] = -0.5,
+				["z"] = -0.4,
+			}, -- end of ["min"]
+			["max"] = 
+			{
+				["y"] = 1.8,
+				["x"] = 0.5,
+				["z"] = 0.4,
+			}, -- end of ["max"]
+		}, -- end of ["box"]
+		["speedMax"] = 4,
+		["life"] = 1.039999961853,
+		["attributes"] = 
+		{
+			["Vehicles"] = true,
+			["SAM related"] = true,
+			["New infantry"] = true,
+			["Armed ground units"] = true,
+			["MANPADS"] = true,
+			["IR Guided SAM"] = true,
+			["Ground Units Non Airdefence"] = true,
+			["NonArmoredUnits"] = true,
+			["Air Defence"] = true,
+			["Rocket Attack Valid AirDefence"] = true,
+			["Infantry"] = true,
+			["NonAndLightArmoredUnits"] = true,
+			["SAM"] = true,
+			["All"] = true,
+			["Armed Air Defence"] = true,
+			["Ground Units"] = true,
+			["Ground vehicles"] = true,
+		}, -- end of ["attributes"]
+		["category"] = 2,
+		["speedMaxOffRoad"] = 4,
+		["_origin"] = "",
+		["typeName"] = "Igla manpad INS",
+		["displayName"] = "MANPADS SA-18 Igla \"Grouse\" Ins",
+	}, -- end of ["desc"]
+} -- end of Igla manpad INS

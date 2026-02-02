@@ -1,0 +1,138 @@
+F-15ESE = 
+{
+	["weapons"] = 
+	{
+		[1] = 
+		{
+			["count"] = 510,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0.1,
+					["type"] = 1,
+					["caliber"] = 20,
+					["mass"] = 0.1,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.125,
+						["x"] = -6.61,
+						["z"] = -0.121,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.125,
+						["x"] = 2.234,
+						["z"] = 0.121,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.M61_20_PGU28",
+				["displayName"] = "PGU-28/B SAPHEI",
+			}, -- end of ["desc"]
+		}, -- end of [1]
+	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[1] = 
+		{
+			[1] = 
+			{
+				["detectionDistanceAir"] = 
+				{
+					["upperHemisphere"] = 
+					{
+						["tailOn"] = 29424.57,
+						["headOn"] = 59116.64,
+					}, -- end of ["upperHemisphere"]
+					["lowerHemisphere"] = 
+					{
+						["tailOn"] = 29558.32,
+						["headOn"] = 59116.64,
+					}, -- end of ["lowerHemisphere"]
+				}, -- end of ["detectionDistanceAir"]
+				["type"] = 1,
+				["typeName"] = "AN/APG-63",
+			}, -- end of [1]
+		}, -- end of [1]
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "Sniper XR FLIR",
+				["opticType"] = 2,
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "Sniper XR CCD TV",
+				["opticType"] = 0,
+			}, -- end of [2]
+		}, -- end of [0]
+		[3] = 
+		{
+			[1] = 
+			{
+				["typeName"] = "Abstract RWR",
+				["type"] = 3,
+			}, -- end of [1]
+		}, -- end of [3]
+	}, -- end of ["sensors"]
+	["desc"] = 
+	{
+		["speedMax0"] = 411,
+		["massEmpty"] = 17661,
+		["tankerType"] = 0,
+		["range"] = 2540,
+		["box"] = 
+		{
+			["min"] = 
+			{
+				["y"] = -1.251,
+				["x"] = -7.735,
+				["z"] = -6.468,
+			}, -- end of ["min"]
+			["max"] = 
+			{
+				["y"] = 2.868,
+				["x"] = 10.728,
+				["z"] = 6.44,
+			}, -- end of ["max"]
+		}, -- end of ["box"]
+		["Hmax"] = 18300,
+		["Kmax"] = 0.91,
+		["_origin"] = "F-15E AI by RAZBAM",
+		["speedMax10K"] = 736.10998535156,
+		["NyMin"] = -3,
+		["fuelMassMax"] = 10245.530273438,
+		["speedMax"] = 736.11,
+		["NyMax"] = 8,
+		["massMax"] = 36741,
+		["RCS"] = 6,
+		["displayName"] = "F15E",
+		["life"] = 18,
+		["VyMax"] = 275,
+		["Kab"] = 4,
+		["attributes"] = 
+		{
+			["Air"] = true,
+			["Fighters"] = true,
+			["Refuelable"] = true,
+			["Link16"] = true,
+			["Battle airplanes"] = true,
+			["NonAndLightArmoredUnits"] = true,
+			["Planes"] = true,
+			["All"] = true,
+			["Datalink"] = true,
+			["NonArmoredUnits"] = true,
+		}, -- end of ["attributes"]
+		["typeName"] = "F-15ESE",
+		["category"] = 0,
+	}, -- end of ["desc"]
+} -- end of F-15ESE

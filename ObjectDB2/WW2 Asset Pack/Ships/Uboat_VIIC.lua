@@ -1,0 +1,213 @@
+Uboat_VIIC = 
+{
+	["weapons"] = 
+	{
+		[1] = 
+		{
+			["count"] = 699,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0.3,
+					["type"] = 1,
+					["caliber"] = 37,
+					["mass"] = 0.635,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.125,
+						["x"] = -6.61,
+						["z"] = -0.121,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.125,
+						["x"] = 2.234,
+						["z"] = 0.121,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.37x263_HE",
+				["displayName"] = "37x263_HE",
+			}, -- end of ["desc"]
+		}, -- end of [1]
+		[2] = 
+		{
+			["count"] = 299,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0.3,
+					["type"] = 1,
+					["caliber"] = 37,
+					["mass"] = 0.7,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.125,
+						["x"] = -6.61,
+						["z"] = -0.121,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.125,
+						["x"] = 2.234,
+						["z"] = 0.121,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.37x263_AP",
+				["displayName"] = "37x263_AP",
+			}, -- end of ["desc"]
+		}, -- end of [2]
+		[3] = 
+		{
+			["count"] = 3096,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0.06,
+					["type"] = 1,
+					["caliber"] = 20,
+					["mass"] = 0.134,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.125,
+						["x"] = -6.61,
+						["z"] = -0.121,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.125,
+						["x"] = 2.234,
+						["z"] = 0.121,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.20x138B_HE",
+				["displayName"] = "20x138B_HE",
+			}, -- end of ["desc"]
+		}, -- end of [3]
+		[4] = 
+		{
+			["count"] = 1098,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["warhead"] = 
+				{
+					["explosiveMass"] = 0,
+					["type"] = 0,
+					["caliber"] = 20,
+					["mass"] = 0.147,
+				}, -- end of ["warhead"]
+				["_origin"] = "",
+				["category"] = 0,
+				["box"] = 
+				{
+					["min"] = 
+					{
+						["y"] = -0.125,
+						["x"] = -6.61,
+						["z"] = -0.121,
+					}, -- end of ["min"]
+					["max"] = 
+					{
+						["y"] = 0.125,
+						["x"] = 2.234,
+						["z"] = 0.121,
+					}, -- end of ["max"]
+				}, -- end of ["box"]
+				["typeName"] = "weapons.shells.20x138B_AP",
+				["displayName"] = "20x138B_AP",
+			}, -- end of ["desc"]
+		}, -- end of [4]
+		[5] = 
+		{
+			["count"] = 8,
+			["desc"] = 
+			{
+				["life"] = 2,
+				["_origin"] = "",
+				["category"] = 4,
+				["typeName"] = "weapons.torpedoes.G7A_T1",
+				["displayName"] = "G7A_T1",
+			}, -- end of ["desc"]
+		}, -- end of [5]
+	}, -- end of ["weapons"]
+	["sensors"] = 
+	{
+		[0] = 
+		{
+			[1] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval optics",
+				["opticType"] = 0,
+			}, -- end of [1]
+			[2] = 
+			{
+				["type"] = 0,
+				["typeName"] = "long-range naval LLTV",
+				["opticType"] = 1,
+			}, -- end of [2]
+		}, -- end of [0]
+	}, -- end of ["sensors"]
+	["desc"] = 
+	{
+		["massEmpty"] = 769000,
+		["RCS"] = 736.8737,
+		["box"] = 
+		{
+			["min"] = 
+			{
+				["y"] = -2.985,
+				["x"] = -31.675,
+				["z"] = -3.358,
+			}, -- end of ["min"]
+			["max"] = 
+			{
+				["y"] = 11.902,
+				["x"] = 35.484,
+				["z"] = 3.358,
+			}, -- end of ["max"]
+		}, -- end of ["box"]
+		["speedMax"] = 9.11,
+		["life"] = 800,
+		["attributes"] = 
+		{
+			["Submarines"] = true,
+			["Ships"] = true,
+			["Heavy armed ships"] = true,
+			["Armed ships"] = true,
+			["RADAR_BAND1_FOR_ARM"] = true,
+			["Armed Air Defence"] = true,
+			["Armed Ship"] = true,
+			["HeavyArmoredUnits"] = true,
+			["All"] = true,
+			["Naval"] = true,
+			["NO_SAM"] = true,
+		}, -- end of ["attributes"]
+		["category"] = 3,
+		["Kmax"] = 0.05,
+		["_origin"] = "WWII Armour and Technics",
+		["typeName"] = "Uboat_VIIC",
+		["displayName"] = "U-boat VIIC U-flak",
+	}, -- end of ["desc"]
+} -- end of Uboat_VIIC
